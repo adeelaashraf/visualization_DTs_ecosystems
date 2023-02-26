@@ -1,7 +1,7 @@
 {
-  "name": "visualization_guide",
+  "name": "visualization_DTs_ecosystems",
   "version": "0.1.0",
-  "homepage": "https://adeelaashraf.github.io/visualization_guide",
+  "homepage": "https://adeelaashraf.github.io/visualization_DTs_ecosystems",
   "private": true,
   "dependencies": {
     "@testing-library/jest-dom": "^5.16.5",
