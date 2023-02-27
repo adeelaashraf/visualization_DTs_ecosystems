@@ -11,7 +11,7 @@ function Sidebar() {
 
     return (
         <div className={`sidebar ${isOpen ? "open" : "closed"}`}>
-            <button onClick={toggleSidebar}>Data Selection</button>
+            <button onClick={toggleSidebar}>Graph Options</button>
             <div className="sidebar-content">
                 {/* ... sidebar content */}
             </div>

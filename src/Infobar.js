@@ -11,7 +11,7 @@ function Infobar() {
 
     return (
         <div className={`infobar ${isOpen ? "open" : "closed"}`}>
-            <button onClick={toggleInfobar}>Current Selection</button>
+            <button onClick={toggleInfobar}>Information Selection</button>
             <div className="infobar-content">
                 {/* ... sidebar content */}
             </div>
