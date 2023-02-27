@@ -1,0 +1,38 @@
+/* Infobar styles */
+.infobar {
+    position: fixed;
+    top: 0;
+    right: 0;
+    width: 200px;
+    height: 100%;
+    background-color: #f1f1f1;
+    padding: 20px;
+    transition: transform 0.3s ease-in-out;
+}
+
+    .infobar.closed {
+        transform: translateX(100%);
+    }
+
+    .infobar.open {
+        transform: translateX(0);
+    }
+
+/* Button styles */
+.infobar-toggle {
+    position: absolute;
+    top: 20px;
+    right: -40px;
+    z-index: 1;
+    background-color: #f1f1f1;
+    border: none;
+    padding: 10px;
+    cursor: pointer;
+}
+
+.infobar button {
+    position: absolute;
+    right: 240px;
+    top: 20px;
+    width: 50%;
+}

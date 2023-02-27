@@ -1,0 +1,38 @@
+/* Sidebar styles */
+.sidebar {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 200px;
+    height: 100%;
+    background-color: #f1f1f1;
+    padding: 20px;
+    transition: transform 0.3s ease-in-out;
+}
+
+.sidebar.closed {
+    transform: translateX(-100%);
+}
+
+.sidebar.open {
+    transform: translateX(0);
+}
+
+/* Button styles */
+.sidebar-toggle {
+    position: absolute;
+    top: 20px;
+    right: -40px;
+    z-index: 1;
+    background-color: #f1f1f1;
+    border: none;
+    padding: 10px;
+    cursor: pointer;
+}
+
+.sidebar button {
+    position: absolute;
+    left: 240px;
+    top: 20px;
+    width: 50%;
+}
