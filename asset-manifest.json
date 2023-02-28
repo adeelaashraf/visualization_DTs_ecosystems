@@ -1,13 +1,13 @@
 {
   "files": {
-    "main.css": "/visualization_DTs_ecosystems/static/css/main.fa4923fc.css",
-    "main.js": "/visualization_DTs_ecosystems/static/js/main.94d4fe70.js",
+    "main.css": "/visualization_DTs_ecosystems/static/css/main.45b344be.css",
+    "main.js": "/visualization_DTs_ecosystems/static/js/main.3c3519ca.js",
     "index.html": "/visualization_DTs_ecosystems/index.html",
-    "main.fa4923fc.css.map": "/visualization_DTs_ecosystems/static/css/main.fa4923fc.css.map",
-    "main.94d4fe70.js.map": "/visualization_DTs_ecosystems/static/js/main.94d4fe70.js.map"
+    "main.45b344be.css.map": "/visualization_DTs_ecosystems/static/css/main.45b344be.css.map",
+    "main.3c3519ca.js.map": "/visualization_DTs_ecosystems/static/js/main.3c3519ca.js.map"
   },
   "entrypoints": [
-    "static/css/main.fa4923fc.css",
-    "static/js/main.94d4fe70.js"
+    "static/css/main.45b344be.css",
+    "static/js/main.3c3519ca.js"
   ]
 }
