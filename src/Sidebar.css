@@ -10,6 +10,18 @@
     transition: transform 0.3s ease-in-out;
 }
 
+.sidebar-content {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 200px;
+    height: 100%;
+    background-color: #f1f1f1;
+    padding: 20px;
+    transition: transform 0.3s ease-in-out;
+    overflow: auto;
+}
+
 .sidebar.closed {
     transform: translateX(-100%);
 }
@@ -37,3 +49,7 @@
     width: 50%;
 }
 
+.select_all {
+    display: flex;
+    justify-content: center;
+}
