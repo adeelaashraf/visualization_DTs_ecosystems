@@ -2,6 +2,7 @@ import './App.css';
 import Graph from './Graph';
 import Sidebar from "./Sidebar";
 import Infobar from "./Infobar";
+import React, { useState } from 'react';
 
 function App() {
     return (
