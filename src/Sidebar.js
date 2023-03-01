@@ -23,8 +23,8 @@ const options3 = vis_tool.map((option) => ({
     label: option,
 }));
 
-function Sidebar(props1) {
-    const { onChange } = props1;
+function Sidebar(props) {
+    const onChange = props.onChange;
 
     const [isOpen, setIsOpen] = useState(false);
 
@@ -36,7 +36,6 @@ function Sidebar(props1) {
         // value 1: data type change,
         // value 2: visualization technique change
         // value 3: visualization tool change
-        console.log(changed)
         if (value == 1) {
             onChange([...changed, ...selectedOptions2.map((item) => ({ value: item, label: item })), ...selectedOptions3.map((item) => ({ value: item, label: item }))])
         } else if (value == 2) {
@@ -168,7 +167,7 @@ function Sidebar(props1) {
                     isMulti={true}
                     isSerachable={true}
                     placeholder="Select or search for visualization tool(s)"
-                    value={selectedOptions3}
+                    value={selectedOptions3.map((item) => ({ value: item, label: item }))}
                     onChange={handleSelectChange3}
                 />
 
@@ -177,6 +176,9 @@ function Sidebar(props1) {
                     <input type="checkbox" checked={selectedOptions3.length === options3.length} onChange={handleSelectAll3} />
                     Select All
                 </label>
+                <br></br>
+                <br></br>
+                <br></br>
                 <br></br>
             </div>
         </div>
