@@ -5,13 +5,16 @@ import Infobar from "./Infobar";
 import React, { useState } from 'react';
 
 function App() {
+    const [selectedItems, setSelectedItems] = useState([]);
+    function handleMultiselectChange(selectedItems) {
+        setSelectedItems(selectedItems);
+    }
+
     return (
         <div className="App">
-            <Graph />
-            <Sidebar />
+            <Graph selectedItems={selectedItems} />
+            <Sidebar onChange={handleMultiselectChange} />
             <Infobar />
-
-
         </div>
     );
 }

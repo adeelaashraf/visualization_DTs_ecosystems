@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import React, { useState, useEffect } from "react";
 import './Sidebar.css';
 import Select from 'react-select';
 
@@ -23,92 +23,161 @@ const options3 = vis_tool.map((option) => ({
     label: option,
 }));
 
-function Sidebar() {
-    const [isOpen, setIsOpen] = useState(false);
+function Sidebar(props1) {
+    const { onChange } = props1;
 
+    const [isOpen, setIsOpen] = useState(false);
 
     function toggleSidebar() {
         setIsOpen(!isOpen);
     }
 
-    // Data Types
+    function callOnChange(changed, value) {
+        // value 1: data type change,
+        // value 2: visualization technique change
+        // value 3: visualization tool change
+        console.log(changed)
+        if (value == 1) {
+            onChange([...changed, ...selectedOptions2.map((item) => ({ value: item, label: item })), ...selectedOptions3.map((item) => ({ value: item, label: item }))])
+        } else if (value == 2) {
+            onChange([...selectedOptions.map((item) => ({ value: item, label: item })), ...changed, ...selectedOptions3.map((item) => ({ value: item, label: item }))])
+        } else if (value == 3) {
+            onChange([...selectedOptions.map((item) => ({ value: item, label: item })), ...selectedOptions2.map((item) => ({ value: item, label: item })), ...changed])
+        }
+
+    }
+    //================
+     // Data Types
+    // Used specifically to show what is selected on the multiselect
     const [selectedOptions, setSelectedOptions] = useState([]);
-    const handleSelectAll = () => {
-        setSelectedOptions(options);
-    };
-    const handleOptionChange = (selected) => {
-        setSelectedOptions(selected);
-    };
+    // select all state
+    const [checkboxState, setCheckboxState] = useState(false);
+        useEffect(() => {
+            if (checkboxState == true) {
+                setSelectedOptions(options.map((option) => option.value));
+                callOnChange(options, 1)
+            }
+            else {
+                setSelectedOptions([]);
+                // It immediately hides all for this
+                callOnChange([], 1)
+            }
+        }, [checkboxState]);
+
+        const handleSelectAll = () => {
+            setCheckboxState(!checkboxState)
+        };
+
+        function handleSelectChange(selectedOptions) {
+            setSelectedOptions(selectedOptions.map((option) => option.value));
+            callOnChange(selectedOptions, 1)
+        }
+    //===================
+
 
     // Visualization Techniques
     const [selectedOptions2, setSelectedOptions2] = useState([]);
+    // select all state
+    const [checkboxState2, setCheckboxState2] = useState(false);
+    useEffect(() => {
+        if (checkboxState2 == true) {
+            setSelectedOptions2(options2.map((option) => option.value));
+            callOnChange(options2, 2)
+        }
+        else {
+            setSelectedOptions2([]);
+            // It immediately hides all for this
+            callOnChange([], 2)
+        }
+    }, [checkboxState2]);
+
     const handleSelectAll2 = () => {
-        setSelectedOptions2(options2);
-    };
-    const handleOptionChange2 = (selected2) => {
-        setSelectedOptions2(selected2);
+        setCheckboxState2(!checkboxState2)
     };
 
+    function handleSelectChange2(selectedOptions2) {
+        setSelectedOptions2(selectedOptions2.map((option) => option.value));
+        callOnChange(selectedOptions2, 2)
+    }
+
+    //===================
     // Visualization Tools
     const [selectedOptions3, setSelectedOptions3] = useState([]);
+    const [checkboxState3, setCheckboxState3] = useState(false);
+    useEffect(() => {
+        if (checkboxState3== true) {
+            setSelectedOptions3(options3.map((option) => option.value));
+            callOnChange(options3, 3)
+        }
+        else {
+            setSelectedOptions3([]);
+            // It immediately hides all for this
+            callOnChange([], 3)
+        }
+    }, [checkboxState3]);
+
     const handleSelectAll3 = () => {
-        setSelectedOptions3(options3);
+        setCheckboxState3(!checkboxState3)
     };
-    const handleOptionChange3 = (selected3) => {
-        setSelectedOptions3(selected3);
-    };
+
+    function handleSelectChange3(selectedOptions3) {
+        setSelectedOptions3(selectedOptions3.map((option) => option.value));
+        callOnChange(selectedOptions3, 3)
+    }
 
 
     return (
         <div className={`sidebar ${isOpen ? "open" : "closed"}`}>
             <button onClick={toggleSidebar}>Graph Options</button>
             <div className="sidebar-content">
-                    <br></br>
-                    <Select
-                        options={options}
-                        isMulti={true}
-                        isSerachable={true}
-                        placeholder="Select or search for data type(s)"
-                        value={selectedOptions}
-                        onChange={handleOptionChange}
-                    />
-                    <br></br>
-                    <label class="select_all" >
-                        <input type="checkbox" checked={selectedOptions.length === options.length} onChange={handleSelectAll} />
-                        Select All
-                    </label>
-                    <br></br>
-                    <Select
-                        options={options2}
-                        isMulti={true}
-                        isSerachable={true}
-                        placeholder="Select or search for visualization technique(s)"
-                        value={selectedOptions2}
-                        onChange={handleOptionChange2}
-                    />
+                <br></br>
+                <p className="title" > Choose data type(s)</p>
+                <Select
+                    options={options}
+                    isMulti={true}
+                    isSerachable={true}
+                    placeholder="Select or search for data type(s)"
+                    value={selectedOptions.map((item) => ({ value: item, label: item }))}
+                    onChange={handleSelectChange}
+                />
+                <br></br>
+                <label className="checkbox" >
+                    <input type="checkbox" checked={selectedOptions.length === options.length} onChange={handleSelectAll} />
+                    Select All
+                </label>
+                <br></br>
+                <p className="title" > Choose visualization technique(s)</p>
+                <Select
+                    options={options2}
+                    isMulti={true}
+                    isSerachable={true}
+                    placeholder="Select or search for visualization technique(s)"
+                    value={selectedOptions2.map((item) => ({ value: item, label: item }))}
+                    onChange={handleSelectChange2}
+                />
 
-                    <br></br>
-                    <label class="select_all" >
-                        <input type="checkbox" checked={selectedOptions2.length === options2.length} onChange={handleSelectAll2} />
-                        Select All
-                    </label>
-                    <br></br>
+                <br></br>
+                <label className="checkbox" >
+                    <input type="checkbox" checked={selectedOptions2.length === options2.length} onChange={handleSelectAll2} />
+                    Select All
+                </label>
+                <br></br>
+                <p className="title"> Choose visualization tool(s)</p>
+                <Select
+                    options={options3}
+                    isMulti={true}
+                    isSerachable={true}
+                    placeholder="Select or search for visualization tool(s)"
+                    value={selectedOptions3}
+                    onChange={handleSelectChange3}
+                />
 
-                    <Select
-                        options={options3}
-                        isMulti={true}
-                        isSerachable={true}
-                        placeholder="Select or search for visualization tool(s)"
-                        value={selectedOptions3}
-                        onChange={handleOptionChange3}
-                    />
-
-                    <br></br>
-                    <label class="select_all" >
-                        <input type="checkbox" checked={selectedOptions3.length === options3.length} onChange={handleSelectAll3} />
-                        Select All
-                    </label>
-                    <br></br>
+                <br></br>
+                <label className="checkbox" >
+                    <input type="checkbox" checked={selectedOptions3.length === options3.length} onChange={handleSelectAll3} />
+                    Select All
+                </label>
+                <br></br>
             </div>
         </div>
     );
