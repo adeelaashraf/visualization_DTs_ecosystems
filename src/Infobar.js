@@ -1,15 +1,18 @@
-import React, { useState } from "react";
+import React, { useState, useEffect } from "react";
 import './Infobar.css';
 
 
-function Infobar(props) {
-    const { selectedItems2 } = props;
+function Infobar({selectedItems2}) {
     const [isOpen, setIsOpen] = useState(false);
 
     function toggleInfobar() {
         setIsOpen(!isOpen);
     }
-    console.log(selectedItems2);
+
+    useEffect(() => {
+        console.log(selectedItems2);
+    }, [selectedItems2]);
+
     return (
         <div className={`infobar ${isOpen ? "open" : "closed"}`}>
             <button onClick={toggleInfobar}>Information Selection</button>

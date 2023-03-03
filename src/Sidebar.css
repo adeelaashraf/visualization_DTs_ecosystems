@@ -20,6 +20,7 @@
     padding: 20px;
     transition: transform 0.3s ease-in-out;
     overflow: auto;
+    font-family: "arial";
 }
 
 .sidebar.closed {
@@ -44,9 +45,11 @@
 
 .sidebar button {
     position: absolute;
-    left: 240px;
+    left: 250px;
     top: 20px;
     width: 50%;
+    font-family: "arial";
+    font-weight: bold;
 }
 
 .title {

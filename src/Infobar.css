@@ -32,7 +32,9 @@
 
 .infobar button {
     position: absolute;
-    right: 240px;
+    right: 250px;
     top: 20px;
     width: 50%;
+    font-family: "arial";
+    font-weight : bold ;
 }

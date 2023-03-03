@@ -23,9 +23,7 @@ const options3 = vis_tool.map((option) => ({
     label: option,
 }));
 
-function Sidebar(props) {
-    const onChange = props.onChange;
-
+function Sidebar({onChange}) {
     const [isOpen, setIsOpen] = useState(false);
 
     function toggleSidebar() {
