@@ -84,7 +84,14 @@ const Graph = ({selectedItems, onChange2}) => {
         node.font = {
             face: "arial"
         };
+        node.title = "blabla";
     });
+
+    edges.forEach((edge) => {
+        edge.title = "blabla";
+    });
+
+
 
     const legend_nodes2 = ["Data Type",
         "Visualization Technique",
@@ -95,11 +102,21 @@ const Graph = ({selectedItems, onChange2}) => {
 
     const options = {
         // Forceatlas settings: https://visjs.github.io/vis-network/docs/network/physics.html#
-        nodeDistance: 400, //
-        springStrength: 0.10, //
-        centralGravity: 0.33, //
-        springLength: 1100, //  
-        damping: 0.95, //
+        // This is exactly like python graph
+        theta:0.5,
+        gravitationalConstant: -50,
+        centralGravity: 0.01, //
+        springLength: 100, // 
+        springConstant:0.08,
+        damping: 0.4, //
+        avoidOverlap: 0,
+        minVelocity: 0.75,
+
+        //nodeDistance: 1100, //
+        //springStrength: 0.10, //
+        //centralGravity: 0.33, //
+        //springLength: 100, //  
+        //damping: 0.95, //
         tooltips: {
             enabled: true,
         },
@@ -152,10 +169,22 @@ const Graph = ({selectedItems, onChange2}) => {
 
     if (n) {
         n.on('click', function (properties) {
-            var ids = properties.nodes;
-            var clickedNodes = nodes.get(ids);
-            console.log('clicked nodes:', clickedNodes);
-            onChange2(clickedNodes);
+            var ids;
+            var clicked = null;
+            if (properties.nodes.length != 0) {
+                console.log('node!');
+                ids = properties.nodes;
+                clicked = nodes.get(ids);
+            } else if (properties.edges.length != 0) {
+                console.log('edge!');
+                ids = properties.edges;
+                clicked = edges.get(ids);
+            }
+
+            if (clicked != null) {
+                console.log('clicked:', clicked);
+                onChange2(clicked);
+            }
         });
 
         // Source: https://jsfiddle.net/repufsmc/

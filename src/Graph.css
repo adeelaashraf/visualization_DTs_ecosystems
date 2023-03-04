@@ -1,3 +1,7 @@
+.vis-network: {
+    overflow: visible;
+}
+
 #graph-container {
     height: 100vh;
 }
