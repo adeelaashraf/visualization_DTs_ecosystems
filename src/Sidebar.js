@@ -5,7 +5,7 @@ import Select from 'react-select';
 // Data Types
 const data_types = ['Abiotic Data', 'Behavioural Data', 'Biotic data', 'Geometric Data', 'Historical Data', 'Landscape data', 'Metadata', 'Process Data', 'Sensor data', 'Simulation Data'];
 const vis_tech = ['3D Geometric Modeling', 'Augmented Reality', 'Bar Plot', 'Bathymetrical Map', 'Block Chart', 'Box Plot', 'Dashboard Visualization', 'Data Visualization', 'Diagram', 'Diel Plot', 'Heat Map', 'Histogram', 'Line Graph', 'Network Graph', 'Pie Chart', 'Radar Plot', 'Raster Map', 'Rose Plot', 'Sammon Map', 'Stacked Bar Plot', 'Virtual Reality'];
-const vis_tool = ['.NET', 'ARCGIS', 'Autodesk Forge', 'Autodesk Revit', 'Backbone', 'Blender', 'Bootstrap', 'COVISE', 'CityEngine', 'Creo', 'D3.js', 'Grafana', 'JQuery', 'Javascript', 'Jupyter Notebook', 'OpenScene Graph', 'Python', 'R', 'Three.js', 'Unity3D', 'Unreal Engine', 'Verge3D', 'WebGL', 'WebXR', 'Wikitude', 'jsPanel'];
+const vis_tool = ['.NET', 'ARCGIS', 'Autodesk Forge', 'Autodesk Revit', 'Backbone', 'Blender', 'Bootstrap', 'COVISE', 'CityEngine', 'Creo', 'D3.js', 'Grafana', 'JQuery', 'Javascript', 'Jupyter Notebook', 'OpenScene Graph', 'Python', 'R', 'Three.js', 'Unity3D', 'Unreal Engine', 'VTK', 'Verge3D', 'WebGL', 'WebXR', 'Wikitude', 'jsPanel'];
 
 
 const options = data_types.map((option) => ({
