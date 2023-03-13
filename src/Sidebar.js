@@ -122,20 +122,31 @@ function Sidebar({onChange}) {
         callOnChange(selectedOptions3, 3)
     }
 
+    const ReactSelectStyles = () => ({
+        multiValueLabel: (styles: any) => ({
+            ...styles,
+            whiteSpace: "normal",
+            fontSize: '10px',
+        }),
+    })
+
 
     return (
+        <div>
+         <button className="button" onClick={toggleSidebar}>Graph Options</button>
+
         <div className={`sidebar ${isOpen ? "open" : "closed"}`}>
-            <button onClick={toggleSidebar}>Graph Options</button>
             <div className="sidebar-content">
                 <br></br>
                 <p className="title" > Choose data type(s)</p>
                 <Select
-                    options={options}
-                    isMulti={true}
-                    isSerachable={true}
-                    placeholder="Select or search for data type(s)"
-                    value={selectedOptions.map((item) => ({ value: item, label: item }))}
-                    onChange={handleSelectChange}
+                        options={options}
+                        isMulti={true}
+                        isSerachable={true}
+                        placeholder="Select or search for data type(s)"
+                        value={selectedOptions.map((item) => ({ value: item, label: item }))}
+                        onChange={handleSelectChange}
+                        styles={ReactSelectStyles()}
                 />
                 <br></br>
                 <label className="checkbox" >
@@ -151,6 +162,7 @@ function Sidebar({onChange}) {
                     placeholder="Select or search for visualization technique(s)"
                     value={selectedOptions2.map((item) => ({ value: item, label: item }))}
                     onChange={handleSelectChange2}
+                    styles={ReactSelectStyles()}
                 />
 
                 <br></br>
@@ -166,7 +178,8 @@ function Sidebar({onChange}) {
                     isSerachable={true}
                     placeholder="Select or search for visualization tool(s)"
                     value={selectedOptions3.map((item) => ({ value: item, label: item }))}
-                    onChange={handleSelectChange3}
+                        onChange={handleSelectChange3}
+                        styles={ReactSelectStyles()}
                 />
 
                 <br></br>
@@ -178,6 +191,7 @@ function Sidebar({onChange}) {
                 <br></br>
                 <br></br>
                 <br></br>
+            </div>
             </div>
         </div>
     );

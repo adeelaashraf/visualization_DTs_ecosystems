@@ -281,7 +281,9 @@ const Graph = ({selectedItems, onChange2}) => {
     }
 
     return (<div>
-        <p id="graph_empty_text">The graph is empty. Please select options in 'Graph Options'.</p>
+        <div id="graph_empty_text">
+            <p>The graph is empty. Please select options in 'Graph Options'.</p>
+        </div>
         <div id="graph-container" ref={containerRef} /><div />
         <div id="loadingBar">
             <div class="outerBorder">

@@ -14,10 +14,12 @@ function Infobar({selectedItems2}) {
     }, [selectedItems2]);
 
     return (
-        <div className={`infobar ${isOpen ? "open" : "closed"}`}>
-            <button onClick={toggleInfobar}>Information Selection</button>
-            <div className="infobar-content">
-                {/* ... sidebar content */}
+        <div>
+            <button className="button2" onClick={toggleInfobar}>Information Selection</button>
+            <div className={`infobar ${isOpen ? "open" : "closed"}`}>
+                <div className="infobar-content">
+                    {/* ... sidebar content */}
+                </div>
             </div>
         </div>
     );

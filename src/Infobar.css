@@ -10,13 +10,13 @@
     transition: transform 0.3s ease-in-out;
 }
 
-    .infobar.closed {
-        transform: translateX(100%);
-    }
+.infobar.closed {
+    transform: translateX(100%);
+}
 
-    .infobar.open {
-        transform: translateX(0);
-    }
+.infobar.open {
+    transform: translateX(0);
+}
 
 /* Button styles */
 .infobar-toggle {
@@ -30,11 +30,13 @@
     cursor: pointer;
 }
 
-.infobar button {
-    position: absolute;
-    right: 250px;
-    top: 20px;
-    width: 50%;
+.button2 {
+    position: fixed;
+    top: 5px;
+    right: 20px;
+    width: 100px;
+    z-index: 1;
     font-family: "arial";
-    font-weight : bold ;
+    font-weight: bold;
+    justify-content: center;
 }

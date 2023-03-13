@@ -43,13 +43,15 @@
     cursor: pointer;
 }
 
-.sidebar button {
-    position: absolute;
-    left: 250px;
-    top: 20px;
-    width: 50%;
+.button {
+    position: fixed;
+    top: 5px;
+    left: 20px;
+    width: 100px;
+    z-index: 1;
     font-family: "arial";
     font-weight: bold;
+    justify-content: center;
 }
 
 .title {

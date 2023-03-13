@@ -4,9 +4,12 @@
 
 #graph_empty_text {
     position: fixed;
-    bottom: 0;
-    width: 100%;
+    left: 25vw;
+    top: 50vh;
+    width: 50%;
     text-align: center;
+    color: black;
+    opacity: 0.5;
     font-family: "arial";
 }
 
