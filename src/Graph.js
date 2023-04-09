@@ -154,35 +154,13 @@ const Graph = ({selectedItems, onChange2}) => {
     });
 
     const options = {
-        // Forceatlas settings: https://visjs.github.io/vis-network/docs/network/physics.html#
-        physics: {
-            enabled: true,
-            forceAtlas2Based: {
-                theta: 0.5,
-                gravitationalConstant: -50,
-                centralGravity: 0.01,
-                springConstant: 0.08,
-                springLength: 100,
-                damping: 0.4,
-                avoidOverlap: 0,
-                //nodeDistance: 110000, // extra 
-            }
+        "physics": {
+            "forceAtlas2Based": {
+                "springLength": 100
+            },
+            "minVelocity": 0.75,
+            "solver": "forceAtlas2Based"
         },
-        // This is exactly like python graph
-        //theta: 0.5,
-        //gravitationalConstant: -50,
-        //: 0.01, //
-        //springLength: 100, // 
-        //springConstant: 0.08,
-       // damping: 0.4, //
-       // avoidOverlap: 0,
-       // minVelocity: 0.75,
-
-        //nodeDistance: 1100, //
-        //springStrength: 0.10, //
-        //centralGravity: 0.33, //
-        //springLength: 100, //  
-        //damping: 0.95, //
         tooltips: {
             enabled: true,
         },
@@ -190,7 +168,13 @@ const Graph = ({selectedItems, onChange2}) => {
             hover: true,
             navigationButtons: true,
             keyboard: true,
-        }
+        },
+        /*configure: {
+            enabled: true,
+            filter: 'physics',
+            container: undefined,
+            showButton: true
+        }*/
     };
 
     const data = {

@@ -15,7 +15,7 @@ function Infobar({selectedItems2}) {
 
     return (
         <div>
-            <button className="button2" onClick={toggleInfobar}>Information Selection</button>
+            <button className="button2" onClick={toggleInfobar}>Graph Data</button>
             <div className={`infobar ${isOpen ? "open" : "closed"}`}>
                 <div className="infobar-content">
                     {/* ... sidebar content */}
