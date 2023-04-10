@@ -1,0 +1,164 @@
+<html>
+    <head>
+        <meta charset="utf-8">
+        
+            <script src="lib/bindings/utils.js"></script>
+            <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/vis-network/9.1.2/dist/dist/vis-network.min.css" integrity="sha512-WgxfT5LWjfszlPHXRmBWHkV2eceiWTOBvrKCNbdgDYTHrT2AeLCGbF4sZlZw3UMN3WtL0tGUoIAKsu8mllg/XA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+            <script src="https://cdnjs.cloudflare.com/ajax/libs/vis-network/9.1.2/dist/vis-network.min.js" integrity="sha512-LnvoEWDFrqGHlHmDD2101OrLcbsfkrzoSpvtSQtxK3RMnRV0eOkhhBN2dXHKRrUU8p2DGRTk35n4O8nWSVe1mQ==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+            
+        
+<center>
+<h1></h1>
+</center>
+
+<!-- <link rel="stylesheet" href="../node_modules/vis/dist/vis.min.css" type="text/css" />
+<script type="text/javascript" src="../node_modules/vis/dist/vis.js"> </script>-->
+        <link
+          href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/css/bootstrap.min.css"
+          rel="stylesheet"
+          integrity="sha384-eOJMYsd53ii+scO/bJGFsiCZc+5NDVN2yr8+0RDqr0Ql0h+rP48ckxlpbzKgwra6"
+          crossorigin="anonymous"
+        />
+        <script
+          src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/js/bootstrap.bundle.min.js"
+          integrity="sha384-JEW9xMcG8R+pH31jmWH6WWP0WintQrMb4s7ZOdauHnUtxwoG2vI5DkLtS3qm9Ekf"
+          crossorigin="anonymous"
+        ></script>
+
+
+        <center>
+          <h1></h1>
+        </center>
+        <style type="text/css">
+
+             #mynetwork {
+                 width: 1800px;
+                 height: 1300px;
+                 background-color: #ffffff;
+                 border: 1px solid lightgray;
+                 position: relative;
+                 float: left;
+             }
+
+             
+
+             
+
+             
+        </style>
+    </head>
+
+
+    <body>
+        <div class="card" style="width: 100%">
+            
+            
+            <div id="mynetwork" class="card-body"></div>
+        </div>
+
+        
+        
+
+        <script type="text/javascript">
+
+              // initialize global variables.
+              var edges;
+              var nodes;
+              var allNodes;
+              var allEdges;
+              var nodeColors;
+              var originalNodes;
+              var network;
+              var container;
+              var options, data;
+              var filter = {
+                  item : '',
+                  property : '',
+                  value : []
+              };
+
+              
+
+              
+
+              // This method is responsible for drawing the graph, returns the drawn network
+              function drawGraph() {
+                  var container = document.getElementById('mynetwork');
+
+                  
+
+                  // parsing and collecting nodes and edges from the python
+                  nodes = new vis.DataSet([{"color": "red", "id": "Geometric Data", "label": "Geometric Data", "shape": "triangle", "size": 10}, {"color": "blue", "id": "Augmented Reality", "label": "Augmented Reality", "shape": "square", "size": 10}, {"color": "blue", "id": "3D Geometric Modeling", "label": "3D Geometric Modeling", "shape": "square", "size": 10}, {"color": "blue", "id": "Virtual Reality", "label": "Virtual Reality", "shape": "square", "size": 10}, {"color": "blue", "id": "Data Visualization", "label": "Data Visualization", "shape": "square", "size": 10}, {"color": "blue", "id": "Contour Plot", "label": "Contour Plot", "shape": "square", "size": 10}, {"color": "red", "id": "Geospatial Data", "label": "Geospatial Data", "shape": "triangle", "size": 10}, {"color": "red", "id": "Sensor data", "label": "Sensor data", "shape": "triangle", "size": 10}, {"color": "red", "id": "Historical Data", "label": "Historical Data", "shape": "triangle", "size": 10}, {"color": "red", "id": "Process Data", "label": "Process Data", "shape": "triangle", "size": 10}, {"color": "red", "id": "Simulation Data", "label": "Simulation Data", "shape": "triangle", "size": 10}, {"color": "red", "id": "Metadata", "label": "Metadata", "shape": "triangle", "size": 10}, {"color": "red", "id": "Landscape data", "label": "Landscape data", "shape": "triangle", "size": 10}, {"color": "red", "id": "Biotic data", "label": "Biotic data", "shape": "triangle", "size": 10}, {"color": "blue", "id": "Dashboard Visualization", "label": "Dashboard Visualization", "shape": "square", "size": 10}, {"color": "blue", "id": "Diagram", "label": "Diagram", "shape": "square", "size": 10}, {"color": "blue", "id": "Heat Map", "label": "Heat Map", "shape": "square", "size": 10}, {"color": "blue", "id": "Box Plot", "label": "Box Plot", "shape": "square", "size": 10}, {"color": "blue", "id": "Network Graph", "label": "Network Graph", "shape": "square", "size": 10}, {"color": "blue", "id": "Diel Plot", "label": "Diel Plot", "shape": "square", "size": 10}, {"color": "blue", "id": "Radar Plot", "label": "Radar Plot", "shape": "square", "size": 10}, {"color": "blue", "id": "Histogram", "label": "Histogram", "shape": "square", "size": 10}, {"color": "blue", "id": "Rose Plot", "label": "Rose Plot", "shape": "square", "size": 10}, {"color": "blue", "id": "Sammon Map", "label": "Sammon Map", "shape": "square", "size": 10}, {"color": "blue", "id": "Line Graph", "label": "Line Graph", "shape": "square", "size": 10}, {"color": "blue", "id": "Dendogram", "label": "Dendogram", "shape": "square", "size": 10}, {"color": "red", "id": "Abiotic Data", "label": "Abiotic Data", "shape": "triangle", "size": 10}, {"color": "red", "id": "Behavioural Data", "label": "Behavioural Data", "shape": "triangle", "size": 10}, {"color": "blue", "id": "Bar Plot", "label": "Bar Plot", "shape": "square", "size": 10}, {"color": "blue", "id": "Pie Chart", "label": "Pie Chart", "shape": "square", "size": 10}, {"color": "purple", "id": "Unity3D", "label": "Unity3D", "shape": "dot", "size": 10}, {"color": "purple", "id": "Wikitude", "label": "Wikitude", "shape": "dot", "size": 10}, {"color": "purple", "id": "Creo", "label": "Creo", "shape": "dot", "size": 10}, {"color": "purple", "id": "JQuery", "label": "JQuery", "shape": "dot", "size": 10}, {"color": "purple", "id": "Verge3D", "label": "Verge3D", "shape": "dot", "size": 10}, {"color": "purple", "id": "Bootstrap", "label": "Bootstrap", "shape": "dot", "size": 10}, {"color": "purple", "id": "WebXR", "label": "WebXR", "shape": "dot", "size": 10}, {"color": "purple", "id": "Unreal Engine", "label": "Unreal Engine", "shape": "dot", "size": 10}, {"color": "purple", "id": "Autodesk Revit", "label": "Autodesk Revit", "shape": "dot", "size": 10}, {"color": "purple", "id": "Autodesk Forge", "label": "Autodesk Forge", "shape": "dot", "size": 10}, {"color": "purple", "id": "OpenScene Graph", "label": "OpenScene Graph", "shape": "dot", "size": 10}, {"color": "purple", "id": "COVISE", "label": "COVISE", "shape": "dot", "size": 10}, {"color": "purple", "id": "Three.js", "label": "Three.js", "shape": "dot", "size": 10}, {"color": "purple", "id": "WebGL", "label": "WebGL", "shape": "dot", "size": 10}, {"color": "purple", "id": "VTK", "label": "VTK", "shape": "dot", "size": 10}, {"color": "purple", "id": "CityEngine", "label": "CityEngine", "shape": "dot", "size": 10}, {"color": "purple", "id": "jsPanel", "label": "jsPanel", "shape": "dot", "size": 10}, {"color": "purple", "id": "Javascript", "label": "Javascript", "shape": "dot", "size": 10}, {"color": "purple", "id": "Backbone", "label": "Backbone", "shape": "dot", "size": 10}, {"color": "purple", "id": "ARCGIS", "label": "ARCGIS", "shape": "dot", "size": 10}, {"color": "purple", "id": "Blender", "label": "Blender", "shape": "dot", "size": 10}, {"color": "purple", "id": "Grafana", "label": "Grafana", "shape": "dot", "size": 10}, {"color": "purple", "id": "Python", "label": "Python", "shape": "dot", "size": 10}, {"color": "purple", "id": ".NET", "label": ".NET", "shape": "dot", "size": 10}, {"color": "purple", "id": "R", "label": "R", "shape": "dot", "size": 10}, {"color": "purple", "id": "Jupyter Notebook", "label": "Jupyter Notebook", "shape": "dot", "size": 10}, {"color": "purple", "id": "D3.js", "label": "D3.js", "shape": "dot", "size": 10}]);
+                  edges = new vis.DataSet([{"color": "grey", "from": "Geometric Data", "to": "Augmented Reality", "width": 5}, {"color": "grey", "from": "Geometric Data", "to": "3D Geometric Modeling", "width": 19}, {"color": "grey", "from": "Geometric Data", "to": "Virtual Reality", "width": 11}, {"color": "grey", "from": "Geometric Data", "to": "Data Visualization", "width": 1}, {"color": "grey", "from": "Geometric Data", "to": "Contour Plot", "width": 1}, {"color": "grey", "from": "Geometric Data", "to": "Geospatial Data", "width": 12}, {"color": "grey", "from": "Geometric Data", "to": "Sensor data", "width": 10}, {"color": "grey", "from": "Geometric Data", "to": "Historical Data", "width": 6}, {"color": "grey", "from": "Geometric Data", "to": "Process Data", "width": 4}, {"color": "grey", "from": "Geometric Data", "to": "Simulation Data", "width": 10}, {"color": "grey", "from": "Geometric Data", "to": "Metadata", "width": 2}, {"color": "grey", "from": "Geometric Data", "to": "Landscape data", "width": 2}, {"color": "grey", "from": "Geometric Data", "to": "Biotic data", "width": 2}, {"color": "grey", "from": "Geospatial Data", "to": "Augmented Reality", "width": 4}, {"color": "grey", "from": "Geospatial Data", "to": "3D Geometric Modeling", "width": 15}, {"color": "grey", "from": "Geospatial Data", "to": "Dashboard Visualization", "width": 7}, {"color": "grey", "from": "Geospatial Data", "to": "Virtual Reality", "width": 6}, {"color": "grey", "from": "Geospatial Data", "to": "Data Visualization", "width": 4}, {"color": "grey", "from": "Geospatial Data", "to": "Diagram", "width": 1}, {"color": "grey", "from": "Geospatial Data", "to": "Heat Map", "width": 1}, {"color": "grey", "from": "Geospatial Data", "to": "Box Plot", "width": 2}, {"color": "grey", "from": "Geospatial Data", "to": "Network Graph", "width": 2}, {"color": "grey", "from": "Geospatial Data", "to": "Diel Plot", "width": 1}, {"color": "grey", "from": "Geospatial Data", "to": "Radar Plot", "width": 1}, {"color": "grey", "from": "Geospatial Data", "to": "Histogram", "width": 1}, {"color": "grey", "from": "Geospatial Data", "to": "Rose Plot", "width": 1}, {"color": "grey", "from": "Geospatial Data", "to": "Sammon Map", "width": 1}, {"color": "grey", "from": "Geospatial Data", "to": "Line Graph", "width": 1}, {"color": "grey", "from": "Geospatial Data", "to": "Dendogram", "width": 1}, {"color": "grey", "from": "Geospatial Data", "to": "Contour Plot", "width": 1}, {"color": "grey", "from": "Geospatial Data", "to": "Sensor data", "width": 15}, {"color": "grey", "from": "Geospatial Data", "to": "Historical Data", "width": 5}, {"color": "grey", "from": "Geospatial Data", "to": "Process Data", "width": 7}, {"color": "grey", "from": "Geospatial Data", "to": "Simulation Data", "width": 4}, {"color": "grey", "from": "Geospatial Data", "to": "Metadata", "width": 1}, {"color": "grey", "from": "Geospatial Data", "to": "Landscape data", "width": 5}, {"color": "grey", "from": "Geospatial Data", "to": "Biotic data", "width": 4}, {"color": "grey", "from": "Geospatial Data", "to": "Abiotic Data", "width": 1}, {"color": "grey", "from": "Geospatial Data", "to": "Behavioural Data", "width": 1}, {"color": "grey", "from": "Sensor data", "to": "Augmented Reality", "width": 5}, {"color": "grey", "from": "Sensor data", "to": "3D Geometric Modeling", "width": 13}, {"color": "grey", "from": "Sensor data", "to": "Dashboard Visualization", "width": 7}, {"color": "grey", "from": "Sensor data", "to": "Virtual Reality", "width": 7}, {"color": "grey", "from": "Sensor data", "to": "Data Visualization", "width": 6}, {"color": "grey", "from": "Sensor data", "to": "Contour Plot", "width": 2}, {"color": "grey", "from": "Sensor data", "to": "Historical Data", "width": 6}, {"color": "grey", "from": "Sensor data", "to": "Process Data", "width": 10}, {"color": "grey", "from": "Sensor data", "to": "Simulation Data", "width": 8}, {"color": "grey", "from": "Sensor data", "to": "Metadata", "width": 2}, {"color": "grey", "from": "Sensor data", "to": "Landscape data", "width": 2}, {"color": "grey", "from": "Sensor data", "to": "Biotic data", "width": 1}, {"color": "grey", "from": "Historical Data", "to": "Augmented Reality", "width": 3}, {"color": "grey", "from": "Historical Data", "to": "3D Geometric Modeling", "width": 6}, {"color": "grey", "from": "Historical Data", "to": "Virtual Reality", "width": 3}, {"color": "grey", "from": "Historical Data", "to": "Data Visualization", "width": 1}, {"color": "grey", "from": "Historical Data", "to": "Process Data", "width": 4}, {"color": "grey", "from": "Historical Data", "to": "Simulation Data", "width": 3}, {"color": "grey", "from": "Historical Data", "to": "Biotic data", "width": 1}, {"color": "grey", "from": "Process Data", "to": "Augmented Reality", "width": 3}, {"color": "grey", "from": "Process Data", "to": "Data Visualization", "width": 4}, {"color": "grey", "from": "Process Data", "to": "Dashboard Visualization", "width": 4}, {"color": "grey", "from": "Process Data", "to": "3D Geometric Modeling", "width": 5}, {"color": "grey", "from": "Process Data", "to": "Virtual Reality", "width": 3}, {"color": "grey", "from": "Process Data", "to": "Simulation Data", "width": 3}, {"color": "grey", "from": "Simulation Data", "to": "3D Geometric Modeling", "width": 10}, {"color": "grey", "from": "Simulation Data", "to": "Virtual Reality", "width": 8}, {"color": "grey", "from": "Simulation Data", "to": "Data Visualization", "width": 3}, {"color": "grey", "from": "Simulation Data", "to": "Augmented Reality", "width": 3}, {"color": "grey", "from": "Simulation Data", "to": "Dashboard Visualization", "width": 2}, {"color": "grey", "from": "Simulation Data", "to": "Contour Plot", "width": 1}, {"color": "grey", "from": "Simulation Data", "to": "Metadata", "width": 2}, {"color": "grey", "from": "Simulation Data", "to": "Biotic data", "width": 1}, {"color": "grey", "from": "Metadata", "to": "Augmented Reality", "width": 1}, {"color": "grey", "from": "Metadata", "to": "3D Geometric Modeling", "width": 2}, {"color": "grey", "from": "Metadata", "to": "Virtual Reality", "width": 1}, {"color": "grey", "from": "Landscape data", "to": "3D Geometric Modeling", "width": 4}, {"color": "grey", "from": "Landscape data", "to": "Virtual Reality", "width": 2}, {"color": "grey", "from": "Landscape data", "to": "Heat Map", "width": 1}, {"color": "grey", "from": "Landscape data", "to": "Box Plot", "width": 1}, {"color": "grey", "from": "Landscape data", "to": "Network Graph", "width": 1}, {"color": "grey", "from": "Landscape data", "to": "Contour Plot", "width": 1}, {"color": "grey", "from": "Landscape data", "to": "Biotic data", "width": 1}, {"color": "grey", "from": "Landscape data", "to": "Behavioural Data", "width": 1}, {"color": "grey", "from": "Biotic data", "to": "3D Geometric Modeling", "width": 2}, {"color": "grey", "from": "Biotic data", "to": "Bar Plot", "width": 2}, {"color": "grey", "from": "Biotic data", "to": "Heat Map", "width": 2}, {"color": "grey", "from": "Biotic data", "to": "Network Graph", "width": 4}, {"color": "grey", "from": "Biotic data", "to": "Box Plot", "width": 2}, {"color": "grey", "from": "Biotic data", "to": "Diel Plot", "width": 1}, {"color": "grey", "from": "Biotic data", "to": "Radar Plot", "width": 1}, {"color": "grey", "from": "Biotic data", "to": "Histogram", "width": 1}, {"color": "grey", "from": "Biotic data", "to": "Rose Plot", "width": 1}, {"color": "grey", "from": "Biotic data", "to": "Sammon Map", "width": 1}, {"color": "grey", "from": "Biotic data", "to": "Line Graph", "width": 2}, {"color": "grey", "from": "Biotic data", "to": "Dendogram", "width": 1}, {"color": "grey", "from": "Biotic data", "to": "Dashboard Visualization", "width": 1}, {"color": "grey", "from": "Biotic data", "to": "Pie Chart", "width": 1}, {"color": "grey", "from": "Biotic data", "to": "Behavioural Data", "width": 1}, {"color": "grey", "from": "Abiotic Data", "to": "Diagram", "width": 1}, {"color": "grey", "from": "Behavioural Data", "to": "Heat Map", "width": 1}, {"color": "grey", "from": "Behavioural Data", "to": "Box Plot", "width": 1}, {"color": "grey", "from": "Behavioural Data", "to": "Network Graph", "width": 1}, {"color": "grey", "from": "Augmented Reality", "to": "Unity3D", "width": 5}, {"color": "grey", "from": "Augmented Reality", "to": "Wikitude", "width": 1}, {"color": "grey", "from": "Augmented Reality", "to": "Creo", "width": 1}, {"color": "grey", "from": "Augmented Reality", "to": "3D Geometric Modeling", "width": 5}, {"color": "grey", "from": "Augmented Reality", "to": "Virtual Reality", "width": 2}, {"color": "grey", "from": "Augmented Reality", "to": "Data Visualization", "width": 1}, {"color": "grey", "from": "3D Geometric Modeling", "to": "Unity3D", "width": 11}, {"color": "grey", "from": "3D Geometric Modeling", "to": "JQuery", "width": 3}, {"color": "grey", "from": "3D Geometric Modeling", "to": "Verge3D", "width": 1}, {"color": "grey", "from": "3D Geometric Modeling", "to": "Bootstrap", "width": 2}, {"color": "grey", "from": "3D Geometric Modeling", "to": "WebXR", "width": 1}, {"color": "grey", "from": "3D Geometric Modeling", "to": "Unreal Engine", "width": 2}, {"color": "grey", "from": "3D Geometric Modeling", "to": "Autodesk Revit", "width": 2}, {"color": "grey", "from": "3D Geometric Modeling", "to": "Autodesk Forge", "width": 2}, {"color": "grey", "from": "3D Geometric Modeling", "to": "OpenScene Graph", "width": 1}, {"color": "grey", "from": "3D Geometric Modeling", "to": "COVISE", "width": 1}, {"color": "grey", "from": "3D Geometric Modeling", "to": "Wikitude", "width": 1}, {"color": "grey", "from": "3D Geometric Modeling", "to": "Three.js", "width": 1}, {"color": "grey", "from": "3D Geometric Modeling", "to": "WebGL", "width": 1}, {"color": "grey", "from": "3D Geometric Modeling", "to": "Creo", "width": 1}, {"color": "grey", "from": "3D Geometric Modeling", "to": "VTK", "width": 1}, {"color": "grey", "from": "3D Geometric Modeling", "to": "CityEngine", "width": 1}, {"color": "grey", "from": "3D Geometric Modeling", "to": "jsPanel", "width": 1}, {"color": "grey", "from": "3D Geometric Modeling", "to": "Javascript", "width": 1}, {"color": "grey", "from": "3D Geometric Modeling", "to": "Backbone", "width": 1}, {"color": "grey", "from": "3D Geometric Modeling", "to": "ARCGIS", "width": 1}, {"color": "grey", "from": "3D Geometric Modeling", "to": "Blender", "width": 1}, {"color": "grey", "from": "3D Geometric Modeling", "to": "Virtual Reality", "width": 11}, {"color": "grey", "from": "3D Geometric Modeling", "to": "Data Visualization", "width": 1}, {"color": "grey", "from": "3D Geometric Modeling", "to": "Contour Plot", "width": 2}, {"color": "grey", "from": "Dashboard Visualization", "to": "Grafana", "width": 1}, {"color": "grey", "from": "Dashboard Visualization", "to": "Unity3D", "width": 2}, {"color": "grey", "from": "Dashboard Visualization", "to": "Autodesk Revit", "width": 1}, {"color": "grey", "from": "Dashboard Visualization", "to": "Autodesk Forge", "width": 2}, {"color": "grey", "from": "Dashboard Visualization", "to": "Javascript", "width": 1}, {"color": "grey", "from": "Dashboard Visualization", "to": "Creo", "width": 1}, {"color": "grey", "from": "Dashboard Visualization", "to": "Python", "width": 1}, {"color": "grey", "from": "Dashboard Visualization", "to": ".NET", "width": 1}, {"color": "grey", "from": "Dashboard Visualization", "to": "Data Visualization", "width": 3}, {"color": "grey", "from": "Virtual Reality", "to": "Unity3D", "width": 8}, {"color": "grey", "from": "Virtual Reality", "to": "JQuery", "width": 2}, {"color": "grey", "from": "Virtual Reality", "to": "Verge3D", "width": 2}, {"color": "grey", "from": "Virtual Reality", "to": "Bootstrap", "width": 2}, {"color": "grey", "from": "Virtual Reality", "to": "WebXR", "width": 2}, {"color": "grey", "from": "Virtual Reality", "to": "OpenScene Graph", "width": 1}, {"color": "grey", "from": "Virtual Reality", "to": "COVISE", "width": 1}, {"color": "grey", "from": "Virtual Reality", "to": "Creo", "width": 1}, {"color": "grey", "from": "Virtual Reality", "to": "Unreal Engine", "width": 1}, {"color": "grey", "from": "Virtual Reality", "to": "CityEngine", "width": 1}, {"color": "grey", "from": "Virtual Reality", "to": "Data Visualization", "width": 3}, {"color": "grey", "from": "Virtual Reality", "to": "Contour Plot", "width": 1}, {"color": "grey", "from": "Data Visualization", "to": "Unity3D", "width": 6}, {"color": "grey", "from": "Data Visualization", "to": "JQuery", "width": 1}, {"color": "grey", "from": "Data Visualization", "to": "Verge3D", "width": 1}, {"color": "grey", "from": "Data Visualization", "to": "Bootstrap", "width": 1}, {"color": "grey", "from": "Data Visualization", "to": "WebXR", "width": 1}, {"color": "grey", "from": "Data Visualization", "to": "Creo", "width": 1}, {"color": "grey", "from": "Data Visualization", "to": "Contour Plot", "width": 1}, {"color": "grey", "from": "Diel Plot", "to": "R", "width": 1}, {"color": "grey", "from": "Diel Plot", "to": "Radar Plot", "width": 1}, {"color": "grey", "from": "Diel Plot", "to": "Histogram", "width": 1}, {"color": "grey", "from": "Diel Plot", "to": "Rose Plot", "width": 1}, {"color": "grey", "from": "Diel Plot", "to": "Sammon Map", "width": 1}, {"color": "grey", "from": "Diel Plot", "to": "Line Graph", "width": 1}, {"color": "grey", "from": "Diel Plot", "to": "Dendogram", "width": 1}, {"color": "grey", "from": "Diel Plot", "to": "Box Plot", "width": 1}, {"color": "grey", "from": "Diel Plot", "to": "Network Graph", "width": 1}, {"color": "grey", "from": "Radar Plot", "to": "R", "width": 1}, {"color": "grey", "from": "Radar Plot", "to": "Histogram", "width": 1}, {"color": "grey", "from": "Radar Plot", "to": "Rose Plot", "width": 1}, {"color": "grey", "from": "Radar Plot", "to": "Sammon Map", "width": 1}, {"color": "grey", "from": "Radar Plot", "to": "Line Graph", "width": 1}, {"color": "grey", "from": "Radar Plot", "to": "Dendogram", "width": 1}, {"color": "grey", "from": "Radar Plot", "to": "Box Plot", "width": 1}, {"color": "grey", "from": "Radar Plot", "to": "Network Graph", "width": 1}, {"color": "grey", "from": "Histogram", "to": "R", "width": 1}, {"color": "grey", "from": "Histogram", "to": "Rose Plot", "width": 1}, {"color": "grey", "from": "Histogram", "to": "Sammon Map", "width": 1}, {"color": "grey", "from": "Histogram", "to": "Line Graph", "width": 1}, {"color": "grey", "from": "Histogram", "to": "Dendogram", "width": 1}, {"color": "grey", "from": "Histogram", "to": "Box Plot", "width": 1}, {"color": "grey", "from": "Histogram", "to": "Network Graph", "width": 1}, {"color": "grey", "from": "Rose Plot", "to": "R", "width": 1}, {"color": "grey", "from": "Rose Plot", "to": "Sammon Map", "width": 1}, {"color": "grey", "from": "Rose Plot", "to": "Line Graph", "width": 1}, {"color": "grey", "from": "Rose Plot", "to": "Dendogram", "width": 1}, {"color": "grey", "from": "Rose Plot", "to": "Box Plot", "width": 1}, {"color": "grey", "from": "Rose Plot", "to": "Network Graph", "width": 1}, {"color": "grey", "from": "Sammon Map", "to": "R", "width": 1}, {"color": "grey", "from": "Sammon Map", "to": "Line Graph", "width": 1}, {"color": "grey", "from": "Sammon Map", "to": "Dendogram", "width": 1}, {"color": "grey", "from": "Sammon Map", "to": "Box Plot", "width": 1}, {"color": "grey", "from": "Sammon Map", "to": "Network Graph", "width": 1}, {"color": "grey", "from": "Bar Plot", "to": "Python", "width": 2}, {"color": "grey", "from": "Bar Plot", "to": "Jupyter Notebook", "width": 2}, {"color": "grey", "from": "Bar Plot", "to": "Line Graph", "width": 1}, {"color": "grey", "from": "Bar Plot", "to": "Heat Map", "width": 1}, {"color": "grey", "from": "Bar Plot", "to": "Network Graph", "width": 2}, {"color": "grey", "from": "Line Graph", "to": "R", "width": 1}, {"color": "grey", "from": "Line Graph", "to": "Python", "width": 1}, {"color": "grey", "from": "Line Graph", "to": "Jupyter Notebook", "width": 1}, {"color": "grey", "from": "Line Graph", "to": "Dendogram", "width": 1}, {"color": "grey", "from": "Line Graph", "to": "Box Plot", "width": 1}, {"color": "grey", "from": "Line Graph", "to": "Network Graph", "width": 2}, {"color": "grey", "from": "Dendogram", "to": "R", "width": 1}, {"color": "grey", "from": "Dendogram", "to": "Box Plot", "width": 1}, {"color": "grey", "from": "Dendogram", "to": "Network Graph", "width": 1}, {"color": "grey", "from": "Heat Map", "to": "Python", "width": 1}, {"color": "grey", "from": "Heat Map", "to": "Jupyter Notebook", "width": 1}, {"color": "grey", "from": "Heat Map", "to": "R", "width": 1}, {"color": "grey", "from": "Heat Map", "to": "Box Plot", "width": 1}, {"color": "grey", "from": "Heat Map", "to": "Network Graph", "width": 2}, {"color": "grey", "from": "Contour Plot", "to": "Unity3D", "width": 1}, {"color": "grey", "from": "Contour Plot", "to": "ARCGIS", "width": 1}, {"color": "grey", "from": "Pie Chart", "to": "Javascript", "width": 1}, {"color": "grey", "from": "Pie Chart", "to": "D3.js", "width": 1}, {"color": "grey", "from": "Pie Chart", "to": "R", "width": 1}, {"color": "grey", "from": "Box Plot", "to": "R", "width": 2}, {"color": "grey", "from": "Box Plot", "to": "Network Graph", "width": 2}, {"color": "grey", "from": "Network Graph", "to": "Python", "width": 2}, {"color": "grey", "from": "Network Graph", "to": "Jupyter Notebook", "width": 2}, {"color": "grey", "from": "Network Graph", "to": "R", "width": 2}, {"color": "grey", "from": "Diagram", "to": "R", "width": 1}, {"color": "grey", "from": "Unity3D", "to": "Wikitude", "width": 1}, {"color": "grey", "from": "JQuery", "to": "jsPanel", "width": 1}, {"color": "grey", "from": "JQuery", "to": "Javascript", "width": 1}, {"color": "grey", "from": "JQuery", "to": "Backbone", "width": 1}, {"color": "grey", "from": "JQuery", "to": "Verge3D", "width": 2}, {"color": "grey", "from": "JQuery", "to": "Bootstrap", "width": 3}, {"color": "grey", "from": "JQuery", "to": "WebXR", "width": 2}, {"color": "grey", "from": "JQuery", "to": "Autodesk Revit", "width": 1}, {"color": "grey", "from": "JQuery", "to": "Autodesk Forge", "width": 1}, {"color": "grey", "from": "JQuery", "to": "Three.js", "width": 1}, {"color": "grey", "from": "JQuery", "to": "WebGL", "width": 1}, {"color": "grey", "from": "jsPanel", "to": "Javascript", "width": 1}, {"color": "grey", "from": "jsPanel", "to": "Backbone", "width": 1}, {"color": "grey", "from": "Unreal Engine", "to": "CityEngine", "width": 1}, {"color": "grey", "from": "Javascript", "to": "Backbone", "width": 1}, {"color": "grey", "from": "Javascript", "to": "D3.js", "width": 1}, {"color": "grey", "from": "Javascript", "to": "R", "width": 1}, {"color": "grey", "from": "Javascript", "to": "Autodesk Forge", "width": 1}, {"color": "grey", "from": "D3.js", "to": "R", "width": 1}, {"color": "grey", "from": "Python", "to": "Jupyter Notebook", "width": 2}, {"color": "grey", "from": "Verge3D", "to": "Bootstrap", "width": 2}, {"color": "grey", "from": "Verge3D", "to": "WebXR", "width": 2}, {"color": "grey", "from": "Bootstrap", "to": "WebXR", "width": 2}, {"color": "grey", "from": "Bootstrap", "to": "Autodesk Revit", "width": 1}, {"color": "grey", "from": "Bootstrap", "to": "Autodesk Forge", "width": 1}, {"color": "grey", "from": "Bootstrap", "to": "Three.js", "width": 1}, {"color": "grey", "from": "Bootstrap", "to": "WebGL", "width": 1}, {"color": "grey", "from": "Autodesk Revit", "to": "Autodesk Forge", "width": 3}, {"color": "grey", "from": "Autodesk Revit", "to": "Three.js", "width": 1}, {"color": "grey", "from": "Autodesk Revit", "to": "WebGL", "width": 1}, {"color": "grey", "from": "Autodesk Forge", "to": "Three.js", "width": 1}, {"color": "grey", "from": "Autodesk Forge", "to": "WebGL", "width": 1}, {"color": "grey", "from": "OpenScene Graph", "to": "COVISE", "width": 1}, {"color": "grey", "from": "Three.js", "to": "WebGL", "width": 1}]);
+
+                  nodeColors = {};
+                  allNodes = nodes.get({ returnType: "Object" });
+                  for (nodeId in allNodes) {
+                    nodeColors[nodeId] = allNodes[nodeId].color;
+                  }
+                  allEdges = edges.get({ returnType: "Object" });
+                  // adding nodes and edges to the graph
+                  data = {nodes: nodes, edges: edges};
+
+                  var options = {
+    "configure": {
+        "enabled": false
+    },
+    "edges": {
+        "color": {
+            "inherit": true
+        },
+        "smooth": {
+            "enabled": true,
+            "type": "dynamic"
+        }
+    },
+    "interaction": {
+        "dragNodes": true,
+        "hideEdgesOnDrag": false,
+        "hideNodesOnDrag": false
+    },
+    "physics": {
+        "enabled": true,
+        "forceAtlas2Based": {
+            "avoidOverlap": 0,
+            "centralGravity": 0.01,
+            "damping": 0.4,
+            "gravitationalConstant": -50,
+            "springConstant": 0.08,
+            "springLength": 100
+        },
+        "solver": "forceAtlas2Based",
+        "stabilization": {
+            "enabled": true,
+            "fit": true,
+            "iterations": 1000,
+            "onlyDynamicEdges": false,
+            "updateInterval": 50
+        }
+    }
+};
+
+                  
+
+
+                  
+
+                  network = new vis.Network(container, data, options);
+
+                  
+
+                  
+
+                  
+
+
+                  
+
+                  return network;
+
+              }
+              drawGraph();
+        </script>
+    </body>
+</html>

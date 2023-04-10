@@ -1,8 +1,9 @@
 {
   "ExpandedNodes": [
     "",
+    "\\python_scripts",
     "\\src"
   ],
-  "SelectedNode": "\\src\\Graph.css",
+  "SelectedNode": "\\python_scripts\\process_data.py",
   "PreviewInSolutionExplorer": false
 }

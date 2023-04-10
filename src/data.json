@@ -1,0 +1,2372 @@
+{
+    "nodes": [
+        {
+            "id": "Geometric Data",
+            "label": "Geometric Data",
+            "color": "red",
+            "shape": "triangle",
+            "size": 10,
+            "title": "Data regarding size, shape, and other relevant information of an object, represented in 3D."
+        },
+        {
+            "id": "Geospatial Data",
+            "label": "Geospatial Data",
+            "color": "red",
+            "shape": "triangle",
+            "size": 10,
+            "title": "Data revolving around a specific location in the real world, e.g. GIS data."
+        },
+        {
+            "id": "Sensor data",
+            "label": "Sensor data",
+            "color": "red",
+            "shape": "triangle",
+            "size": 10,
+            "title": "Data acquired from sensors, e.g. temperature."
+        },
+        {
+            "id": "Historical Data",
+            "label": "Historical Data",
+            "color": "red",
+            "shape": "triangle",
+            "size": 10,
+            "title": "Data regarding previous events about a subject."
+        },
+        {
+            "id": "Process Data",
+            "label": "Process Data",
+            "color": "red",
+            "shape": "triangle",
+            "size": 10,
+            "title": "Data generated during system operation, e.g. real-time data."
+        },
+        {
+            "id": "Simulation Data",
+            "label": "Simulation Data",
+            "color": "red",
+            "shape": "triangle",
+            "size": 10,
+            "title": "Data generated from computer simulations, e.g. fluid dynamics simulation."
+        },
+        {
+            "id": "Metadata",
+            "label": "Metadata",
+            "color": "red",
+            "shape": "triangle",
+            "size": 10,
+            "title": "Data providing additional information about other data, e.g. file format or source."
+        },
+        {
+            "id": "Landscape data",
+            "label": "Landscape data",
+            "color": "red",
+            "shape": "triangle",
+            "size": 10,
+            "title": "Information about characteristics of a specific geographic area, e.g. vegetation or rainfall."
+        },
+        {
+            "id": "Biotic data",
+            "label": "Biotic data",
+            "color": "red",
+            "shape": "triangle",
+            "size": 10,
+            "title": "Data involving living organisms, e.g. plants, bacteria, and human beings."
+        },
+        {
+            "id": "Abiotic Data",
+            "label": "Abiotic Data",
+            "color": "red",
+            "shape": "triangle",
+            "size": 10,
+            "title": "Data involving nonliving that affect organisms, e.g. climate, water, and atmosphere."
+        },
+        {
+            "id": "Behavioural Data",
+            "label": "Behavioural Data",
+            "color": "red",
+            "shape": "triangle",
+            "size": 10,
+            "title": "Data regarding interaction between individuals."
+        },
+        {
+            "id": "Augmented Reality",
+            "label": "Augmented Reality",
+            "color": "blue",
+            "shape": "square",
+            "size": 10,
+            "title": "Augmented Reality",
+            "cid": "Immersive Visualization Techniques"
+        },
+        {
+            "id": "3D Geometric Modeling",
+            "label": "3D Geometric Modeling",
+            "color": "blue",
+            "shape": "square",
+            "size": 10,
+            "title": "3D Geometric Modeling"
+        },
+        {
+            "id": "Dashboard Visualization",
+            "label": "Dashboard Visualization",
+            "color": "blue",
+            "shape": "square",
+            "size": 10,
+            "title": "A collection of two-dimensional visualization techniques",
+            "cid": "2D plots"
+        },
+        {
+            "id": "Virtual Reality",
+            "label": "Virtual Reality",
+            "color": "blue",
+            "shape": "square",
+            "size": 10,
+            "title": "Virtual Reality",
+            "cid": "Immersive Visualization Techniques"
+        },
+        {
+            "id": "Data Visualization",
+            "label": "Data Visualization",
+            "color": "blue",
+            "shape": "square",
+            "size": 10,
+            "title": "Data Visualization"
+        },
+        {
+            "id": "Diel Plot",
+            "label": "Diel Plot",
+            "color": "blue",
+            "shape": "square",
+            "size": 10,
+            "title": "Diel Plot",
+            "cid": "2D plots"
+        },
+        {
+            "id": "Radar Plot",
+            "label": "Radar Plot",
+            "color": "blue",
+            "shape": "square",
+            "size": 10,
+            "title": "Radar Plot",
+            "cid": "2D plots"
+        },
+        {
+            "id": "Histogram",
+            "label": "Histogram",
+            "color": "blue",
+            "shape": "square",
+            "size": 10,
+            "title": "Histogram",
+            "cid": "2D plots"
+        },
+        {
+            "id": "Rose Plot",
+            "label": "Rose Plot",
+            "color": "blue",
+            "shape": "square",
+            "size": 10,
+            "title": "Rose Plot",
+            "cid": "2D plots"
+        },
+        {
+            "id": "Sammon Map",
+            "label": "Sammon Map",
+            "color": "blue",
+            "shape": "square",
+            "size": 10,
+            "title": "Sammon Map",
+            "cid": "2D plots"
+        },
+        {
+            "id": "Bar Plot",
+            "label": "Bar Plot",
+            "color": "blue",
+            "shape": "square",
+            "size": 10,
+            "title": "Bar Plot",
+            "cid": "2D plots"
+        },
+        {
+            "id": "Line Graph",
+            "label": "Line Graph",
+            "color": "blue",
+            "shape": "square",
+            "size": 10,
+            "title": "Line Graph",
+            "cid": "2D plots"
+        },
+        {
+            "id": "Dendogram",
+            "label": "Dendogram",
+            "color": "blue",
+            "shape": "square",
+            "size": 10,
+            "title": "Dendogram",
+            "cid": "2D plots"
+        },
+        {
+            "id": "Heat Map",
+            "label": "Heat Map",
+            "color": "blue",
+            "shape": "square",
+            "size": 10,
+            "title": "Heat Map",
+            "cid": "2D plots"
+        },
+        {
+            "id": "Contour Plot",
+            "label": "Contour Plot",
+            "color": "blue",
+            "shape": "square",
+            "size": 10,
+            "title": "Contour Plot",
+            "cid": "2D plots"
+        },
+        {
+            "id": "Pie Chart",
+            "label": "Pie Chart",
+            "color": "blue",
+            "shape": "square",
+            "size": 10,
+            "title": "Pie Chart",
+            "cid": "2D plots"
+        },
+        {
+            "id": "Box Plot",
+            "label": "Box Plot",
+            "color": "blue",
+            "shape": "square",
+            "size": 10,
+            "title": "Box Plot",
+            "cid": "2D plots"
+        },
+        {
+            "id": "Network Graph",
+            "label": "Network Graph",
+            "color": "blue",
+            "shape": "square",
+            "size": 10,
+            "title": "Network Graph",
+            "cid": "2D plots"
+        },
+        {
+            "id": "Diagram",
+            "label": "Diagram",
+            "color": "blue",
+            "shape": "square",
+            "size": 10,
+            "title": "Diagram",
+            "cid": "2D plots"
+        },
+        {
+            "id": "Unity3D",
+            "label": "Unity3D",
+            "color": "purple",
+            "shape": "dot",
+            "size": 10,
+            "title": "Unity3D",
+            "cid": "Game Engines"
+        },
+        {
+            "id": "Blender",
+            "label": "Blender",
+            "color": "purple",
+            "shape": "dot",
+            "size": 10,
+            "title": "Blender",
+            "cid": "Modeling Software"
+        },
+        {
+            "id": "JQuery",
+            "label": "JQuery",
+            "color": "purple",
+            "shape": "dot",
+            "size": 10,
+            "title": "JQuery",
+            "cid": "Javascript Libaries/Frameworks/Packages"
+        },
+        {
+            "id": "jsPanel",
+            "label": "jsPanel",
+            "color": "purple",
+            "shape": "dot",
+            "size": 10,
+            "title": "jsPanel",
+            "cid": "Javascript Libaries/Frameworks/Packages"
+        },
+        {
+            "id": "Unreal Engine",
+            "label": "Unreal Engine",
+            "color": "purple",
+            "shape": "dot",
+            "size": 10,
+            "title": "Unreal Engine",
+            "cid": "Game Engines"
+        },
+        {
+            "id": "Javascript",
+            "label": "Javascript",
+            "color": "purple",
+            "shape": "dot",
+            "size": 10,
+            "title": "Javascript"
+        },
+        {
+            "id": "Backbone",
+            "label": "Backbone",
+            "color": "purple",
+            "shape": "dot",
+            "size": 10,
+            "title": "Backbone",
+            "cid": "Javascript Libaries/Frameworks/Packages"
+        },
+        {
+            "id": ".NET",
+            "label": ".NET",
+            "color": "purple",
+            "shape": "dot",
+            "size": 10,
+            "title": ".NET"
+        },
+        {
+            "id": "D3.js",
+            "label": "D3.js",
+            "color": "purple",
+            "shape": "dot",
+            "size": 10,
+            "title": "D3.js",
+            "cid": "Javascript Libaries/Frameworks/Packages"
+        },
+        {
+            "id": "R",
+            "label": "R",
+            "color": "purple",
+            "shape": "dot",
+            "size": 10,
+            "title": "Augmented Reality",
+            "cid": "Immersive Visualization Techniques"
+        },
+        {
+            "id": "Python",
+            "label": "Python",
+            "color": "purple",
+            "shape": "dot",
+            "size": 10,
+            "title": "Python"
+        },
+        {
+            "id": "Jupyter Notebook",
+            "label": "Jupyter Notebook",
+            "color": "purple",
+            "shape": "dot",
+            "size": 10,
+            "title": "Jupyter Notebook"
+        },
+        {
+            "id": "CityEngine",
+            "label": "CityEngine",
+            "color": "purple",
+            "shape": "dot",
+            "size": 10,
+            "title": "CityEngine",
+            "cid": "Modeling Software"
+        },
+        {
+            "id": "ARCGIS",
+            "label": "ARCGIS",
+            "color": "purple",
+            "shape": "dot",
+            "size": 10,
+            "title": "ARCGIS"
+        },
+        {
+            "id": "Grafana",
+            "label": "Grafana",
+            "color": "purple",
+            "shape": "dot",
+            "size": 10,
+            "title": "Grafana",
+            "cid": "Web-based Libaries/Frameworks/Packages"
+        },
+        {
+            "id": "Verge3D",
+            "label": "Verge3D",
+            "color": "purple",
+            "shape": "dot",
+            "size": 10,
+            "title": "Verge3D",
+            "cid": "Web-based Libaries/Frameworks/Packages"
+        },
+        {
+            "id": "Bootstrap",
+            "label": "Bootstrap",
+            "color": "purple",
+            "shape": "dot",
+            "size": 10,
+            "title": "Bootstrap",
+            "cid": "Web-based Libaries/Frameworks/Packages"
+        },
+        {
+            "id": "WebXR",
+            "label": "WebXR",
+            "color": "purple",
+            "shape": "dot",
+            "size": 10,
+            "title": "WebXR",
+            "cid": "Web-based Libaries/Frameworks/Packages"
+        },
+        {
+            "id": "Autodesk Revit",
+            "label": "Autodesk Revit",
+            "color": "purple",
+            "shape": "dot",
+            "size": 10,
+            "title": "Autodesk Revit",
+            "cid": "Modeling Software"
+        },
+        {
+            "id": "Autodesk Forge",
+            "label": "Autodesk Forge",
+            "color": "purple",
+            "shape": "dot",
+            "size": 10,
+            "title": "Autodesk Forge"
+        },
+        {
+            "id": "OpenScene Graph",
+            "label": "OpenScene Graph",
+            "color": "purple",
+            "shape": "dot",
+            "size": 10,
+            "title": "OpenScene Graph"
+        },
+        {
+            "id": "COVISE",
+            "label": "COVISE",
+            "color": "purple",
+            "shape": "dot",
+            "size": 10,
+            "title": "COVISE"
+        },
+        {
+            "id": "Three.js",
+            "label": "Three.js",
+            "color": "purple",
+            "shape": "dot",
+            "size": 10,
+            "title": "Three.js",
+            "cid": "Javascript Libaries/Frameworks/Packages"
+        },
+        {
+            "id": "WebGL",
+            "label": "WebGL",
+            "color": "purple",
+            "shape": "dot",
+            "size": 10,
+            "title": "WebGL",
+            "cid": "Web-based Libaries/Frameworks/Packages"
+        },
+        {
+            "id": "Creo",
+            "label": "Creo",
+            "color": "purple",
+            "shape": "dot",
+            "size": 10,
+            "title": "Creo",
+            "cid": "Modeling Software"
+        },
+        {
+            "id": "Wikitude",
+            "label": "Wikitude",
+            "color": "purple",
+            "shape": "dot",
+            "size": 10,
+            "title": "Wikitude"
+        },
+        {
+            "id": "VTK",
+            "label": "VTK",
+            "color": "purple",
+            "shape": "dot",
+            "size": 10,
+            "title": "VTK"
+        }
+    ],
+    "edges": [
+        {
+            "from": "Geometric Data",
+            "to": "Augmented Reality",
+            "color": "grey",
+            "width": 5,
+            "title": "5 papers found"
+        },
+        {
+            "from": "Geometric Data",
+            "to": "3D Geometric Modeling",
+            "color": "grey",
+            "width": 19,
+            "title": "19 papers found"
+        },
+        {
+            "from": "Geometric Data",
+            "to": "Virtual Reality",
+            "color": "grey",
+            "width": 11,
+            "title": "11 papers found"
+        },
+        {
+            "from": "Geometric Data",
+            "to": "Data Visualization",
+            "color": "grey",
+            "width": 1,
+            "title": "1 paper found"
+        },
+        {
+            "from": "Geometric Data",
+            "to": "Contour Plot",
+            "color": "grey",
+            "width": 1,
+            "title": "1 paper found"
+        },
+        {
+            "from": "Geospatial Data",
+            "to": "Augmented Reality",
+            "color": "grey",
+            "width": 4,
+            "title": "4 papers found"
+        },
+        {
+            "from": "Geospatial Data",
+            "to": "3D Geometric Modeling",
+            "color": "grey",
+            "width": 15,
+            "title": "15 papers found"
+        },
+        {
+            "from": "Geospatial Data",
+            "to": "Dashboard Visualization",
+            "color": "grey",
+            "width": 7,
+            "title": "7 papers found"
+        },
+        {
+            "from": "Geospatial Data",
+            "to": "Virtual Reality",
+            "color": "grey",
+            "width": 6,
+            "title": "6 papers found"
+        },
+        {
+            "from": "Geospatial Data",
+            "to": "Data Visualization",
+            "color": "grey",
+            "width": 4,
+            "title": "4 papers found"
+        },
+        {
+            "from": "Geospatial Data",
+            "to": "Diagram",
+            "color": "grey",
+            "width": 1,
+            "title": "1 paper found"
+        },
+        {
+            "from": "Geospatial Data",
+            "to": "Heat Map",
+            "color": "grey",
+            "width": 1,
+            "title": "1 paper found"
+        },
+        {
+            "from": "Geospatial Data",
+            "to": "Box Plot",
+            "color": "grey",
+            "width": 2,
+            "title": "2 papers found"
+        },
+        {
+            "from": "Geospatial Data",
+            "to": "Network Graph",
+            "color": "grey",
+            "width": 2,
+            "title": "2 papers found"
+        },
+        {
+            "from": "Geospatial Data",
+            "to": "Diel Plot",
+            "color": "grey",
+            "width": 1,
+            "title": "1 paper found"
+        },
+        {
+            "from": "Geospatial Data",
+            "to": "Radar Plot",
+            "color": "grey",
+            "width": 1,
+            "title": "1 paper found"
+        },
+        {
+            "from": "Geospatial Data",
+            "to": "Histogram",
+            "color": "grey",
+            "width": 1,
+            "title": "1 paper found"
+        },
+        {
+            "from": "Geospatial Data",
+            "to": "Rose Plot",
+            "color": "grey",
+            "width": 1,
+            "title": "1 paper found"
+        },
+        {
+            "from": "Geospatial Data",
+            "to": "Sammon Map",
+            "color": "grey",
+            "width": 1,
+            "title": "1 paper found"
+        },
+        {
+            "from": "Geospatial Data",
+            "to": "Line Graph",
+            "color": "grey",
+            "width": 1,
+            "title": "1 paper found"
+        },
+        {
+            "from": "Geospatial Data",
+            "to": "Dendogram",
+            "color": "grey",
+            "width": 1,
+            "title": "1 paper found"
+        },
+        {
+            "from": "Geospatial Data",
+            "to": "Contour Plot",
+            "color": "grey",
+            "width": 1,
+            "title": "1 paper found"
+        },
+        {
+            "from": "Sensor data",
+            "to": "Augmented Reality",
+            "color": "grey",
+            "width": 5,
+            "title": "5 papers found"
+        },
+        {
+            "from": "Sensor data",
+            "to": "3D Geometric Modeling",
+            "color": "grey",
+            "width": 13,
+            "title": "13 papers found"
+        },
+        {
+            "from": "Sensor data",
+            "to": "Dashboard Visualization",
+            "color": "grey",
+            "width": 7,
+            "title": "7 papers found"
+        },
+        {
+            "from": "Sensor data",
+            "to": "Virtual Reality",
+            "color": "grey",
+            "width": 7,
+            "title": "7 papers found"
+        },
+        {
+            "from": "Sensor data",
+            "to": "Data Visualization",
+            "color": "grey",
+            "width": 6,
+            "title": "6 papers found"
+        },
+        {
+            "from": "Sensor data",
+            "to": "Contour Plot",
+            "color": "grey",
+            "width": 2,
+            "title": "2 papers found"
+        },
+        {
+            "from": "Historical Data",
+            "to": "Augmented Reality",
+            "color": "grey",
+            "width": 3,
+            "title": "3 papers found"
+        },
+        {
+            "from": "Historical Data",
+            "to": "3D Geometric Modeling",
+            "color": "grey",
+            "width": 6,
+            "title": "6 papers found"
+        },
+        {
+            "from": "Historical Data",
+            "to": "Virtual Reality",
+            "color": "grey",
+            "width": 3,
+            "title": "3 papers found"
+        },
+        {
+            "from": "Historical Data",
+            "to": "Data Visualization",
+            "color": "grey",
+            "width": 1,
+            "title": "1 paper found"
+        },
+        {
+            "from": "Process Data",
+            "to": "Augmented Reality",
+            "color": "grey",
+            "width": 3,
+            "title": "3 papers found"
+        },
+        {
+            "from": "Process Data",
+            "to": "Data Visualization",
+            "color": "grey",
+            "width": 4,
+            "title": "4 papers found"
+        },
+        {
+            "from": "Process Data",
+            "to": "Dashboard Visualization",
+            "color": "grey",
+            "width": 4,
+            "title": "4 papers found"
+        },
+        {
+            "from": "Process Data",
+            "to": "3D Geometric Modeling",
+            "color": "grey",
+            "width": 5,
+            "title": "5 papers found"
+        },
+        {
+            "from": "Process Data",
+            "to": "Virtual Reality",
+            "color": "grey",
+            "width": 3,
+            "title": "3 papers found"
+        },
+        {
+            "from": "Simulation Data",
+            "to": "3D Geometric Modeling",
+            "color": "grey",
+            "width": 10,
+            "title": "10 papers found"
+        },
+        {
+            "from": "Simulation Data",
+            "to": "Virtual Reality",
+            "color": "grey",
+            "width": 8,
+            "title": "8 papers found"
+        },
+        {
+            "from": "Simulation Data",
+            "to": "Data Visualization",
+            "color": "grey",
+            "width": 3,
+            "title": "3 papers found"
+        },
+        {
+            "from": "Simulation Data",
+            "to": "Augmented Reality",
+            "color": "grey",
+            "width": 3,
+            "title": "3 papers found"
+        },
+        {
+            "from": "Simulation Data",
+            "to": "Dashboard Visualization",
+            "color": "grey",
+            "width": 2,
+            "title": "2 papers found"
+        },
+        {
+            "from": "Simulation Data",
+            "to": "Contour Plot",
+            "color": "grey",
+            "width": 1,
+            "title": "1 paper found"
+        },
+        {
+            "from": "Metadata",
+            "to": "Augmented Reality",
+            "color": "grey",
+            "width": 1,
+            "title": "1 paper found"
+        },
+        {
+            "from": "Metadata",
+            "to": "3D Geometric Modeling",
+            "color": "grey",
+            "width": 2,
+            "title": "2 papers found"
+        },
+        {
+            "from": "Metadata",
+            "to": "Virtual Reality",
+            "color": "grey",
+            "width": 1,
+            "title": "1 paper found"
+        },
+        {
+            "from": "Biotic data",
+            "to": "3D Geometric Modeling",
+            "color": "grey",
+            "width": 2,
+            "title": "2 papers found"
+        },
+        {
+            "from": "Biotic data",
+            "to": "Bar Plot",
+            "color": "grey",
+            "width": 2,
+            "title": "2 papers found"
+        },
+        {
+            "from": "Biotic data",
+            "to": "Heat Map",
+            "color": "grey",
+            "width": 2,
+            "title": "2 papers found"
+        },
+        {
+            "from": "Biotic data",
+            "to": "Network Graph",
+            "color": "grey",
+            "width": 4,
+            "title": "4 papers found"
+        },
+        {
+            "from": "Biotic data",
+            "to": "Box Plot",
+            "color": "grey",
+            "width": 2,
+            "title": "2 papers found"
+        },
+        {
+            "from": "Biotic data",
+            "to": "Diel Plot",
+            "color": "grey",
+            "width": 1,
+            "title": "1 paper found"
+        },
+        {
+            "from": "Biotic data",
+            "to": "Radar Plot",
+            "color": "grey",
+            "width": 1,
+            "title": "1 paper found"
+        },
+        {
+            "from": "Biotic data",
+            "to": "Histogram",
+            "color": "grey",
+            "width": 1,
+            "title": "1 paper found"
+        },
+        {
+            "from": "Biotic data",
+            "to": "Rose Plot",
+            "color": "grey",
+            "width": 1,
+            "title": "1 paper found"
+        },
+        {
+            "from": "Biotic data",
+            "to": "Sammon Map",
+            "color": "grey",
+            "width": 1,
+            "title": "1 paper found"
+        },
+        {
+            "from": "Biotic data",
+            "to": "Line Graph",
+            "color": "grey",
+            "width": 2,
+            "title": "2 papers found"
+        },
+        {
+            "from": "Biotic data",
+            "to": "Dendogram",
+            "color": "grey",
+            "width": 1,
+            "title": "1 paper found"
+        },
+        {
+            "from": "Biotic data",
+            "to": "Dashboard Visualization",
+            "color": "grey",
+            "width": 1,
+            "title": "1 paper found"
+        },
+        {
+            "from": "Biotic data",
+            "to": "Pie Chart",
+            "color": "grey",
+            "width": 1,
+            "title": "1 paper found"
+        },
+        {
+            "from": "Landscape data",
+            "to": "3D Geometric Modeling",
+            "color": "grey",
+            "width": 4,
+            "title": "4 papers found"
+        },
+        {
+            "from": "Landscape data",
+            "to": "Virtual Reality",
+            "color": "grey",
+            "width": 2,
+            "title": "2 papers found"
+        },
+        {
+            "from": "Landscape data",
+            "to": "Heat Map",
+            "color": "grey",
+            "width": 1,
+            "title": "1 paper found"
+        },
+        {
+            "from": "Landscape data",
+            "to": "Box Plot",
+            "color": "grey",
+            "width": 1,
+            "title": "1 paper found"
+        },
+        {
+            "from": "Landscape data",
+            "to": "Network Graph",
+            "color": "grey",
+            "width": 1,
+            "title": "1 paper found"
+        },
+        {
+            "from": "Landscape data",
+            "to": "Contour Plot",
+            "color": "grey",
+            "width": 1,
+            "title": "1 paper found"
+        },
+        {
+            "from": "Abiotic Data",
+            "to": "Diagram",
+            "color": "grey",
+            "width": 1,
+            "title": "1 paper found"
+        },
+        {
+            "from": "Behavioural Data",
+            "to": "Heat Map",
+            "color": "grey",
+            "width": 1,
+            "title": "1 paper found"
+        },
+        {
+            "from": "Behavioural Data",
+            "to": "Box Plot",
+            "color": "grey",
+            "width": 1,
+            "title": "1 paper found"
+        },
+        {
+            "from": "Behavioural Data",
+            "to": "Network Graph",
+            "color": "grey",
+            "width": 1,
+            "title": "1 paper found"
+        },
+        {
+            "from": "Augmented Reality",
+            "to": "Unity3D",
+            "color": "grey",
+            "width": 5,
+            "title": "5 papers found"
+        },
+        {
+            "from": "Augmented Reality",
+            "to": "Wikitude",
+            "color": "grey",
+            "width": 1,
+            "title": "1 paper found"
+        },
+        {
+            "from": "Augmented Reality",
+            "to": "Creo",
+            "color": "grey",
+            "width": 1,
+            "title": "1 paper found"
+        },
+        {
+            "from": "3D Geometric Modeling",
+            "to": "Unity3D",
+            "color": "grey",
+            "width": 11,
+            "title": "11 papers found"
+        },
+        {
+            "from": "3D Geometric Modeling",
+            "to": "JQuery",
+            "color": "grey",
+            "width": 3,
+            "title": "3 papers found"
+        },
+        {
+            "from": "3D Geometric Modeling",
+            "to": "Verge3D",
+            "color": "grey",
+            "width": 1,
+            "title": "1 paper found"
+        },
+        {
+            "from": "3D Geometric Modeling",
+            "to": "Bootstrap",
+            "color": "grey",
+            "width": 2,
+            "title": "2 papers found"
+        },
+        {
+            "from": "3D Geometric Modeling",
+            "to": "WebXR",
+            "color": "grey",
+            "width": 1,
+            "title": "1 paper found"
+        },
+        {
+            "from": "3D Geometric Modeling",
+            "to": "Unreal Engine",
+            "color": "grey",
+            "width": 2,
+            "title": "2 papers found"
+        },
+        {
+            "from": "3D Geometric Modeling",
+            "to": "Autodesk Revit",
+            "color": "grey",
+            "width": 2,
+            "title": "2 papers found"
+        },
+        {
+            "from": "3D Geometric Modeling",
+            "to": "Autodesk Forge",
+            "color": "grey",
+            "width": 2,
+            "title": "2 papers found"
+        },
+        {
+            "from": "3D Geometric Modeling",
+            "to": "OpenScene Graph",
+            "color": "grey",
+            "width": 1,
+            "title": "1 paper found"
+        },
+        {
+            "from": "3D Geometric Modeling",
+            "to": "COVISE",
+            "color": "grey",
+            "width": 1,
+            "title": "1 paper found"
+        },
+        {
+            "from": "3D Geometric Modeling",
+            "to": "Wikitude",
+            "color": "grey",
+            "width": 1,
+            "title": "1 paper found"
+        },
+        {
+            "from": "3D Geometric Modeling",
+            "to": "Three.js",
+            "color": "grey",
+            "width": 1,
+            "title": "1 paper found"
+        },
+        {
+            "from": "3D Geometric Modeling",
+            "to": "WebGL",
+            "color": "grey",
+            "width": 1,
+            "title": "1 paper found"
+        },
+        {
+            "from": "3D Geometric Modeling",
+            "to": "Creo",
+            "color": "grey",
+            "width": 1,
+            "title": "1 paper found"
+        },
+        {
+            "from": "3D Geometric Modeling",
+            "to": "VTK",
+            "color": "grey",
+            "width": 1,
+            "title": "1 paper found"
+        },
+        {
+            "from": "3D Geometric Modeling",
+            "to": "CityEngine",
+            "color": "grey",
+            "width": 1,
+            "title": "1 paper found"
+        },
+        {
+            "from": "3D Geometric Modeling",
+            "to": "jsPanel",
+            "color": "grey",
+            "width": 1,
+            "title": "1 paper found"
+        },
+        {
+            "from": "3D Geometric Modeling",
+            "to": "Javascript",
+            "color": "grey",
+            "width": 1,
+            "title": "1 paper found"
+        },
+        {
+            "from": "3D Geometric Modeling",
+            "to": "Backbone",
+            "color": "grey",
+            "width": 1,
+            "title": "1 paper found"
+        },
+        {
+            "from": "3D Geometric Modeling",
+            "to": "ARCGIS",
+            "color": "grey",
+            "width": 1,
+            "title": "1 paper found"
+        },
+        {
+            "from": "3D Geometric Modeling",
+            "to": "Blender",
+            "color": "grey",
+            "width": 1,
+            "title": "1 paper found"
+        },
+        {
+            "from": "Data Visualization",
+            "to": "Unity3D",
+            "color": "grey",
+            "width": 6,
+            "title": "6 papers found"
+        },
+        {
+            "from": "Data Visualization",
+            "to": "JQuery",
+            "color": "grey",
+            "width": 1,
+            "title": "1 paper found"
+        },
+        {
+            "from": "Data Visualization",
+            "to": "Verge3D",
+            "color": "grey",
+            "width": 1,
+            "title": "1 paper found"
+        },
+        {
+            "from": "Data Visualization",
+            "to": "Bootstrap",
+            "color": "grey",
+            "width": 1,
+            "title": "1 paper found"
+        },
+        {
+            "from": "Data Visualization",
+            "to": "WebXR",
+            "color": "grey",
+            "width": 1,
+            "title": "1 paper found"
+        },
+        {
+            "from": "Data Visualization",
+            "to": "Creo",
+            "color": "grey",
+            "width": 1,
+            "title": "1 paper found"
+        },
+        {
+            "from": "Virtual Reality",
+            "to": "Unity3D",
+            "color": "grey",
+            "width": 8,
+            "title": "8 papers found"
+        },
+        {
+            "from": "Virtual Reality",
+            "to": "JQuery",
+            "color": "grey",
+            "width": 2,
+            "title": "2 papers found"
+        },
+        {
+            "from": "Virtual Reality",
+            "to": "Verge3D",
+            "color": "grey",
+            "width": 2,
+            "title": "2 papers found"
+        },
+        {
+            "from": "Virtual Reality",
+            "to": "Bootstrap",
+            "color": "grey",
+            "width": 2,
+            "title": "2 papers found"
+        },
+        {
+            "from": "Virtual Reality",
+            "to": "WebXR",
+            "color": "grey",
+            "width": 2,
+            "title": "2 papers found"
+        },
+        {
+            "from": "Virtual Reality",
+            "to": "OpenScene Graph",
+            "color": "grey",
+            "width": 1,
+            "title": "1 paper found"
+        },
+        {
+            "from": "Virtual Reality",
+            "to": "COVISE",
+            "color": "grey",
+            "width": 1,
+            "title": "1 paper found"
+        },
+        {
+            "from": "Virtual Reality",
+            "to": "Creo",
+            "color": "grey",
+            "width": 1,
+            "title": "1 paper found"
+        },
+        {
+            "from": "Virtual Reality",
+            "to": "Unreal Engine",
+            "color": "grey",
+            "width": 1,
+            "title": "1 paper found"
+        },
+        {
+            "from": "Virtual Reality",
+            "to": "CityEngine",
+            "color": "grey",
+            "width": 1,
+            "title": "1 paper found"
+        },
+        {
+            "from": "Dashboard Visualization",
+            "to": "Grafana",
+            "color": "grey",
+            "width": 1,
+            "title": "1 paper found"
+        },
+        {
+            "from": "Dashboard Visualization",
+            "to": "Unity3D",
+            "color": "grey",
+            "width": 2,
+            "title": "2 papers found"
+        },
+        {
+            "from": "Dashboard Visualization",
+            "to": "Autodesk Revit",
+            "color": "grey",
+            "width": 1,
+            "title": "1 paper found"
+        },
+        {
+            "from": "Dashboard Visualization",
+            "to": "Autodesk Forge",
+            "color": "grey",
+            "width": 2,
+            "title": "2 papers found"
+        },
+        {
+            "from": "Dashboard Visualization",
+            "to": "Javascript",
+            "color": "grey",
+            "width": 1,
+            "title": "1 paper found"
+        },
+        {
+            "from": "Dashboard Visualization",
+            "to": "Creo",
+            "color": "grey",
+            "width": 1,
+            "title": "1 paper found"
+        },
+        {
+            "from": "Dashboard Visualization",
+            "to": "Python",
+            "color": "grey",
+            "width": 1,
+            "title": "1 paper found"
+        },
+        {
+            "from": "Dashboard Visualization",
+            "to": ".NET",
+            "color": "grey",
+            "width": 1,
+            "title": "1 paper found"
+        },
+        {
+            "from": "Contour Plot",
+            "to": "Unity3D",
+            "color": "grey",
+            "width": 1,
+            "title": "1 paper found"
+        },
+        {
+            "from": "Contour Plot",
+            "to": "ARCGIS",
+            "color": "grey",
+            "width": 1,
+            "title": "1 paper found"
+        },
+        {
+            "from": "Bar Plot",
+            "to": "Python",
+            "color": "grey",
+            "width": 2,
+            "title": "2 papers found"
+        },
+        {
+            "from": "Bar Plot",
+            "to": "Jupyter Notebook",
+            "color": "grey",
+            "width": 2,
+            "title": "2 papers found"
+        },
+        {
+            "from": "Heat Map",
+            "to": "Python",
+            "color": "grey",
+            "width": 1,
+            "title": "1 paper found"
+        },
+        {
+            "from": "Heat Map",
+            "to": "Jupyter Notebook",
+            "color": "grey",
+            "width": 1,
+            "title": "1 paper found"
+        },
+        {
+            "from": "Heat Map",
+            "to": "R",
+            "color": "grey",
+            "width": 1,
+            "title": "1 paper found"
+        },
+        {
+            "from": "Network Graph",
+            "to": "Python",
+            "color": "grey",
+            "width": 2,
+            "title": "2 papers found"
+        },
+        {
+            "from": "Network Graph",
+            "to": "Jupyter Notebook",
+            "color": "grey",
+            "width": 2,
+            "title": "2 papers found"
+        },
+        {
+            "from": "Network Graph",
+            "to": "R",
+            "color": "grey",
+            "width": 2,
+            "title": "2 papers found"
+        },
+        {
+            "from": "Diagram",
+            "to": "R",
+            "color": "grey",
+            "width": 1,
+            "title": "1 paper found"
+        },
+        {
+            "from": "Box Plot",
+            "to": "R",
+            "color": "grey",
+            "width": 2,
+            "title": "2 papers found"
+        },
+        {
+            "from": "Diel Plot",
+            "to": "R",
+            "color": "grey",
+            "width": 1,
+            "title": "1 paper found"
+        },
+        {
+            "from": "Radar Plot",
+            "to": "R",
+            "color": "grey",
+            "width": 1,
+            "title": "1 paper found"
+        },
+        {
+            "from": "Histogram",
+            "to": "R",
+            "color": "grey",
+            "width": 1,
+            "title": "1 paper found"
+        },
+        {
+            "from": "Rose Plot",
+            "to": "R",
+            "color": "grey",
+            "width": 1,
+            "title": "1 paper found"
+        },
+        {
+            "from": "Sammon Map",
+            "to": "R",
+            "color": "grey",
+            "width": 1,
+            "title": "1 paper found"
+        },
+        {
+            "from": "Line Graph",
+            "to": "R",
+            "color": "grey",
+            "width": 1,
+            "title": "1 paper found"
+        },
+        {
+            "from": "Line Graph",
+            "to": "Python",
+            "color": "grey",
+            "width": 1,
+            "title": "1 paper found"
+        },
+        {
+            "from": "Line Graph",
+            "to": "Jupyter Notebook",
+            "color": "grey",
+            "width": 1,
+            "title": "1 paper found"
+        },
+        {
+            "from": "Dendogram",
+            "to": "R",
+            "color": "grey",
+            "width": 1,
+            "title": "1 paper found"
+        },
+        {
+            "from": "Pie Chart",
+            "to": "Javascript",
+            "color": "grey",
+            "width": 1,
+            "title": "1 paper found"
+        },
+        {
+            "from": "Pie Chart",
+            "to": "D3.js",
+            "color": "grey",
+            "width": 1,
+            "title": "1 paper found"
+        },
+        {
+            "from": "Pie Chart",
+            "to": "R",
+            "color": "grey",
+            "width": 1,
+            "title": "1 paper found"
+        },
+        {
+            "from": "Geometric Data",
+            "to": "Geospatial Data",
+            "color": "grey",
+            "width": 12,
+            "title": "12 papers found"
+        },
+        {
+            "from": "Geometric Data",
+            "to": "Sensor data",
+            "color": "grey",
+            "width": 10,
+            "title": "10 papers found"
+        },
+        {
+            "from": "Geometric Data",
+            "to": "Historical Data",
+            "color": "grey",
+            "width": 6,
+            "title": "6 papers found"
+        },
+        {
+            "from": "Geometric Data",
+            "to": "Process Data",
+            "color": "grey",
+            "width": 4,
+            "title": "4 papers found"
+        },
+        {
+            "from": "Geometric Data",
+            "to": "Simulation Data",
+            "color": "grey",
+            "width": 10,
+            "title": "10 papers found"
+        },
+        {
+            "from": "Geometric Data",
+            "to": "Metadata",
+            "color": "grey",
+            "width": 2,
+            "title": "2 papers found"
+        },
+        {
+            "from": "Geometric Data",
+            "to": "Landscape data",
+            "color": "grey",
+            "width": 2,
+            "title": "2 papers found"
+        },
+        {
+            "from": "Geometric Data",
+            "to": "Biotic data",
+            "color": "grey",
+            "width": 2,
+            "title": "2 papers found"
+        },
+        {
+            "from": "Geospatial Data",
+            "to": "Sensor data",
+            "color": "grey",
+            "width": 15,
+            "title": "15 papers found"
+        },
+        {
+            "from": "Geospatial Data",
+            "to": "Historical Data",
+            "color": "grey",
+            "width": 5,
+            "title": "5 papers found"
+        },
+        {
+            "from": "Geospatial Data",
+            "to": "Process Data",
+            "color": "grey",
+            "width": 7,
+            "title": "7 papers found"
+        },
+        {
+            "from": "Geospatial Data",
+            "to": "Simulation Data",
+            "color": "grey",
+            "width": 4,
+            "title": "4 papers found"
+        },
+        {
+            "from": "Geospatial Data",
+            "to": "Metadata",
+            "color": "grey",
+            "width": 1,
+            "title": "1 paper found"
+        },
+        {
+            "from": "Geospatial Data",
+            "to": "Landscape data",
+            "color": "grey",
+            "width": 5,
+            "title": "5 papers found"
+        },
+        {
+            "from": "Geospatial Data",
+            "to": "Biotic data",
+            "color": "grey",
+            "width": 4,
+            "title": "4 papers found"
+        },
+        {
+            "from": "Geospatial Data",
+            "to": "Abiotic Data",
+            "color": "grey",
+            "width": 1,
+            "title": "1 paper found"
+        },
+        {
+            "from": "Geospatial Data",
+            "to": "Behavioural Data",
+            "color": "grey",
+            "width": 1,
+            "title": "1 paper found"
+        },
+        {
+            "from": "Sensor data",
+            "to": "Historical Data",
+            "color": "grey",
+            "width": 6,
+            "title": "6 papers found"
+        },
+        {
+            "from": "Sensor data",
+            "to": "Process Data",
+            "color": "grey",
+            "width": 10,
+            "title": "10 papers found"
+        },
+        {
+            "from": "Sensor data",
+            "to": "Simulation Data",
+            "color": "grey",
+            "width": 8,
+            "title": "8 papers found"
+        },
+        {
+            "from": "Sensor data",
+            "to": "Metadata",
+            "color": "grey",
+            "width": 2,
+            "title": "2 papers found"
+        },
+        {
+            "from": "Sensor data",
+            "to": "Landscape data",
+            "color": "grey",
+            "width": 2,
+            "title": "2 papers found"
+        },
+        {
+            "from": "Sensor data",
+            "to": "Biotic data",
+            "color": "grey",
+            "width": 1,
+            "title": "1 paper found"
+        },
+        {
+            "from": "Historical Data",
+            "to": "Process Data",
+            "color": "grey",
+            "width": 4,
+            "title": "4 papers found"
+        },
+        {
+            "from": "Historical Data",
+            "to": "Simulation Data",
+            "color": "grey",
+            "width": 3,
+            "title": "3 papers found"
+        },
+        {
+            "from": "Historical Data",
+            "to": "Biotic data",
+            "color": "grey",
+            "width": 1,
+            "title": "1 paper found"
+        },
+        {
+            "from": "Process Data",
+            "to": "Simulation Data",
+            "color": "grey",
+            "width": 3,
+            "title": "3 papers found"
+        },
+        {
+            "from": "Simulation Data",
+            "to": "Metadata",
+            "color": "grey",
+            "width": 2,
+            "title": "2 papers found"
+        },
+        {
+            "from": "Simulation Data",
+            "to": "Biotic data",
+            "color": "grey",
+            "width": 1,
+            "title": "1 paper found"
+        },
+        {
+            "from": "Landscape data",
+            "to": "Biotic data",
+            "color": "grey",
+            "width": 1,
+            "title": "1 paper found"
+        },
+        {
+            "from": "Landscape data",
+            "to": "Behavioural Data",
+            "color": "grey",
+            "width": 1,
+            "title": "1 paper found"
+        },
+        {
+            "from": "Biotic data",
+            "to": "Behavioural Data",
+            "color": "grey",
+            "width": 1,
+            "title": "1 paper found"
+        },
+        {
+            "from": "Augmented Reality",
+            "to": "3D Geometric Modeling",
+            "color": "grey",
+            "width": 5,
+            "title": "5 papers found"
+        },
+        {
+            "from": "Augmented Reality",
+            "to": "Virtual Reality",
+            "color": "grey",
+            "width": 2,
+            "title": "2 papers found"
+        },
+        {
+            "from": "Augmented Reality",
+            "to": "Data Visualization",
+            "color": "grey",
+            "width": 1,
+            "title": "1 paper found"
+        },
+        {
+            "from": "3D Geometric Modeling",
+            "to": "Virtual Reality",
+            "color": "grey",
+            "width": 11,
+            "title": "11 papers found"
+        },
+        {
+            "from": "3D Geometric Modeling",
+            "to": "Data Visualization",
+            "color": "grey",
+            "width": 1,
+            "title": "1 paper found"
+        },
+        {
+            "from": "3D Geometric Modeling",
+            "to": "Contour Plot",
+            "color": "grey",
+            "width": 2,
+            "title": "2 papers found"
+        },
+        {
+            "from": "Dashboard Visualization",
+            "to": "Data Visualization",
+            "color": "grey",
+            "width": 3,
+            "title": "3 papers found"
+        },
+        {
+            "from": "Virtual Reality",
+            "to": "Data Visualization",
+            "color": "grey",
+            "width": 3,
+            "title": "3 papers found"
+        },
+        {
+            "from": "Virtual Reality",
+            "to": "Contour Plot",
+            "color": "grey",
+            "width": 1,
+            "title": "1 paper found"
+        },
+        {
+            "from": "Data Visualization",
+            "to": "Contour Plot",
+            "color": "grey",
+            "width": 1,
+            "title": "1 paper found"
+        },
+        {
+            "from": "Diel Plot",
+            "to": "Radar Plot",
+            "color": "grey",
+            "width": 1,
+            "title": "1 paper found"
+        },
+        {
+            "from": "Diel Plot",
+            "to": "Histogram",
+            "color": "grey",
+            "width": 1,
+            "title": "1 paper found"
+        },
+        {
+            "from": "Diel Plot",
+            "to": "Rose Plot",
+            "color": "grey",
+            "width": 1,
+            "title": "1 paper found"
+        },
+        {
+            "from": "Diel Plot",
+            "to": "Sammon Map",
+            "color": "grey",
+            "width": 1,
+            "title": "1 paper found"
+        },
+        {
+            "from": "Diel Plot",
+            "to": "Line Graph",
+            "color": "grey",
+            "width": 1,
+            "title": "1 paper found"
+        },
+        {
+            "from": "Diel Plot",
+            "to": "Dendogram",
+            "color": "grey",
+            "width": 1,
+            "title": "1 paper found"
+        },
+        {
+            "from": "Diel Plot",
+            "to": "Box Plot",
+            "color": "grey",
+            "width": 1,
+            "title": "1 paper found"
+        },
+        {
+            "from": "Diel Plot",
+            "to": "Network Graph",
+            "color": "grey",
+            "width": 1,
+            "title": "1 paper found"
+        },
+        {
+            "from": "Radar Plot",
+            "to": "Histogram",
+            "color": "grey",
+            "width": 1,
+            "title": "1 paper found"
+        },
+        {
+            "from": "Radar Plot",
+            "to": "Rose Plot",
+            "color": "grey",
+            "width": 1,
+            "title": "1 paper found"
+        },
+        {
+            "from": "Radar Plot",
+            "to": "Sammon Map",
+            "color": "grey",
+            "width": 1,
+            "title": "1 paper found"
+        },
+        {
+            "from": "Radar Plot",
+            "to": "Line Graph",
+            "color": "grey",
+            "width": 1,
+            "title": "1 paper found"
+        },
+        {
+            "from": "Radar Plot",
+            "to": "Dendogram",
+            "color": "grey",
+            "width": 1,
+            "title": "1 paper found"
+        },
+        {
+            "from": "Radar Plot",
+            "to": "Box Plot",
+            "color": "grey",
+            "width": 1,
+            "title": "1 paper found"
+        },
+        {
+            "from": "Radar Plot",
+            "to": "Network Graph",
+            "color": "grey",
+            "width": 1,
+            "title": "1 paper found"
+        },
+        {
+            "from": "Histogram",
+            "to": "Rose Plot",
+            "color": "grey",
+            "width": 1,
+            "title": "1 paper found"
+        },
+        {
+            "from": "Histogram",
+            "to": "Sammon Map",
+            "color": "grey",
+            "width": 1,
+            "title": "1 paper found"
+        },
+        {
+            "from": "Histogram",
+            "to": "Line Graph",
+            "color": "grey",
+            "width": 1,
+            "title": "1 paper found"
+        },
+        {
+            "from": "Histogram",
+            "to": "Dendogram",
+            "color": "grey",
+            "width": 1,
+            "title": "1 paper found"
+        },
+        {
+            "from": "Histogram",
+            "to": "Box Plot",
+            "color": "grey",
+            "width": 1,
+            "title": "1 paper found"
+        },
+        {
+            "from": "Histogram",
+            "to": "Network Graph",
+            "color": "grey",
+            "width": 1,
+            "title": "1 paper found"
+        },
+        {
+            "from": "Rose Plot",
+            "to": "Sammon Map",
+            "color": "grey",
+            "width": 1,
+            "title": "1 paper found"
+        },
+        {
+            "from": "Rose Plot",
+            "to": "Line Graph",
+            "color": "grey",
+            "width": 1,
+            "title": "1 paper found"
+        },
+        {
+            "from": "Rose Plot",
+            "to": "Dendogram",
+            "color": "grey",
+            "width": 1,
+            "title": "1 paper found"
+        },
+        {
+            "from": "Rose Plot",
+            "to": "Box Plot",
+            "color": "grey",
+            "width": 1,
+            "title": "1 paper found"
+        },
+        {
+            "from": "Rose Plot",
+            "to": "Network Graph",
+            "color": "grey",
+            "width": 1,
+            "title": "1 paper found"
+        },
+        {
+            "from": "Sammon Map",
+            "to": "Line Graph",
+            "color": "grey",
+            "width": 1,
+            "title": "1 paper found"
+        },
+        {
+            "from": "Sammon Map",
+            "to": "Dendogram",
+            "color": "grey",
+            "width": 1,
+            "title": "1 paper found"
+        },
+        {
+            "from": "Sammon Map",
+            "to": "Box Plot",
+            "color": "grey",
+            "width": 1,
+            "title": "1 paper found"
+        },
+        {
+            "from": "Sammon Map",
+            "to": "Network Graph",
+            "color": "grey",
+            "width": 1,
+            "title": "1 paper found"
+        },
+        {
+            "from": "Bar Plot",
+            "to": "Line Graph",
+            "color": "grey",
+            "width": 1,
+            "title": "1 paper found"
+        },
+        {
+            "from": "Bar Plot",
+            "to": "Heat Map",
+            "color": "grey",
+            "width": 1,
+            "title": "1 paper found"
+        },
+        {
+            "from": "Bar Plot",
+            "to": "Network Graph",
+            "color": "grey",
+            "width": 2,
+            "title": "2 papers found"
+        },
+        {
+            "from": "Line Graph",
+            "to": "Dendogram",
+            "color": "grey",
+            "width": 1,
+            "title": "1 paper found"
+        },
+        {
+            "from": "Line Graph",
+            "to": "Box Plot",
+            "color": "grey",
+            "width": 1,
+            "title": "1 paper found"
+        },
+        {
+            "from": "Line Graph",
+            "to": "Network Graph",
+            "color": "grey",
+            "width": 2,
+            "title": "2 papers found"
+        },
+        {
+            "from": "Dendogram",
+            "to": "Box Plot",
+            "color": "grey",
+            "width": 1,
+            "title": "1 paper found"
+        },
+        {
+            "from": "Dendogram",
+            "to": "Network Graph",
+            "color": "grey",
+            "width": 1,
+            "title": "1 paper found"
+        },
+        {
+            "from": "Heat Map",
+            "to": "Box Plot",
+            "color": "grey",
+            "width": 1,
+            "title": "1 paper found"
+        },
+        {
+            "from": "Heat Map",
+            "to": "Network Graph",
+            "color": "grey",
+            "width": 2,
+            "title": "2 papers found"
+        },
+        {
+            "from": "Box Plot",
+            "to": "Network Graph",
+            "color": "grey",
+            "width": 2,
+            "title": "2 papers found"
+        },
+        {
+            "from": "Unity3D",
+            "to": "Wikitude",
+            "color": "grey",
+            "width": 1,
+            "title": "1 paper found"
+        },
+        {
+            "from": "JQuery",
+            "to": "jsPanel",
+            "color": "grey",
+            "width": 1,
+            "title": "1 paper found"
+        },
+        {
+            "from": "JQuery",
+            "to": "Javascript",
+            "color": "grey",
+            "width": 1,
+            "title": "1 paper found"
+        },
+        {
+            "from": "JQuery",
+            "to": "Backbone",
+            "color": "grey",
+            "width": 1,
+            "title": "1 paper found"
+        },
+        {
+            "from": "JQuery",
+            "to": "Verge3D",
+            "color": "grey",
+            "width": 2,
+            "title": "2 papers found"
+        },
+        {
+            "from": "JQuery",
+            "to": "Bootstrap",
+            "color": "grey",
+            "width": 3,
+            "title": "3 papers found"
+        },
+        {
+            "from": "JQuery",
+            "to": "WebXR",
+            "color": "grey",
+            "width": 2,
+            "title": "2 papers found"
+        },
+        {
+            "from": "JQuery",
+            "to": "Autodesk Revit",
+            "color": "grey",
+            "width": 1,
+            "title": "1 paper found"
+        },
+        {
+            "from": "JQuery",
+            "to": "Autodesk Forge",
+            "color": "grey",
+            "width": 1,
+            "title": "1 paper found"
+        },
+        {
+            "from": "JQuery",
+            "to": "Three.js",
+            "color": "grey",
+            "width": 1,
+            "title": "1 paper found"
+        },
+        {
+            "from": "JQuery",
+            "to": "WebGL",
+            "color": "grey",
+            "width": 1,
+            "title": "1 paper found"
+        },
+        {
+            "from": "jsPanel",
+            "to": "Javascript",
+            "color": "grey",
+            "width": 1,
+            "title": "1 paper found"
+        },
+        {
+            "from": "jsPanel",
+            "to": "Backbone",
+            "color": "grey",
+            "width": 1,
+            "title": "1 paper found"
+        },
+        {
+            "from": "Unreal Engine",
+            "to": "CityEngine",
+            "color": "grey",
+            "width": 1,
+            "title": "1 paper found"
+        },
+        {
+            "from": "Javascript",
+            "to": "Backbone",
+            "color": "grey",
+            "width": 1,
+            "title": "1 paper found"
+        },
+        {
+            "from": "Javascript",
+            "to": "D3.js",
+            "color": "grey",
+            "width": 1,
+            "title": "1 paper found"
+        },
+        {
+            "from": "Javascript",
+            "to": "R",
+            "color": "grey",
+            "width": 1,
+            "title": "1 paper found"
+        },
+        {
+            "from": "Javascript",
+            "to": "Autodesk Forge",
+            "color": "grey",
+            "width": 1,
+            "title": "1 paper found"
+        },
+        {
+            "from": "D3.js",
+            "to": "R",
+            "color": "grey",
+            "width": 1,
+            "title": "1 paper found"
+        },
+        {
+            "from": "Python",
+            "to": "Jupyter Notebook",
+            "color": "grey",
+            "width": 2,
+            "title": "2 papers found"
+        },
+        {
+            "from": "Verge3D",
+            "to": "Bootstrap",
+            "color": "grey",
+            "width": 2,
+            "title": "2 papers found"
+        },
+        {
+            "from": "Verge3D",
+            "to": "WebXR",
+            "color": "grey",
+            "width": 2,
+            "title": "2 papers found"
+        },
+        {
+            "from": "Bootstrap",
+            "to": "WebXR",
+            "color": "grey",
+            "width": 2,
+            "title": "2 papers found"
+        },
+        {
+            "from": "Bootstrap",
+            "to": "Autodesk Revit",
+            "color": "grey",
+            "width": 1,
+            "title": "1 paper found"
+        },
+        {
+            "from": "Bootstrap",
+            "to": "Autodesk Forge",
+            "color": "grey",
+            "width": 1,
+            "title": "1 paper found"
+        },
+        {
+            "from": "Bootstrap",
+            "to": "Three.js",
+            "color": "grey",
+            "width": 1,
+            "title": "1 paper found"
+        },
+        {
+            "from": "Bootstrap",
+            "to": "WebGL",
+            "color": "grey",
+            "width": 1,
+            "title": "1 paper found"
+        },
+        {
+            "from": "Autodesk Revit",
+            "to": "Autodesk Forge",
+            "color": "grey",
+            "width": 3,
+            "title": "3 papers found"
+        },
+        {
+            "from": "Autodesk Revit",
+            "to": "Three.js",
+            "color": "grey",
+            "width": 1,
+            "title": "1 paper found"
+        },
+        {
+            "from": "Autodesk Revit",
+            "to": "WebGL",
+            "color": "grey",
+            "width": 1,
+            "title": "1 paper found"
+        },
+        {
+            "from": "Autodesk Forge",
+            "to": "Three.js",
+            "color": "grey",
+            "width": 1,
+            "title": "1 paper found"
+        },
+        {
+            "from": "Autodesk Forge",
+            "to": "WebGL",
+            "color": "grey",
+            "width": 1,
+            "title": "1 paper found"
+        },
+        {
+            "from": "OpenScene Graph",
+            "to": "COVISE",
+            "color": "grey",
+            "width": 1,
+            "title": "1 paper found"
+        },
+        {
+            "from": "Three.js",
+            "to": "WebGL",
+            "color": "grey",
+            "width": 1,
+            "title": "1 paper found"
+        }
+    ],
+    "data_type": [
+        "Abiotic Data",
+        "Behavioural Data",
+        "Biotic data",
+        "Geometric Data",
+        "Geospatial Data",
+        "Historical Data",
+        "Landscape data",
+        "Metadata",
+        "Process Data",
+        "Sensor data",
+        "Simulation Data"
+    ],
+    "visualization_technique": [
+        "3D Geometric Modeling",
+        "Augmented Reality",
+        "Bar Plot",
+        "Box Plot",
+        "Contour Plot",
+        "Dashboard Visualization",
+        "Data Visualization",
+        "Dendogram",
+        "Diagram",
+        "Diel Plot",
+        "Heat Map",
+        "Histogram",
+        "Line Graph",
+        "Network Graph",
+        "Pie Chart",
+        "Radar Plot",
+        "Rose Plot",
+        "Sammon Map",
+        "Virtual Reality"
+    ],
+    "visualization_tool": [
+        ".NET",
+        "ARCGIS",
+        "Autodesk Forge",
+        "Autodesk Revit",
+        "Backbone",
+        "Blender",
+        "Bootstrap",
+        "COVISE",
+        "CityEngine",
+        "Creo",
+        "D3.js",
+        "Grafana",
+        "JQuery",
+        "Javascript",
+        "Jupyter Notebook",
+        "OpenScene Graph",
+        "Python",
+        "R",
+        "Three.js",
+        "Unity3D",
+        "Unreal Engine",
+        "VTK",
+        "Verge3D",
+        "WebGL",
+        "WebXR",
+        "Wikitude",
+        "jsPanel"
+    ]
+}
