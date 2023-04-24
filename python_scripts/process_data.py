@@ -11,7 +11,7 @@ def remove_empty_columns(dataframe):
     return dataframe
 
 # Read data, remove any empty columns
-data = (pd.read_excel('../data/data.xlsx')).dropna(how='all')
+data = (pd.read_excel('../data/data.xlsx', 'literature')).dropna(how='all')
 
 # Data is processed in two ways:
 # 1. Compressed: Only consider rows which are numbered in the data, used for network_total.py and the React application

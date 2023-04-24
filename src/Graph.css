@@ -2,6 +2,18 @@
     height: 100vh;
 }
 
+#title {
+    position: fixed;
+    left: 25vw;
+    top: 0vh;
+    width: 50%;
+    text-align: center;
+    color: black;
+    opacity: 1;
+    font-family: "arial";
+    font-size: 1vw;
+}
+
 #graph_empty_text {
     position: fixed;
     left: 25vw;
@@ -11,6 +23,24 @@
     color: black;
     opacity: 0.5;
     font-family: "arial";
+}
+
+#footer {
+    position: fixed;
+    left: 25vw;
+    bottom: 1vh;
+    width: 50%;
+    text-align: center;
+    color: black;
+    opacity: 1;
+    font-family: "arial";
+    font-size: 1vw;
+    z-index:1;
+}
+
+#footer_item {
+    display: inline-block;
+    margin-right: 5px;
 }
 
 #loadingBar {

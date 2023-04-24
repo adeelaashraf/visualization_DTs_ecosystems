@@ -117,7 +117,7 @@ def create_edges_same_type(same_type_edges, dataframe):
 
 data, data_type, visualization_technique, visualization_tool, medium = get_data("classified")
 # Read data, remove any empty columns
-node_definitions = (pd.read_excel('../data/node_definitions.xlsx')).dropna(how='all')
+node_definitions = (pd.read_excel('../data/data.xlsx', 'assessment')).dropna(how='all')
 os.chdir("../src")
 
 # Make JSON files to store the nodes, edges, and multiselect options for the React application

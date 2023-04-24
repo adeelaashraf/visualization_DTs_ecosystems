@@ -9,6 +9,10 @@ function Infobar({selectedItems2}) {
         setIsOpen(!isOpen);
     }
 
+    function showCompleteDataset() {
+        console.log("dfdf")
+    }
+
     useEffect(() => {
         console.log(selectedItems2);
     }, [selectedItems2]);
@@ -18,7 +22,7 @@ function Infobar({selectedItems2}) {
             <button className="button2" onClick={toggleInfobar}>Graph Data</button>
             <div className={`infobar ${isOpen ? "open" : "closed"}`}>
                 <div className="infobar-content">
-                    {/* ... sidebar content */}
+                    <button onClick={showCompleteDataset}>Show Complete Dataset</button>
                 </div>
             </div>
         </div>
