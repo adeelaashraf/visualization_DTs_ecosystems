@@ -137,9 +137,12 @@ function Sidebar({onChange}) {
 
         <div className={`sidebar ${isOpen ? "open" : "closed"}`}>
             <div className="sidebar-content">
-                <br></br>
+                    <br></br>
+                    <br></br>
+                    <hr></hr>
                 <p className="title" > Choose data type(s)</p>
-                <Select
+                    <hr></hr>
+                    <Select
                         options={options}
                         isMulti={true}
                         isSerachable={true}
@@ -153,9 +156,11 @@ function Sidebar({onChange}) {
                     <input type="checkbox" checked={selectedOptions.length === options.length} onChange={handleSelectAll} />
                     Select All
                 </label>
-                <br></br>
+                    <br></br>
+                    <hr></hr>
                 <p className="title" > Choose visualization technique(s)</p>
-                <Select
+                    <hr></hr>
+                    <Select
                     options={options2}
                     isMulti={true}
                     isSerachable={true}
@@ -170,9 +175,11 @@ function Sidebar({onChange}) {
                     <input type="checkbox" checked={selectedOptions2.length === options2.length} onChange={handleSelectAll2} />
                     Select All
                 </label>
-                <br></br>
+                    <br></br>
+                    <hr></hr>
                 <p className="title"> Choose visualization tool(s)</p>
-                <Select
+                    <hr></hr>
+                    <Select
                     options={options3}
                     isMulti={true}
                     isSerachable={true}

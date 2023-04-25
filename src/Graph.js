@@ -192,10 +192,15 @@ const Graph = ({selectedItems, onChange2}) => {
                     modal
                 >
                     {close => (
-                        <div>
-                            {/* Render popup content */}
-                            <h1>Popup Content</h1>
-                            <button onClick={close}>Close</button>
+                        <div id="popup_content">
+                            <h1 id="popup_text"> About
+                            </h1>
+                            {<p id="popup_text" >This web-based tool allows users to select visualization techniques and tools for digital twins of ecosystems.
+                                <br></br>Data is based on academic papers and official websites of the relevant techniques and tools.
+                                <br></br>Developed at the <a href="https://www.uva.nl/en">University of Amsterdam</a>.
+                            </p>}
+                            <br></br>
+                            <button id="popup_button" onClick={close}>Close</button>
                         </div>
                     )}
                 </Popup>
@@ -206,16 +211,23 @@ const Graph = ({selectedItems, onChange2}) => {
                 modal
             >
                 {close => (
-                    <div>
-                        {/* Render popup content */}
-                        <h1>Popup Content</h1>
-                        <button onClick={close}>Close</button>
-                    </div>
+                        <div id="popup_content">
+                            <h1 id="popup_text"> Help
+                            </h1>
+                            {<p id="popup_text" >
+                                Select options 'Graph Options' to construct a graph. 
+                                <br></br> Use your mouse, keyboard, or the navigation buttons below to navigate the graph.
+                                <br></br> Select a node or edge to see details 'Graph Data'.
+
+                            </p>}
+                            <br></br>
+                            <button id="popup_button" onClick={close}>Close</button>
+                        </div>
                 )}
                 </Popup>
             </div>
             <div id="footer_item">
-                <a href="https://adeelaashraf.github.io/visualization_DTs_ecosystems/data" download>Full Dataset</a>
+                <a href="https://adeelaashraf.github.io/visualization_DTs_ecosystems/data.xlsx" download>Full Dataset</a>
             </div>
         </div>
         <div id="graph-container" ref={containerRef} /><div />

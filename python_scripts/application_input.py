@@ -165,6 +165,7 @@ for i in same_type_edges:
     temp_dict["to"] = i[1]
     temp_dict["color"] = 'grey'
     temp_dict["width"] = i[2]
+    temp_dict["dashes"] = 'true'
     if i[2] < 2:
         temp_dict["title"] = str(i[2]) + " paper found"
     else:

@@ -3,11 +3,14 @@
     position: fixed;
     top: 0;
     right: 0;
-    width: 200px;
+    width: 100vw;
     height: 100%;
-    background-color: #f1f1f1;
+    background: rgb(212,212,212);
+    background: linear-gradient(180deg, rgba(212,212,212,1) 0%, rgba(255,255,255,1) 73%);
+    opacity: 0.8;
     padding: 20px;
     transition: transform 0.3s ease-in-out;
+    z-index: 2;
 }
 
 .infobar.closed {
@@ -35,7 +38,7 @@
     top: 5px;
     right: 20px;
     width: 100px;
-    z-index: 1;
+    z-index: 3;
     font-family: "arial";
     font-weight: bold;
     justify-content: center;

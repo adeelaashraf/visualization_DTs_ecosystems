@@ -22,7 +22,6 @@ function Infobar({selectedItems2}) {
             <button className="button2" onClick={toggleInfobar}>Graph Data</button>
             <div className={`infobar ${isOpen ? "open" : "closed"}`}>
                 <div className="infobar-content">
-                    <button onClick={showCompleteDataset}>Show Complete Dataset</button>
                 </div>
             </div>
         </div>

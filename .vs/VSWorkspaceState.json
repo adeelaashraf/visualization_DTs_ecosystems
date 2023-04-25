@@ -1,9 +1,12 @@
 {
   "ExpandedNodes": [
     "",
+    "\\public",
     "\\python_scripts",
+    "\\python_scripts\\lib",
+    "\\python_scripts\\__pycache__",
     "\\src"
   ],
-  "SelectedNode": "\\python_scripts\\network_total.py",
+  "SelectedNode": "\\src\\Infobar.css",
   "PreviewInSolutionExplorer": false
 }

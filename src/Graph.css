@@ -39,10 +39,42 @@
 }
 
 #footer_item {
+    font-size: 0.75vw;
     display: inline-block;
-    margin-right: 5px;
+    margin-right: 10px;
+    text-align: center;
+    color: black;
 }
 
+/* For any links */
+a {
+    text-decoration: none;
+    color: black;
+    opacity: 0.5;
+}
+
+a:link, a:visited {
+    color: black;
+}
+
+a:hover {
+    color: black;
+    opacity: 1.0;
+}
+
+#popup_text {
+    text-align: center;
+    color: black;
+    opacity: 1.0;
+    font-family: "arial";
+}
+
+#popup_button {
+    position: absolute;
+    right: 5px;
+    top: 5px;
+    font-family: "arial";
+}
 #loadingBar {
     position: absolute;
     top: 0px;
