@@ -95,7 +95,7 @@ def create_edges_same_type(same_type_edges, dataframe):
         for key2, value2 in value.items():
             same_type_edges.append((key, key2, value2))
 
-data, data_type, visualization_technique, visualization_tool, medium = get_data("classified")
+data, data_type, visualization_technique, visualization_tool, medium = get_literature_data("classified")
 os.chdir("../output")
 G = nx.Graph()
 

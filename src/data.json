@@ -497,6 +497,7 @@
             "to": "Augmented Reality",
             "color": "grey",
             "width": 5,
+            "inner_edges_type": "none",
             "title": "5 papers found"
         },
         {
@@ -504,6 +505,7 @@
             "to": "3D Geometric Modeling",
             "color": "grey",
             "width": 19,
+            "inner_edges_type": "none",
             "title": "19 papers found"
         },
         {
@@ -511,6 +513,7 @@
             "to": "Virtual Reality",
             "color": "grey",
             "width": 11,
+            "inner_edges_type": "none",
             "title": "11 papers found"
         },
         {
@@ -518,6 +521,7 @@
             "to": "Data Visualization",
             "color": "grey",
             "width": 1,
+            "inner_edges_type": "none",
             "title": "1 paper found"
         },
         {
@@ -525,6 +529,7 @@
             "to": "Contour Plot",
             "color": "grey",
             "width": 1,
+            "inner_edges_type": "none",
             "title": "1 paper found"
         },
         {
@@ -532,6 +537,7 @@
             "to": "Augmented Reality",
             "color": "grey",
             "width": 4,
+            "inner_edges_type": "none",
             "title": "4 papers found"
         },
         {
@@ -539,6 +545,7 @@
             "to": "3D Geometric Modeling",
             "color": "grey",
             "width": 15,
+            "inner_edges_type": "none",
             "title": "15 papers found"
         },
         {
@@ -546,6 +553,7 @@
             "to": "Dashboard Visualization",
             "color": "grey",
             "width": 7,
+            "inner_edges_type": "none",
             "title": "7 papers found"
         },
         {
@@ -553,6 +561,7 @@
             "to": "Virtual Reality",
             "color": "grey",
             "width": 6,
+            "inner_edges_type": "none",
             "title": "6 papers found"
         },
         {
@@ -560,6 +569,7 @@
             "to": "Data Visualization",
             "color": "grey",
             "width": 4,
+            "inner_edges_type": "none",
             "title": "4 papers found"
         },
         {
@@ -567,6 +577,7 @@
             "to": "Diagram",
             "color": "grey",
             "width": 1,
+            "inner_edges_type": "none",
             "title": "1 paper found"
         },
         {
@@ -574,6 +585,7 @@
             "to": "Heat Map",
             "color": "grey",
             "width": 1,
+            "inner_edges_type": "none",
             "title": "1 paper found"
         },
         {
@@ -581,6 +593,7 @@
             "to": "Box Plot",
             "color": "grey",
             "width": 2,
+            "inner_edges_type": "none",
             "title": "2 papers found"
         },
         {
@@ -588,6 +601,7 @@
             "to": "Network Graph",
             "color": "grey",
             "width": 2,
+            "inner_edges_type": "none",
             "title": "2 papers found"
         },
         {
@@ -595,6 +609,7 @@
             "to": "Diel Plot",
             "color": "grey",
             "width": 1,
+            "inner_edges_type": "none",
             "title": "1 paper found"
         },
         {
@@ -602,6 +617,7 @@
             "to": "Radar Plot",
             "color": "grey",
             "width": 1,
+            "inner_edges_type": "none",
             "title": "1 paper found"
         },
         {
@@ -609,6 +625,7 @@
             "to": "Histogram",
             "color": "grey",
             "width": 1,
+            "inner_edges_type": "none",
             "title": "1 paper found"
         },
         {
@@ -616,6 +633,7 @@
             "to": "Rose Plot",
             "color": "grey",
             "width": 1,
+            "inner_edges_type": "none",
             "title": "1 paper found"
         },
         {
@@ -623,6 +641,7 @@
             "to": "Sammon Map",
             "color": "grey",
             "width": 1,
+            "inner_edges_type": "none",
             "title": "1 paper found"
         },
         {
@@ -630,6 +649,7 @@
             "to": "Line Graph",
             "color": "grey",
             "width": 1,
+            "inner_edges_type": "none",
             "title": "1 paper found"
         },
         {
@@ -637,6 +657,7 @@
             "to": "Dendogram",
             "color": "grey",
             "width": 1,
+            "inner_edges_type": "none",
             "title": "1 paper found"
         },
         {
@@ -644,6 +665,7 @@
             "to": "Contour Plot",
             "color": "grey",
             "width": 1,
+            "inner_edges_type": "none",
             "title": "1 paper found"
         },
         {
@@ -651,6 +673,7 @@
             "to": "Augmented Reality",
             "color": "grey",
             "width": 5,
+            "inner_edges_type": "none",
             "title": "5 papers found"
         },
         {
@@ -658,6 +681,7 @@
             "to": "3D Geometric Modeling",
             "color": "grey",
             "width": 13,
+            "inner_edges_type": "none",
             "title": "13 papers found"
         },
         {
@@ -665,6 +689,7 @@
             "to": "Dashboard Visualization",
             "color": "grey",
             "width": 7,
+            "inner_edges_type": "none",
             "title": "7 papers found"
         },
         {
@@ -672,6 +697,7 @@
             "to": "Virtual Reality",
             "color": "grey",
             "width": 7,
+            "inner_edges_type": "none",
             "title": "7 papers found"
         },
         {
@@ -679,6 +705,7 @@
             "to": "Data Visualization",
             "color": "grey",
             "width": 6,
+            "inner_edges_type": "none",
             "title": "6 papers found"
         },
         {
@@ -686,6 +713,7 @@
             "to": "Contour Plot",
             "color": "grey",
             "width": 2,
+            "inner_edges_type": "none",
             "title": "2 papers found"
         },
         {
@@ -693,6 +721,7 @@
             "to": "Augmented Reality",
             "color": "grey",
             "width": 3,
+            "inner_edges_type": "none",
             "title": "3 papers found"
         },
         {
@@ -700,6 +729,7 @@
             "to": "3D Geometric Modeling",
             "color": "grey",
             "width": 6,
+            "inner_edges_type": "none",
             "title": "6 papers found"
         },
         {
@@ -707,6 +737,7 @@
             "to": "Virtual Reality",
             "color": "grey",
             "width": 3,
+            "inner_edges_type": "none",
             "title": "3 papers found"
         },
         {
@@ -714,6 +745,7 @@
             "to": "Data Visualization",
             "color": "grey",
             "width": 1,
+            "inner_edges_type": "none",
             "title": "1 paper found"
         },
         {
@@ -721,6 +753,7 @@
             "to": "Augmented Reality",
             "color": "grey",
             "width": 3,
+            "inner_edges_type": "none",
             "title": "3 papers found"
         },
         {
@@ -728,6 +761,7 @@
             "to": "Data Visualization",
             "color": "grey",
             "width": 4,
+            "inner_edges_type": "none",
             "title": "4 papers found"
         },
         {
@@ -735,6 +769,7 @@
             "to": "Dashboard Visualization",
             "color": "grey",
             "width": 4,
+            "inner_edges_type": "none",
             "title": "4 papers found"
         },
         {
@@ -742,6 +777,7 @@
             "to": "3D Geometric Modeling",
             "color": "grey",
             "width": 5,
+            "inner_edges_type": "none",
             "title": "5 papers found"
         },
         {
@@ -749,6 +785,7 @@
             "to": "Virtual Reality",
             "color": "grey",
             "width": 3,
+            "inner_edges_type": "none",
             "title": "3 papers found"
         },
         {
@@ -756,6 +793,7 @@
             "to": "3D Geometric Modeling",
             "color": "grey",
             "width": 10,
+            "inner_edges_type": "none",
             "title": "10 papers found"
         },
         {
@@ -763,6 +801,7 @@
             "to": "Virtual Reality",
             "color": "grey",
             "width": 8,
+            "inner_edges_type": "none",
             "title": "8 papers found"
         },
         {
@@ -770,6 +809,7 @@
             "to": "Data Visualization",
             "color": "grey",
             "width": 3,
+            "inner_edges_type": "none",
             "title": "3 papers found"
         },
         {
@@ -777,6 +817,7 @@
             "to": "Augmented Reality",
             "color": "grey",
             "width": 3,
+            "inner_edges_type": "none",
             "title": "3 papers found"
         },
         {
@@ -784,6 +825,7 @@
             "to": "Dashboard Visualization",
             "color": "grey",
             "width": 2,
+            "inner_edges_type": "none",
             "title": "2 papers found"
         },
         {
@@ -791,6 +833,7 @@
             "to": "Contour Plot",
             "color": "grey",
             "width": 1,
+            "inner_edges_type": "none",
             "title": "1 paper found"
         },
         {
@@ -798,6 +841,7 @@
             "to": "Augmented Reality",
             "color": "grey",
             "width": 1,
+            "inner_edges_type": "none",
             "title": "1 paper found"
         },
         {
@@ -805,6 +849,7 @@
             "to": "3D Geometric Modeling",
             "color": "grey",
             "width": 2,
+            "inner_edges_type": "none",
             "title": "2 papers found"
         },
         {
@@ -812,6 +857,7 @@
             "to": "Virtual Reality",
             "color": "grey",
             "width": 1,
+            "inner_edges_type": "none",
             "title": "1 paper found"
         },
         {
@@ -819,6 +865,7 @@
             "to": "3D Geometric Modeling",
             "color": "grey",
             "width": 2,
+            "inner_edges_type": "none",
             "title": "2 papers found"
         },
         {
@@ -826,6 +873,7 @@
             "to": "Bar Plot",
             "color": "grey",
             "width": 2,
+            "inner_edges_type": "none",
             "title": "2 papers found"
         },
         {
@@ -833,6 +881,7 @@
             "to": "Heat Map",
             "color": "grey",
             "width": 2,
+            "inner_edges_type": "none",
             "title": "2 papers found"
         },
         {
@@ -840,6 +889,7 @@
             "to": "Network Graph",
             "color": "grey",
             "width": 4,
+            "inner_edges_type": "none",
             "title": "4 papers found"
         },
         {
@@ -847,6 +897,7 @@
             "to": "Box Plot",
             "color": "grey",
             "width": 2,
+            "inner_edges_type": "none",
             "title": "2 papers found"
         },
         {
@@ -854,6 +905,7 @@
             "to": "Diel Plot",
             "color": "grey",
             "width": 1,
+            "inner_edges_type": "none",
             "title": "1 paper found"
         },
         {
@@ -861,6 +913,7 @@
             "to": "Radar Plot",
             "color": "grey",
             "width": 1,
+            "inner_edges_type": "none",
             "title": "1 paper found"
         },
         {
@@ -868,6 +921,7 @@
             "to": "Histogram",
             "color": "grey",
             "width": 1,
+            "inner_edges_type": "none",
             "title": "1 paper found"
         },
         {
@@ -875,6 +929,7 @@
             "to": "Rose Plot",
             "color": "grey",
             "width": 1,
+            "inner_edges_type": "none",
             "title": "1 paper found"
         },
         {
@@ -882,6 +937,7 @@
             "to": "Sammon Map",
             "color": "grey",
             "width": 1,
+            "inner_edges_type": "none",
             "title": "1 paper found"
         },
         {
@@ -889,6 +945,7 @@
             "to": "Line Graph",
             "color": "grey",
             "width": 2,
+            "inner_edges_type": "none",
             "title": "2 papers found"
         },
         {
@@ -896,6 +953,7 @@
             "to": "Dendogram",
             "color": "grey",
             "width": 1,
+            "inner_edges_type": "none",
             "title": "1 paper found"
         },
         {
@@ -903,6 +961,7 @@
             "to": "Dashboard Visualization",
             "color": "grey",
             "width": 1,
+            "inner_edges_type": "none",
             "title": "1 paper found"
         },
         {
@@ -910,6 +969,7 @@
             "to": "Pie Chart",
             "color": "grey",
             "width": 1,
+            "inner_edges_type": "none",
             "title": "1 paper found"
         },
         {
@@ -917,6 +977,7 @@
             "to": "3D Geometric Modeling",
             "color": "grey",
             "width": 4,
+            "inner_edges_type": "none",
             "title": "4 papers found"
         },
         {
@@ -924,6 +985,7 @@
             "to": "Virtual Reality",
             "color": "grey",
             "width": 2,
+            "inner_edges_type": "none",
             "title": "2 papers found"
         },
         {
@@ -931,6 +993,7 @@
             "to": "Heat Map",
             "color": "grey",
             "width": 1,
+            "inner_edges_type": "none",
             "title": "1 paper found"
         },
         {
@@ -938,6 +1001,7 @@
             "to": "Box Plot",
             "color": "grey",
             "width": 1,
+            "inner_edges_type": "none",
             "title": "1 paper found"
         },
         {
@@ -945,6 +1009,7 @@
             "to": "Network Graph",
             "color": "grey",
             "width": 1,
+            "inner_edges_type": "none",
             "title": "1 paper found"
         },
         {
@@ -952,6 +1017,7 @@
             "to": "Contour Plot",
             "color": "grey",
             "width": 1,
+            "inner_edges_type": "none",
             "title": "1 paper found"
         },
         {
@@ -959,6 +1025,7 @@
             "to": "Diagram",
             "color": "grey",
             "width": 1,
+            "inner_edges_type": "none",
             "title": "1 paper found"
         },
         {
@@ -966,6 +1033,7 @@
             "to": "Heat Map",
             "color": "grey",
             "width": 1,
+            "inner_edges_type": "none",
             "title": "1 paper found"
         },
         {
@@ -973,6 +1041,7 @@
             "to": "Box Plot",
             "color": "grey",
             "width": 1,
+            "inner_edges_type": "none",
             "title": "1 paper found"
         },
         {
@@ -980,6 +1049,7 @@
             "to": "Network Graph",
             "color": "grey",
             "width": 1,
+            "inner_edges_type": "none",
             "title": "1 paper found"
         },
         {
@@ -987,6 +1057,7 @@
             "to": "Unity3D",
             "color": "grey",
             "width": 5,
+            "inner_edges_type": "none",
             "title": "5 papers found"
         },
         {
@@ -994,6 +1065,7 @@
             "to": "Wikitude",
             "color": "grey",
             "width": 1,
+            "inner_edges_type": "none",
             "title": "1 paper found"
         },
         {
@@ -1001,6 +1073,7 @@
             "to": "Creo",
             "color": "grey",
             "width": 1,
+            "inner_edges_type": "none",
             "title": "1 paper found"
         },
         {
@@ -1008,6 +1081,7 @@
             "to": "Unity3D",
             "color": "grey",
             "width": 11,
+            "inner_edges_type": "none",
             "title": "11 papers found"
         },
         {
@@ -1015,6 +1089,7 @@
             "to": "JQuery",
             "color": "grey",
             "width": 3,
+            "inner_edges_type": "none",
             "title": "3 papers found"
         },
         {
@@ -1022,6 +1097,7 @@
             "to": "Verge3D",
             "color": "grey",
             "width": 1,
+            "inner_edges_type": "none",
             "title": "1 paper found"
         },
         {
@@ -1029,6 +1105,7 @@
             "to": "Bootstrap",
             "color": "grey",
             "width": 2,
+            "inner_edges_type": "none",
             "title": "2 papers found"
         },
         {
@@ -1036,6 +1113,7 @@
             "to": "WebXR",
             "color": "grey",
             "width": 1,
+            "inner_edges_type": "none",
             "title": "1 paper found"
         },
         {
@@ -1043,6 +1121,7 @@
             "to": "Unreal Engine",
             "color": "grey",
             "width": 2,
+            "inner_edges_type": "none",
             "title": "2 papers found"
         },
         {
@@ -1050,6 +1129,7 @@
             "to": "Autodesk Revit",
             "color": "grey",
             "width": 2,
+            "inner_edges_type": "none",
             "title": "2 papers found"
         },
         {
@@ -1057,6 +1137,7 @@
             "to": "Autodesk Forge",
             "color": "grey",
             "width": 2,
+            "inner_edges_type": "none",
             "title": "2 papers found"
         },
         {
@@ -1064,6 +1145,7 @@
             "to": "OpenScene Graph",
             "color": "grey",
             "width": 1,
+            "inner_edges_type": "none",
             "title": "1 paper found"
         },
         {
@@ -1071,6 +1153,7 @@
             "to": "COVISE",
             "color": "grey",
             "width": 1,
+            "inner_edges_type": "none",
             "title": "1 paper found"
         },
         {
@@ -1078,6 +1161,7 @@
             "to": "Wikitude",
             "color": "grey",
             "width": 1,
+            "inner_edges_type": "none",
             "title": "1 paper found"
         },
         {
@@ -1085,6 +1169,7 @@
             "to": "Three.js",
             "color": "grey",
             "width": 1,
+            "inner_edges_type": "none",
             "title": "1 paper found"
         },
         {
@@ -1092,6 +1177,7 @@
             "to": "WebGL",
             "color": "grey",
             "width": 1,
+            "inner_edges_type": "none",
             "title": "1 paper found"
         },
         {
@@ -1099,6 +1185,7 @@
             "to": "Creo",
             "color": "grey",
             "width": 1,
+            "inner_edges_type": "none",
             "title": "1 paper found"
         },
         {
@@ -1106,6 +1193,7 @@
             "to": "VTK",
             "color": "grey",
             "width": 1,
+            "inner_edges_type": "none",
             "title": "1 paper found"
         },
         {
@@ -1113,6 +1201,7 @@
             "to": "CityEngine",
             "color": "grey",
             "width": 1,
+            "inner_edges_type": "none",
             "title": "1 paper found"
         },
         {
@@ -1120,6 +1209,7 @@
             "to": "jsPanel",
             "color": "grey",
             "width": 1,
+            "inner_edges_type": "none",
             "title": "1 paper found"
         },
         {
@@ -1127,6 +1217,7 @@
             "to": "Javascript",
             "color": "grey",
             "width": 1,
+            "inner_edges_type": "none",
             "title": "1 paper found"
         },
         {
@@ -1134,6 +1225,7 @@
             "to": "Backbone",
             "color": "grey",
             "width": 1,
+            "inner_edges_type": "none",
             "title": "1 paper found"
         },
         {
@@ -1141,6 +1233,7 @@
             "to": "ARCGIS",
             "color": "grey",
             "width": 1,
+            "inner_edges_type": "none",
             "title": "1 paper found"
         },
         {
@@ -1148,6 +1241,7 @@
             "to": "Blender",
             "color": "grey",
             "width": 1,
+            "inner_edges_type": "none",
             "title": "1 paper found"
         },
         {
@@ -1155,6 +1249,7 @@
             "to": "Unity3D",
             "color": "grey",
             "width": 6,
+            "inner_edges_type": "none",
             "title": "6 papers found"
         },
         {
@@ -1162,6 +1257,7 @@
             "to": "JQuery",
             "color": "grey",
             "width": 1,
+            "inner_edges_type": "none",
             "title": "1 paper found"
         },
         {
@@ -1169,6 +1265,7 @@
             "to": "Verge3D",
             "color": "grey",
             "width": 1,
+            "inner_edges_type": "none",
             "title": "1 paper found"
         },
         {
@@ -1176,6 +1273,7 @@
             "to": "Bootstrap",
             "color": "grey",
             "width": 1,
+            "inner_edges_type": "none",
             "title": "1 paper found"
         },
         {
@@ -1183,6 +1281,7 @@
             "to": "WebXR",
             "color": "grey",
             "width": 1,
+            "inner_edges_type": "none",
             "title": "1 paper found"
         },
         {
@@ -1190,6 +1289,7 @@
             "to": "Creo",
             "color": "grey",
             "width": 1,
+            "inner_edges_type": "none",
             "title": "1 paper found"
         },
         {
@@ -1197,6 +1297,7 @@
             "to": "Unity3D",
             "color": "grey",
             "width": 8,
+            "inner_edges_type": "none",
             "title": "8 papers found"
         },
         {
@@ -1204,6 +1305,7 @@
             "to": "JQuery",
             "color": "grey",
             "width": 2,
+            "inner_edges_type": "none",
             "title": "2 papers found"
         },
         {
@@ -1211,6 +1313,7 @@
             "to": "Verge3D",
             "color": "grey",
             "width": 2,
+            "inner_edges_type": "none",
             "title": "2 papers found"
         },
         {
@@ -1218,6 +1321,7 @@
             "to": "Bootstrap",
             "color": "grey",
             "width": 2,
+            "inner_edges_type": "none",
             "title": "2 papers found"
         },
         {
@@ -1225,6 +1329,7 @@
             "to": "WebXR",
             "color": "grey",
             "width": 2,
+            "inner_edges_type": "none",
             "title": "2 papers found"
         },
         {
@@ -1232,6 +1337,7 @@
             "to": "OpenScene Graph",
             "color": "grey",
             "width": 1,
+            "inner_edges_type": "none",
             "title": "1 paper found"
         },
         {
@@ -1239,6 +1345,7 @@
             "to": "COVISE",
             "color": "grey",
             "width": 1,
+            "inner_edges_type": "none",
             "title": "1 paper found"
         },
         {
@@ -1246,6 +1353,7 @@
             "to": "Creo",
             "color": "grey",
             "width": 1,
+            "inner_edges_type": "none",
             "title": "1 paper found"
         },
         {
@@ -1253,6 +1361,7 @@
             "to": "Unreal Engine",
             "color": "grey",
             "width": 1,
+            "inner_edges_type": "none",
             "title": "1 paper found"
         },
         {
@@ -1260,6 +1369,7 @@
             "to": "CityEngine",
             "color": "grey",
             "width": 1,
+            "inner_edges_type": "none",
             "title": "1 paper found"
         },
         {
@@ -1267,6 +1377,7 @@
             "to": "Grafana",
             "color": "grey",
             "width": 1,
+            "inner_edges_type": "none",
             "title": "1 paper found"
         },
         {
@@ -1274,6 +1385,7 @@
             "to": "Unity3D",
             "color": "grey",
             "width": 2,
+            "inner_edges_type": "none",
             "title": "2 papers found"
         },
         {
@@ -1281,6 +1393,7 @@
             "to": "Autodesk Revit",
             "color": "grey",
             "width": 1,
+            "inner_edges_type": "none",
             "title": "1 paper found"
         },
         {
@@ -1288,6 +1401,7 @@
             "to": "Autodesk Forge",
             "color": "grey",
             "width": 2,
+            "inner_edges_type": "none",
             "title": "2 papers found"
         },
         {
@@ -1295,6 +1409,7 @@
             "to": "Javascript",
             "color": "grey",
             "width": 1,
+            "inner_edges_type": "none",
             "title": "1 paper found"
         },
         {
@@ -1302,6 +1417,7 @@
             "to": "Creo",
             "color": "grey",
             "width": 1,
+            "inner_edges_type": "none",
             "title": "1 paper found"
         },
         {
@@ -1309,6 +1425,7 @@
             "to": "Python",
             "color": "grey",
             "width": 1,
+            "inner_edges_type": "none",
             "title": "1 paper found"
         },
         {
@@ -1316,6 +1433,7 @@
             "to": ".NET",
             "color": "grey",
             "width": 1,
+            "inner_edges_type": "none",
             "title": "1 paper found"
         },
         {
@@ -1323,6 +1441,7 @@
             "to": "Unity3D",
             "color": "grey",
             "width": 1,
+            "inner_edges_type": "none",
             "title": "1 paper found"
         },
         {
@@ -1330,6 +1449,7 @@
             "to": "ARCGIS",
             "color": "grey",
             "width": 1,
+            "inner_edges_type": "none",
             "title": "1 paper found"
         },
         {
@@ -1337,6 +1457,7 @@
             "to": "Python",
             "color": "grey",
             "width": 2,
+            "inner_edges_type": "none",
             "title": "2 papers found"
         },
         {
@@ -1344,6 +1465,7 @@
             "to": "Jupyter Notebook",
             "color": "grey",
             "width": 2,
+            "inner_edges_type": "none",
             "title": "2 papers found"
         },
         {
@@ -1351,6 +1473,7 @@
             "to": "Python",
             "color": "grey",
             "width": 1,
+            "inner_edges_type": "none",
             "title": "1 paper found"
         },
         {
@@ -1358,6 +1481,7 @@
             "to": "Jupyter Notebook",
             "color": "grey",
             "width": 1,
+            "inner_edges_type": "none",
             "title": "1 paper found"
         },
         {
@@ -1365,6 +1489,7 @@
             "to": "R",
             "color": "grey",
             "width": 1,
+            "inner_edges_type": "none",
             "title": "1 paper found"
         },
         {
@@ -1372,6 +1497,7 @@
             "to": "Python",
             "color": "grey",
             "width": 2,
+            "inner_edges_type": "none",
             "title": "2 papers found"
         },
         {
@@ -1379,6 +1505,7 @@
             "to": "Jupyter Notebook",
             "color": "grey",
             "width": 2,
+            "inner_edges_type": "none",
             "title": "2 papers found"
         },
         {
@@ -1386,6 +1513,7 @@
             "to": "R",
             "color": "grey",
             "width": 2,
+            "inner_edges_type": "none",
             "title": "2 papers found"
         },
         {
@@ -1393,6 +1521,7 @@
             "to": "R",
             "color": "grey",
             "width": 1,
+            "inner_edges_type": "none",
             "title": "1 paper found"
         },
         {
@@ -1400,6 +1529,7 @@
             "to": "R",
             "color": "grey",
             "width": 2,
+            "inner_edges_type": "none",
             "title": "2 papers found"
         },
         {
@@ -1407,6 +1537,7 @@
             "to": "R",
             "color": "grey",
             "width": 1,
+            "inner_edges_type": "none",
             "title": "1 paper found"
         },
         {
@@ -1414,6 +1545,7 @@
             "to": "R",
             "color": "grey",
             "width": 1,
+            "inner_edges_type": "none",
             "title": "1 paper found"
         },
         {
@@ -1421,6 +1553,7 @@
             "to": "R",
             "color": "grey",
             "width": 1,
+            "inner_edges_type": "none",
             "title": "1 paper found"
         },
         {
@@ -1428,6 +1561,7 @@
             "to": "R",
             "color": "grey",
             "width": 1,
+            "inner_edges_type": "none",
             "title": "1 paper found"
         },
         {
@@ -1435,6 +1569,7 @@
             "to": "R",
             "color": "grey",
             "width": 1,
+            "inner_edges_type": "none",
             "title": "1 paper found"
         },
         {
@@ -1442,6 +1577,7 @@
             "to": "R",
             "color": "grey",
             "width": 1,
+            "inner_edges_type": "none",
             "title": "1 paper found"
         },
         {
@@ -1449,6 +1585,7 @@
             "to": "Python",
             "color": "grey",
             "width": 1,
+            "inner_edges_type": "none",
             "title": "1 paper found"
         },
         {
@@ -1456,6 +1593,7 @@
             "to": "Jupyter Notebook",
             "color": "grey",
             "width": 1,
+            "inner_edges_type": "none",
             "title": "1 paper found"
         },
         {
@@ -1463,6 +1601,7 @@
             "to": "R",
             "color": "grey",
             "width": 1,
+            "inner_edges_type": "none",
             "title": "1 paper found"
         },
         {
@@ -1470,6 +1609,7 @@
             "to": "Javascript",
             "color": "grey",
             "width": 1,
+            "inner_edges_type": "none",
             "title": "1 paper found"
         },
         {
@@ -1477,6 +1617,7 @@
             "to": "D3.js",
             "color": "grey",
             "width": 1,
+            "inner_edges_type": "none",
             "title": "1 paper found"
         },
         {
@@ -1484,6 +1625,7 @@
             "to": "R",
             "color": "grey",
             "width": 1,
+            "inner_edges_type": "none",
             "title": "1 paper found"
         },
         {
@@ -1492,6 +1634,8 @@
             "color": "grey",
             "width": 12,
             "dashes": "true",
+            "inner_edges_type": "data_type",
+            "hidden": "true",
             "title": "12 papers found"
         },
         {
@@ -1500,6 +1644,8 @@
             "color": "grey",
             "width": 10,
             "dashes": "true",
+            "inner_edges_type": "data_type",
+            "hidden": "true",
             "title": "10 papers found"
         },
         {
@@ -1508,6 +1654,8 @@
             "color": "grey",
             "width": 6,
             "dashes": "true",
+            "inner_edges_type": "data_type",
+            "hidden": "true",
             "title": "6 papers found"
         },
         {
@@ -1516,6 +1664,8 @@
             "color": "grey",
             "width": 4,
             "dashes": "true",
+            "inner_edges_type": "data_type",
+            "hidden": "true",
             "title": "4 papers found"
         },
         {
@@ -1524,6 +1674,8 @@
             "color": "grey",
             "width": 10,
             "dashes": "true",
+            "inner_edges_type": "data_type",
+            "hidden": "true",
             "title": "10 papers found"
         },
         {
@@ -1532,6 +1684,8 @@
             "color": "grey",
             "width": 2,
             "dashes": "true",
+            "inner_edges_type": "data_type",
+            "hidden": "true",
             "title": "2 papers found"
         },
         {
@@ -1540,6 +1694,8 @@
             "color": "grey",
             "width": 2,
             "dashes": "true",
+            "inner_edges_type": "data_type",
+            "hidden": "true",
             "title": "2 papers found"
         },
         {
@@ -1548,6 +1704,8 @@
             "color": "grey",
             "width": 2,
             "dashes": "true",
+            "inner_edges_type": "data_type",
+            "hidden": "true",
             "title": "2 papers found"
         },
         {
@@ -1556,6 +1714,8 @@
             "color": "grey",
             "width": 15,
             "dashes": "true",
+            "inner_edges_type": "data_type",
+            "hidden": "true",
             "title": "15 papers found"
         },
         {
@@ -1564,6 +1724,8 @@
             "color": "grey",
             "width": 5,
             "dashes": "true",
+            "inner_edges_type": "data_type",
+            "hidden": "true",
             "title": "5 papers found"
         },
         {
@@ -1572,6 +1734,8 @@
             "color": "grey",
             "width": 7,
             "dashes": "true",
+            "inner_edges_type": "data_type",
+            "hidden": "true",
             "title": "7 papers found"
         },
         {
@@ -1580,6 +1744,8 @@
             "color": "grey",
             "width": 4,
             "dashes": "true",
+            "inner_edges_type": "data_type",
+            "hidden": "true",
             "title": "4 papers found"
         },
         {
@@ -1588,6 +1754,8 @@
             "color": "grey",
             "width": 1,
             "dashes": "true",
+            "inner_edges_type": "data_type",
+            "hidden": "true",
             "title": "1 paper found"
         },
         {
@@ -1596,6 +1764,8 @@
             "color": "grey",
             "width": 5,
             "dashes": "true",
+            "inner_edges_type": "data_type",
+            "hidden": "true",
             "title": "5 papers found"
         },
         {
@@ -1604,6 +1774,8 @@
             "color": "grey",
             "width": 4,
             "dashes": "true",
+            "inner_edges_type": "data_type",
+            "hidden": "true",
             "title": "4 papers found"
         },
         {
@@ -1612,6 +1784,8 @@
             "color": "grey",
             "width": 1,
             "dashes": "true",
+            "inner_edges_type": "data_type",
+            "hidden": "true",
             "title": "1 paper found"
         },
         {
@@ -1620,6 +1794,8 @@
             "color": "grey",
             "width": 1,
             "dashes": "true",
+            "inner_edges_type": "data_type",
+            "hidden": "true",
             "title": "1 paper found"
         },
         {
@@ -1628,6 +1804,8 @@
             "color": "grey",
             "width": 6,
             "dashes": "true",
+            "inner_edges_type": "data_type",
+            "hidden": "true",
             "title": "6 papers found"
         },
         {
@@ -1636,6 +1814,8 @@
             "color": "grey",
             "width": 10,
             "dashes": "true",
+            "inner_edges_type": "data_type",
+            "hidden": "true",
             "title": "10 papers found"
         },
         {
@@ -1644,6 +1824,8 @@
             "color": "grey",
             "width": 8,
             "dashes": "true",
+            "inner_edges_type": "data_type",
+            "hidden": "true",
             "title": "8 papers found"
         },
         {
@@ -1652,6 +1834,8 @@
             "color": "grey",
             "width": 2,
             "dashes": "true",
+            "inner_edges_type": "data_type",
+            "hidden": "true",
             "title": "2 papers found"
         },
         {
@@ -1660,6 +1844,8 @@
             "color": "grey",
             "width": 2,
             "dashes": "true",
+            "inner_edges_type": "data_type",
+            "hidden": "true",
             "title": "2 papers found"
         },
         {
@@ -1668,6 +1854,8 @@
             "color": "grey",
             "width": 1,
             "dashes": "true",
+            "inner_edges_type": "data_type",
+            "hidden": "true",
             "title": "1 paper found"
         },
         {
@@ -1676,6 +1864,8 @@
             "color": "grey",
             "width": 4,
             "dashes": "true",
+            "inner_edges_type": "data_type",
+            "hidden": "true",
             "title": "4 papers found"
         },
         {
@@ -1684,6 +1874,8 @@
             "color": "grey",
             "width": 3,
             "dashes": "true",
+            "inner_edges_type": "data_type",
+            "hidden": "true",
             "title": "3 papers found"
         },
         {
@@ -1692,6 +1884,8 @@
             "color": "grey",
             "width": 1,
             "dashes": "true",
+            "inner_edges_type": "data_type",
+            "hidden": "true",
             "title": "1 paper found"
         },
         {
@@ -1700,6 +1894,8 @@
             "color": "grey",
             "width": 3,
             "dashes": "true",
+            "inner_edges_type": "data_type",
+            "hidden": "true",
             "title": "3 papers found"
         },
         {
@@ -1708,6 +1904,8 @@
             "color": "grey",
             "width": 2,
             "dashes": "true",
+            "inner_edges_type": "data_type",
+            "hidden": "true",
             "title": "2 papers found"
         },
         {
@@ -1716,6 +1914,8 @@
             "color": "grey",
             "width": 1,
             "dashes": "true",
+            "inner_edges_type": "data_type",
+            "hidden": "true",
             "title": "1 paper found"
         },
         {
@@ -1724,6 +1924,8 @@
             "color": "grey",
             "width": 1,
             "dashes": "true",
+            "inner_edges_type": "data_type",
+            "hidden": "true",
             "title": "1 paper found"
         },
         {
@@ -1732,6 +1934,8 @@
             "color": "grey",
             "width": 1,
             "dashes": "true",
+            "inner_edges_type": "data_type",
+            "hidden": "true",
             "title": "1 paper found"
         },
         {
@@ -1740,6 +1944,8 @@
             "color": "grey",
             "width": 1,
             "dashes": "true",
+            "inner_edges_type": "data_type",
+            "hidden": "true",
             "title": "1 paper found"
         },
         {
@@ -1748,6 +1954,8 @@
             "color": "grey",
             "width": 5,
             "dashes": "true",
+            "inner_edges_type": "visualization_technique",
+            "hidden": "true",
             "title": "5 papers found"
         },
         {
@@ -1756,6 +1964,8 @@
             "color": "grey",
             "width": 2,
             "dashes": "true",
+            "inner_edges_type": "visualization_technique",
+            "hidden": "true",
             "title": "2 papers found"
         },
         {
@@ -1764,6 +1974,8 @@
             "color": "grey",
             "width": 1,
             "dashes": "true",
+            "inner_edges_type": "visualization_technique",
+            "hidden": "true",
             "title": "1 paper found"
         },
         {
@@ -1772,6 +1984,8 @@
             "color": "grey",
             "width": 11,
             "dashes": "true",
+            "inner_edges_type": "visualization_technique",
+            "hidden": "true",
             "title": "11 papers found"
         },
         {
@@ -1780,6 +1994,8 @@
             "color": "grey",
             "width": 1,
             "dashes": "true",
+            "inner_edges_type": "visualization_technique",
+            "hidden": "true",
             "title": "1 paper found"
         },
         {
@@ -1788,6 +2004,8 @@
             "color": "grey",
             "width": 2,
             "dashes": "true",
+            "inner_edges_type": "visualization_technique",
+            "hidden": "true",
             "title": "2 papers found"
         },
         {
@@ -1796,6 +2014,8 @@
             "color": "grey",
             "width": 3,
             "dashes": "true",
+            "inner_edges_type": "visualization_technique",
+            "hidden": "true",
             "title": "3 papers found"
         },
         {
@@ -1804,6 +2024,8 @@
             "color": "grey",
             "width": 3,
             "dashes": "true",
+            "inner_edges_type": "visualization_technique",
+            "hidden": "true",
             "title": "3 papers found"
         },
         {
@@ -1812,6 +2034,8 @@
             "color": "grey",
             "width": 1,
             "dashes": "true",
+            "inner_edges_type": "visualization_technique",
+            "hidden": "true",
             "title": "1 paper found"
         },
         {
@@ -1820,6 +2044,8 @@
             "color": "grey",
             "width": 1,
             "dashes": "true",
+            "inner_edges_type": "visualization_technique",
+            "hidden": "true",
             "title": "1 paper found"
         },
         {
@@ -1828,6 +2054,8 @@
             "color": "grey",
             "width": 1,
             "dashes": "true",
+            "inner_edges_type": "visualization_technique",
+            "hidden": "true",
             "title": "1 paper found"
         },
         {
@@ -1836,6 +2064,8 @@
             "color": "grey",
             "width": 1,
             "dashes": "true",
+            "inner_edges_type": "visualization_technique",
+            "hidden": "true",
             "title": "1 paper found"
         },
         {
@@ -1844,6 +2074,8 @@
             "color": "grey",
             "width": 1,
             "dashes": "true",
+            "inner_edges_type": "visualization_technique",
+            "hidden": "true",
             "title": "1 paper found"
         },
         {
@@ -1852,6 +2084,8 @@
             "color": "grey",
             "width": 1,
             "dashes": "true",
+            "inner_edges_type": "visualization_technique",
+            "hidden": "true",
             "title": "1 paper found"
         },
         {
@@ -1860,6 +2094,8 @@
             "color": "grey",
             "width": 1,
             "dashes": "true",
+            "inner_edges_type": "visualization_technique",
+            "hidden": "true",
             "title": "1 paper found"
         },
         {
@@ -1868,6 +2104,8 @@
             "color": "grey",
             "width": 1,
             "dashes": "true",
+            "inner_edges_type": "visualization_technique",
+            "hidden": "true",
             "title": "1 paper found"
         },
         {
@@ -1876,6 +2114,8 @@
             "color": "grey",
             "width": 1,
             "dashes": "true",
+            "inner_edges_type": "visualization_technique",
+            "hidden": "true",
             "title": "1 paper found"
         },
         {
@@ -1884,6 +2124,8 @@
             "color": "grey",
             "width": 1,
             "dashes": "true",
+            "inner_edges_type": "visualization_technique",
+            "hidden": "true",
             "title": "1 paper found"
         },
         {
@@ -1892,6 +2134,8 @@
             "color": "grey",
             "width": 1,
             "dashes": "true",
+            "inner_edges_type": "visualization_technique",
+            "hidden": "true",
             "title": "1 paper found"
         },
         {
@@ -1900,6 +2144,8 @@
             "color": "grey",
             "width": 1,
             "dashes": "true",
+            "inner_edges_type": "visualization_technique",
+            "hidden": "true",
             "title": "1 paper found"
         },
         {
@@ -1908,6 +2154,8 @@
             "color": "grey",
             "width": 1,
             "dashes": "true",
+            "inner_edges_type": "visualization_technique",
+            "hidden": "true",
             "title": "1 paper found"
         },
         {
@@ -1916,6 +2164,8 @@
             "color": "grey",
             "width": 1,
             "dashes": "true",
+            "inner_edges_type": "visualization_technique",
+            "hidden": "true",
             "title": "1 paper found"
         },
         {
@@ -1924,6 +2174,8 @@
             "color": "grey",
             "width": 1,
             "dashes": "true",
+            "inner_edges_type": "visualization_technique",
+            "hidden": "true",
             "title": "1 paper found"
         },
         {
@@ -1932,6 +2184,8 @@
             "color": "grey",
             "width": 1,
             "dashes": "true",
+            "inner_edges_type": "visualization_technique",
+            "hidden": "true",
             "title": "1 paper found"
         },
         {
@@ -1940,6 +2194,8 @@
             "color": "grey",
             "width": 1,
             "dashes": "true",
+            "inner_edges_type": "visualization_technique",
+            "hidden": "true",
             "title": "1 paper found"
         },
         {
@@ -1948,6 +2204,8 @@
             "color": "grey",
             "width": 1,
             "dashes": "true",
+            "inner_edges_type": "visualization_technique",
+            "hidden": "true",
             "title": "1 paper found"
         },
         {
@@ -1956,6 +2214,8 @@
             "color": "grey",
             "width": 1,
             "dashes": "true",
+            "inner_edges_type": "visualization_technique",
+            "hidden": "true",
             "title": "1 paper found"
         },
         {
@@ -1964,6 +2224,8 @@
             "color": "grey",
             "width": 1,
             "dashes": "true",
+            "inner_edges_type": "visualization_technique",
+            "hidden": "true",
             "title": "1 paper found"
         },
         {
@@ -1972,6 +2234,8 @@
             "color": "grey",
             "width": 1,
             "dashes": "true",
+            "inner_edges_type": "visualization_technique",
+            "hidden": "true",
             "title": "1 paper found"
         },
         {
@@ -1980,6 +2244,8 @@
             "color": "grey",
             "width": 1,
             "dashes": "true",
+            "inner_edges_type": "visualization_technique",
+            "hidden": "true",
             "title": "1 paper found"
         },
         {
@@ -1988,6 +2254,8 @@
             "color": "grey",
             "width": 1,
             "dashes": "true",
+            "inner_edges_type": "visualization_technique",
+            "hidden": "true",
             "title": "1 paper found"
         },
         {
@@ -1996,6 +2264,8 @@
             "color": "grey",
             "width": 1,
             "dashes": "true",
+            "inner_edges_type": "visualization_technique",
+            "hidden": "true",
             "title": "1 paper found"
         },
         {
@@ -2004,6 +2274,8 @@
             "color": "grey",
             "width": 1,
             "dashes": "true",
+            "inner_edges_type": "visualization_technique",
+            "hidden": "true",
             "title": "1 paper found"
         },
         {
@@ -2012,6 +2284,8 @@
             "color": "grey",
             "width": 1,
             "dashes": "true",
+            "inner_edges_type": "visualization_technique",
+            "hidden": "true",
             "title": "1 paper found"
         },
         {
@@ -2020,6 +2294,8 @@
             "color": "grey",
             "width": 1,
             "dashes": "true",
+            "inner_edges_type": "visualization_technique",
+            "hidden": "true",
             "title": "1 paper found"
         },
         {
@@ -2028,6 +2304,8 @@
             "color": "grey",
             "width": 1,
             "dashes": "true",
+            "inner_edges_type": "visualization_technique",
+            "hidden": "true",
             "title": "1 paper found"
         },
         {
@@ -2036,6 +2314,8 @@
             "color": "grey",
             "width": 1,
             "dashes": "true",
+            "inner_edges_type": "visualization_technique",
+            "hidden": "true",
             "title": "1 paper found"
         },
         {
@@ -2044,6 +2324,8 @@
             "color": "grey",
             "width": 1,
             "dashes": "true",
+            "inner_edges_type": "visualization_technique",
+            "hidden": "true",
             "title": "1 paper found"
         },
         {
@@ -2052,6 +2334,8 @@
             "color": "grey",
             "width": 1,
             "dashes": "true",
+            "inner_edges_type": "visualization_technique",
+            "hidden": "true",
             "title": "1 paper found"
         },
         {
@@ -2060,6 +2344,8 @@
             "color": "grey",
             "width": 1,
             "dashes": "true",
+            "inner_edges_type": "visualization_technique",
+            "hidden": "true",
             "title": "1 paper found"
         },
         {
@@ -2068,6 +2354,8 @@
             "color": "grey",
             "width": 1,
             "dashes": "true",
+            "inner_edges_type": "visualization_technique",
+            "hidden": "true",
             "title": "1 paper found"
         },
         {
@@ -2076,6 +2364,8 @@
             "color": "grey",
             "width": 1,
             "dashes": "true",
+            "inner_edges_type": "visualization_technique",
+            "hidden": "true",
             "title": "1 paper found"
         },
         {
@@ -2084,6 +2374,8 @@
             "color": "grey",
             "width": 2,
             "dashes": "true",
+            "inner_edges_type": "visualization_technique",
+            "hidden": "true",
             "title": "2 papers found"
         },
         {
@@ -2092,6 +2384,8 @@
             "color": "grey",
             "width": 1,
             "dashes": "true",
+            "inner_edges_type": "visualization_technique",
+            "hidden": "true",
             "title": "1 paper found"
         },
         {
@@ -2100,6 +2394,8 @@
             "color": "grey",
             "width": 1,
             "dashes": "true",
+            "inner_edges_type": "visualization_technique",
+            "hidden": "true",
             "title": "1 paper found"
         },
         {
@@ -2108,6 +2404,8 @@
             "color": "grey",
             "width": 2,
             "dashes": "true",
+            "inner_edges_type": "visualization_technique",
+            "hidden": "true",
             "title": "2 papers found"
         },
         {
@@ -2116,6 +2414,8 @@
             "color": "grey",
             "width": 1,
             "dashes": "true",
+            "inner_edges_type": "visualization_technique",
+            "hidden": "true",
             "title": "1 paper found"
         },
         {
@@ -2124,6 +2424,8 @@
             "color": "grey",
             "width": 1,
             "dashes": "true",
+            "inner_edges_type": "visualization_technique",
+            "hidden": "true",
             "title": "1 paper found"
         },
         {
@@ -2132,6 +2434,8 @@
             "color": "grey",
             "width": 1,
             "dashes": "true",
+            "inner_edges_type": "visualization_technique",
+            "hidden": "true",
             "title": "1 paper found"
         },
         {
@@ -2140,6 +2444,8 @@
             "color": "grey",
             "width": 2,
             "dashes": "true",
+            "inner_edges_type": "visualization_technique",
+            "hidden": "true",
             "title": "2 papers found"
         },
         {
@@ -2148,6 +2454,8 @@
             "color": "grey",
             "width": 2,
             "dashes": "true",
+            "inner_edges_type": "visualization_technique",
+            "hidden": "true",
             "title": "2 papers found"
         },
         {
@@ -2156,6 +2464,8 @@
             "color": "grey",
             "width": 1,
             "dashes": "true",
+            "inner_edges_type": "visualization_tool",
+            "hidden": "true",
             "title": "1 paper found"
         },
         {
@@ -2164,6 +2474,8 @@
             "color": "grey",
             "width": 1,
             "dashes": "true",
+            "inner_edges_type": "visualization_tool",
+            "hidden": "true",
             "title": "1 paper found"
         },
         {
@@ -2172,6 +2484,8 @@
             "color": "grey",
             "width": 1,
             "dashes": "true",
+            "inner_edges_type": "visualization_tool",
+            "hidden": "true",
             "title": "1 paper found"
         },
         {
@@ -2180,6 +2494,8 @@
             "color": "grey",
             "width": 1,
             "dashes": "true",
+            "inner_edges_type": "visualization_tool",
+            "hidden": "true",
             "title": "1 paper found"
         },
         {
@@ -2188,6 +2504,8 @@
             "color": "grey",
             "width": 2,
             "dashes": "true",
+            "inner_edges_type": "visualization_tool",
+            "hidden": "true",
             "title": "2 papers found"
         },
         {
@@ -2196,6 +2514,8 @@
             "color": "grey",
             "width": 3,
             "dashes": "true",
+            "inner_edges_type": "visualization_tool",
+            "hidden": "true",
             "title": "3 papers found"
         },
         {
@@ -2204,6 +2524,8 @@
             "color": "grey",
             "width": 2,
             "dashes": "true",
+            "inner_edges_type": "visualization_tool",
+            "hidden": "true",
             "title": "2 papers found"
         },
         {
@@ -2212,6 +2534,8 @@
             "color": "grey",
             "width": 1,
             "dashes": "true",
+            "inner_edges_type": "visualization_tool",
+            "hidden": "true",
             "title": "1 paper found"
         },
         {
@@ -2220,6 +2544,8 @@
             "color": "grey",
             "width": 1,
             "dashes": "true",
+            "inner_edges_type": "visualization_tool",
+            "hidden": "true",
             "title": "1 paper found"
         },
         {
@@ -2228,6 +2554,8 @@
             "color": "grey",
             "width": 1,
             "dashes": "true",
+            "inner_edges_type": "visualization_tool",
+            "hidden": "true",
             "title": "1 paper found"
         },
         {
@@ -2236,6 +2564,8 @@
             "color": "grey",
             "width": 1,
             "dashes": "true",
+            "inner_edges_type": "visualization_tool",
+            "hidden": "true",
             "title": "1 paper found"
         },
         {
@@ -2244,6 +2574,8 @@
             "color": "grey",
             "width": 1,
             "dashes": "true",
+            "inner_edges_type": "visualization_tool",
+            "hidden": "true",
             "title": "1 paper found"
         },
         {
@@ -2252,6 +2584,8 @@
             "color": "grey",
             "width": 1,
             "dashes": "true",
+            "inner_edges_type": "visualization_tool",
+            "hidden": "true",
             "title": "1 paper found"
         },
         {
@@ -2260,6 +2594,8 @@
             "color": "grey",
             "width": 1,
             "dashes": "true",
+            "inner_edges_type": "visualization_tool",
+            "hidden": "true",
             "title": "1 paper found"
         },
         {
@@ -2268,6 +2604,8 @@
             "color": "grey",
             "width": 1,
             "dashes": "true",
+            "inner_edges_type": "visualization_tool",
+            "hidden": "true",
             "title": "1 paper found"
         },
         {
@@ -2276,6 +2614,8 @@
             "color": "grey",
             "width": 1,
             "dashes": "true",
+            "inner_edges_type": "visualization_tool",
+            "hidden": "true",
             "title": "1 paper found"
         },
         {
@@ -2284,6 +2624,8 @@
             "color": "grey",
             "width": 1,
             "dashes": "true",
+            "inner_edges_type": "visualization_tool",
+            "hidden": "true",
             "title": "1 paper found"
         },
         {
@@ -2292,6 +2634,8 @@
             "color": "grey",
             "width": 1,
             "dashes": "true",
+            "inner_edges_type": "visualization_tool",
+            "hidden": "true",
             "title": "1 paper found"
         },
         {
@@ -2300,6 +2644,8 @@
             "color": "grey",
             "width": 1,
             "dashes": "true",
+            "inner_edges_type": "visualization_tool",
+            "hidden": "true",
             "title": "1 paper found"
         },
         {
@@ -2308,6 +2654,8 @@
             "color": "grey",
             "width": 2,
             "dashes": "true",
+            "inner_edges_type": "visualization_tool",
+            "hidden": "true",
             "title": "2 papers found"
         },
         {
@@ -2316,6 +2664,8 @@
             "color": "grey",
             "width": 2,
             "dashes": "true",
+            "inner_edges_type": "visualization_tool",
+            "hidden": "true",
             "title": "2 papers found"
         },
         {
@@ -2324,6 +2674,8 @@
             "color": "grey",
             "width": 2,
             "dashes": "true",
+            "inner_edges_type": "visualization_tool",
+            "hidden": "true",
             "title": "2 papers found"
         },
         {
@@ -2332,6 +2684,8 @@
             "color": "grey",
             "width": 2,
             "dashes": "true",
+            "inner_edges_type": "visualization_tool",
+            "hidden": "true",
             "title": "2 papers found"
         },
         {
@@ -2340,6 +2694,8 @@
             "color": "grey",
             "width": 1,
             "dashes": "true",
+            "inner_edges_type": "visualization_tool",
+            "hidden": "true",
             "title": "1 paper found"
         },
         {
@@ -2348,6 +2704,8 @@
             "color": "grey",
             "width": 1,
             "dashes": "true",
+            "inner_edges_type": "visualization_tool",
+            "hidden": "true",
             "title": "1 paper found"
         },
         {
@@ -2356,6 +2714,8 @@
             "color": "grey",
             "width": 1,
             "dashes": "true",
+            "inner_edges_type": "visualization_tool",
+            "hidden": "true",
             "title": "1 paper found"
         },
         {
@@ -2364,6 +2724,8 @@
             "color": "grey",
             "width": 1,
             "dashes": "true",
+            "inner_edges_type": "visualization_tool",
+            "hidden": "true",
             "title": "1 paper found"
         },
         {
@@ -2372,6 +2734,8 @@
             "color": "grey",
             "width": 3,
             "dashes": "true",
+            "inner_edges_type": "visualization_tool",
+            "hidden": "true",
             "title": "3 papers found"
         },
         {
@@ -2380,6 +2744,8 @@
             "color": "grey",
             "width": 1,
             "dashes": "true",
+            "inner_edges_type": "visualization_tool",
+            "hidden": "true",
             "title": "1 paper found"
         },
         {
@@ -2388,6 +2754,8 @@
             "color": "grey",
             "width": 1,
             "dashes": "true",
+            "inner_edges_type": "visualization_tool",
+            "hidden": "true",
             "title": "1 paper found"
         },
         {
@@ -2396,6 +2764,8 @@
             "color": "grey",
             "width": 1,
             "dashes": "true",
+            "inner_edges_type": "visualization_tool",
+            "hidden": "true",
             "title": "1 paper found"
         },
         {
@@ -2404,6 +2774,8 @@
             "color": "grey",
             "width": 1,
             "dashes": "true",
+            "inner_edges_type": "visualization_tool",
+            "hidden": "true",
             "title": "1 paper found"
         },
         {
@@ -2412,6 +2784,8 @@
             "color": "grey",
             "width": 1,
             "dashes": "true",
+            "inner_edges_type": "visualization_tool",
+            "hidden": "true",
             "title": "1 paper found"
         },
         {
@@ -2420,70 +2794,283 @@
             "color": "grey",
             "width": 1,
             "dashes": "true",
+            "inner_edges_type": "visualization_tool",
+            "hidden": "true",
             "title": "1 paper found"
         }
     ],
     "data_type": [
-        "Abiotic Data",
-        "Behavioural Data",
-        "Biotic data",
-        "Geometric Data",
-        "Geospatial Data",
-        "Historical Data",
-        "Landscape data",
-        "Metadata",
-        "Process Data",
-        "Sensor data",
-        "Simulation Data"
+        {
+            "label": "Geometric Data",
+            "value": "Geometric Data"
+        },
+        {
+            "label": "Geospatial Data",
+            "value": "Geospatial Data"
+        },
+        {
+            "label": "Sensor data",
+            "value": "Sensor data"
+        },
+        {
+            "label": "Historical Data",
+            "value": "Historical Data"
+        },
+        {
+            "label": "Process Data",
+            "value": "Process Data"
+        },
+        {
+            "label": "Simulation Data",
+            "value": "Simulation Data"
+        },
+        {
+            "label": "Metadata",
+            "value": "Metadata"
+        },
+        {
+            "label": "Landscape data",
+            "value": "Landscape data"
+        },
+        {
+            "label": "Biotic data",
+            "value": "Biotic data"
+        },
+        {
+            "label": "Abiotic Data",
+            "value": "Abiotic Data"
+        },
+        {
+            "label": "Behavioural Data",
+            "value": "Behavioural Data"
+        }
     ],
     "visualization_technique": [
-        "3D Geometric Modeling",
-        "Augmented Reality",
-        "Bar Plot",
-        "Box Plot",
-        "Contour Plot",
-        "Dashboard Visualization",
-        "Data Visualization",
-        "Dendogram",
-        "Diagram",
-        "Diel Plot",
-        "Heat Map",
-        "Histogram",
-        "Line Graph",
-        "Network Graph",
-        "Pie Chart",
-        "Radar Plot",
-        "Rose Plot",
-        "Sammon Map",
-        "Virtual Reality"
+        {
+            "label": "Immersive Visualization Techniques",
+            "options": [
+                {
+                    "label": "Augmented Reality",
+                    "value": "Augmented Reality"
+                },
+                {
+                    "label": "Virtual Reality",
+                    "value": "Virtual Reality"
+                }
+            ]
+        },
+        {
+            "label": "Other",
+            "options": [
+                {
+                    "label": "3D Geometric Modeling",
+                    "value": "3D Geometric Modeling"
+                },
+                {
+                    "label": "Data Visualization",
+                    "value": "Data Visualization"
+                }
+            ]
+        },
+        {
+            "label": "2D plots",
+            "options": [
+                {
+                    "label": "Dashboard Visualization",
+                    "value": "Dashboard Visualization"
+                },
+                {
+                    "label": "Diel Plot",
+                    "value": "Diel Plot"
+                },
+                {
+                    "label": "Radar Plot",
+                    "value": "Radar Plot"
+                },
+                {
+                    "label": "Histogram",
+                    "value": "Histogram"
+                },
+                {
+                    "label": "Rose Plot",
+                    "value": "Rose Plot"
+                },
+                {
+                    "label": "Sammon Map",
+                    "value": "Sammon Map"
+                },
+                {
+                    "label": "Bar Plot",
+                    "value": "Bar Plot"
+                },
+                {
+                    "label": "Line Graph",
+                    "value": "Line Graph"
+                },
+                {
+                    "label": "Dendogram",
+                    "value": "Dendogram"
+                },
+                {
+                    "label": "Heat Map",
+                    "value": "Heat Map"
+                },
+                {
+                    "label": "Contour Plot",
+                    "value": "Contour Plot"
+                },
+                {
+                    "label": "Pie Chart",
+                    "value": "Pie Chart"
+                },
+                {
+                    "label": "Box Plot",
+                    "value": "Box Plot"
+                },
+                {
+                    "label": "Network Graph",
+                    "value": "Network Graph"
+                },
+                {
+                    "label": "Diagram",
+                    "value": "Diagram"
+                }
+            ]
+        }
     ],
     "visualization_tool": [
-        ".NET",
-        "ARCGIS",
-        "Autodesk Forge",
-        "Autodesk Revit",
-        "Backbone",
-        "Blender",
-        "Bootstrap",
-        "COVISE",
-        "CityEngine",
-        "Creo",
-        "D3.js",
-        "Grafana",
-        "JQuery",
-        "Javascript",
-        "Jupyter Notebook",
-        "OpenScene Graph",
-        "Python",
-        "R",
-        "Three.js",
-        "Unity3D",
-        "Unreal Engine",
-        "VTK",
-        "Verge3D",
-        "WebGL",
-        "WebXR",
-        "Wikitude",
-        "jsPanel"
+        {
+            "label": "Game Engines",
+            "options": [
+                {
+                    "label": "Unity3D",
+                    "value": "Unity3D"
+                },
+                {
+                    "label": "Unreal Engine",
+                    "value": "Unreal Engine"
+                }
+            ]
+        },
+        {
+            "label": "Modeling Software",
+            "options": [
+                {
+                    "label": "Blender",
+                    "value": "Blender"
+                },
+                {
+                    "label": "CityEngine",
+                    "value": "CityEngine"
+                },
+                {
+                    "label": "Autodesk Revit",
+                    "value": "Autodesk Revit"
+                },
+                {
+                    "label": "Creo",
+                    "value": "Creo"
+                }
+            ]
+        },
+        {
+            "label": "Javascript Libaries/Frameworks/Packages",
+            "options": [
+                {
+                    "label": "JQuery",
+                    "value": "JQuery"
+                },
+                {
+                    "label": "jsPanel",
+                    "value": "jsPanel"
+                },
+                {
+                    "label": "Backbone",
+                    "value": "Backbone"
+                },
+                {
+                    "label": "D3.js",
+                    "value": "D3.js"
+                },
+                {
+                    "label": "Three.js",
+                    "value": "Three.js"
+                }
+            ]
+        },
+        {
+            "label": "Other",
+            "options": [
+                {
+                    "label": "Javascript",
+                    "value": "Javascript"
+                },
+                {
+                    "label": ".NET",
+                    "value": ".NET"
+                },
+                {
+                    "label": "R",
+                    "value": "R"
+                },
+                {
+                    "label": "Python",
+                    "value": "Python"
+                },
+                {
+                    "label": "Jupyter Notebook",
+                    "value": "Jupyter Notebook"
+                },
+                {
+                    "label": "ARCGIS",
+                    "value": "ARCGIS"
+                },
+                {
+                    "label": "Autodesk Forge",
+                    "value": "Autodesk Forge"
+                },
+                {
+                    "label": "OpenScene Graph",
+                    "value": "OpenScene Graph"
+                },
+                {
+                    "label": "COVISE",
+                    "value": "COVISE"
+                },
+                {
+                    "label": "Wikitude",
+                    "value": "Wikitude"
+                },
+                {
+                    "label": "VTK",
+                    "value": "VTK"
+                }
+            ]
+        },
+        {
+            "label": "Web-based Libaries/Frameworks/Packages",
+            "options": [
+                {
+                    "label": "Grafana",
+                    "value": "Grafana"
+                },
+                {
+                    "label": "Verge3D",
+                    "value": "Verge3D"
+                },
+                {
+                    "label": "Bootstrap",
+                    "value": "Bootstrap"
+                },
+                {
+                    "label": "WebXR",
+                    "value": "WebXR"
+                },
+                {
+                    "label": "WebGL",
+                    "value": "WebGL"
+                }
+            ]
+        }
     ]
 }

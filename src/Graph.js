@@ -7,9 +7,11 @@ import 'reactjs-popup/dist/index.css';
 import './Graph.css';
 import graph_data from "./data.json";
 
-const Graph = ({selectedItems, onChange2}) => {
-    const [n, setN] = useState(null);
+const Graph = ({selectedOptions, onChange2, toggleEdges}) => {
+    const [network, setNetwork] = useState(null);
     const containerRef = useRef(null);
+
+    // Legend Nodes
     var x = window.innerWidth / 2 + 70;
     var y = window.innerHeight / 2 + 30;
     var step = 70;
@@ -22,7 +24,6 @@ const Graph = ({selectedItems, onChange2}) => {
         label: "Data Type",
         size: 10,
         fixed: true,
-        //physics: false
     }, {
         id: "Visualization Technique",
         color: "blue",
@@ -32,7 +33,6 @@ const Graph = ({selectedItems, onChange2}) => {
         label: "Visualization Technique",
         size: 10,
         fixed: true,
-        //physics: false,
     }, {
         id: "Visualization Tool",
         color: "purple",
@@ -42,8 +42,8 @@ const Graph = ({selectedItems, onChange2}) => {
         label: "Visualization Tool",
         size: 10,
         fixed: true,
-        //physics: false
-    }];
+        }];
+
     var nodes = useMemo(() => (new DataSet([...legend_nodes])), []);
     var edges = useMemo(() => (new DataSet(graph_data.edges)), []);
     var legend_nodes2 = ["Data Type",
@@ -93,22 +93,22 @@ const Graph = ({selectedItems, onChange2}) => {
     };
 
     useEffect(() => {
-        const network = containerRef.current && new Network(containerRef.current, {nodes, edges}, options);
-        setN(network);
+        const initial_network = containerRef.current && new Network(containerRef.current, { nodes, edges }, options);
+        setNetwork(initial_network);
     }, []);
 
     useEffect(() => {
-        if (n) {
+        if (network) {
             var new_nodes = [];
              graph_data.nodes.forEach((node) => {
-                 if (selectedItems.some(item => node.label === item.label)) {
+                 if (selectedOptions.some(item => node.label === item.label)) {
                     new_nodes.push(node);
                     //node.hidden = false;
                 } else {
                     //node.hidden = true;
                 }
             });
-
+            
             legend_nodes.forEach((node) => {
                 if (legend_nodes2.some(item => node.label === item)) {
                     new_nodes.push(node);
@@ -116,24 +116,30 @@ const Graph = ({selectedItems, onChange2}) => {
                 }
             });
 
-            //.forEach((edge) => {
-            //    edge.hidden = false;
-            //});
-            nodes = new DataSet([...new_nodes]);
-            n.setData({ nodes, edges });
-            n.fit()
+            edges.forEach((edge) => {
+                if (edge.inner_edges_type == toggleEdges[0]) {
+                    edge.hidden = toggleEdges[1];
+                }
 
-            console.log(selectedItems, selectedItems.length)
-            if (selectedItems.length == 0) {
+                /*if (edge.inner_edges_type == "none") {
+                    edge.hidden = "false"
+                }*/
+            });
+            nodes = new DataSet([...new_nodes]);
+            network.setData({ nodes, edges });
+            network.fit()
+
+            console.log(selectedOptions, selectedOptions.length)
+            if (selectedOptions.length == 0) {
                 document.getElementById("graph_empty_text").hidden = false;
             } else {
                 document.getElementById("graph_empty_text").hidden = true;
             }
         }
-    }, [selectedItems]);
+    }, [selectedOptions, toggleEdges]);
 
-    if (n) {
-        n.on('click', function (properties) {
+    if (network) {
+        network.on('click', function (properties) {
             var ids;
             var clicked = null;
             if (properties.nodes.length != 0) {
@@ -157,7 +163,7 @@ const Graph = ({selectedItems, onChange2}) => {
         });
 
         // Source: https://jsfiddle.net/repufsmc/
-        n.on("stabilizationProgress", function (params) {
+        network.on("stabilizationProgress", function (params) {
             var maxWidth = 496;
             var minWidth = 20;
             var widthFactor = params.iterations / params.total;
@@ -167,7 +173,7 @@ const Graph = ({selectedItems, onChange2}) => {
             document.getElementById("text").innerText =
                 Math.round(widthFactor * 100) + "%";
         });
-        n.on("stabilizationIterationsDone", function () {
+        network.on("stabilizationIterationsDone", function () {
             document.getElementById("text").innerText = "100%";
             document.getElementById("bar").style.width = "496px";
             document.getElementById("loadingBar").style.opacity = 0;

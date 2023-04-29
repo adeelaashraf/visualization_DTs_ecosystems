@@ -5,11 +5,19 @@ import Infobar from "./Infobar";
 import React, { useState } from 'react';
 
 function App() {
-    const [selectedItems, setSelectedItems] = useState([]);
-    function handleMultiselectChange(selectedItems) {
-        setSelectedItems(selectedItems);
+    // To send options from Sidebar to Graph
+    const [selectedOptions, setSelectedOptions] = useState([]);
+    function setSelectedOptionsFunction(selectedOptions) {
+        setSelectedOptions(selectedOptions);
     }
 
+    // To send toggled edges information from Sidebar to Graph
+    const [toggleEdges, setToggleEdges] = useState([]);
+    function setToggleEdgesFunction(toggleEdges) {
+        setToggleEdges(toggleEdges);
+    }
+
+    // To send clicked information to Infobar
     const [selectedItems2, setSelectedItems2] = useState([]);
     function handleMultiselectChange2(selectedItems2) {
         setSelectedItems2(selectedItems2);
@@ -18,8 +26,8 @@ function App() {
 
     return (
         <div className="App">
-            <Graph selectedItems={selectedItems} onChange2={handleMultiselectChange2} />
-            <Sidebar onChange={handleMultiselectChange} />
+            <Graph selectedOptions={selectedOptions} onChange2={handleMultiselectChange2} toggleEdges={toggleEdges}/>
+            <Sidebar sendOptions={setSelectedOptionsFunction} sendToggleEdges={setToggleEdgesFunction} />
             <Infobar selectedItems2={selectedItems2} />
         </div>
     );

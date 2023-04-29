@@ -1,3 +1,4 @@
+from pickle import TRUE
 from pyvis.network import Network
 import networkx as nx
 import os
@@ -6,7 +7,7 @@ import json
 import pandas as pd
 from process_data import *
 
-def add_nodes(json_nodes, node_definitions, dataframe, color, shape, size):
+def add_nodes(json_nodes, assessment_data, dataframe, color, shape, size):
     dataframe_names = dataframe.columns.values
 
     for i in dataframe_names:
@@ -18,14 +19,14 @@ def add_nodes(json_nodes, node_definitions, dataframe, color, shape, size):
         temp_dict["size"] = size
 
         # Add title, and group if it exists
-        if node_definitions['Node'].str.contains(i).bool:
-            filtered_row = node_definitions[node_definitions['Node'].str.contains(i)]
+        if assessment_data['Node'].str.contains(i).bool:
+            filtered_row = assessment_data[assessment_data['Node'].str.contains(i)]
             temp_dict["title"] = filtered_row.iloc[0,2]
             # Node has a group
             if not pd.isna(filtered_row.iloc[0,1]):
                 temp_dict["cid"] = filtered_row.iloc[0,1]
         else: 
-            raise Exception("Node in 'Data.xlsx' does not in exist in 'node_definitions.xlsx'")
+            raise Exception("Node in literature data does not in exist in assessment_data.")
 
         json_nodes.append(temp_dict)
 
@@ -58,7 +59,7 @@ def create_edges(edges, dataframe1, dataframe2):
                                 edges[key] = {}
                                 edges[key][value] = [1, 'black']
 
-def create_edges_same_type(same_type_edges, dataframe):
+def create_edges_same_type(same_type_edges, dataframe, category):
     graph_dict = {}
 
     # Create an empty nested dictionary of nodes and edges like this:
@@ -112,20 +113,19 @@ def create_edges_same_type(same_type_edges, dataframe):
 
     for key, value in graph_dict.items():
         for key2, value2 in value.items():
-            same_type_edges.append((key, key2, value2))
+            same_type_edges.append((key, key2, value2, category))
 
-
-data, data_type, visualization_technique, visualization_tool, medium = get_data("classified")
 # Read data, remove any empty columns
-node_definitions = (pd.read_excel('../data/data.xlsx', 'assessment')).dropna(how='all')
+data, data_type, visualization_technique, visualization_tool, medium = get_literature_data("classified")
+assessment_data, assessment_data_type, assessment_visualization_technique, assessment_visualization_tool = get_assessment_data()
 os.chdir("../src")
 
 # Make JSON files to store the nodes, edges, and multiselect options for the React application
 # Add nodes
 json_nodes = []
-add_nodes(json_nodes, node_definitions, data_type, "red", "triangle", 10)
-add_nodes(json_nodes, node_definitions, visualization_technique, "blue", "square", 10)
-add_nodes(json_nodes, node_definitions, visualization_tool, "purple", "dot", 10)
+add_nodes(json_nodes, assessment_data, data_type, "red", "triangle", 10)
+add_nodes(json_nodes, assessment_data, visualization_technique, "blue", "square", 10)
+add_nodes(json_nodes, assessment_data, visualization_tool, "purple", "dot", 10)
 
 
 # Plot edges
@@ -139,9 +139,9 @@ create_edges(edges, visualization_technique, visualization_tool)
 
 same_type_edges =[]
 # Add edges between nodes of the same category
-create_edges_same_type(same_type_edges, data_type)
-create_edges_same_type(same_type_edges, visualization_technique)
-create_edges_same_type(same_type_edges, visualization_tool)
+create_edges_same_type(same_type_edges, data_type, "data_type")
+create_edges_same_type(same_type_edges, visualization_technique, "visualization_technique")
+create_edges_same_type(same_type_edges, visualization_tool, "visualization_tool")
 
 json_edges = []
 # Adds edges, weight, and colour
@@ -152,6 +152,7 @@ for key, value in edges.items():
         temp_dict["to"] = key2
         temp_dict["color"] = 'grey'
         temp_dict["width"] = value2[0]
+        temp_dict["inner_edges_type"] = "none"
         if value2[0] < 2:
             temp_dict["title"] = str(value2[0]) + " paper found"
         else:
@@ -166,24 +167,108 @@ for i in same_type_edges:
     temp_dict["color"] = 'grey'
     temp_dict["width"] = i[2]
     temp_dict["dashes"] = 'true'
+    temp_dict["inner_edges_type"] = i[3]
+    temp_dict["hidden"] = "true"
     if i[2] < 2:
         temp_dict["title"] = str(i[2]) + " paper found"
     else:
         temp_dict["title"] = str(i[2]) + " papers found"
     json_edges.append(temp_dict)
 
-def multiselect_nodes(df):
-    x = list(df.columns.values)
-    x.sort()
-    return x
+def multiselect_nodes_no_grouping(df):
+    json_dict = []
+    keys_track = []
+    for index, row in df.iterrows():
+        # No grouping, add as is
+        if pd.isna(row[1]):
+            temp_dict = {}
+            temp_dict["label"] = row[0]
+            temp_dict["value"] = row[0]
+            json_dict.append(temp_dict)
+        # Grouping found, check if not already in list
+        else:
+            # Found
+            if row[1] in keys_track:
+                temp_dict = {}
+                temp_dict["label"] = row[0]
+                temp_dict["value"] = row[0]
+                for i,d in enumerate(json_dict):
+                    if d["label"] == row[1]:
+                        json_dict[i]["options"].append(temp_dict)
+                        break
+            # Not found, make new entry
+            else:
+                keys_track.append(row[1])
+                group_dict = {}
+                group_dict["label"] = row[1]
+                group_dict["options"] = []
+                temp_dict = {}
+                temp_dict["label"] = row[0]
+                temp_dict["value"] = row[0]
+                group_dict["options"].append(temp_dict)
+                json_dict.append(group_dict)
+    return(json_dict)
 
-# Convert data to JSON, including multiselect nodes
+def multiselect_nodes_grouping(df):
+    json_dict = []
+    keys_track = []
+    nan_category = "Other"
+    for index, row in df.iterrows():
+        # Nodes without groups go to the "Other" category
+        if pd.isna(row[1]):
+            # Found
+            if nan_category in keys_track:
+                temp_dict = {}
+                temp_dict["label"] = row[0]
+                temp_dict["value"] = row[0]
+                for i,d in enumerate(json_dict):
+                    if d["label"] == nan_category:
+                        json_dict[i]["options"].append(temp_dict)
+                        break
+            # Not found, make new entry
+            else:
+                keys_track.append(nan_category)
+                group_dict = {}
+                group_dict["label"] = nan_category
+                group_dict["options"] = []
+                temp_dict = {}
+                temp_dict["label"] = row[0]
+                temp_dict["value"] = row[0]
+                group_dict["options"].append(temp_dict)
+                json_dict.append(group_dict)
+        # Grouping found, check if not already in list
+        else:
+            # Found
+            if row[1] in keys_track:
+                temp_dict = {}
+                temp_dict["label"] = row[0]
+                temp_dict["value"] = row[0]
+                for i,d in enumerate(json_dict):
+                    if d["label"] == row[1]:
+                        json_dict[i]["options"].append(temp_dict)
+                        break
+            # Not found, make new entry
+            else:
+                keys_track.append(row[1])
+                group_dict = {}
+                group_dict["label"] = row[1]
+                group_dict["options"] = []
+                temp_dict = {}
+                temp_dict["label"] = row[0]
+                temp_dict["value"] = row[0]
+                group_dict["options"].append(temp_dict)
+                json_dict.append(group_dict)
+    return(json_dict)
+
+
+# Convert data to JSON
 json_total = {}
 json_total["nodes"] = json_nodes
 json_total["edges"] = json_edges
-json_total["data_type"] = multiselect_nodes(data_type)
-json_total["visualization_technique"] = multiselect_nodes(visualization_technique)
-json_total["visualization_tool"] = multiselect_nodes(visualization_tool)
-
+# For the multiselect nodes, make dictionaries to group per category
+json_total["data_type"] = multiselect_nodes_no_grouping(assessment_data_type)
+json_total["visualization_technique"] = multiselect_nodes_grouping(assessment_visualization_technique)
+json_total["visualization_tool"] = multiselect_nodes_grouping(assessment_visualization_tool)
 with open('data.json', 'w') as outfile1:
     outfile1.write(json.dumps(json_total, indent=4))
+

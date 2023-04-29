@@ -97,7 +97,7 @@ def create_circular_graph(dataframe, color, filename):
     nt.show_buttons(filter_=['physics'])
     nt.show(filename)
 
-data, data_type, visualization_technique, visualization_tool, medium = get_data("compressed")
+data, data_type, visualization_technique, visualization_tool, medium = get_literature_data("compressed")
 os.chdir("../output")
 create_circular_graph(data_type, "red", 'data_type.html')
 create_circular_graph(visualization_technique, "blue", 'visualization_technique.html')
