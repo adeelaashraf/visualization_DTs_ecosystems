@@ -26,8 +26,8 @@ def barplot(dataframe, plot_name, y_tick_interval, rotation, fontsize):
     plt.savefig(plot_name)
 
 
-data_type, visualization_technique, visualization_tool, medium = get_literature_data("compressed")
-os.chdir("../output")
+data, data_type, visualization_technique, visualization_tool, medium = get_literature_data("compressed")
+os.chdir("output")
 barplot(data_type, 'total_occurence_data_type.pdf', 2, 20, 8)
 barplot(visualization_technique, 'total_occurence_visualization_technique.pdf', 1, 20, 8)
 barplot(visualization_tool, 'total_occurence_visualization_tool.pdf', 1, 40, 8)

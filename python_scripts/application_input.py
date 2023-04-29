@@ -118,7 +118,7 @@ def create_edges_same_type(same_type_edges, dataframe, category):
 # Read data, remove any empty columns
 data, data_type, visualization_technique, visualization_tool, medium = get_literature_data("classified")
 assessment_data, assessment_data_type, assessment_visualization_technique, assessment_visualization_tool = get_assessment_data()
-os.chdir("../src")
+os.chdir("src")
 
 # Make JSON files to store the nodes, edges, and multiselect options for the React application
 # Add nodes

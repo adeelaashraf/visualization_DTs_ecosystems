@@ -26,7 +26,7 @@ def get_literature_data(data_choice):
     return remove_empty_columns(data), data_type, visualization_technique, visualization_tool, medium
 
 def get_assessment_data():
-    data = (pd.read_excel('../src/data.xlsx', 'assessment')).dropna(how='all')
+    data = (pd.read_excel('data.xlsx', 'assessment')).dropna(how='all')
     data_type = data.iloc[0:data_type_amount, :]
     visualization_technique = data.iloc[data_type_amount:data_type_amount+visualization_technique_amount,:]
     visualization_tool = data.iloc[data_type_amount+visualization_technique_amount:data_type_amount+visualization_technique_amount+visualization_tool_amount,:]
@@ -34,7 +34,7 @@ def get_assessment_data():
     return remove_empty_columns(data), data_type, visualization_technique, visualization_tool
 
 # Read data, remove any empty columns
-data = (pd.read_excel('../src/data.xlsx', 'literature')).dropna(how='all')
+data = (pd.read_excel('data.xlsx', 'literature')).dropna(how='all')
 
 # Data is processed in two ways:
 # 1. Compressed: Only consider rows which are numbered in the data, used for network_total.py and the React application

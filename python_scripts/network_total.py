@@ -96,7 +96,7 @@ def create_edges_same_type(same_type_edges, dataframe):
             same_type_edges.append((key, key2, value2))
 
 data, data_type, visualization_technique, visualization_tool, medium = get_literature_data("classified")
-os.chdir("../output")
+os.chdir("output")
 G = nx.Graph()
 
 # Plot nodes
