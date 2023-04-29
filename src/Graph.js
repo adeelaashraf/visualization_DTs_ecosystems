@@ -224,6 +224,7 @@ const Graph = ({selectedOptions, onChange2, toggleEdges}) => {
                                 Select options 'Graph Options' to construct a graph. 
                                 <br></br> Use your mouse, keyboard, or the navigation buttons below to navigate the graph.
                                 <br></br> Select a node or edge to see details 'Graph Data'.
+                                <br></br> For further questions or contact, please <a href="mailto:adeela-97@hotmail.com">send an email</a>.
 
                             </p>}
                             <br></br>
