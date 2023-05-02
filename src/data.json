@@ -3072,5 +3072,16 @@
                 }
             ]
         }
+    ],
+    "data_type_group": [],
+    "visualization_technique_group": [
+        "Immersive Visualization Techniques",
+        "2D plots"
+    ],
+    "visualization_tool_group": [
+        "Game Engines",
+        "Modeling Software",
+        "Javascript Libaries/Frameworks/Packages",
+        "Web-based Libaries/Frameworks/Packages"
     ]
 }

@@ -269,6 +269,10 @@ json_total["edges"] = json_edges
 json_total["data_type"] = multiselect_nodes_no_grouping(assessment_data_type)
 json_total["visualization_technique"] = multiselect_nodes_grouping(assessment_visualization_technique)
 json_total["visualization_tool"] = multiselect_nodes_grouping(assessment_visualization_tool)
+# Add group nodes for clustering
+json_total["data_type_group"] = list(assessment_data_type.iloc[:, 1].dropna().unique())
+json_total["visualization_technique_group"] = list(assessment_visualization_technique.iloc[:, 1].dropna().unique())
+json_total["visualization_tool_group"] = list(assessment_visualization_tool.iloc[:, 1].dropna().unique())
 with open('data.json', 'w') as outfile1:
     outfile1.write(json.dumps(json_total, indent=4))
 

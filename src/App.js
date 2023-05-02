@@ -17,6 +17,12 @@ function App() {
         setToggleEdges(toggleEdges);
     }
 
+    // To send toggled cluster information from Sidebar to Graph
+    const [toggleCluster, setToggleCluster] = useState([]);
+    function setToggleClusterFunction(toggleCluster) {
+        setToggleCluster(toggleCluster);
+    }
+
     // To send clicked information to Infobar
     const [selectedItems2, setSelectedItems2] = useState([]);
     function handleMultiselectChange2(selectedItems2) {
@@ -26,8 +32,8 @@ function App() {
 
     return (
         <div className="App">
-            <Graph selectedOptions={selectedOptions} onChange2={handleMultiselectChange2} toggleEdges={toggleEdges}/>
-            <Sidebar sendOptions={setSelectedOptionsFunction} sendToggleEdges={setToggleEdgesFunction} />
+            <Graph selectedOptions={selectedOptions} onChange2={handleMultiselectChange2} toggleEdges={toggleEdges} toggleCluster={toggleCluster} />
+            <Sidebar sendOptions={setSelectedOptionsFunction} sendToggleEdges={setToggleEdgesFunction} sendToggleCluster={setToggleClusterFunction} />
             <Infobar selectedItems2={selectedItems2} />
         </div>
     );

@@ -7,7 +7,7 @@ import 'reactjs-popup/dist/index.css';
 import './Graph.css';
 import graph_data from "./data.json";
 
-const Graph = ({selectedOptions, onChange2, toggleEdges}) => {
+const Graph = ({selectedOptions, onChange2, toggleEdges, toggleCluster}) => {
     const [network, setNetwork] = useState(null);
     const containerRef = useRef(null);
 
@@ -120,13 +120,48 @@ const Graph = ({selectedOptions, onChange2, toggleEdges}) => {
                 if (edge.inner_edges_type == toggleEdges[0]) {
                     edge.hidden = toggleEdges[1];
                 }
-
-                /*if (edge.inner_edges_type == "none") {
-                    edge.hidden = "false"
-                }*/
             });
             nodes = new DataSet([...new_nodes]);
             network.setData({ nodes, edges });
+
+            if (toggleCluster[0] == true) {
+                var group = graph_data.visualization_technique_group;
+                for (var i = 0; i < group.length; i++) {
+                    var clusterOptionsByData = {
+                        joinCondition: function (childOptions) {
+                            return childOptions.cid == group[i];
+                        },
+                        clusterNodeProperties: {
+                            "id": group[i],
+                            "label": group[i],
+                            "color": "blue",
+                            "shape": "square",
+                            "size": 30,
+                            "title": group[i],
+                        },
+                    };
+                    network.cluster(clusterOptionsByData);
+                }
+            }
+            if (toggleCluster[1] == true) {
+                var group = graph_data.visualization_tool_group;
+                for (var i = 0; i < group.length; i++) {
+                    var clusterOptionsByData = {
+                        joinCondition: function (childOptions) {
+                            return childOptions.cid == group[i];
+                        },
+                        clusterNodeProperties: {
+                            "id": group[i],
+                            "label": group[i],
+                            "color": "purple",
+                            "shape": "dot",
+                            "size": 30,
+                            "title": group[i],
+                        },
+                    };
+                    network.cluster(clusterOptionsByData);
+                }
+            }
             network.fit()
 
             console.log(selectedOptions, selectedOptions.length)
@@ -136,7 +171,7 @@ const Graph = ({selectedOptions, onChange2, toggleEdges}) => {
                 document.getElementById("graph_empty_text").hidden = true;
             }
         }
-    }, [selectedOptions, toggleEdges]);
+    }, [selectedOptions, toggleEdges, toggleCluster]);
 
     if (network) {
         network.on('click', function (properties) {

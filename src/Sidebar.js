@@ -8,7 +8,7 @@ const options = graph_data.data_type;
 const options2 = graph_data.visualization_technique;
 const options3 = graph_data.visualization_tool;
 
-function Sidebar({ sendOptions, sendToggleEdges }) {
+function Sidebar({ sendOptions, sendToggleEdges, sendToggleCluster}) {
     const [isOpen, setIsOpen] = useState(false);
 
     function toggleSidebar() {
@@ -67,9 +67,9 @@ function Sidebar({ sendOptions, sendToggleEdges }) {
 
     // Visualization Techniques
     const [selectedOptions2, setSelectedOptions2] = useState([]);
-    // select all state
     const [selectAllState2, setSelectAllState2] = useState(false);
     const [toggleEdgesState2, setToggleEdgesState2] = useState(false);
+    const [toggleClusterState2, setToggleClusterState2] = useState(false);
 
     useEffect(() => {
         if (selectAllState2 == true) {
@@ -98,11 +98,18 @@ function Sidebar({ sendOptions, sendToggleEdges }) {
         sendToggleEdges(["visualization_technique", toggleEdgesState2])
     }
 
+    // Handle clustering options
+    function handleToggleCluster2() {
+        setToggleClusterState2(!toggleClusterState2)
+    }
+
     //===================
     // Visualization Tools
     const [selectedOptions3, setSelectedOptions3] = useState([]);
     const [selectAllState3, setSelectAllState3] = useState(false);
     const [toggleEdgesState3, setToggleEdgesState3] = useState(false);
+    const [toggleClusterState3, setToggleClusterState3] = useState(false);
+
     useEffect(() => {
         if (selectAllState3== true) {
             setSelectedOptions3((options3.flatMap(tool => tool.options)).map((option) => option.value));
@@ -128,6 +135,15 @@ function Sidebar({ sendOptions, sendToggleEdges }) {
     function handleToggleEdges3() {
         setToggleEdgesState3(!toggleEdgesState3)
         sendToggleEdges(["visualization_tool", toggleEdgesState3])
+    }
+
+    // Handle clustering options
+    useEffect(() => {
+        sendToggleCluster([toggleClusterState2, toggleClusterState3])
+    }, [toggleClusterState2, toggleClusterState3]);
+
+    function handleToggleCluster3() {
+        setToggleClusterState3(!toggleClusterState3)
     }
 
     const ReactSelectStyles = () => ({
@@ -163,13 +179,13 @@ function Sidebar({ sendOptions, sendToggleEdges }) {
                 <label className="checkbox" >
                         <input type="checkbox" checked={selectedOptions.length === options.length} onChange={handleSelectAll} />
                     Select All
-                    </label>
-                    <label className="checkbox" >
-                        <input type="checkbox" checked={toggleEdgesState} onChange={handleToggleEdges} />
-                        Display Edges Between Data Types
-                    </label>
-                    <br></br>
-                    <hr></hr>
+                </label>
+                <label className="checkbox" >
+                    <input type="checkbox" checked={toggleEdgesState} onChange={handleToggleEdges} />
+                    Display Edges Between Data Types
+                </label>
+                <br></br>
+                <hr></hr>
                 <p className="title" > Choose visualization technique(s)</p>
                     <hr></hr>
                     <Select
@@ -190,6 +206,10 @@ function Sidebar({ sendOptions, sendToggleEdges }) {
                     <label className="checkbox" >
                         <input type="checkbox" checked={toggleEdgesState2} onChange={handleToggleEdges2} />
                         Display Edges Between Visualization Techniques
+                    </label>
+                    <label className="checkbox" >
+                        <input type="checkbox" checked={toggleClusterState2} onChange={handleToggleCluster2} />
+                        Cluster Groups
                     </label>
                     <br></br>
                     <hr></hr>
@@ -213,6 +233,10 @@ function Sidebar({ sendOptions, sendToggleEdges }) {
                     <label className="checkbox" >
                         <input type="checkbox" checked={toggleEdgesState3} onChange={handleToggleEdges3} />
                         Display Edges Between Visualization Tools
+                    </label>
+                    <label className="checkbox" >
+                        <input type="checkbox" checked={toggleClusterState3} onChange={handleToggleCluster3} />
+                        Cluster Groups
                     </label>
                 <br></br>
                 <br></br>

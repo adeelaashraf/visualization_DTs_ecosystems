@@ -9,10 +9,6 @@ function Infobar({selectedItems2}) {
         setIsOpen(!isOpen);
     }
 
-    function showCompleteDataset() {
-        console.log("dfdf")
-    }
-
     useEffect(() => {
         console.log(selectedItems2);
     }, [selectedItems2]);
