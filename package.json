@@ -15,7 +15,8 @@
     "react-tooltip": "^5.10.0",
     "reactjs-popup": "^2.0.5",
     "vis-network": "^9.1.4",
-    "web-vitals": "^2.1.4"
+    "web-vitals": "^2.1.4",
+    "xlsx": "^0.18.5"
   },
   "scripts": {
     "predeploy": "npm run build",

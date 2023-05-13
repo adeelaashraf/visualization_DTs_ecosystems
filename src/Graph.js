@@ -11,6 +11,8 @@ const Graph = ({selectedOptions, onChange2, toggleEdges, toggleCluster}) => {
     const [network, setNetwork] = useState(null);
     const containerRef = useRef(null);
 
+    var defaultNodeSize = 10;
+
     // Legend Nodes
     var x = window.innerWidth / 2 + 70;
     var y = window.innerHeight / 2 + 30;
@@ -22,7 +24,7 @@ const Graph = ({selectedOptions, onChange2, toggleEdges, toggleCluster}) => {
         x: x,
         y: y,
         label: "Data Type",
-        size: 10,
+        size: defaultNodeSize,
         fixed: true,
     }, {
         id: "Visualization Technique",
@@ -31,7 +33,7 @@ const Graph = ({selectedOptions, onChange2, toggleEdges, toggleCluster}) => {
         x: x,
         y: y + step,
         label: "Visualization Technique",
-        size: 10,
+        size: defaultNodeSize,
         fixed: true,
     }, {
         id: "Visualization Tool",
@@ -40,7 +42,7 @@ const Graph = ({selectedOptions, onChange2, toggleEdges, toggleCluster}) => {
         x: x,
         y: y + (2 * step),
         label: "Visualization Tool",
-        size: 10,
+        size: defaultNodeSize,
         fixed: true,
         }];
 
@@ -134,9 +136,22 @@ const Graph = ({selectedOptions, onChange2, toggleEdges, toggleCluster}) => {
                         clusterNodeProperties: {
                             "id": group[i],
                             "label": group[i],
-                            "color": "blue",
                             "shape": "square",
-                            "size": 30,
+                            borderWidth: 2,
+                            color: {
+                                border: "black",
+                                background: "blue",
+                                highlight: {
+                                    border: "black",
+                                    background: "blue",
+                                },
+                                hover: {
+                                    border: "black",
+                                    background: "blue",
+                                }
+
+                            },
+                            "size": Math.max((graph_data.visualization_technique.find(item => item.label === group[i])).options.length, defaultNodeSize),
                             "title": group[i],
                         },
                     };
@@ -153,9 +168,22 @@ const Graph = ({selectedOptions, onChange2, toggleEdges, toggleCluster}) => {
                         clusterNodeProperties: {
                             "id": group[i],
                             "label": group[i],
-                            "color": "purple",
                             "shape": "dot",
-                            "size": 30,
+                            borderWidth: 2,
+                            color: {
+                                border: "black",
+                                background: "purple",
+                                highlight: {
+                                    border: "black",
+                                    background: "purple",
+                                },
+                                hover: {
+                                    border: "black",
+                                    background: "purple",
+                                }
+
+                            },
+                            "size": Math.max((graph_data.visualization_tool.find(item => item.label === group[i])).options.length, defaultNodeSize),
                             "title": group[i],
                         },
                     };
@@ -175,23 +203,22 @@ const Graph = ({selectedOptions, onChange2, toggleEdges, toggleCluster}) => {
 
     if (network) {
         network.on('click', function (properties) {
+            console.log(properties);
             var ids;
             var clicked = null;
+            // Only call onChange2 for these cases, else the graph data will disappear if the user wants to interact
             if (properties.nodes.length != 0) {
-                console.log('node!');
                 ids = properties.nodes;
-
                 // Legend nodes should not invoke onChange2 (Infobar.js functionality)
                 if (!legend_nodes2.includes(ids[0])) {
-                    clicked = nodes.get(ids);
+                    clicked = ["node", ids[0]];
+                    console.log('clicked:', clicked);
+                    onChange2(clicked);
                 }
             } else if (properties.edges.length != 0) {
-                console.log('edge!');
-                ids = properties.edges;
-                clicked = edges.get(ids);
-            }
-
-            if (clicked != null) {
+                var currentEdges = properties.edges;
+                ids = (edges.get(currentEdges))[0]
+                clicked = ["edge", ids.from, ids.to];
                 console.log('clicked:', clicked);
                 onChange2(clicked);
             }

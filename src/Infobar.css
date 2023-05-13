@@ -8,7 +8,6 @@
     background: rgb(212,212,212);
     background: linear-gradient(180deg, rgba(212,212,212,1) 0%, rgba(255,255,255,1) 73%);
     opacity: 0.8;
-    padding: 20px;
     transition: transform 0.3s ease-in-out;
     z-index: 2;
 }
@@ -21,8 +20,7 @@
     transform: translateX(0);
 }
 
-/* Button styles */
-.infobar-toggle {
+.infobar_toggle {
     position: absolute;
     top: 20px;
     right: -40px;
@@ -31,6 +29,39 @@
     border: none;
     padding: 10px;
     cursor: pointer;
+}
+
+.infobar_content {
+    top: 0;
+    left: 0;
+    height: 100%;
+    padding: 20px;
+    transition: transform 0.3s ease-in-out;
+    overflow: auto;
+    font-family: "arial";
+}
+
+.infobar_content_element {
+    display: flex;
+    margin: auto;
+    padding: 30px;
+    justify-content: center;
+    text-align: center;
+    font-family: "arial";
+}
+
+table {
+    border-collapse: collapse;
+}
+
+th,
+td {
+    border: 1px solid black;
+    padding: 8px;
+}
+
+tr.result-row:not(:last-child) {
+    border-bottom: 1px solid #ddd;
 }
 
 .button2 {
@@ -42,4 +73,18 @@
     font-family: "arial";
     font-weight: bold;
     justify-content: center;
+}
+
+.button2_glow {
+    position: fixed;
+    top: 5px;
+    right: 20px;
+    width: 100px;
+    z-index: 3;
+    font-family: "arial";
+    font-weight: bold;
+    justify-content: center;
+    background-color: #6aff6a;
+    opacity: 0.5;
+    box-shadow: 0 0 10px #fff, 0 0 20px #fff, 0 0 30px #fff, 0 0 40px #6aff6a, 0 0 70px #6aff6a, 0 0 80px #6aff6a, 0 0 100px #6aff6a;
 }

@@ -5,8 +5,9 @@
     "\\python_scripts",
     "\\python_scripts\\lib",
     "\\python_scripts\\__pycache__",
-    "\\src"
+    "\\src",
+    "\\src\\public"
   ],
-  "SelectedNode": "\\src\\Graph.js",
+  "SelectedNode": "\\python_scripts\\application_input.py",
   "PreviewInSolutionExplorer": false
 }

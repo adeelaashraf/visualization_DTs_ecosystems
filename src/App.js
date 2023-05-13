@@ -23,12 +23,11 @@ function App() {
         setToggleCluster(toggleCluster);
     }
 
-    // To send clicked information to Infobar
+    // To send clicked information from Graph to Infobar
     const [selectedItems2, setSelectedItems2] = useState([]);
     function handleMultiselectChange2(selectedItems2) {
         setSelectedItems2(selectedItems2);
     }
-
 
     return (
         <div className="App">
