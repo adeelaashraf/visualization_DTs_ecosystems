@@ -6,6 +6,8 @@ import Popup from 'reactjs-popup';
 import 'reactjs-popup/dist/index.css';
 import './Graph.css';
 import graph_data from "./data.json";
+const appVersion = process.env.REACT_APP_VERSION;
+
 
 const Graph = ({selectedOptions, onChange2, toggleEdges, toggleCluster}) => {
     const [network, setNetwork] = useState(null);
@@ -297,6 +299,9 @@ const Graph = ({selectedOptions, onChange2, toggleEdges, toggleCluster}) => {
             </div>
             <div id="footer_item">
                 <a href="https://adeelaashraf.github.io/visualization_DTs_ecosystems/data.xlsx" download>Full Dataset</a>
+            </div>
+            <div id="footer_item">
+                <p>Ver.{appVersion}</p>
             </div>
         </div>
         <div id="graph-container" ref={containerRef} /><div />

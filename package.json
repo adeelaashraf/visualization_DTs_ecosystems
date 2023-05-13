@@ -1,6 +1,6 @@
 {
   "name": "visualization_DTs_ecosystems",
-  "version": "0.1.1",
+  "version": "0.1.0",
   "homepage": "https://adeelaashraf.github.io/visualization_DTs_ecosystems",
   "private": true,
   "dependencies": {
@@ -45,6 +45,8 @@
     ]
   },
   "devDependencies": {
+    "dotenv": "^16.0.3",
+    "dotenv-webpack": "^8.0.1",
     "gh-pages": "^5.0.0"
   }
 }
