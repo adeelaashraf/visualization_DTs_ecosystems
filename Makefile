@@ -19,4 +19,4 @@ update_version:
 	packageJson.version = '$$version'; \
 	fs.writeFileSync('package.json', JSON.stringify(packageJson, null, 2));"
 
-remote: process_data update_version
+deploy: process_data update_version

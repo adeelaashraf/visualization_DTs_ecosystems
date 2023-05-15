@@ -1,4 +1,5 @@
 # Import librarie(s)
+from inspect import trace
 import pandas as pd
 
 # For given split dataframe, remove any empty columns
@@ -76,11 +77,12 @@ def get_assessment_data():
     return data
 
 # Keep track in order to split dataframes
-misc = 7
-data_type_amount = 11
-visualization_technique_amount = 19
-visualization_tool_amount = 27
-medium_amount = 8
-requirements_challenges_amount = 16
-assessment_amount = 4
+track_data = (pd.read_excel('data.xlsx', 'track')).dropna(how='all')
+misc = track_data.iloc[0, 1]
+data_type_amount = track_data.iloc[1, 1]
+visualization_technique_amount = track_data.iloc[2, 1]
+visualization_tool_amount = track_data.iloc[3, 1]
+medium_amount = track_data.iloc[4, 1]
+requirements_challenges_amount = track_data.iloc[5, 1]
+assessment_amount = track_data.iloc[6, 1]
 
