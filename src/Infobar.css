@@ -12,13 +12,13 @@
     z-index: 2;
 }
 
-.infobar.closed {
-    transform: translateX(100%);
-}
+    .infobar.closed {
+        transform: translateX(100%);
+    }
 
-.infobar.open {
-    transform: translateX(0);
-}
+    .infobar.open {
+        transform: translateX(0);
+    }
 
 .infobar_toggle {
     position: absolute;
@@ -52,6 +52,7 @@
 
 table {
     border-collapse: collapse;
+    text-align: center;
 }
 
 th,
@@ -62,6 +63,33 @@ td {
 
 tr.result-row:not(:last-child) {
     border-bottom: 1px solid #ddd;
+}
+
+.rotated-header {
+    border-collapse: collapse;
+    position: relative;
+    text-align: center;
+    transform: rotate(-170deg);
+    writing-mode: vertical-lr;
+    white-space: nowrap;
+    padding: 20px 3px; /* Add horizontal padding here */
+    width: 40px;
+    text-decoration: underline; /* Add underline style */
+}
+
+.tooltip_marker {
+    text-decoration: underline; /* Add underline style */
+}
+
+.legend_container {
+    display: flex;
+    justify-content: center;
+}
+
+.legend_item {
+    display: inline-block;
+    margin-right: 20px;
+    text-align: center;
 }
 
 .button2 {

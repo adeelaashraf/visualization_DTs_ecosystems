@@ -7,7 +7,7 @@ import json
 import pandas as pd
 from process_data import *
 
-def add_nodes(json_nodes, assessment_data, dataframe, color, shape, size):
+def add_nodes(json_nodes, definition_data, dataframe, color, shape, size):
     dataframe_names = dataframe.columns.values
 
     for i in dataframe_names:
@@ -19,14 +19,14 @@ def add_nodes(json_nodes, assessment_data, dataframe, color, shape, size):
         temp_dict["size"] = size
 
         # Add title, and group if it exists
-        if assessment_data['Node'].str.contains(i).bool:
-            filtered_row = assessment_data[assessment_data['Node'].str.contains(i)]
+        if i in definition_data['Node'].tolist():
+            filtered_row = definition_data[(definition_data['Node'] == i)]
             temp_dict["title"] = filtered_row.iloc[0,2]
             # Node has a group
             if not pd.isna(filtered_row.iloc[0,1]):
                 temp_dict["cid"] = filtered_row.iloc[0,1]
         else: 
-            raise Exception("Node in literature data does not in exist in assessment_data.")
+            raise Exception("Node in literature data does not in exist in definition_data.")
 
         json_nodes.append(temp_dict)
 
@@ -117,15 +117,17 @@ def create_edges_same_type(same_type_edges, dataframe, category):
 
 # Read data, remove any empty columns
 data, data_type, visualization_technique, visualization_tool, medium = get_literature_data("classified")
-assessment_data, assessment_data_type, assessment_visualization_technique, assessment_visualization_tool = get_assessment_data()
+definition_data, definition_data_type, definition_visualization_technique, definition_visualization_tool, definition_requirements_challenges, definition_assessment = get_definition_data()
+assessment_data = get_assessment_data()
+
 os.chdir("src")
 
 # Make JSON files to store the nodes, edges, and multiselect options for the React application
 # Add nodes
 json_nodes = []
-add_nodes(json_nodes, assessment_data, data_type, "red", "triangle", 10)
-add_nodes(json_nodes, assessment_data, visualization_technique, "blue", "square", 10)
-add_nodes(json_nodes, assessment_data, visualization_tool, "purple", "dot", 10)
+add_nodes(json_nodes, definition_data, data_type, "red", "triangle", 10)
+add_nodes(json_nodes, definition_data, visualization_technique, "blue", "square", 10)
+add_nodes(json_nodes, definition_data, visualization_tool, "purple", "dot", 10)
 
 
 # Plot edges
@@ -260,19 +262,57 @@ def multiselect_nodes_grouping(df):
                 json_dict.append(group_dict)
     return(json_dict)
 
+# Definitions requirements and challenges + assessment
+def make_definitions(df):
+    json_dict = []
+    temp_dict = {}
+    for index, row in df.iterrows():
+        temp_dict[row[0]] = row[2]
+    json_dict.append(temp_dict)
+    return(json_dict)
+
+def parse_assessment(df):
+    total_columns = len(df.columns)
+    total = {}
+    for index, row in df.iterrows():
+        # If first row is nonempty
+        if not pd.isna(row[0]):
+            req_chal = {}
+            for column_index in range(3, total_columns):
+                req_chal_items = {}
+                column_name = df.columns[column_index]
+                req_chal_items["Rating"] = row[column_index]
+                req_chal_items["Description"] = (df.loc[index + 1])[column_index]
+                req_chal_items["URL"] = (df.loc[index + 2])[column_index]
+                req_chal[column_name] = req_chal_items
+            total[row[1]] = req_chal
+
+    return(total)
+
 
 # Convert data to JSON
+# Nodes, edges
 json_total = {}
 json_total["nodes"] = json_nodes
 json_total["edges"] = json_edges
+
 # For the multiselect nodes, make dictionaries to group per category
-json_total["data_type"] = multiselect_nodes_no_grouping(assessment_data_type)
-json_total["visualization_technique"] = multiselect_nodes_grouping(assessment_visualization_technique)
-json_total["visualization_tool"] = multiselect_nodes_grouping(assessment_visualization_tool)
+json_total["data_type"] = multiselect_nodes_no_grouping(definition_data_type)
+json_total["visualization_technique"] = multiselect_nodes_grouping(definition_visualization_technique)
+json_total["visualization_tool"] = multiselect_nodes_grouping(definition_visualization_tool)
+
+# Add definitions for requirements and challenges + assessment
+json_total["requirements_and_challenges"] = make_definitions(definition_requirements_challenges)
+json_total["assessment"] = make_definitions(definition_assessment)
+
 # Add group nodes for clustering
-json_total["data_type_group"] = list(assessment_data_type.iloc[:, 1].dropna().unique())
-json_total["visualization_technique_group"] = list(assessment_visualization_technique.iloc[:, 1].dropna().unique())
-json_total["visualization_tool_group"] = list(assessment_visualization_tool.iloc[:, 1].dropna().unique())
+json_total["data_type_group"] = list(definition_data_type.iloc[:, 1].dropna().unique())
+json_total["visualization_technique_group"] = list(definition_visualization_technique.iloc[:, 1].dropna().unique())
+json_total["visualization_tool_group"] = list(definition_visualization_tool.iloc[:, 1].dropna().unique())
+
+# Add assessment data
+json_total["assessment_data"] = parse_assessment(assessment_data)
+
 with open('data.json', 'w') as outfile1:
     outfile1.write(json.dumps(json_total, indent=4))
 

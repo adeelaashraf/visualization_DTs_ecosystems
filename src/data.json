@@ -111,7 +111,7 @@
             "color": "blue",
             "shape": "square",
             "size": 10,
-            "title": "A collection of two-dimensional visualization techniques",
+            "title": "A collection of two-dimensional visualization techniques.",
             "cid": "2D plots"
         },
         {
@@ -342,8 +342,7 @@
             "color": "purple",
             "shape": "dot",
             "size": 10,
-            "title": "Augmented Reality",
-            "cid": "Immersive Visualization Techniques"
+            "title": "R"
         },
         {
             "id": "Python",
@@ -3073,6 +3072,34 @@
             ]
         }
     ],
+    "requirements_and_challenges": [
+        {
+            "Real-Time": "Processing data within milliseconds, by means of low latency or data compression.",
+            "Network Connectivity": "Connection to the network using Bluetooth, Wi-Fi, or another method.",
+            "Computing Power": "Ability to support computation load without significant performance loss.",
+            "Data Capacity": "Ability to store all (generated) data, locally or in the cloud.",
+            "Integration": "Seamless integration of data, software, or similar component into the system.",
+            "Security": "Securing the system by means of ensuring privacy, integrity, encryption, authentication, or using blockchain.",
+            "Continuous Improvement": "Ability to analyze data from the model or system in order to make decisions for improvements, using simulations or human intervention.",
+            "Reliability": "Behaviour system operates as defined over a period of time.",
+            "Accuracy": "Representation of the model or system with enough accuracy.",
+            "Obtrusiveness": "Ease of perception of the system for the human eye by using dashboards, 3D models, or other methods.",
+            "Granularity": "Ability to see different viewpoints of the model or system, with different levels of detail.",
+            "Standardization": "Alignment in understanding between different domains, stakeholders, or goals.",
+            "Economic Value": "Demonstrating the business or monetary value of the system.",
+            "Usability": "Ease of operation by humans.",
+            "Safety": "Protection from risks for humans by verification or issuing certificates.",
+            "Collaboration": "Ability for multiple stakeholders to make adjustments to the system or model."
+        }
+    ],
+    "assessment": [
+        {
+            "Suitable": "The tool fulfills the requirement or challenge without additional effort.",
+            "Moderately Suitable": "The tool fulfills the requirement or challenge, but within specific terms and/or requires extra effort to be fulfilled.",
+            "Unsuitable": "The tool does not fulfill the requirement or challenge, or requires huge amounts of effort to be fulfilled.",
+            "Blank": "The requirement or challenge is not applicable to be assessed by the visualization tool."
+        }
+    ],
     "data_type_group": [],
     "visualization_technique_group": [
         "Immersive Visualization Techniques",
@@ -3083,5 +3110,2221 @@
         "Modeling Software",
         "Javascript Libaries/Frameworks/Packages",
         "Web-based Libaries/Frameworks/Packages"
-    ]
+    ],
+    "assessment_data": {
+        "Unity3D": {
+            "Real-Time": {
+                "Rating": "(+)",
+                "Description": "Supports real-time rendering and simulation.",
+                "URL": "https://unity.com/how-to/real-time-rendering-3d"
+            },
+            "Network Connectivity": {
+                "Rating": "(+)",
+                "Description": "Supports real-time rendering and simulation.",
+                "URL": "https://unity.com/how-to/real-time-rendering-3d"
+            },
+            "Computing Power": {
+                "Rating": "(+)",
+                "Description": "Supports real-time rendering and simulation.",
+                "URL": "https://unity.com/how-to/real-time-rendering-3d"
+            },
+            "Data Capacity": {
+                "Rating": "(+)",
+                "Description": "Supports real-time rendering and simulation.",
+                "URL": "https://unity.com/how-to/real-time-rendering-3d"
+            },
+            "Integration": {
+                "Rating": "(+)",
+                "Description": "Supports real-time rendering and simulation.",
+                "URL": "https://unity.com/how-to/real-time-rendering-3d"
+            },
+            "Security": {
+                "Rating": "(+)",
+                "Description": "Supports real-time rendering and simulation.",
+                "URL": "https://unity.com/how-to/real-time-rendering-3d"
+            },
+            "Continuous Improvement": {
+                "Rating": "(+)",
+                "Description": "Supports real-time rendering and simulation.",
+                "URL": "https://unity.com/how-to/real-time-rendering-3d"
+            },
+            "Reliability": {
+                "Rating": "(+)",
+                "Description": "Supports real-time rendering and simulation.",
+                "URL": "https://unity.com/how-to/real-time-rendering-3d"
+            },
+            "Accuracy": {
+                "Rating": "(+)",
+                "Description": "Supports real-time rendering and simulation.",
+                "URL": "https://unity.com/how-to/real-time-rendering-3d"
+            },
+            "Obtrusiveness": {
+                "Rating": "(+)",
+                "Description": "Supports real-time rendering and simulation.",
+                "URL": "https://unity.com/how-to/real-time-rendering-3d"
+            },
+            "Granularity": {
+                "Rating": "(+)",
+                "Description": "Supports real-time rendering and simulation.",
+                "URL": "https://unity.com/how-to/real-time-rendering-3d"
+            },
+            "Standardization": {
+                "Rating": "(+)",
+                "Description": "Supports real-time rendering and simulation.",
+                "URL": "https://unity.com/how-to/real-time-rendering-3d"
+            },
+            "Economic Value": {
+                "Rating": "(+)",
+                "Description": "Supports real-time rendering and simulation.",
+                "URL": "https://unity.com/how-to/real-time-rendering-3d"
+            },
+            "Usability": {
+                "Rating": "(+)",
+                "Description": "Supports real-time rendering and simulation.",
+                "URL": "https://unity.com/how-to/real-time-rendering-3d"
+            },
+            "Safety": {
+                "Rating": "(+)",
+                "Description": "Supports real-time rendering and simulation.",
+                "URL": "https://unity.com/how-to/real-time-rendering-3d"
+            },
+            "Collaboration": {
+                "Rating": "(+)",
+                "Description": "Supports real-time rendering and simulation.",
+                "URL": "https://unity.com/how-to/real-time-rendering-3d"
+            }
+        },
+        "Blender": {
+            "Real-Time": {
+                "Rating": "(+)",
+                "Description": "Supports real-time rendering and simulation.",
+                "URL": "https://unity.com/how-to/real-time-rendering-3d"
+            },
+            "Network Connectivity": {
+                "Rating": "(+)",
+                "Description": "Supports real-time rendering and simulation.",
+                "URL": "https://unity.com/how-to/real-time-rendering-3d"
+            },
+            "Computing Power": {
+                "Rating": "(+)",
+                "Description": "Supports real-time rendering and simulation.",
+                "URL": "https://unity.com/how-to/real-time-rendering-3d"
+            },
+            "Data Capacity": {
+                "Rating": "(+)",
+                "Description": "Supports real-time rendering and simulation.",
+                "URL": "https://unity.com/how-to/real-time-rendering-3d"
+            },
+            "Integration": {
+                "Rating": "(+)",
+                "Description": "Supports real-time rendering and simulation.",
+                "URL": "https://unity.com/how-to/real-time-rendering-3d"
+            },
+            "Security": {
+                "Rating": "(+)",
+                "Description": "Supports real-time rendering and simulation.",
+                "URL": "https://unity.com/how-to/real-time-rendering-3d"
+            },
+            "Continuous Improvement": {
+                "Rating": "(+)",
+                "Description": "Supports real-time rendering and simulation.",
+                "URL": "https://unity.com/how-to/real-time-rendering-3d"
+            },
+            "Reliability": {
+                "Rating": "(+)",
+                "Description": "Supports real-time rendering and simulation.",
+                "URL": "https://unity.com/how-to/real-time-rendering-3d"
+            },
+            "Accuracy": {
+                "Rating": "(+)",
+                "Description": "Supports real-time rendering and simulation.",
+                "URL": "https://unity.com/how-to/real-time-rendering-3d"
+            },
+            "Obtrusiveness": {
+                "Rating": "(+)",
+                "Description": "Supports real-time rendering and simulation.",
+                "URL": "https://unity.com/how-to/real-time-rendering-3d"
+            },
+            "Granularity": {
+                "Rating": "(+)",
+                "Description": "Supports real-time rendering and simulation.",
+                "URL": "https://unity.com/how-to/real-time-rendering-3d"
+            },
+            "Standardization": {
+                "Rating": "(+)",
+                "Description": "Supports real-time rendering and simulation.",
+                "URL": "https://unity.com/how-to/real-time-rendering-3d"
+            },
+            "Economic Value": {
+                "Rating": "(+)",
+                "Description": "Supports real-time rendering and simulation.",
+                "URL": "https://unity.com/how-to/real-time-rendering-3d"
+            },
+            "Usability": {
+                "Rating": "(+)",
+                "Description": "Supports real-time rendering and simulation.",
+                "URL": "https://unity.com/how-to/real-time-rendering-3d"
+            },
+            "Safety": {
+                "Rating": "(+)",
+                "Description": "Supports real-time rendering and simulation.",
+                "URL": "https://unity.com/how-to/real-time-rendering-3d"
+            },
+            "Collaboration": {
+                "Rating": "(+)",
+                "Description": "Supports real-time rendering and simulation.",
+                "URL": "https://unity.com/how-to/real-time-rendering-3d"
+            }
+        },
+        "JQuery": {
+            "Real-Time": {
+                "Rating": "(+)",
+                "Description": "Supports real-time rendering and simulation.",
+                "URL": "https://unity.com/how-to/real-time-rendering-3d"
+            },
+            "Network Connectivity": {
+                "Rating": "(+)",
+                "Description": "Supports real-time rendering and simulation.",
+                "URL": "https://unity.com/how-to/real-time-rendering-3d"
+            },
+            "Computing Power": {
+                "Rating": "(+)",
+                "Description": "Supports real-time rendering and simulation.",
+                "URL": "https://unity.com/how-to/real-time-rendering-3d"
+            },
+            "Data Capacity": {
+                "Rating": "(+)",
+                "Description": "Supports real-time rendering and simulation.",
+                "URL": "https://unity.com/how-to/real-time-rendering-3d"
+            },
+            "Integration": {
+                "Rating": "(+)",
+                "Description": "Supports real-time rendering and simulation.",
+                "URL": "https://unity.com/how-to/real-time-rendering-3d"
+            },
+            "Security": {
+                "Rating": "(+)",
+                "Description": "Supports real-time rendering and simulation.",
+                "URL": "https://unity.com/how-to/real-time-rendering-3d"
+            },
+            "Continuous Improvement": {
+                "Rating": "(+)",
+                "Description": "Supports real-time rendering and simulation.",
+                "URL": "https://unity.com/how-to/real-time-rendering-3d"
+            },
+            "Reliability": {
+                "Rating": "(+)",
+                "Description": "Supports real-time rendering and simulation.",
+                "URL": "https://unity.com/how-to/real-time-rendering-3d"
+            },
+            "Accuracy": {
+                "Rating": "(+)",
+                "Description": "Supports real-time rendering and simulation.",
+                "URL": "https://unity.com/how-to/real-time-rendering-3d"
+            },
+            "Obtrusiveness": {
+                "Rating": "(+)",
+                "Description": "Supports real-time rendering and simulation.",
+                "URL": "https://unity.com/how-to/real-time-rendering-3d"
+            },
+            "Granularity": {
+                "Rating": "(+)",
+                "Description": "Supports real-time rendering and simulation.",
+                "URL": "https://unity.com/how-to/real-time-rendering-3d"
+            },
+            "Standardization": {
+                "Rating": "(+)",
+                "Description": "Supports real-time rendering and simulation.",
+                "URL": "https://unity.com/how-to/real-time-rendering-3d"
+            },
+            "Economic Value": {
+                "Rating": "(+)",
+                "Description": "Supports real-time rendering and simulation.",
+                "URL": "https://unity.com/how-to/real-time-rendering-3d"
+            },
+            "Usability": {
+                "Rating": "(+)",
+                "Description": "Supports real-time rendering and simulation.",
+                "URL": "https://unity.com/how-to/real-time-rendering-3d"
+            },
+            "Safety": {
+                "Rating": "(+)",
+                "Description": "Supports real-time rendering and simulation.",
+                "URL": "https://unity.com/how-to/real-time-rendering-3d"
+            },
+            "Collaboration": {
+                "Rating": "(+)",
+                "Description": "Supports real-time rendering and simulation.",
+                "URL": "https://unity.com/how-to/real-time-rendering-3d"
+            }
+        },
+        "jsPanel": {
+            "Real-Time": {
+                "Rating": "(+)",
+                "Description": "Supports real-time rendering and simulation.",
+                "URL": "https://unity.com/how-to/real-time-rendering-3d"
+            },
+            "Network Connectivity": {
+                "Rating": "(+)",
+                "Description": "Supports real-time rendering and simulation.",
+                "URL": "https://unity.com/how-to/real-time-rendering-3d"
+            },
+            "Computing Power": {
+                "Rating": "(+)",
+                "Description": "Supports real-time rendering and simulation.",
+                "URL": "https://unity.com/how-to/real-time-rendering-3d"
+            },
+            "Data Capacity": {
+                "Rating": "(+)",
+                "Description": "Supports real-time rendering and simulation.",
+                "URL": "https://unity.com/how-to/real-time-rendering-3d"
+            },
+            "Integration": {
+                "Rating": "(+)",
+                "Description": "Supports real-time rendering and simulation.",
+                "URL": "https://unity.com/how-to/real-time-rendering-3d"
+            },
+            "Security": {
+                "Rating": "(+)",
+                "Description": "Supports real-time rendering and simulation.",
+                "URL": "https://unity.com/how-to/real-time-rendering-3d"
+            },
+            "Continuous Improvement": {
+                "Rating": "(+)",
+                "Description": "Supports real-time rendering and simulation.",
+                "URL": "https://unity.com/how-to/real-time-rendering-3d"
+            },
+            "Reliability": {
+                "Rating": "(+)",
+                "Description": "Supports real-time rendering and simulation.",
+                "URL": "https://unity.com/how-to/real-time-rendering-3d"
+            },
+            "Accuracy": {
+                "Rating": "(+)",
+                "Description": "Supports real-time rendering and simulation.",
+                "URL": "https://unity.com/how-to/real-time-rendering-3d"
+            },
+            "Obtrusiveness": {
+                "Rating": "(+)",
+                "Description": "Supports real-time rendering and simulation.",
+                "URL": "https://unity.com/how-to/real-time-rendering-3d"
+            },
+            "Granularity": {
+                "Rating": "(+)",
+                "Description": "Supports real-time rendering and simulation.",
+                "URL": "https://unity.com/how-to/real-time-rendering-3d"
+            },
+            "Standardization": {
+                "Rating": "(+)",
+                "Description": "Supports real-time rendering and simulation.",
+                "URL": "https://unity.com/how-to/real-time-rendering-3d"
+            },
+            "Economic Value": {
+                "Rating": "(+)",
+                "Description": "Supports real-time rendering and simulation.",
+                "URL": "https://unity.com/how-to/real-time-rendering-3d"
+            },
+            "Usability": {
+                "Rating": "(+)",
+                "Description": "Supports real-time rendering and simulation.",
+                "URL": "https://unity.com/how-to/real-time-rendering-3d"
+            },
+            "Safety": {
+                "Rating": "(+)",
+                "Description": "Supports real-time rendering and simulation.",
+                "URL": "https://unity.com/how-to/real-time-rendering-3d"
+            },
+            "Collaboration": {
+                "Rating": "(+)",
+                "Description": "Supports real-time rendering and simulation.",
+                "URL": "https://unity.com/how-to/real-time-rendering-3d"
+            }
+        },
+        "Unreal Engine": {
+            "Real-Time": {
+                "Rating": "(+)",
+                "Description": "Supports real-time rendering and simulation.",
+                "URL": "https://unity.com/how-to/real-time-rendering-3d"
+            },
+            "Network Connectivity": {
+                "Rating": "(+)",
+                "Description": "Supports real-time rendering and simulation.",
+                "URL": "https://unity.com/how-to/real-time-rendering-3d"
+            },
+            "Computing Power": {
+                "Rating": "(+)",
+                "Description": "Supports real-time rendering and simulation.",
+                "URL": "https://unity.com/how-to/real-time-rendering-3d"
+            },
+            "Data Capacity": {
+                "Rating": "(+)",
+                "Description": "Supports real-time rendering and simulation.",
+                "URL": "https://unity.com/how-to/real-time-rendering-3d"
+            },
+            "Integration": {
+                "Rating": "(+)",
+                "Description": "Supports real-time rendering and simulation.",
+                "URL": "https://unity.com/how-to/real-time-rendering-3d"
+            },
+            "Security": {
+                "Rating": "(+)",
+                "Description": "Supports real-time rendering and simulation.",
+                "URL": "https://unity.com/how-to/real-time-rendering-3d"
+            },
+            "Continuous Improvement": {
+                "Rating": "(+)",
+                "Description": "Supports real-time rendering and simulation.",
+                "URL": "https://unity.com/how-to/real-time-rendering-3d"
+            },
+            "Reliability": {
+                "Rating": "(+)",
+                "Description": "Supports real-time rendering and simulation.",
+                "URL": "https://unity.com/how-to/real-time-rendering-3d"
+            },
+            "Accuracy": {
+                "Rating": "(+)",
+                "Description": "Supports real-time rendering and simulation.",
+                "URL": "https://unity.com/how-to/real-time-rendering-3d"
+            },
+            "Obtrusiveness": {
+                "Rating": "(+)",
+                "Description": "Supports real-time rendering and simulation.",
+                "URL": "https://unity.com/how-to/real-time-rendering-3d"
+            },
+            "Granularity": {
+                "Rating": "(+)",
+                "Description": "Supports real-time rendering and simulation.",
+                "URL": "https://unity.com/how-to/real-time-rendering-3d"
+            },
+            "Standardization": {
+                "Rating": "(+)",
+                "Description": "Supports real-time rendering and simulation.",
+                "URL": "https://unity.com/how-to/real-time-rendering-3d"
+            },
+            "Economic Value": {
+                "Rating": "(+)",
+                "Description": "Supports real-time rendering and simulation.",
+                "URL": "https://unity.com/how-to/real-time-rendering-3d"
+            },
+            "Usability": {
+                "Rating": "(+)",
+                "Description": "Supports real-time rendering and simulation.",
+                "URL": "https://unity.com/how-to/real-time-rendering-3d"
+            },
+            "Safety": {
+                "Rating": "(+)",
+                "Description": "Supports real-time rendering and simulation.",
+                "URL": "https://unity.com/how-to/real-time-rendering-3d"
+            },
+            "Collaboration": {
+                "Rating": "(+)",
+                "Description": "Supports real-time rendering and simulation.",
+                "URL": "https://unity.com/how-to/real-time-rendering-3d"
+            }
+        },
+        "Javascript": {
+            "Real-Time": {
+                "Rating": "(+)",
+                "Description": "Supports real-time rendering and simulation.",
+                "URL": "https://unity.com/how-to/real-time-rendering-3d"
+            },
+            "Network Connectivity": {
+                "Rating": "(+)",
+                "Description": "Supports real-time rendering and simulation.",
+                "URL": "https://unity.com/how-to/real-time-rendering-3d"
+            },
+            "Computing Power": {
+                "Rating": "(+)",
+                "Description": "Supports real-time rendering and simulation.",
+                "URL": "https://unity.com/how-to/real-time-rendering-3d"
+            },
+            "Data Capacity": {
+                "Rating": "(+)",
+                "Description": "Supports real-time rendering and simulation.",
+                "URL": "https://unity.com/how-to/real-time-rendering-3d"
+            },
+            "Integration": {
+                "Rating": "(+)",
+                "Description": "Supports real-time rendering and simulation.",
+                "URL": "https://unity.com/how-to/real-time-rendering-3d"
+            },
+            "Security": {
+                "Rating": "(+)",
+                "Description": "Supports real-time rendering and simulation.",
+                "URL": "https://unity.com/how-to/real-time-rendering-3d"
+            },
+            "Continuous Improvement": {
+                "Rating": "(+)",
+                "Description": "Supports real-time rendering and simulation.",
+                "URL": "https://unity.com/how-to/real-time-rendering-3d"
+            },
+            "Reliability": {
+                "Rating": "(+)",
+                "Description": "Supports real-time rendering and simulation.",
+                "URL": "https://unity.com/how-to/real-time-rendering-3d"
+            },
+            "Accuracy": {
+                "Rating": "(+)",
+                "Description": "Supports real-time rendering and simulation.",
+                "URL": "https://unity.com/how-to/real-time-rendering-3d"
+            },
+            "Obtrusiveness": {
+                "Rating": "(+)",
+                "Description": "Supports real-time rendering and simulation.",
+                "URL": "https://unity.com/how-to/real-time-rendering-3d"
+            },
+            "Granularity": {
+                "Rating": "(+)",
+                "Description": "Supports real-time rendering and simulation.",
+                "URL": "https://unity.com/how-to/real-time-rendering-3d"
+            },
+            "Standardization": {
+                "Rating": "(+)",
+                "Description": "Supports real-time rendering and simulation.",
+                "URL": "https://unity.com/how-to/real-time-rendering-3d"
+            },
+            "Economic Value": {
+                "Rating": "(+)",
+                "Description": "Supports real-time rendering and simulation.",
+                "URL": "https://unity.com/how-to/real-time-rendering-3d"
+            },
+            "Usability": {
+                "Rating": "(+)",
+                "Description": "Supports real-time rendering and simulation.",
+                "URL": "https://unity.com/how-to/real-time-rendering-3d"
+            },
+            "Safety": {
+                "Rating": "(+)",
+                "Description": "Supports real-time rendering and simulation.",
+                "URL": "https://unity.com/how-to/real-time-rendering-3d"
+            },
+            "Collaboration": {
+                "Rating": "(+)",
+                "Description": "Supports real-time rendering and simulation.",
+                "URL": "https://unity.com/how-to/real-time-rendering-3d"
+            }
+        },
+        "Backbone": {
+            "Real-Time": {
+                "Rating": "(+)",
+                "Description": "Supports real-time rendering and simulation.",
+                "URL": "https://unity.com/how-to/real-time-rendering-3d"
+            },
+            "Network Connectivity": {
+                "Rating": "(+)",
+                "Description": "Supports real-time rendering and simulation.",
+                "URL": "https://unity.com/how-to/real-time-rendering-3d"
+            },
+            "Computing Power": {
+                "Rating": "(+)",
+                "Description": "Supports real-time rendering and simulation.",
+                "URL": "https://unity.com/how-to/real-time-rendering-3d"
+            },
+            "Data Capacity": {
+                "Rating": "(+)",
+                "Description": "Supports real-time rendering and simulation.",
+                "URL": "https://unity.com/how-to/real-time-rendering-3d"
+            },
+            "Integration": {
+                "Rating": "(+)",
+                "Description": "Supports real-time rendering and simulation.",
+                "URL": "https://unity.com/how-to/real-time-rendering-3d"
+            },
+            "Security": {
+                "Rating": "(+)",
+                "Description": "Supports real-time rendering and simulation.",
+                "URL": "https://unity.com/how-to/real-time-rendering-3d"
+            },
+            "Continuous Improvement": {
+                "Rating": "(+)",
+                "Description": "Supports real-time rendering and simulation.",
+                "URL": "https://unity.com/how-to/real-time-rendering-3d"
+            },
+            "Reliability": {
+                "Rating": "(+)",
+                "Description": "Supports real-time rendering and simulation.",
+                "URL": "https://unity.com/how-to/real-time-rendering-3d"
+            },
+            "Accuracy": {
+                "Rating": "(+)",
+                "Description": "Supports real-time rendering and simulation.",
+                "URL": "https://unity.com/how-to/real-time-rendering-3d"
+            },
+            "Obtrusiveness": {
+                "Rating": "(+)",
+                "Description": "Supports real-time rendering and simulation.",
+                "URL": "https://unity.com/how-to/real-time-rendering-3d"
+            },
+            "Granularity": {
+                "Rating": "(+)",
+                "Description": "Supports real-time rendering and simulation.",
+                "URL": "https://unity.com/how-to/real-time-rendering-3d"
+            },
+            "Standardization": {
+                "Rating": "(+)",
+                "Description": "Supports real-time rendering and simulation.",
+                "URL": "https://unity.com/how-to/real-time-rendering-3d"
+            },
+            "Economic Value": {
+                "Rating": "(+)",
+                "Description": "Supports real-time rendering and simulation.",
+                "URL": "https://unity.com/how-to/real-time-rendering-3d"
+            },
+            "Usability": {
+                "Rating": "(+)",
+                "Description": "Supports real-time rendering and simulation.",
+                "URL": "https://unity.com/how-to/real-time-rendering-3d"
+            },
+            "Safety": {
+                "Rating": "(+)",
+                "Description": "Supports real-time rendering and simulation.",
+                "URL": "https://unity.com/how-to/real-time-rendering-3d"
+            },
+            "Collaboration": {
+                "Rating": "(+)",
+                "Description": "Supports real-time rendering and simulation.",
+                "URL": "https://unity.com/how-to/real-time-rendering-3d"
+            }
+        },
+        ".NET": {
+            "Real-Time": {
+                "Rating": "(+)",
+                "Description": "Supports real-time rendering and simulation.",
+                "URL": "https://unity.com/how-to/real-time-rendering-3d"
+            },
+            "Network Connectivity": {
+                "Rating": "(+)",
+                "Description": "Supports real-time rendering and simulation.",
+                "URL": "https://unity.com/how-to/real-time-rendering-3d"
+            },
+            "Computing Power": {
+                "Rating": "(+)",
+                "Description": "Supports real-time rendering and simulation.",
+                "URL": "https://unity.com/how-to/real-time-rendering-3d"
+            },
+            "Data Capacity": {
+                "Rating": "(+)",
+                "Description": "Supports real-time rendering and simulation.",
+                "URL": "https://unity.com/how-to/real-time-rendering-3d"
+            },
+            "Integration": {
+                "Rating": "(+)",
+                "Description": "Supports real-time rendering and simulation.",
+                "URL": "https://unity.com/how-to/real-time-rendering-3d"
+            },
+            "Security": {
+                "Rating": "(+)",
+                "Description": "Supports real-time rendering and simulation.",
+                "URL": "https://unity.com/how-to/real-time-rendering-3d"
+            },
+            "Continuous Improvement": {
+                "Rating": "(+)",
+                "Description": "Supports real-time rendering and simulation.",
+                "URL": "https://unity.com/how-to/real-time-rendering-3d"
+            },
+            "Reliability": {
+                "Rating": "(+)",
+                "Description": "Supports real-time rendering and simulation.",
+                "URL": "https://unity.com/how-to/real-time-rendering-3d"
+            },
+            "Accuracy": {
+                "Rating": "(+)",
+                "Description": "Supports real-time rendering and simulation.",
+                "URL": "https://unity.com/how-to/real-time-rendering-3d"
+            },
+            "Obtrusiveness": {
+                "Rating": "(+)",
+                "Description": "Supports real-time rendering and simulation.",
+                "URL": "https://unity.com/how-to/real-time-rendering-3d"
+            },
+            "Granularity": {
+                "Rating": "(+)",
+                "Description": "Supports real-time rendering and simulation.",
+                "URL": "https://unity.com/how-to/real-time-rendering-3d"
+            },
+            "Standardization": {
+                "Rating": "(+)",
+                "Description": "Supports real-time rendering and simulation.",
+                "URL": "https://unity.com/how-to/real-time-rendering-3d"
+            },
+            "Economic Value": {
+                "Rating": "(+)",
+                "Description": "Supports real-time rendering and simulation.",
+                "URL": "https://unity.com/how-to/real-time-rendering-3d"
+            },
+            "Usability": {
+                "Rating": "(+)",
+                "Description": "Supports real-time rendering and simulation.",
+                "URL": "https://unity.com/how-to/real-time-rendering-3d"
+            },
+            "Safety": {
+                "Rating": "(+)",
+                "Description": "Supports real-time rendering and simulation.",
+                "URL": "https://unity.com/how-to/real-time-rendering-3d"
+            },
+            "Collaboration": {
+                "Rating": "(+)",
+                "Description": "Supports real-time rendering and simulation.",
+                "URL": "https://unity.com/how-to/real-time-rendering-3d"
+            }
+        },
+        "D3.js": {
+            "Real-Time": {
+                "Rating": "(+)",
+                "Description": "Supports real-time rendering and simulation.",
+                "URL": "https://unity.com/how-to/real-time-rendering-3d"
+            },
+            "Network Connectivity": {
+                "Rating": "(+)",
+                "Description": "Supports real-time rendering and simulation.",
+                "URL": "https://unity.com/how-to/real-time-rendering-3d"
+            },
+            "Computing Power": {
+                "Rating": "(+)",
+                "Description": "Supports real-time rendering and simulation.",
+                "URL": "https://unity.com/how-to/real-time-rendering-3d"
+            },
+            "Data Capacity": {
+                "Rating": "(+)",
+                "Description": "Supports real-time rendering and simulation.",
+                "URL": "https://unity.com/how-to/real-time-rendering-3d"
+            },
+            "Integration": {
+                "Rating": "(+)",
+                "Description": "Supports real-time rendering and simulation.",
+                "URL": "https://unity.com/how-to/real-time-rendering-3d"
+            },
+            "Security": {
+                "Rating": "(+)",
+                "Description": "Supports real-time rendering and simulation.",
+                "URL": "https://unity.com/how-to/real-time-rendering-3d"
+            },
+            "Continuous Improvement": {
+                "Rating": "(+)",
+                "Description": "Supports real-time rendering and simulation.",
+                "URL": "https://unity.com/how-to/real-time-rendering-3d"
+            },
+            "Reliability": {
+                "Rating": "(+)",
+                "Description": "Supports real-time rendering and simulation.",
+                "URL": "https://unity.com/how-to/real-time-rendering-3d"
+            },
+            "Accuracy": {
+                "Rating": "(+)",
+                "Description": "Supports real-time rendering and simulation.",
+                "URL": "https://unity.com/how-to/real-time-rendering-3d"
+            },
+            "Obtrusiveness": {
+                "Rating": "(+)",
+                "Description": "Supports real-time rendering and simulation.",
+                "URL": "https://unity.com/how-to/real-time-rendering-3d"
+            },
+            "Granularity": {
+                "Rating": "(+)",
+                "Description": "Supports real-time rendering and simulation.",
+                "URL": "https://unity.com/how-to/real-time-rendering-3d"
+            },
+            "Standardization": {
+                "Rating": "(+)",
+                "Description": "Supports real-time rendering and simulation.",
+                "URL": "https://unity.com/how-to/real-time-rendering-3d"
+            },
+            "Economic Value": {
+                "Rating": "(+)",
+                "Description": "Supports real-time rendering and simulation.",
+                "URL": "https://unity.com/how-to/real-time-rendering-3d"
+            },
+            "Usability": {
+                "Rating": "(+)",
+                "Description": "Supports real-time rendering and simulation.",
+                "URL": "https://unity.com/how-to/real-time-rendering-3d"
+            },
+            "Safety": {
+                "Rating": "(+)",
+                "Description": "Supports real-time rendering and simulation.",
+                "URL": "https://unity.com/how-to/real-time-rendering-3d"
+            },
+            "Collaboration": {
+                "Rating": "(+)",
+                "Description": "Supports real-time rendering and simulation.",
+                "URL": "https://unity.com/how-to/real-time-rendering-3d"
+            }
+        },
+        "R": {
+            "Real-Time": {
+                "Rating": "(+)",
+                "Description": "Supports real-time rendering and simulation.",
+                "URL": "https://unity.com/how-to/real-time-rendering-3d"
+            },
+            "Network Connectivity": {
+                "Rating": "(+)",
+                "Description": "Supports real-time rendering and simulation.",
+                "URL": "https://unity.com/how-to/real-time-rendering-3d"
+            },
+            "Computing Power": {
+                "Rating": "(+)",
+                "Description": "Supports real-time rendering and simulation.",
+                "URL": "https://unity.com/how-to/real-time-rendering-3d"
+            },
+            "Data Capacity": {
+                "Rating": "(+)",
+                "Description": "Supports real-time rendering and simulation.",
+                "URL": "https://unity.com/how-to/real-time-rendering-3d"
+            },
+            "Integration": {
+                "Rating": "(+)",
+                "Description": "Supports real-time rendering and simulation.",
+                "URL": "https://unity.com/how-to/real-time-rendering-3d"
+            },
+            "Security": {
+                "Rating": "(+)",
+                "Description": "Supports real-time rendering and simulation.",
+                "URL": "https://unity.com/how-to/real-time-rendering-3d"
+            },
+            "Continuous Improvement": {
+                "Rating": "(+)",
+                "Description": "Supports real-time rendering and simulation.",
+                "URL": "https://unity.com/how-to/real-time-rendering-3d"
+            },
+            "Reliability": {
+                "Rating": "(+)",
+                "Description": "Supports real-time rendering and simulation.",
+                "URL": "https://unity.com/how-to/real-time-rendering-3d"
+            },
+            "Accuracy": {
+                "Rating": "(+)",
+                "Description": "Supports real-time rendering and simulation.",
+                "URL": "https://unity.com/how-to/real-time-rendering-3d"
+            },
+            "Obtrusiveness": {
+                "Rating": "(+)",
+                "Description": "Supports real-time rendering and simulation.",
+                "URL": "https://unity.com/how-to/real-time-rendering-3d"
+            },
+            "Granularity": {
+                "Rating": "(+)",
+                "Description": "Supports real-time rendering and simulation.",
+                "URL": "https://unity.com/how-to/real-time-rendering-3d"
+            },
+            "Standardization": {
+                "Rating": "(+)",
+                "Description": "Supports real-time rendering and simulation.",
+                "URL": "https://unity.com/how-to/real-time-rendering-3d"
+            },
+            "Economic Value": {
+                "Rating": "(+)",
+                "Description": "Supports real-time rendering and simulation.",
+                "URL": "https://unity.com/how-to/real-time-rendering-3d"
+            },
+            "Usability": {
+                "Rating": "(+)",
+                "Description": "Supports real-time rendering and simulation.",
+                "URL": "https://unity.com/how-to/real-time-rendering-3d"
+            },
+            "Safety": {
+                "Rating": "(+)",
+                "Description": "Supports real-time rendering and simulation.",
+                "URL": "https://unity.com/how-to/real-time-rendering-3d"
+            },
+            "Collaboration": {
+                "Rating": "(+)",
+                "Description": "Supports real-time rendering and simulation.",
+                "URL": "https://unity.com/how-to/real-time-rendering-3d"
+            }
+        },
+        "Python": {
+            "Real-Time": {
+                "Rating": "(+)",
+                "Description": "Supports real-time rendering and simulation.",
+                "URL": "https://unity.com/how-to/real-time-rendering-3d"
+            },
+            "Network Connectivity": {
+                "Rating": "(+)",
+                "Description": "Supports real-time rendering and simulation.",
+                "URL": "https://unity.com/how-to/real-time-rendering-3d"
+            },
+            "Computing Power": {
+                "Rating": "(+)",
+                "Description": "Supports real-time rendering and simulation.",
+                "URL": "https://unity.com/how-to/real-time-rendering-3d"
+            },
+            "Data Capacity": {
+                "Rating": "(+)",
+                "Description": "Supports real-time rendering and simulation.",
+                "URL": "https://unity.com/how-to/real-time-rendering-3d"
+            },
+            "Integration": {
+                "Rating": "(+)",
+                "Description": "Supports real-time rendering and simulation.",
+                "URL": "https://unity.com/how-to/real-time-rendering-3d"
+            },
+            "Security": {
+                "Rating": "(+)",
+                "Description": "Supports real-time rendering and simulation.",
+                "URL": "https://unity.com/how-to/real-time-rendering-3d"
+            },
+            "Continuous Improvement": {
+                "Rating": "(+)",
+                "Description": "Supports real-time rendering and simulation.",
+                "URL": "https://unity.com/how-to/real-time-rendering-3d"
+            },
+            "Reliability": {
+                "Rating": "(+)",
+                "Description": "Supports real-time rendering and simulation.",
+                "URL": "https://unity.com/how-to/real-time-rendering-3d"
+            },
+            "Accuracy": {
+                "Rating": "(+)",
+                "Description": "Supports real-time rendering and simulation.",
+                "URL": "https://unity.com/how-to/real-time-rendering-3d"
+            },
+            "Obtrusiveness": {
+                "Rating": "(+)",
+                "Description": "Supports real-time rendering and simulation.",
+                "URL": "https://unity.com/how-to/real-time-rendering-3d"
+            },
+            "Granularity": {
+                "Rating": "(+)",
+                "Description": "Supports real-time rendering and simulation.",
+                "URL": "https://unity.com/how-to/real-time-rendering-3d"
+            },
+            "Standardization": {
+                "Rating": "(+)",
+                "Description": "Supports real-time rendering and simulation.",
+                "URL": "https://unity.com/how-to/real-time-rendering-3d"
+            },
+            "Economic Value": {
+                "Rating": "(+)",
+                "Description": "Supports real-time rendering and simulation.",
+                "URL": "https://unity.com/how-to/real-time-rendering-3d"
+            },
+            "Usability": {
+                "Rating": "(+)",
+                "Description": "Supports real-time rendering and simulation.",
+                "URL": "https://unity.com/how-to/real-time-rendering-3d"
+            },
+            "Safety": {
+                "Rating": "(+)",
+                "Description": "Supports real-time rendering and simulation.",
+                "URL": "https://unity.com/how-to/real-time-rendering-3d"
+            },
+            "Collaboration": {
+                "Rating": "(+)",
+                "Description": "Supports real-time rendering and simulation.",
+                "URL": "https://unity.com/how-to/real-time-rendering-3d"
+            }
+        },
+        "Jupyter Notebook": {
+            "Real-Time": {
+                "Rating": "(+)",
+                "Description": "Supports real-time rendering and simulation.",
+                "URL": "https://unity.com/how-to/real-time-rendering-3d"
+            },
+            "Network Connectivity": {
+                "Rating": "(+)",
+                "Description": "Supports real-time rendering and simulation.",
+                "URL": "https://unity.com/how-to/real-time-rendering-3d"
+            },
+            "Computing Power": {
+                "Rating": "(+)",
+                "Description": "Supports real-time rendering and simulation.",
+                "URL": "https://unity.com/how-to/real-time-rendering-3d"
+            },
+            "Data Capacity": {
+                "Rating": "(+)",
+                "Description": "Supports real-time rendering and simulation.",
+                "URL": "https://unity.com/how-to/real-time-rendering-3d"
+            },
+            "Integration": {
+                "Rating": "(+)",
+                "Description": "Supports real-time rendering and simulation.",
+                "URL": "https://unity.com/how-to/real-time-rendering-3d"
+            },
+            "Security": {
+                "Rating": "(+)",
+                "Description": "Supports real-time rendering and simulation.",
+                "URL": "https://unity.com/how-to/real-time-rendering-3d"
+            },
+            "Continuous Improvement": {
+                "Rating": "(+)",
+                "Description": "Supports real-time rendering and simulation.",
+                "URL": "https://unity.com/how-to/real-time-rendering-3d"
+            },
+            "Reliability": {
+                "Rating": "(+)",
+                "Description": "Supports real-time rendering and simulation.",
+                "URL": "https://unity.com/how-to/real-time-rendering-3d"
+            },
+            "Accuracy": {
+                "Rating": "(+)",
+                "Description": "Supports real-time rendering and simulation.",
+                "URL": "https://unity.com/how-to/real-time-rendering-3d"
+            },
+            "Obtrusiveness": {
+                "Rating": "(+)",
+                "Description": "Supports real-time rendering and simulation.",
+                "URL": "https://unity.com/how-to/real-time-rendering-3d"
+            },
+            "Granularity": {
+                "Rating": "(+)",
+                "Description": "Supports real-time rendering and simulation.",
+                "URL": "https://unity.com/how-to/real-time-rendering-3d"
+            },
+            "Standardization": {
+                "Rating": "(+)",
+                "Description": "Supports real-time rendering and simulation.",
+                "URL": "https://unity.com/how-to/real-time-rendering-3d"
+            },
+            "Economic Value": {
+                "Rating": "(+)",
+                "Description": "Supports real-time rendering and simulation.",
+                "URL": "https://unity.com/how-to/real-time-rendering-3d"
+            },
+            "Usability": {
+                "Rating": "(+)",
+                "Description": "Supports real-time rendering and simulation.",
+                "URL": "https://unity.com/how-to/real-time-rendering-3d"
+            },
+            "Safety": {
+                "Rating": "(+)",
+                "Description": "Supports real-time rendering and simulation.",
+                "URL": "https://unity.com/how-to/real-time-rendering-3d"
+            },
+            "Collaboration": {
+                "Rating": "(+)",
+                "Description": "Supports real-time rendering and simulation.",
+                "URL": "https://unity.com/how-to/real-time-rendering-3d"
+            }
+        },
+        "CityEngine": {
+            "Real-Time": {
+                "Rating": "(+)",
+                "Description": "Supports real-time rendering and simulation.",
+                "URL": "https://unity.com/how-to/real-time-rendering-3d"
+            },
+            "Network Connectivity": {
+                "Rating": "(+)",
+                "Description": "Supports real-time rendering and simulation.",
+                "URL": "https://unity.com/how-to/real-time-rendering-3d"
+            },
+            "Computing Power": {
+                "Rating": "(+)",
+                "Description": "Supports real-time rendering and simulation.",
+                "URL": "https://unity.com/how-to/real-time-rendering-3d"
+            },
+            "Data Capacity": {
+                "Rating": "(+)",
+                "Description": "Supports real-time rendering and simulation.",
+                "URL": "https://unity.com/how-to/real-time-rendering-3d"
+            },
+            "Integration": {
+                "Rating": "(+)",
+                "Description": "Supports real-time rendering and simulation.",
+                "URL": "https://unity.com/how-to/real-time-rendering-3d"
+            },
+            "Security": {
+                "Rating": "(+)",
+                "Description": "Supports real-time rendering and simulation.",
+                "URL": "https://unity.com/how-to/real-time-rendering-3d"
+            },
+            "Continuous Improvement": {
+                "Rating": "(+)",
+                "Description": "Supports real-time rendering and simulation.",
+                "URL": "https://unity.com/how-to/real-time-rendering-3d"
+            },
+            "Reliability": {
+                "Rating": "(+)",
+                "Description": "Supports real-time rendering and simulation.",
+                "URL": "https://unity.com/how-to/real-time-rendering-3d"
+            },
+            "Accuracy": {
+                "Rating": "(+)",
+                "Description": "Supports real-time rendering and simulation.",
+                "URL": "https://unity.com/how-to/real-time-rendering-3d"
+            },
+            "Obtrusiveness": {
+                "Rating": "(+)",
+                "Description": "Supports real-time rendering and simulation.",
+                "URL": "https://unity.com/how-to/real-time-rendering-3d"
+            },
+            "Granularity": {
+                "Rating": "(+)",
+                "Description": "Supports real-time rendering and simulation.",
+                "URL": "https://unity.com/how-to/real-time-rendering-3d"
+            },
+            "Standardization": {
+                "Rating": "(+)",
+                "Description": "Supports real-time rendering and simulation.",
+                "URL": "https://unity.com/how-to/real-time-rendering-3d"
+            },
+            "Economic Value": {
+                "Rating": "(+)",
+                "Description": "Supports real-time rendering and simulation.",
+                "URL": "https://unity.com/how-to/real-time-rendering-3d"
+            },
+            "Usability": {
+                "Rating": "(+)",
+                "Description": "Supports real-time rendering and simulation.",
+                "URL": "https://unity.com/how-to/real-time-rendering-3d"
+            },
+            "Safety": {
+                "Rating": "(+)",
+                "Description": "Supports real-time rendering and simulation.",
+                "URL": "https://unity.com/how-to/real-time-rendering-3d"
+            },
+            "Collaboration": {
+                "Rating": "(+)",
+                "Description": "Supports real-time rendering and simulation.",
+                "URL": "https://unity.com/how-to/real-time-rendering-3d"
+            }
+        },
+        "ARCGIS": {
+            "Real-Time": {
+                "Rating": "(+)",
+                "Description": "Supports real-time rendering and simulation.",
+                "URL": "https://unity.com/how-to/real-time-rendering-3d"
+            },
+            "Network Connectivity": {
+                "Rating": "(+)",
+                "Description": "Supports real-time rendering and simulation.",
+                "URL": "https://unity.com/how-to/real-time-rendering-3d"
+            },
+            "Computing Power": {
+                "Rating": "(+)",
+                "Description": "Supports real-time rendering and simulation.",
+                "URL": "https://unity.com/how-to/real-time-rendering-3d"
+            },
+            "Data Capacity": {
+                "Rating": "(+)",
+                "Description": "Supports real-time rendering and simulation.",
+                "URL": "https://unity.com/how-to/real-time-rendering-3d"
+            },
+            "Integration": {
+                "Rating": "(+)",
+                "Description": "Supports real-time rendering and simulation.",
+                "URL": "https://unity.com/how-to/real-time-rendering-3d"
+            },
+            "Security": {
+                "Rating": "(+)",
+                "Description": "Supports real-time rendering and simulation.",
+                "URL": "https://unity.com/how-to/real-time-rendering-3d"
+            },
+            "Continuous Improvement": {
+                "Rating": "(+)",
+                "Description": "Supports real-time rendering and simulation.",
+                "URL": "https://unity.com/how-to/real-time-rendering-3d"
+            },
+            "Reliability": {
+                "Rating": "(+)",
+                "Description": "Supports real-time rendering and simulation.",
+                "URL": "https://unity.com/how-to/real-time-rendering-3d"
+            },
+            "Accuracy": {
+                "Rating": "(+)",
+                "Description": "Supports real-time rendering and simulation.",
+                "URL": "https://unity.com/how-to/real-time-rendering-3d"
+            },
+            "Obtrusiveness": {
+                "Rating": "(+)",
+                "Description": "Supports real-time rendering and simulation.",
+                "URL": "https://unity.com/how-to/real-time-rendering-3d"
+            },
+            "Granularity": {
+                "Rating": "(+)",
+                "Description": "Supports real-time rendering and simulation.",
+                "URL": "https://unity.com/how-to/real-time-rendering-3d"
+            },
+            "Standardization": {
+                "Rating": "(+)",
+                "Description": "Supports real-time rendering and simulation.",
+                "URL": "https://unity.com/how-to/real-time-rendering-3d"
+            },
+            "Economic Value": {
+                "Rating": "(+)",
+                "Description": "Supports real-time rendering and simulation.",
+                "URL": "https://unity.com/how-to/real-time-rendering-3d"
+            },
+            "Usability": {
+                "Rating": "(+)",
+                "Description": "Supports real-time rendering and simulation.",
+                "URL": "https://unity.com/how-to/real-time-rendering-3d"
+            },
+            "Safety": {
+                "Rating": "(+)",
+                "Description": "Supports real-time rendering and simulation.",
+                "URL": "https://unity.com/how-to/real-time-rendering-3d"
+            },
+            "Collaboration": {
+                "Rating": "(+)",
+                "Description": "Supports real-time rendering and simulation.",
+                "URL": "https://unity.com/how-to/real-time-rendering-3d"
+            }
+        },
+        "Grafana": {
+            "Real-Time": {
+                "Rating": "(+)",
+                "Description": "Supports real-time rendering and simulation.",
+                "URL": "https://unity.com/how-to/real-time-rendering-3d"
+            },
+            "Network Connectivity": {
+                "Rating": "(+)",
+                "Description": "Supports real-time rendering and simulation.",
+                "URL": "https://unity.com/how-to/real-time-rendering-3d"
+            },
+            "Computing Power": {
+                "Rating": "(+)",
+                "Description": "Supports real-time rendering and simulation.",
+                "URL": "https://unity.com/how-to/real-time-rendering-3d"
+            },
+            "Data Capacity": {
+                "Rating": "(+)",
+                "Description": "Supports real-time rendering and simulation.",
+                "URL": "https://unity.com/how-to/real-time-rendering-3d"
+            },
+            "Integration": {
+                "Rating": "(+)",
+                "Description": "Supports real-time rendering and simulation.",
+                "URL": "https://unity.com/how-to/real-time-rendering-3d"
+            },
+            "Security": {
+                "Rating": "(+)",
+                "Description": "Supports real-time rendering and simulation.",
+                "URL": "https://unity.com/how-to/real-time-rendering-3d"
+            },
+            "Continuous Improvement": {
+                "Rating": "(+)",
+                "Description": "Supports real-time rendering and simulation.",
+                "URL": "https://unity.com/how-to/real-time-rendering-3d"
+            },
+            "Reliability": {
+                "Rating": "(+)",
+                "Description": "Supports real-time rendering and simulation.",
+                "URL": "https://unity.com/how-to/real-time-rendering-3d"
+            },
+            "Accuracy": {
+                "Rating": "(+)",
+                "Description": "Supports real-time rendering and simulation.",
+                "URL": "https://unity.com/how-to/real-time-rendering-3d"
+            },
+            "Obtrusiveness": {
+                "Rating": "(+)",
+                "Description": "Supports real-time rendering and simulation.",
+                "URL": "https://unity.com/how-to/real-time-rendering-3d"
+            },
+            "Granularity": {
+                "Rating": "(+)",
+                "Description": "Supports real-time rendering and simulation.",
+                "URL": "https://unity.com/how-to/real-time-rendering-3d"
+            },
+            "Standardization": {
+                "Rating": "(+)",
+                "Description": "Supports real-time rendering and simulation.",
+                "URL": "https://unity.com/how-to/real-time-rendering-3d"
+            },
+            "Economic Value": {
+                "Rating": "(+)",
+                "Description": "Supports real-time rendering and simulation.",
+                "URL": "https://unity.com/how-to/real-time-rendering-3d"
+            },
+            "Usability": {
+                "Rating": "(+)",
+                "Description": "Supports real-time rendering and simulation.",
+                "URL": "https://unity.com/how-to/real-time-rendering-3d"
+            },
+            "Safety": {
+                "Rating": "(+)",
+                "Description": "Supports real-time rendering and simulation.",
+                "URL": "https://unity.com/how-to/real-time-rendering-3d"
+            },
+            "Collaboration": {
+                "Rating": "(+)",
+                "Description": "Supports real-time rendering and simulation.",
+                "URL": "https://unity.com/how-to/real-time-rendering-3d"
+            }
+        },
+        "Verge3D": {
+            "Real-Time": {
+                "Rating": "(+)",
+                "Description": "Supports real-time rendering and simulation.",
+                "URL": "https://unity.com/how-to/real-time-rendering-3d"
+            },
+            "Network Connectivity": {
+                "Rating": "(+)",
+                "Description": "Supports real-time rendering and simulation.",
+                "URL": "https://unity.com/how-to/real-time-rendering-3d"
+            },
+            "Computing Power": {
+                "Rating": "(+)",
+                "Description": "Supports real-time rendering and simulation.",
+                "URL": "https://unity.com/how-to/real-time-rendering-3d"
+            },
+            "Data Capacity": {
+                "Rating": "(+)",
+                "Description": "Supports real-time rendering and simulation.",
+                "URL": "https://unity.com/how-to/real-time-rendering-3d"
+            },
+            "Integration": {
+                "Rating": "(+)",
+                "Description": "Supports real-time rendering and simulation.",
+                "URL": "https://unity.com/how-to/real-time-rendering-3d"
+            },
+            "Security": {
+                "Rating": "(+)",
+                "Description": "Supports real-time rendering and simulation.",
+                "URL": "https://unity.com/how-to/real-time-rendering-3d"
+            },
+            "Continuous Improvement": {
+                "Rating": "(+)",
+                "Description": "Supports real-time rendering and simulation.",
+                "URL": "https://unity.com/how-to/real-time-rendering-3d"
+            },
+            "Reliability": {
+                "Rating": "(+)",
+                "Description": "Supports real-time rendering and simulation.",
+                "URL": "https://unity.com/how-to/real-time-rendering-3d"
+            },
+            "Accuracy": {
+                "Rating": "(+)",
+                "Description": "Supports real-time rendering and simulation.",
+                "URL": "https://unity.com/how-to/real-time-rendering-3d"
+            },
+            "Obtrusiveness": {
+                "Rating": "(+)",
+                "Description": "Supports real-time rendering and simulation.",
+                "URL": "https://unity.com/how-to/real-time-rendering-3d"
+            },
+            "Granularity": {
+                "Rating": "(+)",
+                "Description": "Supports real-time rendering and simulation.",
+                "URL": "https://unity.com/how-to/real-time-rendering-3d"
+            },
+            "Standardization": {
+                "Rating": "(+)",
+                "Description": "Supports real-time rendering and simulation.",
+                "URL": "https://unity.com/how-to/real-time-rendering-3d"
+            },
+            "Economic Value": {
+                "Rating": "(+)",
+                "Description": "Supports real-time rendering and simulation.",
+                "URL": "https://unity.com/how-to/real-time-rendering-3d"
+            },
+            "Usability": {
+                "Rating": "(+)",
+                "Description": "Supports real-time rendering and simulation.",
+                "URL": "https://unity.com/how-to/real-time-rendering-3d"
+            },
+            "Safety": {
+                "Rating": "(+)",
+                "Description": "Supports real-time rendering and simulation.",
+                "URL": "https://unity.com/how-to/real-time-rendering-3d"
+            },
+            "Collaboration": {
+                "Rating": "(+)",
+                "Description": "Supports real-time rendering and simulation.",
+                "URL": "https://unity.com/how-to/real-time-rendering-3d"
+            }
+        },
+        "Bootstrap": {
+            "Real-Time": {
+                "Rating": "(+)",
+                "Description": "Supports real-time rendering and simulation.",
+                "URL": "https://unity.com/how-to/real-time-rendering-3d"
+            },
+            "Network Connectivity": {
+                "Rating": "(+)",
+                "Description": "Supports real-time rendering and simulation.",
+                "URL": "https://unity.com/how-to/real-time-rendering-3d"
+            },
+            "Computing Power": {
+                "Rating": "(+)",
+                "Description": "Supports real-time rendering and simulation.",
+                "URL": "https://unity.com/how-to/real-time-rendering-3d"
+            },
+            "Data Capacity": {
+                "Rating": "(+)",
+                "Description": "Supports real-time rendering and simulation.",
+                "URL": "https://unity.com/how-to/real-time-rendering-3d"
+            },
+            "Integration": {
+                "Rating": "(+)",
+                "Description": "Supports real-time rendering and simulation.",
+                "URL": "https://unity.com/how-to/real-time-rendering-3d"
+            },
+            "Security": {
+                "Rating": "(+)",
+                "Description": "Supports real-time rendering and simulation.",
+                "URL": "https://unity.com/how-to/real-time-rendering-3d"
+            },
+            "Continuous Improvement": {
+                "Rating": "(+)",
+                "Description": "Supports real-time rendering and simulation.",
+                "URL": "https://unity.com/how-to/real-time-rendering-3d"
+            },
+            "Reliability": {
+                "Rating": "(+)",
+                "Description": "Supports real-time rendering and simulation.",
+                "URL": "https://unity.com/how-to/real-time-rendering-3d"
+            },
+            "Accuracy": {
+                "Rating": "(+)",
+                "Description": "Supports real-time rendering and simulation.",
+                "URL": "https://unity.com/how-to/real-time-rendering-3d"
+            },
+            "Obtrusiveness": {
+                "Rating": "(+)",
+                "Description": "Supports real-time rendering and simulation.",
+                "URL": "https://unity.com/how-to/real-time-rendering-3d"
+            },
+            "Granularity": {
+                "Rating": "(+)",
+                "Description": "Supports real-time rendering and simulation.",
+                "URL": "https://unity.com/how-to/real-time-rendering-3d"
+            },
+            "Standardization": {
+                "Rating": "(+)",
+                "Description": "Supports real-time rendering and simulation.",
+                "URL": "https://unity.com/how-to/real-time-rendering-3d"
+            },
+            "Economic Value": {
+                "Rating": "(+)",
+                "Description": "Supports real-time rendering and simulation.",
+                "URL": "https://unity.com/how-to/real-time-rendering-3d"
+            },
+            "Usability": {
+                "Rating": "(+)",
+                "Description": "Supports real-time rendering and simulation.",
+                "URL": "https://unity.com/how-to/real-time-rendering-3d"
+            },
+            "Safety": {
+                "Rating": "(+)",
+                "Description": "Supports real-time rendering and simulation.",
+                "URL": "https://unity.com/how-to/real-time-rendering-3d"
+            },
+            "Collaboration": {
+                "Rating": "(+)",
+                "Description": "Supports real-time rendering and simulation.",
+                "URL": "https://unity.com/how-to/real-time-rendering-3d"
+            }
+        },
+        "WebXR": {
+            "Real-Time": {
+                "Rating": "(+)",
+                "Description": "Supports real-time rendering and simulation.",
+                "URL": "https://unity.com/how-to/real-time-rendering-3d"
+            },
+            "Network Connectivity": {
+                "Rating": "(+)",
+                "Description": "Supports real-time rendering and simulation.",
+                "URL": "https://unity.com/how-to/real-time-rendering-3d"
+            },
+            "Computing Power": {
+                "Rating": "(+)",
+                "Description": "Supports real-time rendering and simulation.",
+                "URL": "https://unity.com/how-to/real-time-rendering-3d"
+            },
+            "Data Capacity": {
+                "Rating": "(+)",
+                "Description": "Supports real-time rendering and simulation.",
+                "URL": "https://unity.com/how-to/real-time-rendering-3d"
+            },
+            "Integration": {
+                "Rating": "(+)",
+                "Description": "Supports real-time rendering and simulation.",
+                "URL": "https://unity.com/how-to/real-time-rendering-3d"
+            },
+            "Security": {
+                "Rating": "(+)",
+                "Description": "Supports real-time rendering and simulation.",
+                "URL": "https://unity.com/how-to/real-time-rendering-3d"
+            },
+            "Continuous Improvement": {
+                "Rating": "(+)",
+                "Description": "Supports real-time rendering and simulation.",
+                "URL": "https://unity.com/how-to/real-time-rendering-3d"
+            },
+            "Reliability": {
+                "Rating": "(+)",
+                "Description": "Supports real-time rendering and simulation.",
+                "URL": "https://unity.com/how-to/real-time-rendering-3d"
+            },
+            "Accuracy": {
+                "Rating": "(+)",
+                "Description": "Supports real-time rendering and simulation.",
+                "URL": "https://unity.com/how-to/real-time-rendering-3d"
+            },
+            "Obtrusiveness": {
+                "Rating": "(+)",
+                "Description": "Supports real-time rendering and simulation.",
+                "URL": "https://unity.com/how-to/real-time-rendering-3d"
+            },
+            "Granularity": {
+                "Rating": "(+)",
+                "Description": "Supports real-time rendering and simulation.",
+                "URL": "https://unity.com/how-to/real-time-rendering-3d"
+            },
+            "Standardization": {
+                "Rating": "(+)",
+                "Description": "Supports real-time rendering and simulation.",
+                "URL": "https://unity.com/how-to/real-time-rendering-3d"
+            },
+            "Economic Value": {
+                "Rating": "(+)",
+                "Description": "Supports real-time rendering and simulation.",
+                "URL": "https://unity.com/how-to/real-time-rendering-3d"
+            },
+            "Usability": {
+                "Rating": "(+)",
+                "Description": "Supports real-time rendering and simulation.",
+                "URL": "https://unity.com/how-to/real-time-rendering-3d"
+            },
+            "Safety": {
+                "Rating": "(+)",
+                "Description": "Supports real-time rendering and simulation.",
+                "URL": "https://unity.com/how-to/real-time-rendering-3d"
+            },
+            "Collaboration": {
+                "Rating": "(+)",
+                "Description": "Supports real-time rendering and simulation.",
+                "URL": "https://unity.com/how-to/real-time-rendering-3d"
+            }
+        },
+        "Autodesk Revit": {
+            "Real-Time": {
+                "Rating": "(+)",
+                "Description": "Supports real-time rendering and simulation.",
+                "URL": "https://unity.com/how-to/real-time-rendering-3d"
+            },
+            "Network Connectivity": {
+                "Rating": "(+)",
+                "Description": "Supports real-time rendering and simulation.",
+                "URL": "https://unity.com/how-to/real-time-rendering-3d"
+            },
+            "Computing Power": {
+                "Rating": "(+)",
+                "Description": "Supports real-time rendering and simulation.",
+                "URL": "https://unity.com/how-to/real-time-rendering-3d"
+            },
+            "Data Capacity": {
+                "Rating": "(+)",
+                "Description": "Supports real-time rendering and simulation.",
+                "URL": "https://unity.com/how-to/real-time-rendering-3d"
+            },
+            "Integration": {
+                "Rating": "(+)",
+                "Description": "Supports real-time rendering and simulation.",
+                "URL": "https://unity.com/how-to/real-time-rendering-3d"
+            },
+            "Security": {
+                "Rating": "(+)",
+                "Description": "Supports real-time rendering and simulation.",
+                "URL": "https://unity.com/how-to/real-time-rendering-3d"
+            },
+            "Continuous Improvement": {
+                "Rating": "(+)",
+                "Description": "Supports real-time rendering and simulation.",
+                "URL": "https://unity.com/how-to/real-time-rendering-3d"
+            },
+            "Reliability": {
+                "Rating": "(+)",
+                "Description": "Supports real-time rendering and simulation.",
+                "URL": "https://unity.com/how-to/real-time-rendering-3d"
+            },
+            "Accuracy": {
+                "Rating": "(+)",
+                "Description": "Supports real-time rendering and simulation.",
+                "URL": "https://unity.com/how-to/real-time-rendering-3d"
+            },
+            "Obtrusiveness": {
+                "Rating": "(+)",
+                "Description": "Supports real-time rendering and simulation.",
+                "URL": "https://unity.com/how-to/real-time-rendering-3d"
+            },
+            "Granularity": {
+                "Rating": "(+)",
+                "Description": "Supports real-time rendering and simulation.",
+                "URL": "https://unity.com/how-to/real-time-rendering-3d"
+            },
+            "Standardization": {
+                "Rating": "(+)",
+                "Description": "Supports real-time rendering and simulation.",
+                "URL": "https://unity.com/how-to/real-time-rendering-3d"
+            },
+            "Economic Value": {
+                "Rating": "(+)",
+                "Description": "Supports real-time rendering and simulation.",
+                "URL": "https://unity.com/how-to/real-time-rendering-3d"
+            },
+            "Usability": {
+                "Rating": "(+)",
+                "Description": "Supports real-time rendering and simulation.",
+                "URL": "https://unity.com/how-to/real-time-rendering-3d"
+            },
+            "Safety": {
+                "Rating": "(+)",
+                "Description": "Supports real-time rendering and simulation.",
+                "URL": "https://unity.com/how-to/real-time-rendering-3d"
+            },
+            "Collaboration": {
+                "Rating": "(+)",
+                "Description": "Supports real-time rendering and simulation.",
+                "URL": "https://unity.com/how-to/real-time-rendering-3d"
+            }
+        },
+        "Autodesk Forge": {
+            "Real-Time": {
+                "Rating": "(+)",
+                "Description": "Supports real-time rendering and simulation.",
+                "URL": "https://unity.com/how-to/real-time-rendering-3d"
+            },
+            "Network Connectivity": {
+                "Rating": "(+)",
+                "Description": "Supports real-time rendering and simulation.",
+                "URL": "https://unity.com/how-to/real-time-rendering-3d"
+            },
+            "Computing Power": {
+                "Rating": "(+)",
+                "Description": "Supports real-time rendering and simulation.",
+                "URL": "https://unity.com/how-to/real-time-rendering-3d"
+            },
+            "Data Capacity": {
+                "Rating": "(+)",
+                "Description": "Supports real-time rendering and simulation.",
+                "URL": "https://unity.com/how-to/real-time-rendering-3d"
+            },
+            "Integration": {
+                "Rating": "(+)",
+                "Description": "Supports real-time rendering and simulation.",
+                "URL": "https://unity.com/how-to/real-time-rendering-3d"
+            },
+            "Security": {
+                "Rating": "(+)",
+                "Description": "Supports real-time rendering and simulation.",
+                "URL": "https://unity.com/how-to/real-time-rendering-3d"
+            },
+            "Continuous Improvement": {
+                "Rating": "(+)",
+                "Description": "Supports real-time rendering and simulation.",
+                "URL": "https://unity.com/how-to/real-time-rendering-3d"
+            },
+            "Reliability": {
+                "Rating": "(+)",
+                "Description": "Supports real-time rendering and simulation.",
+                "URL": "https://unity.com/how-to/real-time-rendering-3d"
+            },
+            "Accuracy": {
+                "Rating": "(+)",
+                "Description": "Supports real-time rendering and simulation.",
+                "URL": "https://unity.com/how-to/real-time-rendering-3d"
+            },
+            "Obtrusiveness": {
+                "Rating": "(+)",
+                "Description": "Supports real-time rendering and simulation.",
+                "URL": "https://unity.com/how-to/real-time-rendering-3d"
+            },
+            "Granularity": {
+                "Rating": "(+)",
+                "Description": "Supports real-time rendering and simulation.",
+                "URL": "https://unity.com/how-to/real-time-rendering-3d"
+            },
+            "Standardization": {
+                "Rating": "(+)",
+                "Description": "Supports real-time rendering and simulation.",
+                "URL": "https://unity.com/how-to/real-time-rendering-3d"
+            },
+            "Economic Value": {
+                "Rating": "(+)",
+                "Description": "Supports real-time rendering and simulation.",
+                "URL": "https://unity.com/how-to/real-time-rendering-3d"
+            },
+            "Usability": {
+                "Rating": "(+)",
+                "Description": "Supports real-time rendering and simulation.",
+                "URL": "https://unity.com/how-to/real-time-rendering-3d"
+            },
+            "Safety": {
+                "Rating": "(+)",
+                "Description": "Supports real-time rendering and simulation.",
+                "URL": "https://unity.com/how-to/real-time-rendering-3d"
+            },
+            "Collaboration": {
+                "Rating": "(+)",
+                "Description": "Supports real-time rendering and simulation.",
+                "URL": "https://unity.com/how-to/real-time-rendering-3d"
+            }
+        },
+        "OpenScene Graph": {
+            "Real-Time": {
+                "Rating": "(+)",
+                "Description": "Supports real-time rendering and simulation.",
+                "URL": "https://unity.com/how-to/real-time-rendering-3d"
+            },
+            "Network Connectivity": {
+                "Rating": "(+)",
+                "Description": "Supports real-time rendering and simulation.",
+                "URL": "https://unity.com/how-to/real-time-rendering-3d"
+            },
+            "Computing Power": {
+                "Rating": "(+)",
+                "Description": "Supports real-time rendering and simulation.",
+                "URL": "https://unity.com/how-to/real-time-rendering-3d"
+            },
+            "Data Capacity": {
+                "Rating": "(+)",
+                "Description": "Supports real-time rendering and simulation.",
+                "URL": "https://unity.com/how-to/real-time-rendering-3d"
+            },
+            "Integration": {
+                "Rating": "(+)",
+                "Description": "Supports real-time rendering and simulation.",
+                "URL": "https://unity.com/how-to/real-time-rendering-3d"
+            },
+            "Security": {
+                "Rating": "(+)",
+                "Description": "Supports real-time rendering and simulation.",
+                "URL": "https://unity.com/how-to/real-time-rendering-3d"
+            },
+            "Continuous Improvement": {
+                "Rating": "(+)",
+                "Description": "Supports real-time rendering and simulation.",
+                "URL": "https://unity.com/how-to/real-time-rendering-3d"
+            },
+            "Reliability": {
+                "Rating": "(+)",
+                "Description": "Supports real-time rendering and simulation.",
+                "URL": "https://unity.com/how-to/real-time-rendering-3d"
+            },
+            "Accuracy": {
+                "Rating": "(+)",
+                "Description": "Supports real-time rendering and simulation.",
+                "URL": "https://unity.com/how-to/real-time-rendering-3d"
+            },
+            "Obtrusiveness": {
+                "Rating": "(+)",
+                "Description": "Supports real-time rendering and simulation.",
+                "URL": "https://unity.com/how-to/real-time-rendering-3d"
+            },
+            "Granularity": {
+                "Rating": "(+)",
+                "Description": "Supports real-time rendering and simulation.",
+                "URL": "https://unity.com/how-to/real-time-rendering-3d"
+            },
+            "Standardization": {
+                "Rating": "(+)",
+                "Description": "Supports real-time rendering and simulation.",
+                "URL": "https://unity.com/how-to/real-time-rendering-3d"
+            },
+            "Economic Value": {
+                "Rating": "(+)",
+                "Description": "Supports real-time rendering and simulation.",
+                "URL": "https://unity.com/how-to/real-time-rendering-3d"
+            },
+            "Usability": {
+                "Rating": "(+)",
+                "Description": "Supports real-time rendering and simulation.",
+                "URL": "https://unity.com/how-to/real-time-rendering-3d"
+            },
+            "Safety": {
+                "Rating": "(+)",
+                "Description": "Supports real-time rendering and simulation.",
+                "URL": "https://unity.com/how-to/real-time-rendering-3d"
+            },
+            "Collaboration": {
+                "Rating": "(+)",
+                "Description": "Supports real-time rendering and simulation.",
+                "URL": "https://unity.com/how-to/real-time-rendering-3d"
+            }
+        },
+        "COVISE": {
+            "Real-Time": {
+                "Rating": "(+)",
+                "Description": "Supports real-time rendering and simulation.",
+                "URL": "https://unity.com/how-to/real-time-rendering-3d"
+            },
+            "Network Connectivity": {
+                "Rating": "(+)",
+                "Description": "Supports real-time rendering and simulation.",
+                "URL": "https://unity.com/how-to/real-time-rendering-3d"
+            },
+            "Computing Power": {
+                "Rating": "(+)",
+                "Description": "Supports real-time rendering and simulation.",
+                "URL": "https://unity.com/how-to/real-time-rendering-3d"
+            },
+            "Data Capacity": {
+                "Rating": "(+)",
+                "Description": "Supports real-time rendering and simulation.",
+                "URL": "https://unity.com/how-to/real-time-rendering-3d"
+            },
+            "Integration": {
+                "Rating": "(+)",
+                "Description": "Supports real-time rendering and simulation.",
+                "URL": "https://unity.com/how-to/real-time-rendering-3d"
+            },
+            "Security": {
+                "Rating": "(+)",
+                "Description": "Supports real-time rendering and simulation.",
+                "URL": "https://unity.com/how-to/real-time-rendering-3d"
+            },
+            "Continuous Improvement": {
+                "Rating": "(+)",
+                "Description": "Supports real-time rendering and simulation.",
+                "URL": "https://unity.com/how-to/real-time-rendering-3d"
+            },
+            "Reliability": {
+                "Rating": "(+)",
+                "Description": "Supports real-time rendering and simulation.",
+                "URL": "https://unity.com/how-to/real-time-rendering-3d"
+            },
+            "Accuracy": {
+                "Rating": "(+)",
+                "Description": "Supports real-time rendering and simulation.",
+                "URL": "https://unity.com/how-to/real-time-rendering-3d"
+            },
+            "Obtrusiveness": {
+                "Rating": "(+)",
+                "Description": "Supports real-time rendering and simulation.",
+                "URL": "https://unity.com/how-to/real-time-rendering-3d"
+            },
+            "Granularity": {
+                "Rating": "(+)",
+                "Description": "Supports real-time rendering and simulation.",
+                "URL": "https://unity.com/how-to/real-time-rendering-3d"
+            },
+            "Standardization": {
+                "Rating": "(+)",
+                "Description": "Supports real-time rendering and simulation.",
+                "URL": "https://unity.com/how-to/real-time-rendering-3d"
+            },
+            "Economic Value": {
+                "Rating": "(+)",
+                "Description": "Supports real-time rendering and simulation.",
+                "URL": "https://unity.com/how-to/real-time-rendering-3d"
+            },
+            "Usability": {
+                "Rating": "(+)",
+                "Description": "Supports real-time rendering and simulation.",
+                "URL": "https://unity.com/how-to/real-time-rendering-3d"
+            },
+            "Safety": {
+                "Rating": "(+)",
+                "Description": "Supports real-time rendering and simulation.",
+                "URL": "https://unity.com/how-to/real-time-rendering-3d"
+            },
+            "Collaboration": {
+                "Rating": "(+)",
+                "Description": "Supports real-time rendering and simulation.",
+                "URL": "https://unity.com/how-to/real-time-rendering-3d"
+            }
+        },
+        "Three.js": {
+            "Real-Time": {
+                "Rating": "(+)",
+                "Description": "Supports real-time rendering and simulation.",
+                "URL": "https://unity.com/how-to/real-time-rendering-3d"
+            },
+            "Network Connectivity": {
+                "Rating": "(+)",
+                "Description": "Supports real-time rendering and simulation.",
+                "URL": "https://unity.com/how-to/real-time-rendering-3d"
+            },
+            "Computing Power": {
+                "Rating": "(+)",
+                "Description": "Supports real-time rendering and simulation.",
+                "URL": "https://unity.com/how-to/real-time-rendering-3d"
+            },
+            "Data Capacity": {
+                "Rating": "(+)",
+                "Description": "Supports real-time rendering and simulation.",
+                "URL": "https://unity.com/how-to/real-time-rendering-3d"
+            },
+            "Integration": {
+                "Rating": "(+)",
+                "Description": "Supports real-time rendering and simulation.",
+                "URL": "https://unity.com/how-to/real-time-rendering-3d"
+            },
+            "Security": {
+                "Rating": "(+)",
+                "Description": "Supports real-time rendering and simulation.",
+                "URL": "https://unity.com/how-to/real-time-rendering-3d"
+            },
+            "Continuous Improvement": {
+                "Rating": "(+)",
+                "Description": "Supports real-time rendering and simulation.",
+                "URL": "https://unity.com/how-to/real-time-rendering-3d"
+            },
+            "Reliability": {
+                "Rating": "(+)",
+                "Description": "Supports real-time rendering and simulation.",
+                "URL": "https://unity.com/how-to/real-time-rendering-3d"
+            },
+            "Accuracy": {
+                "Rating": "(+)",
+                "Description": "Supports real-time rendering and simulation.",
+                "URL": "https://unity.com/how-to/real-time-rendering-3d"
+            },
+            "Obtrusiveness": {
+                "Rating": "(+)",
+                "Description": "Supports real-time rendering and simulation.",
+                "URL": "https://unity.com/how-to/real-time-rendering-3d"
+            },
+            "Granularity": {
+                "Rating": "(+)",
+                "Description": "Supports real-time rendering and simulation.",
+                "URL": "https://unity.com/how-to/real-time-rendering-3d"
+            },
+            "Standardization": {
+                "Rating": "(+)",
+                "Description": "Supports real-time rendering and simulation.",
+                "URL": "https://unity.com/how-to/real-time-rendering-3d"
+            },
+            "Economic Value": {
+                "Rating": "(+)",
+                "Description": "Supports real-time rendering and simulation.",
+                "URL": "https://unity.com/how-to/real-time-rendering-3d"
+            },
+            "Usability": {
+                "Rating": "(+)",
+                "Description": "Supports real-time rendering and simulation.",
+                "URL": "https://unity.com/how-to/real-time-rendering-3d"
+            },
+            "Safety": {
+                "Rating": "(+)",
+                "Description": "Supports real-time rendering and simulation.",
+                "URL": "https://unity.com/how-to/real-time-rendering-3d"
+            },
+            "Collaboration": {
+                "Rating": "(+)",
+                "Description": "Supports real-time rendering and simulation.",
+                "URL": "https://unity.com/how-to/real-time-rendering-3d"
+            }
+        },
+        "WebGL": {
+            "Real-Time": {
+                "Rating": "(+)",
+                "Description": "Supports real-time rendering and simulation.",
+                "URL": "https://unity.com/how-to/real-time-rendering-3d"
+            },
+            "Network Connectivity": {
+                "Rating": "(+)",
+                "Description": "Supports real-time rendering and simulation.",
+                "URL": "https://unity.com/how-to/real-time-rendering-3d"
+            },
+            "Computing Power": {
+                "Rating": "(+)",
+                "Description": "Supports real-time rendering and simulation.",
+                "URL": "https://unity.com/how-to/real-time-rendering-3d"
+            },
+            "Data Capacity": {
+                "Rating": "(+)",
+                "Description": "Supports real-time rendering and simulation.",
+                "URL": "https://unity.com/how-to/real-time-rendering-3d"
+            },
+            "Integration": {
+                "Rating": "(+)",
+                "Description": "Supports real-time rendering and simulation.",
+                "URL": "https://unity.com/how-to/real-time-rendering-3d"
+            },
+            "Security": {
+                "Rating": "(+)",
+                "Description": "Supports real-time rendering and simulation.",
+                "URL": "https://unity.com/how-to/real-time-rendering-3d"
+            },
+            "Continuous Improvement": {
+                "Rating": "(+)",
+                "Description": "Supports real-time rendering and simulation.",
+                "URL": "https://unity.com/how-to/real-time-rendering-3d"
+            },
+            "Reliability": {
+                "Rating": "(+)",
+                "Description": "Supports real-time rendering and simulation.",
+                "URL": "https://unity.com/how-to/real-time-rendering-3d"
+            },
+            "Accuracy": {
+                "Rating": "(+)",
+                "Description": "Supports real-time rendering and simulation.",
+                "URL": "https://unity.com/how-to/real-time-rendering-3d"
+            },
+            "Obtrusiveness": {
+                "Rating": "(+)",
+                "Description": "Supports real-time rendering and simulation.",
+                "URL": "https://unity.com/how-to/real-time-rendering-3d"
+            },
+            "Granularity": {
+                "Rating": "(+)",
+                "Description": "Supports real-time rendering and simulation.",
+                "URL": "https://unity.com/how-to/real-time-rendering-3d"
+            },
+            "Standardization": {
+                "Rating": "(+)",
+                "Description": "Supports real-time rendering and simulation.",
+                "URL": "https://unity.com/how-to/real-time-rendering-3d"
+            },
+            "Economic Value": {
+                "Rating": "(+)",
+                "Description": "Supports real-time rendering and simulation.",
+                "URL": "https://unity.com/how-to/real-time-rendering-3d"
+            },
+            "Usability": {
+                "Rating": "(+)",
+                "Description": "Supports real-time rendering and simulation.",
+                "URL": "https://unity.com/how-to/real-time-rendering-3d"
+            },
+            "Safety": {
+                "Rating": "(+)",
+                "Description": "Supports real-time rendering and simulation.",
+                "URL": "https://unity.com/how-to/real-time-rendering-3d"
+            },
+            "Collaboration": {
+                "Rating": "(+)",
+                "Description": "Supports real-time rendering and simulation.",
+                "URL": "https://unity.com/how-to/real-time-rendering-3d"
+            }
+        },
+        "Creo": {
+            "Real-Time": {
+                "Rating": "(+)",
+                "Description": "Supports real-time rendering and simulation.",
+                "URL": "https://unity.com/how-to/real-time-rendering-3d"
+            },
+            "Network Connectivity": {
+                "Rating": "(+)",
+                "Description": "Supports real-time rendering and simulation.",
+                "URL": "https://unity.com/how-to/real-time-rendering-3d"
+            },
+            "Computing Power": {
+                "Rating": "(+)",
+                "Description": "Supports real-time rendering and simulation.",
+                "URL": "https://unity.com/how-to/real-time-rendering-3d"
+            },
+            "Data Capacity": {
+                "Rating": "(+)",
+                "Description": "Supports real-time rendering and simulation.",
+                "URL": "https://unity.com/how-to/real-time-rendering-3d"
+            },
+            "Integration": {
+                "Rating": "(+)",
+                "Description": "Supports real-time rendering and simulation.",
+                "URL": "https://unity.com/how-to/real-time-rendering-3d"
+            },
+            "Security": {
+                "Rating": "(+)",
+                "Description": "Supports real-time rendering and simulation.",
+                "URL": "https://unity.com/how-to/real-time-rendering-3d"
+            },
+            "Continuous Improvement": {
+                "Rating": "(+)",
+                "Description": "Supports real-time rendering and simulation.",
+                "URL": "https://unity.com/how-to/real-time-rendering-3d"
+            },
+            "Reliability": {
+                "Rating": "(+)",
+                "Description": "Supports real-time rendering and simulation.",
+                "URL": "https://unity.com/how-to/real-time-rendering-3d"
+            },
+            "Accuracy": {
+                "Rating": "(+)",
+                "Description": "Supports real-time rendering and simulation.",
+                "URL": "https://unity.com/how-to/real-time-rendering-3d"
+            },
+            "Obtrusiveness": {
+                "Rating": "(+)",
+                "Description": "Supports real-time rendering and simulation.",
+                "URL": "https://unity.com/how-to/real-time-rendering-3d"
+            },
+            "Granularity": {
+                "Rating": "(+)",
+                "Description": "Supports real-time rendering and simulation.",
+                "URL": "https://unity.com/how-to/real-time-rendering-3d"
+            },
+            "Standardization": {
+                "Rating": "(+)",
+                "Description": "Supports real-time rendering and simulation.",
+                "URL": "https://unity.com/how-to/real-time-rendering-3d"
+            },
+            "Economic Value": {
+                "Rating": "(+)",
+                "Description": "Supports real-time rendering and simulation.",
+                "URL": "https://unity.com/how-to/real-time-rendering-3d"
+            },
+            "Usability": {
+                "Rating": "(+)",
+                "Description": "Supports real-time rendering and simulation.",
+                "URL": "https://unity.com/how-to/real-time-rendering-3d"
+            },
+            "Safety": {
+                "Rating": "(+)",
+                "Description": "Supports real-time rendering and simulation.",
+                "URL": "https://unity.com/how-to/real-time-rendering-3d"
+            },
+            "Collaboration": {
+                "Rating": "(+)",
+                "Description": "Supports real-time rendering and simulation.",
+                "URL": "https://unity.com/how-to/real-time-rendering-3d"
+            }
+        },
+        "Wikitude": {
+            "Real-Time": {
+                "Rating": "(+)",
+                "Description": "Supports real-time rendering and simulation.",
+                "URL": "https://unity.com/how-to/real-time-rendering-3d"
+            },
+            "Network Connectivity": {
+                "Rating": "(+)",
+                "Description": "Supports real-time rendering and simulation.",
+                "URL": "https://unity.com/how-to/real-time-rendering-3d"
+            },
+            "Computing Power": {
+                "Rating": "(+)",
+                "Description": "Supports real-time rendering and simulation.",
+                "URL": "https://unity.com/how-to/real-time-rendering-3d"
+            },
+            "Data Capacity": {
+                "Rating": "(+)",
+                "Description": "Supports real-time rendering and simulation.",
+                "URL": "https://unity.com/how-to/real-time-rendering-3d"
+            },
+            "Integration": {
+                "Rating": "(+)",
+                "Description": "Supports real-time rendering and simulation.",
+                "URL": "https://unity.com/how-to/real-time-rendering-3d"
+            },
+            "Security": {
+                "Rating": "(+)",
+                "Description": "Supports real-time rendering and simulation.",
+                "URL": "https://unity.com/how-to/real-time-rendering-3d"
+            },
+            "Continuous Improvement": {
+                "Rating": "(+)",
+                "Description": "Supports real-time rendering and simulation.",
+                "URL": "https://unity.com/how-to/real-time-rendering-3d"
+            },
+            "Reliability": {
+                "Rating": "(+)",
+                "Description": "Supports real-time rendering and simulation.",
+                "URL": "https://unity.com/how-to/real-time-rendering-3d"
+            },
+            "Accuracy": {
+                "Rating": "(+)",
+                "Description": "Supports real-time rendering and simulation.",
+                "URL": "https://unity.com/how-to/real-time-rendering-3d"
+            },
+            "Obtrusiveness": {
+                "Rating": "(+)",
+                "Description": "Supports real-time rendering and simulation.",
+                "URL": "https://unity.com/how-to/real-time-rendering-3d"
+            },
+            "Granularity": {
+                "Rating": "(+)",
+                "Description": "Supports real-time rendering and simulation.",
+                "URL": "https://unity.com/how-to/real-time-rendering-3d"
+            },
+            "Standardization": {
+                "Rating": "(+)",
+                "Description": "Supports real-time rendering and simulation.",
+                "URL": "https://unity.com/how-to/real-time-rendering-3d"
+            },
+            "Economic Value": {
+                "Rating": "(+)",
+                "Description": "Supports real-time rendering and simulation.",
+                "URL": "https://unity.com/how-to/real-time-rendering-3d"
+            },
+            "Usability": {
+                "Rating": "(+)",
+                "Description": "Supports real-time rendering and simulation.",
+                "URL": "https://unity.com/how-to/real-time-rendering-3d"
+            },
+            "Safety": {
+                "Rating": "(+)",
+                "Description": "Supports real-time rendering and simulation.",
+                "URL": "https://unity.com/how-to/real-time-rendering-3d"
+            },
+            "Collaboration": {
+                "Rating": "(+)",
+                "Description": "Supports real-time rendering and simulation.",
+                "URL": "https://unity.com/how-to/real-time-rendering-3d"
+            }
+        },
+        "VTK": {
+            "Real-Time": {
+                "Rating": "(+)",
+                "Description": "Supports real-time rendering and simulation.",
+                "URL": "https://unity.com/how-to/real-time-rendering-3d"
+            },
+            "Network Connectivity": {
+                "Rating": "(+)",
+                "Description": "Supports real-time rendering and simulation.",
+                "URL": "https://unity.com/how-to/real-time-rendering-3d"
+            },
+            "Computing Power": {
+                "Rating": "(+)",
+                "Description": "Supports real-time rendering and simulation.",
+                "URL": "https://unity.com/how-to/real-time-rendering-3d"
+            },
+            "Data Capacity": {
+                "Rating": "(+)",
+                "Description": "Supports real-time rendering and simulation.",
+                "URL": "https://unity.com/how-to/real-time-rendering-3d"
+            },
+            "Integration": {
+                "Rating": "(+)",
+                "Description": "Supports real-time rendering and simulation.",
+                "URL": "https://unity.com/how-to/real-time-rendering-3d"
+            },
+            "Security": {
+                "Rating": "(+)",
+                "Description": "Supports real-time rendering and simulation.",
+                "URL": "https://unity.com/how-to/real-time-rendering-3d"
+            },
+            "Continuous Improvement": {
+                "Rating": "(+)",
+                "Description": "Supports real-time rendering and simulation.",
+                "URL": "https://unity.com/how-to/real-time-rendering-3d"
+            },
+            "Reliability": {
+                "Rating": "(+)",
+                "Description": "Supports real-time rendering and simulation.",
+                "URL": "https://unity.com/how-to/real-time-rendering-3d"
+            },
+            "Accuracy": {
+                "Rating": "(+)",
+                "Description": "Supports real-time rendering and simulation.",
+                "URL": "https://unity.com/how-to/real-time-rendering-3d"
+            },
+            "Obtrusiveness": {
+                "Rating": "(+)",
+                "Description": "Supports real-time rendering and simulation.",
+                "URL": "https://unity.com/how-to/real-time-rendering-3d"
+            },
+            "Granularity": {
+                "Rating": "(+)",
+                "Description": "Supports real-time rendering and simulation.",
+                "URL": "https://unity.com/how-to/real-time-rendering-3d"
+            },
+            "Standardization": {
+                "Rating": "(+)",
+                "Description": "Supports real-time rendering and simulation.",
+                "URL": "https://unity.com/how-to/real-time-rendering-3d"
+            },
+            "Economic Value": {
+                "Rating": "(+)",
+                "Description": "Supports real-time rendering and simulation.",
+                "URL": "https://unity.com/how-to/real-time-rendering-3d"
+            },
+            "Usability": {
+                "Rating": "(+)",
+                "Description": "Supports real-time rendering and simulation.",
+                "URL": "https://unity.com/how-to/real-time-rendering-3d"
+            },
+            "Safety": {
+                "Rating": "(+)",
+                "Description": "Supports real-time rendering and simulation.",
+                "URL": "https://unity.com/how-to/real-time-rendering-3d"
+            },
+            "Collaboration": {
+                "Rating": "(+)",
+                "Description": "Supports real-time rendering and simulation.",
+                "URL": "https://unity.com/how-to/real-time-rendering-3d"
+            }
+        }
+    }
 }

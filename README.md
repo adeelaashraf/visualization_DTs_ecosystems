@@ -13,6 +13,6 @@ Development consists of three parts:
     a. Runs all Python scripts to process the data, including 'data.json'\
     b. Copies data files to specified directories\
     c. Updates the application version\
-    d. Runs 'npm run deploy'
+4. Run 'npm run deploy'
 
 For questions, contact: adeela-97@hotmail.com
