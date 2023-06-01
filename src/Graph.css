@@ -63,10 +63,13 @@ a:hover {
 }
 
 #popup_text {
+    width: 80%; /* Adjust the value as per your needs */
     text-align: center;
     color: black;
     opacity: 1.0;
     font-family: "arial";
+    margin-left: auto;
+    margin-right: auto;
 }
 
 #popup_button {
@@ -143,4 +146,12 @@ div.outerBorder {
     border: 2px solid rgba(30, 30, 30, 0.05);
     background: rgb(38, 181, 3); /* Old browsers */
     box-shadow: 2px 0px 4px rgba(0, 0, 0, 0.4);
+}
+
+.icon {
+    display: inline-block;
+    width: 15px; /* Adjust the width and height as per your image size */
+    height: 15px;
+    background: url('../public/logo192.png');
+    background-size: cover; /* Adjust the background-size as per your image requirements */ /* Other styles here */
 }

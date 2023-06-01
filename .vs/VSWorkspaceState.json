@@ -5,9 +5,8 @@
     "\\python_scripts",
     "\\python_scripts\\lib",
     "\\python_scripts\\__pycache__",
-    "\\src",
-    "\\src\\public"
+    "\\src"
   ],
-  "SelectedNode": "\\python_scripts\\application_input.py",
+  "SelectedNode": "\\src\\Sidebar.css",
   "PreviewInSolutionExplorer": false
 }

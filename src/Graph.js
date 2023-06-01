@@ -20,11 +20,24 @@ const Graph = ({selectedOptions, onChange2, toggleEdges, toggleCluster}) => {
     var y = window.innerHeight / 2 + 30;
     var step = 70;
     var legend_nodes = [{
+        id: "Legend",
+        color: "red",
+        shape: "text",
+        x: x,
+        y: y + (0.5 * step),
+        label: "Legend",
+        font: {
+            background: "#d4d4d4",
+            size: defaultNodeSize *2,
+        },
+        size: defaultNodeSize,
+        fixed: true,
+    }, {
         id: "Data Type",
         color: "red",
         shape: "triangle",
         x: x,
-        y: y,
+        y: y + step,
         label: "Data Type",
         size: defaultNodeSize,
         fixed: true,
@@ -33,7 +46,7 @@ const Graph = ({selectedOptions, onChange2, toggleEdges, toggleCluster}) => {
         color: "blue",
         shape: "square",
         x: x,
-        y: y + step,
+        y: y + (2 * step),
         label: "Visualization Technique",
         size: defaultNodeSize,
         fixed: true,
@@ -42,7 +55,7 @@ const Graph = ({selectedOptions, onChange2, toggleEdges, toggleCluster}) => {
         color: "purple",
         shape: "dot",
         x: x,
-        y: y + (2 * step),
+        y: y + (3 * step),
         label: "Visualization Tool",
         size: defaultNodeSize,
         fixed: true,
@@ -50,15 +63,14 @@ const Graph = ({selectedOptions, onChange2, toggleEdges, toggleCluster}) => {
 
     var nodes = useMemo(() => (new DataSet([...legend_nodes])), []);
     var edges = useMemo(() => (new DataSet(graph_data.edges)), []);
-    var legend_nodes2 = ["Data Type",
+    var legend_nodes2 = ["Legend", "Data Type",
         "Visualization Technique",
         "Visualization Tool"];
 
     nodes.forEach((node) => {
         node.font = {
             face: "arial"
-        };
-
+        }
     });
 
     edges.forEach((edge) => {
@@ -266,8 +278,8 @@ const Graph = ({selectedOptions, onChange2, toggleEdges, toggleCluster}) => {
                             <h1 id="popup_text"> About
                             </h1>
                             {<p id="popup_text" >This web-based tool allows users to select visualization techniques and tools for digital twins of ecosystems.
-                                <br></br>Data is based on academic papers and official websites of the relevant techniques and tools.
-                                <br></br>Developed at the <a href="https://www.uva.nl/en">University of Amsterdam</a>.
+                                <br></br>Data for the visualization techniques and tools is based on academic papers and official websites.
+                                <br></br>Developed at the <span class='icon'></span> <a href="https://www.uva.nl/en">University of Amsterdam</a>.
                             </p>}
                             <br></br>
                             <button id="popup_button" onClick={close}>Close</button>
@@ -285,10 +297,10 @@ const Graph = ({selectedOptions, onChange2, toggleEdges, toggleCluster}) => {
                             <h1 id="popup_text"> Help
                             </h1>
                             {<p id="popup_text" >
-                                Select options 'Graph Options' to construct a graph. 
+                                Select options using 'Graph Options' to construct a graph. 
                                 <br></br> Use your mouse, keyboard, or the navigation buttons below to navigate the graph.
-                                <br></br> Select a node or edge to see details 'Graph Data'.
-                                <br></br> For further questions or contact, please <a href="mailto:adeela-97@hotmail.com">send an email</a>.
+                                <br></br> Select a node or edge in the graph in order to see details in 'Graph Data'.
+                                <br></br> For further questions or contact please <a href="mailto:adeela-97@hotmail.com">send an email</a>.
 
                             </p>}
                             <br></br>

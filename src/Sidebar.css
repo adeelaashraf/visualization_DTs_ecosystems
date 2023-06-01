@@ -64,5 +64,8 @@
 .checkbox {
     font-size: 0.9em;
     display: flex;
-    justify-content: center;
+    align-items: flex-start;
+    word-wrap: break-word;
+    overflow: hidden;
+    text-overflow: ellipsis;
 }
