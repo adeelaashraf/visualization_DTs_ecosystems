@@ -3,6 +3,7 @@ import './Sidebar.css';
 import Select from 'react-select';
 import graph_data from "./data.json";
 
+
 // Data Types
 const options = graph_data.data_type;
 const options2 = graph_data.visualization_technique;
@@ -157,9 +158,9 @@ function Sidebar({ sendOptions, sendToggleEdges, sendToggleCluster}) {
 
     return (
         <div>
-         <button className="button" onClick={toggleSidebar}>Graph Options</button>
+            <button className="button" onClick={toggleSidebar}>Graph Options</button>
 
-        <div className={`sidebar ${isOpen ? "open" : "closed"}`}>
+            <div className={`sidebar ${isOpen ? "open" : "closed"}`}>
             <div className="sidebar-content">
                     <br></br>
                     <br></br>

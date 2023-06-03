@@ -1,25 +1,27 @@
-/* Sidebar styles */
 .sidebar {
     position: fixed;
     top: 0;
     left: 0;
     width: 15vw;
+    min-width: 5vw;
+    max-width: 99vw;
     height: 100%;
     background: rgb(212,212,212);
     background: linear-gradient(180deg, rgba(212,212,212,1) 0%, rgba(255,255,255,1) 73%);
-    padding: 20px;
+    opacity: 0.8;
     transition: transform 0.3s ease-in-out;
+    resize: horizontal; /* Allow horizontal resizing */
+    overflow: auto; /* Add scrollbars if content overflows */
+    display: flex;
 }
 
 .sidebar-content {
-    position: fixed;
+    width: 100%;
     top: 0;
     left: 0;
-    width: 15vw;
     height: 100%;
     padding: 20px;
     transition: transform 0.3s ease-in-out;
-    overflow: auto;
     font-family: "arial";
 }
 

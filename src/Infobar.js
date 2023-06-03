@@ -1,4 +1,4 @@
-import React, { useState, useEffect } from "react";
+import React, { useRef, useState, useEffect } from "react";
 import * as XLSX from 'xlsx';
 import './Infobar.css';
 import graph_data from "./data.json";
@@ -51,6 +51,9 @@ function Infobar({ selectedItems2 }) {
             </tr>
         );
     };
+
+    //============
+    //===========
 
     useEffect(() => {
 

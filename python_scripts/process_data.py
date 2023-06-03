@@ -78,11 +78,11 @@ def get_assessment_data():
 
 # Keep track in order to split dataframes
 track_data = (pd.read_excel('data.xlsx', 'track')).dropna(how='all')
-misc = track_data.iloc[0, 1]
-data_type_amount = track_data.iloc[1, 1]
-visualization_technique_amount = track_data.iloc[2, 1]
-visualization_tool_amount = track_data.iloc[3, 1]
-medium_amount = track_data.iloc[4, 1]
-requirements_challenges_amount = track_data.iloc[5, 1]
-assessment_amount = track_data.iloc[6, 1]
+misc = int(track_data.iloc[0, 1])
+data_type_amount = int(track_data.iloc[1, 1])
+visualization_technique_amount = int(track_data.iloc[2, 1])
+visualization_tool_amount = int(track_data.iloc[3, 1])
+medium_amount = int(track_data.iloc[4, 1])
+requirements_challenges_amount = int(track_data.iloc[5, 1])
+assessment_amount = int(track_data.iloc[6, 1])
 

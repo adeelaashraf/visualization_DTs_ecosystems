@@ -1,24 +1,29 @@
-/* Infobar styles */
 .infobar {
     position: fixed;
     top: 0;
     right: 0;
-    width: 100vw;
+    width: 50vw;
+    min-width: 5vw;
+    max-width: 99vw;
     height: 100%;
     background: rgb(212,212,212);
     background: linear-gradient(180deg, rgba(212,212,212,1) 0%, rgba(255,255,255,1) 73%);
     opacity: 0.8;
     transition: transform 0.3s ease-in-out;
     z-index: 2;
+    resize: horizontal; /* Allow horizontal resizing */
+    overflow: auto; /* Add scrollbars if content overflows */
+    display: flex;
+    direction: rtl /* To put the resize corner on the right side */
 }
 
-    .infobar.closed {
-        transform: translateX(100%);
-    }
+.infobar.closed {
+    transform: translateX(100%);
+}
 
-    .infobar.open {
-        transform: translateX(0);
-    }
+.infobar.open {
+    transform: translateX(0);
+}
 
 .infobar_toggle {
     position: absolute;
@@ -32,17 +37,17 @@
 }
 
 .infobar_content {
+    width: 100%;
     top: 0;
     left: 0;
     height: 100%;
     padding: 20px;
     transition: transform 0.3s ease-in-out;
-    overflow: auto;
     font-family: "arial";
+    direction: ltr; /* Set the direction back */
 }
 
 .infobar_content_element {
-    display: flex;
     margin: auto;
     padding: 30px;
     justify-content: center;
@@ -51,6 +56,7 @@
 }
 
 table {
+    display: inline-block;
     border-collapse: collapse;
     text-align: center;
 }
