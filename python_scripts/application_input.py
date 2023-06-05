@@ -116,6 +116,7 @@ def create_edges_same_type(same_type_edges, dataframe, category):
             same_type_edges.append((key, key2, value2, category))
 
 # Read data, remove any empty columns
+compressed_data, _, compressed_visualization_technique, _, _ = get_literature_data("compressed")
 data, data_type, visualization_technique, visualization_tool, medium = get_literature_data("classified")
 definition_data, definition_data_type, definition_visualization_technique, definition_visualization_tool, definition_requirements_challenges, definition_assessment = get_definition_data()
 assessment_data = get_assessment_data()
@@ -262,6 +263,41 @@ def multiselect_nodes_grouping(df):
                 json_dict.append(group_dict)
     return(json_dict)
 
+def multiselect_domains(df, df_visualization_technique): 
+    temp = []
+    for index, row in df.iterrows():
+        # Get the domain(s) of the paper
+        domains = df['Domain(s)'][index].split(', ')
+        # Get the visualization techniques used in the paper
+        row_df2 = df_visualization_technique.loc[index]
+        visualization_techniques = row_df2[row_df2.eq('x')].index.tolist()
+        # For each domain here, assign the visualization techniques
+
+        for i in domains:
+            temp_dict = {}
+            temp_dict[i] = visualization_techniques
+            temp.append(temp_dict)
+
+    # Merge dicts to get unique list of domains:[visualization techniques]
+    merged_dict = {}
+    for dictionary in temp:
+        for key, value in dictionary.items():
+            if key in merged_dict:
+                new_value = list(set(merged_dict[key] + value))
+                merged_dict[key] = new_value
+            else:
+                merged_dict[key] = value
+
+    # Lastly, convert React multiselect format: label: key, value:values
+    json_dict = []
+    for key, value in merged_dict.items():
+        temp_dict = {}
+        temp_dict["label"] = key
+        temp_dict["value"] = key
+        json_dict.append(temp_dict)
+
+    return(merged_dict, json_dict)
+
 # Definitions requirements and challenges + assessment
 def make_definitions(df):
     json_dict = []
@@ -299,7 +335,9 @@ json_total["edges"] = json_edges
 # For the multiselect nodes, make dictionaries to group per category
 json_total["data_type"] = multiselect_nodes_no_grouping(definition_data_type)
 json_total["visualization_technique"] = multiselect_nodes_grouping(definition_visualization_technique)
+json_total["visualization_technique_domains"], json_total["visualization_technique_domains_multiselect"] = multiselect_domains(compressed_data, compressed_visualization_technique)
 json_total["visualization_tool"] = multiselect_nodes_grouping(definition_visualization_tool)
+
 
 # Add definitions for requirements and challenges + assessment
 json_total["requirements_and_challenges"] = make_definitions(definition_requirements_challenges)

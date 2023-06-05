@@ -145,6 +145,7 @@ function Infobar({ selectedItems2 }) {
                                                 <th>DOI</th>
                                                 <th>Title</th>
                                                 <th>URL</th>
+                                                <th>Domain(s)</th>
                                             </tr>
                                         </thead>
                                         <tbody>
@@ -180,6 +181,7 @@ function Infobar({ selectedItems2 }) {
                                                             <td>{clickableDoi}</td>
                                                             <td>{row[paperData[0].indexOf('Title')]}</td>
                                                             <td>{clickableUrl}</td>
+                                                            <td>{row[paperData[0].indexOf('Domain(s)')]}</td>
                                                         </tr>
                                                     );
                                                 }
@@ -204,6 +206,7 @@ function Infobar({ selectedItems2 }) {
                                                 <th>DOI</th>
                                                 <th>Title</th>
                                                 <th>URL</th>
+                                                <th>Domain(s)</th>
                                             </tr>
                                         </thead>
                                         <tbody>
@@ -240,6 +243,7 @@ function Infobar({ selectedItems2 }) {
                                                             <td>{clickableDoi}</td>
                                                             <td>{row[paperData[0].indexOf('Title')]}</td>
                                                             <td>{clickableUrl}</td>
+                                                            <td>{row[paperData[0].indexOf('Domain(s)')]}</td>
                                                         </tr>
                                                     );
                                                 }

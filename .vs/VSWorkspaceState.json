@@ -1,12 +1,11 @@
 {
   "ExpandedNodes": [
     "",
-    "\\public",
     "\\python_scripts",
     "\\python_scripts\\lib",
     "\\python_scripts\\__pycache__",
     "\\src"
   ],
-  "SelectedNode": "\\python_scripts\\process_data.py",
+  "SelectedNode": "\\src\\Graph.js",
   "PreviewInSolutionExplorer": false
 }

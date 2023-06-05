@@ -222,6 +222,14 @@
             "cid": "2D plots"
         },
         {
+            "id": "Vector Rendering",
+            "label": "Vector Rendering",
+            "color": "blue",
+            "shape": "square",
+            "size": 10,
+            "title": "Vector Rendering"
+        },
+        {
             "id": "Pie Chart",
             "label": "Pie Chart",
             "color": "blue",
@@ -482,6 +490,15 @@
             "title": "Wikitude"
         },
         {
+            "id": "OpenLayers",
+            "label": "OpenLayers",
+            "color": "purple",
+            "shape": "dot",
+            "size": 10,
+            "title": "OpenLayers",
+            "cid": "Javascript Libaries/Frameworks/Packages"
+        },
+        {
             "id": "VTK",
             "label": "VTK",
             "color": "purple",
@@ -662,6 +679,14 @@
         {
             "from": "Geospatial Data",
             "to": "Contour Plot",
+            "color": "grey",
+            "width": 1,
+            "inner_edges_type": "none",
+            "title": "1 paper found"
+        },
+        {
+            "from": "Geospatial Data",
+            "to": "Vector Rendering",
             "color": "grey",
             "width": 1,
             "inner_edges_type": "none",
@@ -1022,6 +1047,14 @@
         {
             "from": "Abiotic Data",
             "to": "Diagram",
+            "color": "grey",
+            "width": 1,
+            "inner_edges_type": "none",
+            "title": "1 paper found"
+        },
+        {
+            "from": "Abiotic Data",
+            "to": "Vector Rendering",
             "color": "grey",
             "width": 1,
             "inner_edges_type": "none",
@@ -1628,6 +1661,14 @@
             "title": "1 paper found"
         },
         {
+            "from": "Vector Rendering",
+            "to": "OpenLayers",
+            "color": "grey",
+            "width": 1,
+            "inner_edges_type": "none",
+            "title": "1 paper found"
+        },
+        {
             "from": "Geometric Data",
             "to": "Geospatial Data",
             "color": "grey",
@@ -1781,11 +1822,11 @@
             "from": "Geospatial Data",
             "to": "Abiotic Data",
             "color": "grey",
-            "width": 1,
+            "width": 2,
             "dashes": "true",
             "inner_edges_type": "data_type",
             "hidden": "true",
-            "title": "1 paper found"
+            "title": "2 papers found"
         },
         {
             "from": "Geospatial Data",
@@ -2868,6 +2909,10 @@
                 {
                     "label": "Data Visualization",
                     "value": "Data Visualization"
+                },
+                {
+                    "label": "Vector Rendering",
+                    "value": "Vector Rendering"
                 }
             ]
         },
@@ -2937,6 +2982,237 @@
             ]
         }
     ],
+    "visualization_technique_domains": {
+        "Augmented Reality": [
+            "3D Geometric Modeling",
+            "Virtual Reality",
+            "Data Visualization",
+            "Augmented Reality"
+        ],
+        "Manufacturing": [
+            "Data Visualization",
+            "3D Geometric Modeling",
+            "Virtual Reality",
+            "Dashboard Visualization",
+            "Augmented Reality"
+        ],
+        "Aerospace Engineering": [
+            "Virtual Reality",
+            "Contour Plot",
+            "Data Visualization",
+            "3D Geometric Modeling"
+        ],
+        "Virtual Reality": [
+            "Data Visualization",
+            "Contour Plot",
+            "3D Geometric Modeling",
+            "Virtual Reality",
+            "Augmented Reality"
+        ],
+        "Smart Cities": [
+            "Data Visualization",
+            "3D Geometric Modeling",
+            "Virtual Reality",
+            "Dashboard Visualization",
+            "Augmented Reality"
+        ],
+        "Extended Reality": [
+            "Data Visualization",
+            "3D Geometric Modeling",
+            "Virtual Reality",
+            "Dashboard Visualization",
+            "Augmented Reality"
+        ],
+        "Visualization": [
+            "Bar Plot",
+            "Line Graph",
+            "Pie Chart",
+            "3D Geometric Modeling",
+            "Dashboard Visualization",
+            "Radar Plot",
+            "Rose Plot",
+            "Histogram",
+            "Network Graph",
+            "Diel Plot",
+            "Sammon Map",
+            "Vector Rendering",
+            "Virtual Reality",
+            "Box Plot",
+            "Heat Map",
+            "Dendogram",
+            "Augmented Reality"
+        ],
+        "Agriculture": [
+            "Augmented Reality",
+            "3D Geometric Modeling",
+            "Dashboard Visualization",
+            "Virtual Reality",
+            "Data Visualization"
+        ],
+        "Astronomy": [
+            "Augmented Reality",
+            "3D Geometric Modeling",
+            "Virtual Reality",
+            "Data Visualization"
+        ],
+        "Healthcare": [
+            "3D Geometric Modeling"
+        ],
+        "Ecosystem Modeling": [
+            "Network Graph",
+            "Diagram",
+            "3D Geometric Modeling",
+            "Virtual Reality",
+            "Box Plot",
+            "Heat Map",
+            "Dashboard Visualization"
+        ],
+        "Landscape Ecology": [
+            "3D Geometric Modeling",
+            "Virtual Reality"
+        ],
+        "Food Web": [
+            "Bar Plot",
+            "Line Graph",
+            "Heat Map",
+            "Network Graph"
+        ],
+        "Information Analysis": [
+            "Bar Plot",
+            "Line Graph",
+            "Contour Plot",
+            "Network Graph",
+            "3D Geometric Modeling",
+            "Heat Map"
+        ],
+        "Freshwater Ecosystems": [
+            "Diagram"
+        ],
+        "Soundscape Ecology": [
+            "Diel Plot",
+            "Radar Plot",
+            "Histogram",
+            "Rose Plot",
+            "Sammon Map",
+            "Line Graph",
+            "Dendogram",
+            "Box Plot",
+            "Network Graph"
+        ],
+        "Forest Ecosystems": [
+            "3D Geometric Modeling",
+            "Virtual Reality"
+        ],
+        "Forest ecosystems": [
+            "3D Geometric Modeling"
+        ],
+        "Geographic Information System": [
+            "3D Geometric Modeling",
+            "Contour Plot"
+        ],
+        "Environmental Decision Support Systems": [
+            "3D Geometric Modeling",
+            "Dashboard Visualization"
+        ],
+        "Marine Ecosystems": [
+            "Vector Rendering",
+            "Dashboard Visualization",
+            "3D Geometric Modeling"
+        ],
+        "Microbiology": [
+            "Pie Chart"
+        ]
+    },
+    "visualization_technique_domains_multiselect": [
+        {
+            "label": "Augmented Reality",
+            "value": "Augmented Reality"
+        },
+        {
+            "label": "Manufacturing",
+            "value": "Manufacturing"
+        },
+        {
+            "label": "Aerospace Engineering",
+            "value": "Aerospace Engineering"
+        },
+        {
+            "label": "Virtual Reality",
+            "value": "Virtual Reality"
+        },
+        {
+            "label": "Smart Cities",
+            "value": "Smart Cities"
+        },
+        {
+            "label": "Extended Reality",
+            "value": "Extended Reality"
+        },
+        {
+            "label": "Visualization",
+            "value": "Visualization"
+        },
+        {
+            "label": "Agriculture",
+            "value": "Agriculture"
+        },
+        {
+            "label": "Astronomy",
+            "value": "Astronomy"
+        },
+        {
+            "label": "Healthcare",
+            "value": "Healthcare"
+        },
+        {
+            "label": "Ecosystem Modeling",
+            "value": "Ecosystem Modeling"
+        },
+        {
+            "label": "Landscape Ecology",
+            "value": "Landscape Ecology"
+        },
+        {
+            "label": "Food Web",
+            "value": "Food Web"
+        },
+        {
+            "label": "Information Analysis",
+            "value": "Information Analysis"
+        },
+        {
+            "label": "Freshwater Ecosystems",
+            "value": "Freshwater Ecosystems"
+        },
+        {
+            "label": "Soundscape Ecology",
+            "value": "Soundscape Ecology"
+        },
+        {
+            "label": "Forest Ecosystems",
+            "value": "Forest Ecosystems"
+        },
+        {
+            "label": "Forest ecosystems",
+            "value": "Forest ecosystems"
+        },
+        {
+            "label": "Geographic Information System",
+            "value": "Geographic Information System"
+        },
+        {
+            "label": "Environmental Decision Support Systems",
+            "value": "Environmental Decision Support Systems"
+        },
+        {
+            "label": "Marine Ecosystems",
+            "value": "Marine Ecosystems"
+        },
+        {
+            "label": "Microbiology",
+            "value": "Microbiology"
+        }
+    ],
     "visualization_tool": [
         {
             "label": "Game Engines",
@@ -2994,6 +3270,10 @@
                 {
                     "label": "Three.js",
                     "value": "Three.js"
+                },
+                {
+                    "label": "OpenLayers",
+                    "value": "OpenLayers"
                 }
             ]
         },
