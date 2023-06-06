@@ -98,12 +98,12 @@
             "cid": "Immersive Visualization Techniques"
         },
         {
-            "id": "3D Geometric Modeling",
-            "label": "3D Geometric Modeling",
+            "id": "3D Geometric Modelling",
+            "label": "3D Geometric Modelling",
             "color": "blue",
             "shape": "square",
             "size": 10,
-            "title": "3D Geometric Modeling"
+            "title": "3D Geometric Modelling"
         },
         {
             "id": "Dashboard Visualization",
@@ -227,7 +227,8 @@
             "color": "blue",
             "shape": "square",
             "size": 10,
-            "title": "Vector Rendering"
+            "title": "Vector Rendering",
+            "cid": "2D plots"
         },
         {
             "id": "Pie Chart",
@@ -281,7 +282,7 @@
             "shape": "dot",
             "size": 10,
             "title": "Blender",
-            "cid": "Modeling Software"
+            "cid": "Modelling Software"
         },
         {
             "id": "JQuery",
@@ -375,7 +376,7 @@
             "shape": "dot",
             "size": 10,
             "title": "CityEngine",
-            "cid": "Modeling Software"
+            "cid": "Modelling Software"
         },
         {
             "id": "ARCGIS",
@@ -428,7 +429,7 @@
             "shape": "dot",
             "size": 10,
             "title": "Autodesk Revit",
-            "cid": "Modeling Software"
+            "cid": "Modelling Software"
         },
         {
             "id": "Autodesk Forge",
@@ -479,7 +480,7 @@
             "shape": "dot",
             "size": 10,
             "title": "Creo",
-            "cid": "Modeling Software"
+            "cid": "Modelling Software"
         },
         {
             "id": "Wikitude",
@@ -518,7 +519,7 @@
         },
         {
             "from": "Geometric Data",
-            "to": "3D Geometric Modeling",
+            "to": "3D Geometric Modelling",
             "color": "grey",
             "width": 19,
             "inner_edges_type": "none",
@@ -558,7 +559,7 @@
         },
         {
             "from": "Geospatial Data",
-            "to": "3D Geometric Modeling",
+            "to": "3D Geometric Modelling",
             "color": "grey",
             "width": 15,
             "inner_edges_type": "none",
@@ -702,7 +703,7 @@
         },
         {
             "from": "Sensor data",
-            "to": "3D Geometric Modeling",
+            "to": "3D Geometric Modelling",
             "color": "grey",
             "width": 13,
             "inner_edges_type": "none",
@@ -750,7 +751,7 @@
         },
         {
             "from": "Historical Data",
-            "to": "3D Geometric Modeling",
+            "to": "3D Geometric Modelling",
             "color": "grey",
             "width": 6,
             "inner_edges_type": "none",
@@ -798,7 +799,7 @@
         },
         {
             "from": "Process Data",
-            "to": "3D Geometric Modeling",
+            "to": "3D Geometric Modelling",
             "color": "grey",
             "width": 5,
             "inner_edges_type": "none",
@@ -814,7 +815,7 @@
         },
         {
             "from": "Simulation Data",
-            "to": "3D Geometric Modeling",
+            "to": "3D Geometric Modelling",
             "color": "grey",
             "width": 10,
             "inner_edges_type": "none",
@@ -870,7 +871,7 @@
         },
         {
             "from": "Metadata",
-            "to": "3D Geometric Modeling",
+            "to": "3D Geometric Modelling",
             "color": "grey",
             "width": 2,
             "inner_edges_type": "none",
@@ -886,7 +887,7 @@
         },
         {
             "from": "Biotic data",
-            "to": "3D Geometric Modeling",
+            "to": "3D Geometric Modelling",
             "color": "grey",
             "width": 2,
             "inner_edges_type": "none",
@@ -998,7 +999,7 @@
         },
         {
             "from": "Landscape data",
-            "to": "3D Geometric Modeling",
+            "to": "3D Geometric Modelling",
             "color": "grey",
             "width": 4,
             "inner_edges_type": "none",
@@ -1109,7 +1110,7 @@
             "title": "1 paper found"
         },
         {
-            "from": "3D Geometric Modeling",
+            "from": "3D Geometric Modelling",
             "to": "Unity3D",
             "color": "grey",
             "width": 11,
@@ -1117,7 +1118,7 @@
             "title": "11 papers found"
         },
         {
-            "from": "3D Geometric Modeling",
+            "from": "3D Geometric Modelling",
             "to": "JQuery",
             "color": "grey",
             "width": 3,
@@ -1125,7 +1126,7 @@
             "title": "3 papers found"
         },
         {
-            "from": "3D Geometric Modeling",
+            "from": "3D Geometric Modelling",
             "to": "Verge3D",
             "color": "grey",
             "width": 1,
@@ -1133,7 +1134,7 @@
             "title": "1 paper found"
         },
         {
-            "from": "3D Geometric Modeling",
+            "from": "3D Geometric Modelling",
             "to": "Bootstrap",
             "color": "grey",
             "width": 2,
@@ -1141,7 +1142,7 @@
             "title": "2 papers found"
         },
         {
-            "from": "3D Geometric Modeling",
+            "from": "3D Geometric Modelling",
             "to": "WebXR",
             "color": "grey",
             "width": 1,
@@ -1149,7 +1150,7 @@
             "title": "1 paper found"
         },
         {
-            "from": "3D Geometric Modeling",
+            "from": "3D Geometric Modelling",
             "to": "Unreal Engine",
             "color": "grey",
             "width": 2,
@@ -1157,7 +1158,7 @@
             "title": "2 papers found"
         },
         {
-            "from": "3D Geometric Modeling",
+            "from": "3D Geometric Modelling",
             "to": "Autodesk Revit",
             "color": "grey",
             "width": 2,
@@ -1165,7 +1166,7 @@
             "title": "2 papers found"
         },
         {
-            "from": "3D Geometric Modeling",
+            "from": "3D Geometric Modelling",
             "to": "Autodesk Forge",
             "color": "grey",
             "width": 2,
@@ -1173,7 +1174,7 @@
             "title": "2 papers found"
         },
         {
-            "from": "3D Geometric Modeling",
+            "from": "3D Geometric Modelling",
             "to": "OpenScene Graph",
             "color": "grey",
             "width": 1,
@@ -1181,7 +1182,7 @@
             "title": "1 paper found"
         },
         {
-            "from": "3D Geometric Modeling",
+            "from": "3D Geometric Modelling",
             "to": "COVISE",
             "color": "grey",
             "width": 1,
@@ -1189,7 +1190,7 @@
             "title": "1 paper found"
         },
         {
-            "from": "3D Geometric Modeling",
+            "from": "3D Geometric Modelling",
             "to": "Wikitude",
             "color": "grey",
             "width": 1,
@@ -1197,7 +1198,7 @@
             "title": "1 paper found"
         },
         {
-            "from": "3D Geometric Modeling",
+            "from": "3D Geometric Modelling",
             "to": "Three.js",
             "color": "grey",
             "width": 1,
@@ -1205,7 +1206,7 @@
             "title": "1 paper found"
         },
         {
-            "from": "3D Geometric Modeling",
+            "from": "3D Geometric Modelling",
             "to": "WebGL",
             "color": "grey",
             "width": 1,
@@ -1213,7 +1214,7 @@
             "title": "1 paper found"
         },
         {
-            "from": "3D Geometric Modeling",
+            "from": "3D Geometric Modelling",
             "to": "Creo",
             "color": "grey",
             "width": 1,
@@ -1221,7 +1222,7 @@
             "title": "1 paper found"
         },
         {
-            "from": "3D Geometric Modeling",
+            "from": "3D Geometric Modelling",
             "to": "VTK",
             "color": "grey",
             "width": 1,
@@ -1229,7 +1230,7 @@
             "title": "1 paper found"
         },
         {
-            "from": "3D Geometric Modeling",
+            "from": "3D Geometric Modelling",
             "to": "CityEngine",
             "color": "grey",
             "width": 1,
@@ -1237,7 +1238,7 @@
             "title": "1 paper found"
         },
         {
-            "from": "3D Geometric Modeling",
+            "from": "3D Geometric Modelling",
             "to": "jsPanel",
             "color": "grey",
             "width": 1,
@@ -1245,7 +1246,7 @@
             "title": "1 paper found"
         },
         {
-            "from": "3D Geometric Modeling",
+            "from": "3D Geometric Modelling",
             "to": "Javascript",
             "color": "grey",
             "width": 1,
@@ -1253,7 +1254,7 @@
             "title": "1 paper found"
         },
         {
-            "from": "3D Geometric Modeling",
+            "from": "3D Geometric Modelling",
             "to": "Backbone",
             "color": "grey",
             "width": 1,
@@ -1261,7 +1262,7 @@
             "title": "1 paper found"
         },
         {
-            "from": "3D Geometric Modeling",
+            "from": "3D Geometric Modelling",
             "to": "ARCGIS",
             "color": "grey",
             "width": 1,
@@ -1269,7 +1270,7 @@
             "title": "1 paper found"
         },
         {
-            "from": "3D Geometric Modeling",
+            "from": "3D Geometric Modelling",
             "to": "Blender",
             "color": "grey",
             "width": 1,
@@ -1990,7 +1991,7 @@
         },
         {
             "from": "Augmented Reality",
-            "to": "3D Geometric Modeling",
+            "to": "3D Geometric Modelling",
             "color": "grey",
             "width": 5,
             "dashes": "true",
@@ -2019,7 +2020,7 @@
             "title": "1 paper found"
         },
         {
-            "from": "3D Geometric Modeling",
+            "from": "3D Geometric Modelling",
             "to": "Virtual Reality",
             "color": "grey",
             "width": 11,
@@ -2029,7 +2030,7 @@
             "title": "11 papers found"
         },
         {
-            "from": "3D Geometric Modeling",
+            "from": "3D Geometric Modelling",
             "to": "Data Visualization",
             "color": "grey",
             "width": 1,
@@ -2039,7 +2040,7 @@
             "title": "1 paper found"
         },
         {
-            "from": "3D Geometric Modeling",
+            "from": "3D Geometric Modelling",
             "to": "Contour Plot",
             "color": "grey",
             "width": 2,
@@ -2903,16 +2904,12 @@
             "label": "Other",
             "options": [
                 {
-                    "label": "3D Geometric Modeling",
-                    "value": "3D Geometric Modeling"
+                    "label": "3D Geometric Modelling",
+                    "value": "3D Geometric Modelling"
                 },
                 {
                     "label": "Data Visualization",
                     "value": "Data Visualization"
-                },
-                {
-                    "label": "Vector Rendering",
-                    "value": "Vector Rendering"
                 }
             ]
         },
@@ -2964,6 +2961,10 @@
                     "value": "Contour Plot"
                 },
                 {
+                    "label": "Vector Rendering",
+                    "value": "Vector Rendering"
+                },
+                {
                     "label": "Pie Chart",
                     "value": "Pie Chart"
                 },
@@ -2984,103 +2985,103 @@
     ],
     "visualization_technique_domains": {
         "Augmented Reality": [
+            "Data Visualization",
             "Augmented Reality",
-            "Virtual Reality",
-            "3D Geometric Modeling",
-            "Data Visualization"
+            "3D Geometric Modelling",
+            "Virtual Reality"
         ],
         "Manufacturing": [
-            "3D Geometric Modeling",
-            "Virtual Reality",
+            "3D Geometric Modelling",
             "Data Visualization",
+            "Virtual Reality",
             "Dashboard Visualization",
             "Augmented Reality"
         ],
         "Aerospace Engineering": [
-            "Data Visualization",
-            "Contour Plot",
-            "3D Geometric Modeling",
-            "Virtual Reality"
-        ],
-        "Virtual Reality": [
-            "Contour Plot",
-            "3D Geometric Modeling",
             "Virtual Reality",
             "Data Visualization",
+            "Contour Plot",
+            "3D Geometric Modelling"
+        ],
+        "Virtual Reality": [
+            "3D Geometric Modelling",
+            "Data Visualization",
+            "Virtual Reality",
+            "Contour Plot",
             "Augmented Reality"
         ],
         "Smart Cities": [
-            "3D Geometric Modeling",
-            "Virtual Reality",
+            "3D Geometric Modelling",
             "Data Visualization",
+            "Virtual Reality",
             "Dashboard Visualization",
             "Augmented Reality"
         ],
         "Extended Reality": [
-            "3D Geometric Modeling",
-            "Virtual Reality",
+            "3D Geometric Modelling",
             "Data Visualization",
+            "Virtual Reality",
             "Dashboard Visualization",
             "Augmented Reality"
         ],
         "Visualization": [
             "Line Graph",
+            "3D Geometric Modelling",
             "Rose Plot",
-            "3D Geometric Modeling",
-            "Virtual Reality",
-            "Box Plot",
-            "Vector Rendering",
             "Bar Plot",
-            "Sammon Map",
+            "Heat Map",
+            "Diel Plot",
+            "Radar Plot",
+            "Virtual Reality",
             "Dendogram",
             "Histogram",
-            "Heat Map",
-            "Network Graph",
-            "Radar Plot",
-            "Pie Chart",
             "Dashboard Visualization",
+            "Box Plot",
+            "Network Graph",
+            "Sammon Map",
             "Augmented Reality",
-            "Diel Plot"
+            "Pie Chart",
+            "Vector Rendering"
         ],
         "Agriculture": [
             "Augmented Reality",
-            "3D Geometric Modeling",
+            "3D Geometric Modelling",
             "Dashboard Visualization",
             "Virtual Reality",
             "Data Visualization"
         ],
         "Astronomy": [
             "Augmented Reality",
-            "3D Geometric Modeling",
+            "3D Geometric Modelling",
             "Virtual Reality",
             "Data Visualization"
         ],
         "Healthcare": [
-            "3D Geometric Modeling"
+            "3D Geometric Modelling"
         ],
-        "Ecosystem Modeling": [
-            "3D Geometric Modeling",
-            "Virtual Reality",
-            "Box Plot",
+        "Ecosystem Modelling": [
+            "3D Geometric Modelling",
             "Heat Map",
-            "Network Graph",
+            "Virtual Reality",
             "Dashboard Visualization",
+            "Box Plot",
+            "Network Graph",
             "Diagram"
         ],
         "Landscape Ecology": [
-            "3D Geometric Modeling",
+            "3D Geometric Modelling",
             "Virtual Reality"
         ],
         "Food Web": [
-            "Line Graph",
-            "Heat Map",
             "Network Graph",
-            "Bar Plot"
+            "Bar Plot",
+            "Heat Map",
+            "Line Graph"
         ],
         "Information Analysis": [
-            "Line Graph",
             "Contour Plot",
-            "3D Geometric Modeling",
+            "Line Graph",
+            "3D Geometric Modelling",
             "Bar Plot",
             "Heat Map",
             "Network Graph"
@@ -3100,24 +3101,24 @@
             "Network Graph"
         ],
         "Forest Ecosystems": [
-            "3D Geometric Modeling",
+            "3D Geometric Modelling",
             "Virtual Reality"
         ],
         "Forest ecosystems": [
-            "3D Geometric Modeling"
+            "3D Geometric Modelling"
         ],
         "Geographic Information System": [
-            "3D Geometric Modeling",
+            "3D Geometric Modelling",
             "Contour Plot"
         ],
         "Environmental Decision Support Systems": [
-            "3D Geometric Modeling",
+            "3D Geometric Modelling",
             "Dashboard Visualization"
         ],
         "Marine Ecosystems": [
-            "Vector Rendering",
-            "3D Geometric Modeling",
-            "Dashboard Visualization"
+            "Dashboard Visualization",
+            "3D Geometric Modelling",
+            "Vector Rendering"
         ],
         "Microbiology": [
             "Pie Chart"
@@ -3165,8 +3166,8 @@
             "value": "Healthcare"
         },
         {
-            "label": "Ecosystem Modeling",
-            "value": "Ecosystem Modeling"
+            "label": "Ecosystem Modelling",
+            "value": "Ecosystem Modelling"
         },
         {
             "label": "Landscape Ecology",
@@ -3228,7 +3229,7 @@
             ]
         },
         {
-            "label": "Modeling Software",
+            "label": "Modelling Software",
             "options": [
                 {
                     "label": "Blender",
@@ -3387,7 +3388,7 @@
     ],
     "visualization_tool_group": [
         "Game Engines",
-        "Modeling Software",
+        "Modelling Software",
         "Javascript Libaries/Frameworks/Packages",
         "Web-based Libaries/Frameworks/Packages"
     ],
@@ -5522,6 +5523,88 @@
                 "Rating": "(+)",
                 "Description": "Supports real-time rendering and simulation.",
                 "URL": "https://unity.com/how-to/real-time-rendering-3d"
+            }
+        },
+        "OpenLayers": {
+            "Real-Time": {
+                "Rating": "(+/-)",
+                "Description": "Ability to display real-time data on maps, does not allow real-time processing.",
+                "URL": "https://openlayers.org/en/latest/apidoc/"
+            },
+            "Network Connectivity": {
+                "Rating": "(+/-)",
+                "Description": "Relies on network connectivity to fetch map data if not stored locally. ",
+                "URL": "https://openlayers.org/en/latest/apidoc/"
+            },
+            "Computing Power": {
+                "Rating": "(+/-)",
+                "Description": "Relies on user's device for processing power.",
+                "URL": "https://openlayers.org/en/latest/apidoc/"
+            },
+            "Data Capacity": {
+                "Rating": "(+)",
+                "Description": "Ability to handle large datasets by e.g. using tiled rendering.",
+                "URL": "https://openlayers.org/en/latest/apidoc/"
+            },
+            "Integration": {
+                "Rating": "(+)",
+                "Description": "APIs and tools are available for integration with other frameworks.",
+                "URL": "https://openlayers.org/en/latest/apidoc/"
+            },
+            "Security": {
+                "Rating": "(-)",
+                "Description": "No security features available.",
+                "URL": "https://openlayers.org/en/latest/apidoc/"
+            },
+            "Continuous Improvement": {
+                "Rating": "(-)",
+                "Description": "No built-in capabilities for data analysis or simulations, possible by integrating with other frameworks.",
+                "URL": "https://openlayers.org/en/latest/apidoc/"
+            },
+            "Reliability": {
+                "Rating": "(+/-)",
+                "Description": "Dependent on server availability and data sources.",
+                "URL": "https://openlayers.org/en/latest/apidoc/"
+            },
+            "Accuracy": {
+                "Rating": "(+/-)",
+                "Description": "Ability to display data with high degree of accuracy, dependent on the data itself.",
+                "URL": "https://openlayers.org/en/latest/apidoc/"
+            },
+            "Obtrusiveness": {
+                "Rating": "(+/-)",
+                "Description": "Provides flexibility for UI design.",
+                "URL": "https://openlayers.org/en/latest/apidoc/"
+            },
+            "Granularity": {
+                "Rating": "(+)",
+                "Description": "Provides various levels of map detail and zoom levels.",
+                "URL": "https://openlayers.org/en/latest/apidoc/"
+            },
+            "Standardization": {
+                "Rating": "(+)",
+                "Description": "Adheres to web standards, supports various map data formats and web services.",
+                "URL": "https://openlayers.org/en/latest/apidoc/"
+            },
+            "Economic Value": {
+                "Rating": "(+/-)",
+                "Description": "Framework is open-source. Monetary value of utilization requires in-depth analysis of the project itself.",
+                "URL": "https://openlayers.org/en/latest/apidoc/"
+            },
+            "Usability": {
+                "Rating": "(+)",
+                "Description": "Intuitive usage by using mouse controls to navigate the map. Other usability depends on additonally added UI design.",
+                "URL": "https://openlayers.org/en/latest/apidoc/"
+            },
+            "Safety": {
+                "Rating": "(_)",
+                "Description": "Does not address safety features.",
+                "URL": "https://openlayers.org/en/latest/apidoc/"
+            },
+            "Collaboration": {
+                "Rating": "(+/-)",
+                "Description": "Supports collaboration by sharing map views. Features beyond map sharing require additional implementation.",
+                "URL": "https://openlayers.org/en/latest/apidoc/"
             }
         },
         "VTK": {

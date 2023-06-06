@@ -14,7 +14,7 @@ def barplot(dataframe, plot_name, y_tick_interval, rotation, fontsize):
                    key=lambda x:int(x[1]), reverse=True)).T
     x_values = np.arange(len(sorted_data[0]))
     y_values = [int(i) for i in sorted_data[1]]
-
+    plt.rcParams["font.family"] = "Times New Roman"
     plt.figure()
     plt.tight_layout()
     plt.rcParams["figure.figsize"] = [8.50, 5.50]

@@ -1,8 +1,11 @@
 # Makefile
 # Run this file after updating 'data.xlsx' and pushing master branch remote
 
-graphs:
+plots:
 	python3 python_scripts/bar_plots.py
+	python3 python_scripts/heatmap.py
+
+graphs:
 	python3 python_scripts/network_per_category.py
 	python3 python_scripts/network_total.py
 

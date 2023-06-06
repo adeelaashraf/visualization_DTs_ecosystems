@@ -2,10 +2,8 @@
   "ExpandedNodes": [
     "",
     "\\python_scripts",
-    "\\python_scripts\\lib",
-    "\\python_scripts\\__pycache__",
-    "\\src"
+    "\\static"
   ],
-  "SelectedNode": "\\data.xlsx",
+  "SelectedNode": "\\python_scripts\\heatmap.py",
   "PreviewInSolutionExplorer": false
 }
