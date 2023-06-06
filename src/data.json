@@ -2985,63 +2985,63 @@
     ],
     "visualization_technique_domains": {
         "Augmented Reality": [
-            "Virtual Reality",
-            "3D Geometric Modelling",
             "Augmented Reality",
-            "Data Visualization"
+            "Data Visualization",
+            "3D Geometric Modelling",
+            "Virtual Reality"
         ],
         "Manufacturing": [
-            "Dashboard Visualization",
+            "Data Visualization",
             "Virtual Reality",
-            "Augmented Reality",
             "3D Geometric Modelling",
-            "Data Visualization"
+            "Dashboard Visualization",
+            "Augmented Reality"
         ],
         "Aerospace Engineering": [
-            "Contour Plot",
+            "Data Visualization",
             "Virtual Reality",
             "3D Geometric Modelling",
-            "Data Visualization"
+            "Contour Plot"
         ],
         "Virtual Reality": [
+            "Data Visualization",
             "Contour Plot",
             "Virtual Reality",
-            "Augmented Reality",
             "3D Geometric Modelling",
-            "Data Visualization"
+            "Augmented Reality"
         ],
         "Smart Cities": [
-            "Dashboard Visualization",
+            "Data Visualization",
             "Virtual Reality",
-            "Augmented Reality",
             "3D Geometric Modelling",
-            "Data Visualization"
+            "Dashboard Visualization",
+            "Augmented Reality"
         ],
         "Extended Reality": [
-            "Dashboard Visualization",
+            "Data Visualization",
             "Virtual Reality",
-            "Augmented Reality",
             "3D Geometric Modelling",
-            "Data Visualization"
+            "Dashboard Visualization",
+            "Augmented Reality"
         ],
         "Visualization": [
             "Diel Plot",
-            "Heat Map",
-            "Dashboard Visualization",
+            "Line Graph",
             "Bar Plot",
-            "Rose Plot",
+            "Box Plot",
+            "Vector Rendering",
             "Virtual Reality",
-            "Radar Plot",
+            "3D Geometric Modelling",
+            "Histogram",
+            "Pie Chart",
             "Augmented Reality",
             "Network Graph",
             "Sammon Map",
-            "Histogram",
-            "Box Plot",
-            "3D Geometric Modelling",
-            "Line Graph",
+            "Rose Plot",
+            "Dashboard Visualization",
             "Dendogram",
-            "Vector Rendering",
-            "Pie Chart"
+            "Radar Plot",
+            "Heat Map"
         ],
         "Agriculture": [
             "Augmented Reality",
@@ -3060,31 +3060,31 @@
             "3D Geometric Modelling"
         ],
         "Ecosystem Modelling": [
-            "Diagram",
-            "Heat Map",
-            "Dashboard Visualization",
-            "Virtual Reality",
-            "Network Graph",
             "Box Plot",
-            "3D Geometric Modelling"
+            "Virtual Reality",
+            "3D Geometric Modelling",
+            "Network Graph",
+            "Diagram",
+            "Dashboard Visualization",
+            "Heat Map"
         ],
         "Landscape Ecology": [
             "3D Geometric Modelling",
             "Virtual Reality"
         ],
         "Food Web": [
-            "Bar Plot",
-            "Heat Map",
+            "Network Graph",
             "Line Graph",
-            "Network Graph"
+            "Heat Map",
+            "Bar Plot"
         ],
         "Information Analysis": [
-            "Heat Map",
-            "Contour Plot",
+            "Line Graph",
             "Bar Plot",
-            "Network Graph",
+            "Contour Plot",
             "3D Geometric Modelling",
-            "Line Graph"
+            "Network Graph",
+            "Heat Map"
         ],
         "Freshwater Ecosystems": [
             "Diagram"
@@ -3101,10 +3101,7 @@
             "Network Graph"
         ],
         "Forest Ecosystems": [
-            "3D Geometric Modelling",
-            "Virtual Reality"
-        ],
-        "Forest ecosystems": [
+            "Virtual Reality",
             "3D Geometric Modelling"
         ],
         "Geographic Information System": [
@@ -3117,8 +3114,8 @@
         ],
         "Marine Ecosystems": [
             "Dashboard Visualization",
-            "3D Geometric Modelling",
-            "Vector Rendering"
+            "Vector Rendering",
+            "3D Geometric Modelling"
         ],
         "Microbiology": [
             "Pie Chart"
@@ -3192,10 +3189,6 @@
         {
             "label": "Forest Ecosystems",
             "value": "Forest Ecosystems"
-        },
-        {
-            "label": "Forest ecosystems",
-            "value": "Forest ecosystems"
         },
         {
             "label": "Geographic Information System",
