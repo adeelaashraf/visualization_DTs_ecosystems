@@ -27,6 +27,16 @@ function Infobar({ selectedItems2 }) {
         return [...values, ...categoryValues];
     }, []);
 
+    function isValidURL(url) {
+        try {
+            new URL(url);
+            return true;
+        } catch (_) {
+            return false;
+        }
+    }
+
+
     // Component to render a table row using the ratings of a specific tool
     const ToolTableRow = ({ toolName }) => {
         // Retrieve the ratings for the specific tool
@@ -44,7 +54,13 @@ function Infobar({ selectedItems2 }) {
                     <td key={index}>
                         <Tooltip TransitionComponent={Zoom}
                             title={descriptions[index]}>
-                            <p className="tooltip_marker"> <a href={URLs[index]}>{rating}</a> </p>
+                            <p className="tooltip_marker">
+                                {isValidURL(URLs[index]) ? (
+                                    <a href={URLs[index]} target="_blank">{rating}</a>
+                                ) : (
+                                    rating
+                                )}
+                            </p>
                         </Tooltip>
                     </td>
                 ))}
