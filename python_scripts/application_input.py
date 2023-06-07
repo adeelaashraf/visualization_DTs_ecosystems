@@ -26,7 +26,7 @@ def add_nodes(json_nodes, definition_data, dataframe, color, shape, size):
             if not pd.isna(filtered_row.iloc[0,1]):
                 temp_dict["cid"] = filtered_row.iloc[0,1]
         else: 
-            raise Exception("Node in literature data does not in exist in definition_data.")
+            raise Exception("Node in literature data does not in exist in definition_data. Make sure the node is an exact match (i.e. capitalization).")
 
         json_nodes.append(temp_dict)
 
@@ -210,6 +210,7 @@ def multiselect_nodes_no_grouping(df):
                 temp_dict["value"] = row[0]
                 group_dict["options"].append(temp_dict)
                 json_dict.append(group_dict)
+    json_dict.sort(key=lambda x: x['label'])
     return(json_dict)
 
 def multiselect_nodes_grouping(df):
@@ -261,6 +262,11 @@ def multiselect_nodes_grouping(df):
                 temp_dict["value"] = row[0]
                 group_dict["options"].append(temp_dict)
                 json_dict.append(group_dict)
+
+    # Sort the items
+    for technique in json_dict:
+        technique["options"].sort(key=lambda x: x["label"])
+    json_dict.sort(key=lambda x: x['label'])
     return(json_dict)
 
 def multiselect_domains(df, df_visualization_technique): 
@@ -296,6 +302,10 @@ def multiselect_domains(df, df_visualization_technique):
         temp_dict["value"] = key
         json_dict.append(temp_dict)
 
+    # Sort
+    for key in merged_dict:
+        merged_dict[key].sort()
+    json_dict.sort(key=lambda x: x['label'])
     return(merged_dict, json_dict)
 
 # Definitions requirements and challenges + assessment
@@ -337,7 +347,6 @@ json_total["data_type"] = multiselect_nodes_no_grouping(definition_data_type)
 json_total["visualization_technique"] = multiselect_nodes_grouping(definition_visualization_technique)
 json_total["visualization_technique_domains"], json_total["visualization_technique_domains_multiselect"] = multiselect_domains(compressed_data, compressed_visualization_technique)
 json_total["visualization_tool"] = multiselect_nodes_grouping(definition_visualization_tool)
-
 
 # Add definitions for requirements and challenges + assessment
 json_total["requirements_and_challenges"] = make_definitions(definition_requirements_challenges)

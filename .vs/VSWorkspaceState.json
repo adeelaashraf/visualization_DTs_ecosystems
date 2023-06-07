@@ -1,9 +1,11 @@
 {
   "ExpandedNodes": [
     "",
+    "\\output",
     "\\python_scripts",
+    "\\src",
     "\\static"
   ],
-  "SelectedNode": "\\python_scripts\\heatmap.py",
+  "SelectedNode": "\\python_scripts\\application_input.py",
   "PreviewInSolutionExplorer": false
 }

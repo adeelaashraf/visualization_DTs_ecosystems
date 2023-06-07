@@ -17,8 +17,8 @@
             "title": "Data revolving around a specific location in the real world, e.g. GIS data."
         },
         {
-            "id": "Sensor data",
-            "label": "Sensor data",
+            "id": "Sensor Data",
+            "label": "Sensor Data",
             "color": "red",
             "shape": "triangle",
             "size": 10,
@@ -57,16 +57,16 @@
             "title": "Data providing additional information about other data, e.g. file format or source."
         },
         {
-            "id": "Landscape data",
-            "label": "Landscape data",
+            "id": "Landscape Data",
+            "label": "Landscape Data",
             "color": "red",
             "shape": "triangle",
             "size": 10,
             "title": "Information about characteristics of a specific geographic area, e.g. vegetation or rainfall."
         },
         {
-            "id": "Biotic data",
-            "label": "Biotic data",
+            "id": "Biotic Data",
+            "label": "Biotic Data",
             "color": "red",
             "shape": "triangle",
             "size": 10,
@@ -694,7 +694,7 @@
             "title": "1 paper found"
         },
         {
-            "from": "Sensor data",
+            "from": "Sensor Data",
             "to": "Augmented Reality",
             "color": "grey",
             "width": 5,
@@ -702,7 +702,7 @@
             "title": "5 papers found"
         },
         {
-            "from": "Sensor data",
+            "from": "Sensor Data",
             "to": "3D Geometric Modelling",
             "color": "grey",
             "width": 13,
@@ -710,7 +710,7 @@
             "title": "13 papers found"
         },
         {
-            "from": "Sensor data",
+            "from": "Sensor Data",
             "to": "Dashboard Visualization",
             "color": "grey",
             "width": 7,
@@ -718,7 +718,7 @@
             "title": "7 papers found"
         },
         {
-            "from": "Sensor data",
+            "from": "Sensor Data",
             "to": "Virtual Reality",
             "color": "grey",
             "width": 7,
@@ -726,7 +726,7 @@
             "title": "7 papers found"
         },
         {
-            "from": "Sensor data",
+            "from": "Sensor Data",
             "to": "Data Visualization",
             "color": "grey",
             "width": 6,
@@ -734,7 +734,7 @@
             "title": "6 papers found"
         },
         {
-            "from": "Sensor data",
+            "from": "Sensor Data",
             "to": "Contour Plot",
             "color": "grey",
             "width": 2,
@@ -886,7 +886,7 @@
             "title": "1 paper found"
         },
         {
-            "from": "Biotic data",
+            "from": "Biotic Data",
             "to": "3D Geometric Modelling",
             "color": "grey",
             "width": 2,
@@ -894,7 +894,7 @@
             "title": "2 papers found"
         },
         {
-            "from": "Biotic data",
+            "from": "Biotic Data",
             "to": "Bar Plot",
             "color": "grey",
             "width": 2,
@@ -902,7 +902,7 @@
             "title": "2 papers found"
         },
         {
-            "from": "Biotic data",
+            "from": "Biotic Data",
             "to": "Heat Map",
             "color": "grey",
             "width": 2,
@@ -910,7 +910,7 @@
             "title": "2 papers found"
         },
         {
-            "from": "Biotic data",
+            "from": "Biotic Data",
             "to": "Network Graph",
             "color": "grey",
             "width": 4,
@@ -918,7 +918,7 @@
             "title": "4 papers found"
         },
         {
-            "from": "Biotic data",
+            "from": "Biotic Data",
             "to": "Box Plot",
             "color": "grey",
             "width": 2,
@@ -926,7 +926,7 @@
             "title": "2 papers found"
         },
         {
-            "from": "Biotic data",
+            "from": "Biotic Data",
             "to": "Diel Plot",
             "color": "grey",
             "width": 1,
@@ -934,7 +934,7 @@
             "title": "1 paper found"
         },
         {
-            "from": "Biotic data",
+            "from": "Biotic Data",
             "to": "Radar Plot",
             "color": "grey",
             "width": 1,
@@ -942,7 +942,7 @@
             "title": "1 paper found"
         },
         {
-            "from": "Biotic data",
+            "from": "Biotic Data",
             "to": "Histogram",
             "color": "grey",
             "width": 1,
@@ -950,7 +950,7 @@
             "title": "1 paper found"
         },
         {
-            "from": "Biotic data",
+            "from": "Biotic Data",
             "to": "Rose Plot",
             "color": "grey",
             "width": 1,
@@ -958,7 +958,7 @@
             "title": "1 paper found"
         },
         {
-            "from": "Biotic data",
+            "from": "Biotic Data",
             "to": "Sammon Map",
             "color": "grey",
             "width": 1,
@@ -966,7 +966,7 @@
             "title": "1 paper found"
         },
         {
-            "from": "Biotic data",
+            "from": "Biotic Data",
             "to": "Line Graph",
             "color": "grey",
             "width": 2,
@@ -974,7 +974,7 @@
             "title": "2 papers found"
         },
         {
-            "from": "Biotic data",
+            "from": "Biotic Data",
             "to": "Dendogram",
             "color": "grey",
             "width": 1,
@@ -982,7 +982,7 @@
             "title": "1 paper found"
         },
         {
-            "from": "Biotic data",
+            "from": "Biotic Data",
             "to": "Dashboard Visualization",
             "color": "grey",
             "width": 1,
@@ -990,7 +990,7 @@
             "title": "1 paper found"
         },
         {
-            "from": "Biotic data",
+            "from": "Biotic Data",
             "to": "Pie Chart",
             "color": "grey",
             "width": 1,
@@ -998,7 +998,7 @@
             "title": "1 paper found"
         },
         {
-            "from": "Landscape data",
+            "from": "Landscape Data",
             "to": "3D Geometric Modelling",
             "color": "grey",
             "width": 4,
@@ -1006,7 +1006,7 @@
             "title": "4 papers found"
         },
         {
-            "from": "Landscape data",
+            "from": "Landscape Data",
             "to": "Virtual Reality",
             "color": "grey",
             "width": 2,
@@ -1014,7 +1014,7 @@
             "title": "2 papers found"
         },
         {
-            "from": "Landscape data",
+            "from": "Landscape Data",
             "to": "Heat Map",
             "color": "grey",
             "width": 1,
@@ -1022,7 +1022,7 @@
             "title": "1 paper found"
         },
         {
-            "from": "Landscape data",
+            "from": "Landscape Data",
             "to": "Box Plot",
             "color": "grey",
             "width": 1,
@@ -1030,7 +1030,7 @@
             "title": "1 paper found"
         },
         {
-            "from": "Landscape data",
+            "from": "Landscape Data",
             "to": "Network Graph",
             "color": "grey",
             "width": 1,
@@ -1038,7 +1038,7 @@
             "title": "1 paper found"
         },
         {
-            "from": "Landscape data",
+            "from": "Landscape Data",
             "to": "Contour Plot",
             "color": "grey",
             "width": 1,
@@ -1681,7 +1681,7 @@
         },
         {
             "from": "Geometric Data",
-            "to": "Sensor data",
+            "to": "Sensor Data",
             "color": "grey",
             "width": 10,
             "dashes": "true",
@@ -1731,7 +1731,7 @@
         },
         {
             "from": "Geometric Data",
-            "to": "Landscape data",
+            "to": "Landscape Data",
             "color": "grey",
             "width": 2,
             "dashes": "true",
@@ -1741,7 +1741,7 @@
         },
         {
             "from": "Geometric Data",
-            "to": "Biotic data",
+            "to": "Biotic Data",
             "color": "grey",
             "width": 2,
             "dashes": "true",
@@ -1751,7 +1751,7 @@
         },
         {
             "from": "Geospatial Data",
-            "to": "Sensor data",
+            "to": "Sensor Data",
             "color": "grey",
             "width": 15,
             "dashes": "true",
@@ -1801,7 +1801,7 @@
         },
         {
             "from": "Geospatial Data",
-            "to": "Landscape data",
+            "to": "Landscape Data",
             "color": "grey",
             "width": 5,
             "dashes": "true",
@@ -1811,7 +1811,7 @@
         },
         {
             "from": "Geospatial Data",
-            "to": "Biotic data",
+            "to": "Biotic Data",
             "color": "grey",
             "width": 4,
             "dashes": "true",
@@ -1840,7 +1840,7 @@
             "title": "1 paper found"
         },
         {
-            "from": "Sensor data",
+            "from": "Sensor Data",
             "to": "Historical Data",
             "color": "grey",
             "width": 6,
@@ -1850,7 +1850,7 @@
             "title": "6 papers found"
         },
         {
-            "from": "Sensor data",
+            "from": "Sensor Data",
             "to": "Process Data",
             "color": "grey",
             "width": 10,
@@ -1860,7 +1860,7 @@
             "title": "10 papers found"
         },
         {
-            "from": "Sensor data",
+            "from": "Sensor Data",
             "to": "Simulation Data",
             "color": "grey",
             "width": 8,
@@ -1870,7 +1870,7 @@
             "title": "8 papers found"
         },
         {
-            "from": "Sensor data",
+            "from": "Sensor Data",
             "to": "Metadata",
             "color": "grey",
             "width": 2,
@@ -1880,8 +1880,8 @@
             "title": "2 papers found"
         },
         {
-            "from": "Sensor data",
-            "to": "Landscape data",
+            "from": "Sensor Data",
+            "to": "Landscape Data",
             "color": "grey",
             "width": 2,
             "dashes": "true",
@@ -1890,8 +1890,8 @@
             "title": "2 papers found"
         },
         {
-            "from": "Sensor data",
-            "to": "Biotic data",
+            "from": "Sensor Data",
+            "to": "Biotic Data",
             "color": "grey",
             "width": 1,
             "dashes": "true",
@@ -1921,7 +1921,7 @@
         },
         {
             "from": "Historical Data",
-            "to": "Biotic data",
+            "to": "Biotic Data",
             "color": "grey",
             "width": 1,
             "dashes": "true",
@@ -1951,7 +1951,7 @@
         },
         {
             "from": "Simulation Data",
-            "to": "Biotic data",
+            "to": "Biotic Data",
             "color": "grey",
             "width": 1,
             "dashes": "true",
@@ -1960,8 +1960,8 @@
             "title": "1 paper found"
         },
         {
-            "from": "Landscape data",
-            "to": "Biotic data",
+            "from": "Landscape Data",
+            "to": "Biotic Data",
             "color": "grey",
             "width": 1,
             "dashes": "true",
@@ -1970,7 +1970,7 @@
             "title": "1 paper found"
         },
         {
-            "from": "Landscape data",
+            "from": "Landscape Data",
             "to": "Behavioural Data",
             "color": "grey",
             "width": 1,
@@ -1980,7 +1980,7 @@
             "title": "1 paper found"
         },
         {
-            "from": "Biotic data",
+            "from": "Biotic Data",
             "to": "Behavioural Data",
             "color": "grey",
             "width": 1,
@@ -2842,6 +2842,18 @@
     ],
     "data_type": [
         {
+            "label": "Abiotic Data",
+            "value": "Abiotic Data"
+        },
+        {
+            "label": "Behavioural Data",
+            "value": "Behavioural Data"
+        },
+        {
+            "label": "Biotic Data",
+            "value": "Biotic Data"
+        },
+        {
             "label": "Geometric Data",
             "value": "Geometric Data"
         },
@@ -2850,43 +2862,100 @@
             "value": "Geospatial Data"
         },
         {
-            "label": "Sensor data",
-            "value": "Sensor data"
-        },
-        {
             "label": "Historical Data",
             "value": "Historical Data"
         },
         {
-            "label": "Process Data",
-            "value": "Process Data"
-        },
-        {
-            "label": "Simulation Data",
-            "value": "Simulation Data"
+            "label": "Landscape Data",
+            "value": "Landscape Data"
         },
         {
             "label": "Metadata",
             "value": "Metadata"
         },
         {
-            "label": "Landscape data",
-            "value": "Landscape data"
+            "label": "Process Data",
+            "value": "Process Data"
         },
         {
-            "label": "Biotic data",
-            "value": "Biotic data"
+            "label": "Sensor Data",
+            "value": "Sensor Data"
         },
         {
-            "label": "Abiotic Data",
-            "value": "Abiotic Data"
-        },
-        {
-            "label": "Behavioural Data",
-            "value": "Behavioural Data"
+            "label": "Simulation Data",
+            "value": "Simulation Data"
         }
     ],
     "visualization_technique": [
+        {
+            "label": "2D plots",
+            "options": [
+                {
+                    "label": "Bar Plot",
+                    "value": "Bar Plot"
+                },
+                {
+                    "label": "Box Plot",
+                    "value": "Box Plot"
+                },
+                {
+                    "label": "Contour Plot",
+                    "value": "Contour Plot"
+                },
+                {
+                    "label": "Dashboard Visualization",
+                    "value": "Dashboard Visualization"
+                },
+                {
+                    "label": "Dendogram",
+                    "value": "Dendogram"
+                },
+                {
+                    "label": "Diagram",
+                    "value": "Diagram"
+                },
+                {
+                    "label": "Diel Plot",
+                    "value": "Diel Plot"
+                },
+                {
+                    "label": "Heat Map",
+                    "value": "Heat Map"
+                },
+                {
+                    "label": "Histogram",
+                    "value": "Histogram"
+                },
+                {
+                    "label": "Line Graph",
+                    "value": "Line Graph"
+                },
+                {
+                    "label": "Network Graph",
+                    "value": "Network Graph"
+                },
+                {
+                    "label": "Pie Chart",
+                    "value": "Pie Chart"
+                },
+                {
+                    "label": "Radar Plot",
+                    "value": "Radar Plot"
+                },
+                {
+                    "label": "Rose Plot",
+                    "value": "Rose Plot"
+                },
+                {
+                    "label": "Sammon Map",
+                    "value": "Sammon Map"
+                },
+                {
+                    "label": "Vector Rendering",
+                    "value": "Vector Rendering"
+                }
+            ]
+        },
         {
             "label": "Immersive Visualization Techniques",
             "options": [
@@ -2912,197 +2981,128 @@
                     "value": "Data Visualization"
                 }
             ]
-        },
-        {
-            "label": "2D plots",
-            "options": [
-                {
-                    "label": "Dashboard Visualization",
-                    "value": "Dashboard Visualization"
-                },
-                {
-                    "label": "Diel Plot",
-                    "value": "Diel Plot"
-                },
-                {
-                    "label": "Radar Plot",
-                    "value": "Radar Plot"
-                },
-                {
-                    "label": "Histogram",
-                    "value": "Histogram"
-                },
-                {
-                    "label": "Rose Plot",
-                    "value": "Rose Plot"
-                },
-                {
-                    "label": "Sammon Map",
-                    "value": "Sammon Map"
-                },
-                {
-                    "label": "Bar Plot",
-                    "value": "Bar Plot"
-                },
-                {
-                    "label": "Line Graph",
-                    "value": "Line Graph"
-                },
-                {
-                    "label": "Dendogram",
-                    "value": "Dendogram"
-                },
-                {
-                    "label": "Heat Map",
-                    "value": "Heat Map"
-                },
-                {
-                    "label": "Contour Plot",
-                    "value": "Contour Plot"
-                },
-                {
-                    "label": "Vector Rendering",
-                    "value": "Vector Rendering"
-                },
-                {
-                    "label": "Pie Chart",
-                    "value": "Pie Chart"
-                },
-                {
-                    "label": "Box Plot",
-                    "value": "Box Plot"
-                },
-                {
-                    "label": "Network Graph",
-                    "value": "Network Graph"
-                },
-                {
-                    "label": "Diagram",
-                    "value": "Diagram"
-                }
-            ]
         }
     ],
     "visualization_technique_domains": {
         "Augmented Reality": [
+            "3D Geometric Modelling",
             "Augmented Reality",
             "Data Visualization",
-            "3D Geometric Modelling",
             "Virtual Reality"
         ],
         "Manufacturing": [
-            "Data Visualization",
-            "Virtual Reality",
             "3D Geometric Modelling",
+            "Augmented Reality",
             "Dashboard Visualization",
-            "Augmented Reality"
+            "Data Visualization",
+            "Virtual Reality"
         ],
         "Aerospace Engineering": [
-            "Data Visualization",
-            "Virtual Reality",
             "3D Geometric Modelling",
-            "Contour Plot"
+            "Contour Plot",
+            "Data Visualization",
+            "Virtual Reality"
         ],
         "Virtual Reality": [
-            "Data Visualization",
-            "Contour Plot",
-            "Virtual Reality",
             "3D Geometric Modelling",
-            "Augmented Reality"
+            "Augmented Reality",
+            "Contour Plot",
+            "Data Visualization",
+            "Virtual Reality"
         ],
         "Smart Cities": [
-            "Data Visualization",
-            "Virtual Reality",
             "3D Geometric Modelling",
+            "Augmented Reality",
             "Dashboard Visualization",
-            "Augmented Reality"
+            "Data Visualization",
+            "Virtual Reality"
         ],
         "Extended Reality": [
-            "Data Visualization",
-            "Virtual Reality",
             "3D Geometric Modelling",
+            "Augmented Reality",
             "Dashboard Visualization",
-            "Augmented Reality"
+            "Data Visualization",
+            "Virtual Reality"
         ],
         "Visualization": [
-            "Diel Plot",
-            "Line Graph",
+            "3D Geometric Modelling",
+            "Augmented Reality",
             "Bar Plot",
             "Box Plot",
-            "Vector Rendering",
-            "Virtual Reality",
-            "3D Geometric Modelling",
-            "Histogram",
-            "Pie Chart",
-            "Augmented Reality",
-            "Network Graph",
-            "Sammon Map",
-            "Rose Plot",
             "Dashboard Visualization",
             "Dendogram",
+            "Diel Plot",
+            "Heat Map",
+            "Histogram",
+            "Line Graph",
+            "Network Graph",
+            "Pie Chart",
             "Radar Plot",
-            "Heat Map"
+            "Rose Plot",
+            "Sammon Map",
+            "Vector Rendering",
+            "Virtual Reality"
         ],
         "Agriculture": [
-            "Augmented Reality",
             "3D Geometric Modelling",
+            "Augmented Reality",
             "Dashboard Visualization",
-            "Virtual Reality",
-            "Data Visualization"
+            "Data Visualization",
+            "Virtual Reality"
         ],
         "Astronomy": [
-            "Augmented Reality",
             "3D Geometric Modelling",
-            "Virtual Reality",
-            "Data Visualization"
+            "Augmented Reality",
+            "Data Visualization",
+            "Virtual Reality"
         ],
         "Healthcare": [
             "3D Geometric Modelling"
         ],
         "Ecosystem Modelling": [
-            "Box Plot",
-            "Virtual Reality",
             "3D Geometric Modelling",
-            "Network Graph",
-            "Diagram",
+            "Box Plot",
             "Dashboard Visualization",
-            "Heat Map"
+            "Diagram",
+            "Heat Map",
+            "Network Graph",
+            "Virtual Reality"
         ],
         "Landscape Ecology": [
             "3D Geometric Modelling",
             "Virtual Reality"
         ],
         "Food Web": [
-            "Network Graph",
-            "Line Graph",
+            "Bar Plot",
             "Heat Map",
-            "Bar Plot"
+            "Line Graph",
+            "Network Graph"
         ],
         "Information Analysis": [
-            "Line Graph",
+            "3D Geometric Modelling",
             "Bar Plot",
             "Contour Plot",
-            "3D Geometric Modelling",
-            "Network Graph",
-            "Heat Map"
+            "Heat Map",
+            "Line Graph",
+            "Network Graph"
         ],
         "Freshwater Ecosystems": [
             "Diagram"
         ],
         "Soundscape Ecology": [
-            "Diel Plot",
-            "Radar Plot",
-            "Histogram",
-            "Rose Plot",
-            "Sammon Map",
-            "Line Graph",
-            "Dendogram",
             "Box Plot",
-            "Network Graph"
+            "Dendogram",
+            "Diel Plot",
+            "Histogram",
+            "Line Graph",
+            "Network Graph",
+            "Radar Plot",
+            "Rose Plot",
+            "Sammon Map"
         ],
         "Forest Ecosystems": [
-            "Virtual Reality",
-            "3D Geometric Modelling"
+            "3D Geometric Modelling",
+            "Virtual Reality"
         ],
         "Geographic Information System": [
             "3D Geometric Modelling",
@@ -3113,9 +3113,9 @@
             "Dashboard Visualization"
         ],
         "Marine Ecosystems": [
+            "3D Geometric Modelling",
             "Dashboard Visualization",
-            "Vector Rendering",
-            "3D Geometric Modelling"
+            "Vector Rendering"
         ],
         "Microbiology": [
             "Pie Chart"
@@ -3123,32 +3123,8 @@
     },
     "visualization_technique_domains_multiselect": [
         {
-            "label": "Augmented Reality",
-            "value": "Augmented Reality"
-        },
-        {
-            "label": "Manufacturing",
-            "value": "Manufacturing"
-        },
-        {
             "label": "Aerospace Engineering",
             "value": "Aerospace Engineering"
-        },
-        {
-            "label": "Virtual Reality",
-            "value": "Virtual Reality"
-        },
-        {
-            "label": "Smart Cities",
-            "value": "Smart Cities"
-        },
-        {
-            "label": "Extended Reality",
-            "value": "Extended Reality"
-        },
-        {
-            "label": "Visualization",
-            "value": "Visualization"
         },
         {
             "label": "Agriculture",
@@ -3159,44 +3135,52 @@
             "value": "Astronomy"
         },
         {
-            "label": "Healthcare",
-            "value": "Healthcare"
+            "label": "Augmented Reality",
+            "value": "Augmented Reality"
         },
         {
             "label": "Ecosystem Modelling",
             "value": "Ecosystem Modelling"
         },
         {
-            "label": "Landscape Ecology",
-            "value": "Landscape Ecology"
+            "label": "Environmental Decision Support Systems",
+            "value": "Environmental Decision Support Systems"
+        },
+        {
+            "label": "Extended Reality",
+            "value": "Extended Reality"
         },
         {
             "label": "Food Web",
             "value": "Food Web"
         },
         {
-            "label": "Information Analysis",
-            "value": "Information Analysis"
+            "label": "Forest Ecosystems",
+            "value": "Forest Ecosystems"
         },
         {
             "label": "Freshwater Ecosystems",
             "value": "Freshwater Ecosystems"
         },
         {
-            "label": "Soundscape Ecology",
-            "value": "Soundscape Ecology"
-        },
-        {
-            "label": "Forest Ecosystems",
-            "value": "Forest Ecosystems"
-        },
-        {
             "label": "Geographic Information System",
             "value": "Geographic Information System"
         },
         {
-            "label": "Environmental Decision Support Systems",
-            "value": "Environmental Decision Support Systems"
+            "label": "Healthcare",
+            "value": "Healthcare"
+        },
+        {
+            "label": "Information Analysis",
+            "value": "Information Analysis"
+        },
+        {
+            "label": "Landscape Ecology",
+            "value": "Landscape Ecology"
+        },
+        {
+            "label": "Manufacturing",
+            "value": "Manufacturing"
         },
         {
             "label": "Marine Ecosystems",
@@ -3205,6 +3189,22 @@
         {
             "label": "Microbiology",
             "value": "Microbiology"
+        },
+        {
+            "label": "Smart Cities",
+            "value": "Smart Cities"
+        },
+        {
+            "label": "Soundscape Ecology",
+            "value": "Soundscape Ecology"
+        },
+        {
+            "label": "Virtual Reality",
+            "value": "Virtual Reality"
+        },
+        {
+            "label": "Visualization",
+            "value": "Visualization"
         }
     ],
     "visualization_tool": [
@@ -3222,37 +3222,8 @@
             ]
         },
         {
-            "label": "Modelling Software",
-            "options": [
-                {
-                    "label": "Blender",
-                    "value": "Blender"
-                },
-                {
-                    "label": "CityEngine",
-                    "value": "CityEngine"
-                },
-                {
-                    "label": "Autodesk Revit",
-                    "value": "Autodesk Revit"
-                },
-                {
-                    "label": "Creo",
-                    "value": "Creo"
-                }
-            ]
-        },
-        {
             "label": "Javascript Libaries/Frameworks/Packages",
             "options": [
-                {
-                    "label": "JQuery",
-                    "value": "JQuery"
-                },
-                {
-                    "label": "jsPanel",
-                    "value": "jsPanel"
-                },
                 {
                     "label": "Backbone",
                     "value": "Backbone"
@@ -3262,12 +3233,41 @@
                     "value": "D3.js"
                 },
                 {
-                    "label": "Three.js",
-                    "value": "Three.js"
+                    "label": "JQuery",
+                    "value": "JQuery"
                 },
                 {
                     "label": "OpenLayers",
                     "value": "OpenLayers"
+                },
+                {
+                    "label": "Three.js",
+                    "value": "Three.js"
+                },
+                {
+                    "label": "jsPanel",
+                    "value": "jsPanel"
+                }
+            ]
+        },
+        {
+            "label": "Modelling Software",
+            "options": [
+                {
+                    "label": "Autodesk Revit",
+                    "value": "Autodesk Revit"
+                },
+                {
+                    "label": "Blender",
+                    "value": "Blender"
+                },
+                {
+                    "label": "CityEngine",
+                    "value": "CityEngine"
+                },
+                {
+                    "label": "Creo",
+                    "value": "Creo"
                 }
             ]
         },
@@ -3275,24 +3275,8 @@
             "label": "Other",
             "options": [
                 {
-                    "label": "Javascript",
-                    "value": "Javascript"
-                },
-                {
                     "label": ".NET",
                     "value": ".NET"
-                },
-                {
-                    "label": "R",
-                    "value": "R"
-                },
-                {
-                    "label": "Python",
-                    "value": "Python"
-                },
-                {
-                    "label": "Jupyter Notebook",
-                    "value": "Jupyter Notebook"
                 },
                 {
                     "label": "ARCGIS",
@@ -3303,26 +3287,46 @@
                     "value": "Autodesk Forge"
                 },
                 {
-                    "label": "OpenScene Graph",
-                    "value": "OpenScene Graph"
-                },
-                {
                     "label": "COVISE",
                     "value": "COVISE"
                 },
                 {
-                    "label": "Wikitude",
-                    "value": "Wikitude"
+                    "label": "Javascript",
+                    "value": "Javascript"
+                },
+                {
+                    "label": "Jupyter Notebook",
+                    "value": "Jupyter Notebook"
+                },
+                {
+                    "label": "OpenScene Graph",
+                    "value": "OpenScene Graph"
+                },
+                {
+                    "label": "Python",
+                    "value": "Python"
+                },
+                {
+                    "label": "R",
+                    "value": "R"
                 },
                 {
                     "label": "VTK",
                     "value": "VTK"
+                },
+                {
+                    "label": "Wikitude",
+                    "value": "Wikitude"
                 }
             ]
         },
         {
             "label": "Web-based Libaries/Frameworks/Packages",
             "options": [
+                {
+                    "label": "Bootstrap",
+                    "value": "Bootstrap"
+                },
                 {
                     "label": "Grafana",
                     "value": "Grafana"
@@ -3332,16 +3336,12 @@
                     "value": "Verge3D"
                 },
                 {
-                    "label": "Bootstrap",
-                    "value": "Bootstrap"
+                    "label": "WebGL",
+                    "value": "WebGL"
                 },
                 {
                     "label": "WebXR",
                     "value": "WebXR"
-                },
-                {
-                    "label": "WebGL",
-                    "value": "WebGL"
                 }
             ]
         }
