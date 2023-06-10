@@ -26,7 +26,7 @@ def add_nodes(json_nodes, definition_data, dataframe, color, shape, size):
             if not pd.isna(filtered_row.iloc[0,1]):
                 temp_dict["cid"] = filtered_row.iloc[0,1]
         else: 
-            raise Exception("Node in literature data does not in exist in definition_data. Make sure the node is an exact match (i.e. capitalization).")
+            raise Exception("Node "+  i + " literature data does not in exist in definition_data. Make sure the node is an exact match (i.e. capitalization).")
 
         json_nodes.append(temp_dict)
 
@@ -273,7 +273,7 @@ def multiselect_domains(df, df_visualization_technique):
     temp = []
     for index, row in df.iterrows():
         # Get the domain(s) of the paper
-        domains = df['Domain(s)'][index].split(', ')
+        domains = str(df['Domain(s)'][index]).split(', ')
         # Get the visualization techniques used in the paper
         row_df2 = df_visualization_technique.loc[index]
         visualization_techniques = row_df2[row_df2.eq('x')].index.tolist()

@@ -291,16 +291,16 @@
             "shape": "dot",
             "size": 10,
             "title": "JQuery",
-            "cid": "Javascript Libaries/Frameworks/Packages"
+            "cid": "Libaries/Frameworks/Packages"
         },
         {
-            "id": "jsPanel",
-            "label": "jsPanel",
+            "id": "JsPanel",
+            "label": "JsPanel",
             "color": "purple",
             "shape": "dot",
             "size": 10,
             "title": "jsPanel",
-            "cid": "Javascript Libaries/Frameworks/Packages"
+            "cid": "Libaries/Frameworks/Packages"
         },
         {
             "id": "Unreal Engine",
@@ -326,7 +326,7 @@
             "shape": "dot",
             "size": 10,
             "title": "Backbone",
-            "cid": "Javascript Libaries/Frameworks/Packages"
+            "cid": "Libaries/Frameworks/Packages"
         },
         {
             "id": ".NET",
@@ -343,7 +343,7 @@
             "shape": "dot",
             "size": 10,
             "title": "D3.js",
-            "cid": "Javascript Libaries/Frameworks/Packages"
+            "cid": "Libaries/Frameworks/Packages"
         },
         {
             "id": "R",
@@ -379,12 +379,102 @@
             "cid": "Modelling Software"
         },
         {
+            "id": "QGIS",
+            "label": "QGIS",
+            "color": "purple",
+            "shape": "dot",
+            "size": 10,
+            "title": "QGIS",
+            "cid": "GIS (Geographic Information System) Software"
+        },
+        {
+            "id": "SAGAGIS",
+            "label": "SAGAGIS",
+            "color": "purple",
+            "shape": "dot",
+            "size": 10,
+            "title": "SAGAGIS",
+            "cid": "GIS (Geographic Information System) Software"
+        },
+        {
+            "id": "GRASS GIS",
+            "label": "GRASS GIS",
+            "color": "purple",
+            "shape": "dot",
+            "size": 10,
+            "title": "GRASS GIS",
+            "cid": "GIS (Geographic Information System) Software"
+        },
+        {
+            "id": "Sf",
+            "label": "Sf",
+            "color": "purple",
+            "shape": "dot",
+            "size": 10,
+            "title": "Sf",
+            "cid": "Libaries/Frameworks/Packages"
+        },
+        {
+            "id": "Raster",
+            "label": "Raster",
+            "color": "purple",
+            "shape": "dot",
+            "size": 10,
+            "title": "Raster",
+            "cid": "Libaries/Frameworks/Packages"
+        },
+        {
+            "id": "GeoPandas",
+            "label": "GeoPandas",
+            "color": "purple",
+            "shape": "dot",
+            "size": 10,
+            "title": "GeoPandas",
+            "cid": "Libaries/Frameworks/Packages"
+        },
+        {
+            "id": "Rasterio",
+            "label": "Rasterio",
+            "color": "purple",
+            "shape": "dot",
+            "size": 10,
+            "title": "Rasterio",
+            "cid": "Libaries/Frameworks/Packages"
+        },
+        {
+            "id": "Julia",
+            "label": "Julia",
+            "color": "purple",
+            "shape": "dot",
+            "size": 10,
+            "title": "Julia"
+        },
+        {
+            "id": "RSAGA",
+            "label": "RSAGA",
+            "color": "purple",
+            "shape": "dot",
+            "size": 10,
+            "title": "RSAGA",
+            "cid": "Libaries/Frameworks/Packages"
+        },
+        {
+            "id": "Rgrass7",
+            "label": "Rgrass7",
+            "color": "purple",
+            "shape": "dot",
+            "size": 10,
+            "title": "Rgrass7",
+            "cid": "Libaries/Frameworks/Packages"
+        },
+        {
             "id": "ARCGIS",
             "label": "ARCGIS",
             "color": "purple",
             "shape": "dot",
             "size": 10,
-            "title": "ARCGIS"
+            "title": "ARCGIS",
+            "cid": "GIS (Geographic Information System) Software"
         },
         {
             "id": "Grafana",
@@ -393,7 +483,7 @@
             "shape": "dot",
             "size": 10,
             "title": "Grafana",
-            "cid": "Web-based Libaries/Frameworks/Packages"
+            "cid": "Libaries/Frameworks/Packages"
         },
         {
             "id": "Verge3D",
@@ -402,7 +492,7 @@
             "shape": "dot",
             "size": 10,
             "title": "Verge3D",
-            "cid": "Web-based Libaries/Frameworks/Packages"
+            "cid": "Libaries/Frameworks/Packages"
         },
         {
             "id": "Bootstrap",
@@ -411,7 +501,7 @@
             "shape": "dot",
             "size": 10,
             "title": "Bootstrap",
-            "cid": "Web-based Libaries/Frameworks/Packages"
+            "cid": "Libaries/Frameworks/Packages"
         },
         {
             "id": "WebXR",
@@ -420,7 +510,7 @@
             "shape": "dot",
             "size": 10,
             "title": "WebXR",
-            "cid": "Web-based Libaries/Frameworks/Packages"
+            "cid": "Libaries/Frameworks/Packages"
         },
         {
             "id": "Autodesk Revit",
@@ -462,7 +552,7 @@
             "shape": "dot",
             "size": 10,
             "title": "Three.js",
-            "cid": "Javascript Libaries/Frameworks/Packages"
+            "cid": "Libaries/Frameworks/Packages"
         },
         {
             "id": "WebGL",
@@ -471,7 +561,7 @@
             "shape": "dot",
             "size": 10,
             "title": "WebGL",
-            "cid": "Web-based Libaries/Frameworks/Packages"
+            "cid": "Libaries/Frameworks/Packages"
         },
         {
             "id": "Creo",
@@ -497,7 +587,7 @@
             "shape": "dot",
             "size": 10,
             "title": "OpenLayers",
-            "cid": "Javascript Libaries/Frameworks/Packages"
+            "cid": "Libaries/Frameworks/Packages"
         },
         {
             "id": "VTK",
@@ -521,9 +611,9 @@
             "from": "Geometric Data",
             "to": "3D Geometric Modelling",
             "color": "grey",
-            "width": 19,
+            "width": 24,
             "inner_edges_type": "none",
-            "title": "19 papers found"
+            "title": "24 papers found"
         },
         {
             "from": "Geometric Data",
@@ -537,17 +627,33 @@
             "from": "Geometric Data",
             "to": "Data Visualization",
             "color": "grey",
-            "width": 1,
+            "width": 6,
             "inner_edges_type": "none",
-            "title": "1 paper found"
+            "title": "6 papers found"
         },
         {
             "from": "Geometric Data",
             "to": "Contour Plot",
             "color": "grey",
-            "width": 1,
+            "width": 6,
             "inner_edges_type": "none",
-            "title": "1 paper found"
+            "title": "6 papers found"
+        },
+        {
+            "from": "Geometric Data",
+            "to": "Heat Map",
+            "color": "grey",
+            "width": 5,
+            "inner_edges_type": "none",
+            "title": "5 papers found"
+        },
+        {
+            "from": "Geometric Data",
+            "to": "Vector Rendering",
+            "color": "grey",
+            "width": 5,
+            "inner_edges_type": "none",
+            "title": "5 papers found"
         },
         {
             "from": "Geospatial Data",
@@ -561,9 +667,9 @@
             "from": "Geospatial Data",
             "to": "3D Geometric Modelling",
             "color": "grey",
-            "width": 15,
+            "width": 20,
             "inner_edges_type": "none",
-            "title": "15 papers found"
+            "title": "20 papers found"
         },
         {
             "from": "Geospatial Data",
@@ -585,9 +691,9 @@
             "from": "Geospatial Data",
             "to": "Data Visualization",
             "color": "grey",
-            "width": 4,
+            "width": 9,
             "inner_edges_type": "none",
-            "title": "4 papers found"
+            "title": "9 papers found"
         },
         {
             "from": "Geospatial Data",
@@ -601,9 +707,9 @@
             "from": "Geospatial Data",
             "to": "Heat Map",
             "color": "grey",
-            "width": 1,
+            "width": 7,
             "inner_edges_type": "none",
-            "title": "1 paper found"
+            "title": "7 papers found"
         },
         {
             "from": "Geospatial Data",
@@ -681,17 +787,17 @@
             "from": "Geospatial Data",
             "to": "Contour Plot",
             "color": "grey",
-            "width": 1,
+            "width": 7,
             "inner_edges_type": "none",
-            "title": "1 paper found"
+            "title": "7 papers found"
         },
         {
             "from": "Geospatial Data",
             "to": "Vector Rendering",
             "color": "grey",
-            "width": 1,
+            "width": 6,
             "inner_edges_type": "none",
-            "title": "1 paper found"
+            "title": "6 papers found"
         },
         {
             "from": "Sensor Data",
@@ -705,17 +811,17 @@
             "from": "Sensor Data",
             "to": "3D Geometric Modelling",
             "color": "grey",
-            "width": 13,
+            "width": 18,
             "inner_edges_type": "none",
-            "title": "13 papers found"
+            "title": "18 papers found"
         },
         {
             "from": "Sensor Data",
             "to": "Dashboard Visualization",
             "color": "grey",
-            "width": 7,
+            "width": 15,
             "inner_edges_type": "none",
-            "title": "7 papers found"
+            "title": "15 papers found"
         },
         {
             "from": "Sensor Data",
@@ -729,17 +835,129 @@
             "from": "Sensor Data",
             "to": "Data Visualization",
             "color": "grey",
-            "width": 6,
+            "width": 19,
             "inner_edges_type": "none",
-            "title": "6 papers found"
+            "title": "19 papers found"
         },
         {
             "from": "Sensor Data",
             "to": "Contour Plot",
             "color": "grey",
-            "width": 2,
+            "width": 15,
             "inner_edges_type": "none",
-            "title": "2 papers found"
+            "title": "15 papers found"
+        },
+        {
+            "from": "Sensor Data",
+            "to": "Diel Plot",
+            "color": "grey",
+            "width": 8,
+            "inner_edges_type": "none",
+            "title": "8 papers found"
+        },
+        {
+            "from": "Sensor Data",
+            "to": "Radar Plot",
+            "color": "grey",
+            "width": 8,
+            "inner_edges_type": "none",
+            "title": "8 papers found"
+        },
+        {
+            "from": "Sensor Data",
+            "to": "Histogram",
+            "color": "grey",
+            "width": 8,
+            "inner_edges_type": "none",
+            "title": "8 papers found"
+        },
+        {
+            "from": "Sensor Data",
+            "to": "Rose Plot",
+            "color": "grey",
+            "width": 8,
+            "inner_edges_type": "none",
+            "title": "8 papers found"
+        },
+        {
+            "from": "Sensor Data",
+            "to": "Sammon Map",
+            "color": "grey",
+            "width": 8,
+            "inner_edges_type": "none",
+            "title": "8 papers found"
+        },
+        {
+            "from": "Sensor Data",
+            "to": "Bar Plot",
+            "color": "grey",
+            "width": 8,
+            "inner_edges_type": "none",
+            "title": "8 papers found"
+        },
+        {
+            "from": "Sensor Data",
+            "to": "Line Graph",
+            "color": "grey",
+            "width": 8,
+            "inner_edges_type": "none",
+            "title": "8 papers found"
+        },
+        {
+            "from": "Sensor Data",
+            "to": "Dendogram",
+            "color": "grey",
+            "width": 8,
+            "inner_edges_type": "none",
+            "title": "8 papers found"
+        },
+        {
+            "from": "Sensor Data",
+            "to": "Heat Map",
+            "color": "grey",
+            "width": 13,
+            "inner_edges_type": "none",
+            "title": "13 papers found"
+        },
+        {
+            "from": "Sensor Data",
+            "to": "Pie Chart",
+            "color": "grey",
+            "width": 8,
+            "inner_edges_type": "none",
+            "title": "8 papers found"
+        },
+        {
+            "from": "Sensor Data",
+            "to": "Box Plot",
+            "color": "grey",
+            "width": 8,
+            "inner_edges_type": "none",
+            "title": "8 papers found"
+        },
+        {
+            "from": "Sensor Data",
+            "to": "Network Graph",
+            "color": "grey",
+            "width": 8,
+            "inner_edges_type": "none",
+            "title": "8 papers found"
+        },
+        {
+            "from": "Sensor Data",
+            "to": "Diagram",
+            "color": "grey",
+            "width": 8,
+            "inner_edges_type": "none",
+            "title": "8 papers found"
+        },
+        {
+            "from": "Sensor Data",
+            "to": "Vector Rendering",
+            "color": "grey",
+            "width": 5,
+            "inner_edges_type": "none",
+            "title": "5 papers found"
         },
         {
             "from": "Historical Data",
@@ -889,121 +1107,153 @@
             "from": "Biotic Data",
             "to": "3D Geometric Modelling",
             "color": "grey",
-            "width": 2,
+            "width": 7,
             "inner_edges_type": "none",
-            "title": "2 papers found"
+            "title": "7 papers found"
         },
         {
             "from": "Biotic Data",
             "to": "Bar Plot",
             "color": "grey",
-            "width": 2,
+            "width": 10,
             "inner_edges_type": "none",
-            "title": "2 papers found"
+            "title": "10 papers found"
         },
         {
             "from": "Biotic Data",
             "to": "Heat Map",
             "color": "grey",
-            "width": 2,
+            "width": 16,
             "inner_edges_type": "none",
-            "title": "2 papers found"
+            "title": "16 papers found"
         },
         {
             "from": "Biotic Data",
             "to": "Network Graph",
             "color": "grey",
-            "width": 4,
+            "width": 12,
             "inner_edges_type": "none",
-            "title": "4 papers found"
+            "title": "12 papers found"
         },
         {
             "from": "Biotic Data",
             "to": "Box Plot",
             "color": "grey",
-            "width": 2,
+            "width": 10,
             "inner_edges_type": "none",
-            "title": "2 papers found"
+            "title": "10 papers found"
         },
         {
             "from": "Biotic Data",
             "to": "Diel Plot",
             "color": "grey",
-            "width": 1,
+            "width": 9,
             "inner_edges_type": "none",
-            "title": "1 paper found"
+            "title": "9 papers found"
         },
         {
             "from": "Biotic Data",
             "to": "Radar Plot",
             "color": "grey",
-            "width": 1,
+            "width": 9,
             "inner_edges_type": "none",
-            "title": "1 paper found"
+            "title": "9 papers found"
         },
         {
             "from": "Biotic Data",
             "to": "Histogram",
             "color": "grey",
-            "width": 1,
+            "width": 9,
             "inner_edges_type": "none",
-            "title": "1 paper found"
+            "title": "9 papers found"
         },
         {
             "from": "Biotic Data",
             "to": "Rose Plot",
             "color": "grey",
-            "width": 1,
+            "width": 9,
             "inner_edges_type": "none",
-            "title": "1 paper found"
+            "title": "9 papers found"
         },
         {
             "from": "Biotic Data",
             "to": "Sammon Map",
             "color": "grey",
-            "width": 1,
+            "width": 9,
             "inner_edges_type": "none",
-            "title": "1 paper found"
+            "title": "9 papers found"
         },
         {
             "from": "Biotic Data",
             "to": "Line Graph",
             "color": "grey",
-            "width": 2,
+            "width": 10,
             "inner_edges_type": "none",
-            "title": "2 papers found"
+            "title": "10 papers found"
         },
         {
             "from": "Biotic Data",
             "to": "Dendogram",
             "color": "grey",
-            "width": 1,
+            "width": 9,
             "inner_edges_type": "none",
-            "title": "1 paper found"
+            "title": "9 papers found"
         },
         {
             "from": "Biotic Data",
             "to": "Dashboard Visualization",
             "color": "grey",
-            "width": 1,
+            "width": 9,
             "inner_edges_type": "none",
-            "title": "1 paper found"
+            "title": "9 papers found"
         },
         {
             "from": "Biotic Data",
             "to": "Pie Chart",
             "color": "grey",
-            "width": 1,
+            "width": 9,
             "inner_edges_type": "none",
-            "title": "1 paper found"
+            "title": "9 papers found"
+        },
+        {
+            "from": "Biotic Data",
+            "to": "Data Visualization",
+            "color": "grey",
+            "width": 13,
+            "inner_edges_type": "none",
+            "title": "13 papers found"
+        },
+        {
+            "from": "Biotic Data",
+            "to": "Contour Plot",
+            "color": "grey",
+            "width": 14,
+            "inner_edges_type": "none",
+            "title": "14 papers found"
+        },
+        {
+            "from": "Biotic Data",
+            "to": "Diagram",
+            "color": "grey",
+            "width": 8,
+            "inner_edges_type": "none",
+            "title": "8 papers found"
+        },
+        {
+            "from": "Biotic Data",
+            "to": "Vector Rendering",
+            "color": "grey",
+            "width": 5,
+            "inner_edges_type": "none",
+            "title": "5 papers found"
         },
         {
             "from": "Landscape Data",
             "to": "3D Geometric Modelling",
             "color": "grey",
-            "width": 4,
+            "width": 9,
             "inner_edges_type": "none",
-            "title": "4 papers found"
+            "title": "9 papers found"
         },
         {
             "from": "Landscape Data",
@@ -1017,9 +1267,9 @@
             "from": "Landscape Data",
             "to": "Heat Map",
             "color": "grey",
-            "width": 1,
+            "width": 7,
             "inner_edges_type": "none",
-            "title": "1 paper found"
+            "title": "7 papers found"
         },
         {
             "from": "Landscape Data",
@@ -1041,25 +1291,169 @@
             "from": "Landscape Data",
             "to": "Contour Plot",
             "color": "grey",
-            "width": 1,
+            "width": 7,
             "inner_edges_type": "none",
-            "title": "1 paper found"
+            "title": "7 papers found"
+        },
+        {
+            "from": "Landscape Data",
+            "to": "Data Visualization",
+            "color": "grey",
+            "width": 5,
+            "inner_edges_type": "none",
+            "title": "5 papers found"
+        },
+        {
+            "from": "Landscape Data",
+            "to": "Vector Rendering",
+            "color": "grey",
+            "width": 5,
+            "inner_edges_type": "none",
+            "title": "5 papers found"
         },
         {
             "from": "Abiotic Data",
             "to": "Diagram",
             "color": "grey",
-            "width": 1,
+            "width": 9,
             "inner_edges_type": "none",
-            "title": "1 paper found"
+            "title": "9 papers found"
         },
         {
             "from": "Abiotic Data",
             "to": "Vector Rendering",
             "color": "grey",
-            "width": 1,
+            "width": 6,
             "inner_edges_type": "none",
-            "title": "1 paper found"
+            "title": "6 papers found"
+        },
+        {
+            "from": "Abiotic Data",
+            "to": "Dashboard Visualization",
+            "color": "grey",
+            "width": 8,
+            "inner_edges_type": "none",
+            "title": "8 papers found"
+        },
+        {
+            "from": "Abiotic Data",
+            "to": "Data Visualization",
+            "color": "grey",
+            "width": 13,
+            "inner_edges_type": "none",
+            "title": "13 papers found"
+        },
+        {
+            "from": "Abiotic Data",
+            "to": "Diel Plot",
+            "color": "grey",
+            "width": 8,
+            "inner_edges_type": "none",
+            "title": "8 papers found"
+        },
+        {
+            "from": "Abiotic Data",
+            "to": "Radar Plot",
+            "color": "grey",
+            "width": 8,
+            "inner_edges_type": "none",
+            "title": "8 papers found"
+        },
+        {
+            "from": "Abiotic Data",
+            "to": "Histogram",
+            "color": "grey",
+            "width": 8,
+            "inner_edges_type": "none",
+            "title": "8 papers found"
+        },
+        {
+            "from": "Abiotic Data",
+            "to": "Rose Plot",
+            "color": "grey",
+            "width": 8,
+            "inner_edges_type": "none",
+            "title": "8 papers found"
+        },
+        {
+            "from": "Abiotic Data",
+            "to": "Sammon Map",
+            "color": "grey",
+            "width": 8,
+            "inner_edges_type": "none",
+            "title": "8 papers found"
+        },
+        {
+            "from": "Abiotic Data",
+            "to": "Bar Plot",
+            "color": "grey",
+            "width": 8,
+            "inner_edges_type": "none",
+            "title": "8 papers found"
+        },
+        {
+            "from": "Abiotic Data",
+            "to": "Line Graph",
+            "color": "grey",
+            "width": 8,
+            "inner_edges_type": "none",
+            "title": "8 papers found"
+        },
+        {
+            "from": "Abiotic Data",
+            "to": "Dendogram",
+            "color": "grey",
+            "width": 8,
+            "inner_edges_type": "none",
+            "title": "8 papers found"
+        },
+        {
+            "from": "Abiotic Data",
+            "to": "Heat Map",
+            "color": "grey",
+            "width": 14,
+            "inner_edges_type": "none",
+            "title": "14 papers found"
+        },
+        {
+            "from": "Abiotic Data",
+            "to": "Contour Plot",
+            "color": "grey",
+            "width": 14,
+            "inner_edges_type": "none",
+            "title": "14 papers found"
+        },
+        {
+            "from": "Abiotic Data",
+            "to": "Pie Chart",
+            "color": "grey",
+            "width": 8,
+            "inner_edges_type": "none",
+            "title": "8 papers found"
+        },
+        {
+            "from": "Abiotic Data",
+            "to": "Box Plot",
+            "color": "grey",
+            "width": 8,
+            "inner_edges_type": "none",
+            "title": "8 papers found"
+        },
+        {
+            "from": "Abiotic Data",
+            "to": "Network Graph",
+            "color": "grey",
+            "width": 8,
+            "inner_edges_type": "none",
+            "title": "8 papers found"
+        },
+        {
+            "from": "Abiotic Data",
+            "to": "3D Geometric Modelling",
+            "color": "grey",
+            "width": 5,
+            "inner_edges_type": "none",
+            "title": "5 papers found"
         },
         {
             "from": "Behavioural Data",
@@ -1239,7 +1633,7 @@
         },
         {
             "from": "3D Geometric Modelling",
-            "to": "jsPanel",
+            "to": "JsPanel",
             "color": "grey",
             "width": 1,
             "inner_edges_type": "none",
@@ -1265,13 +1659,45 @@
             "from": "3D Geometric Modelling",
             "to": "ARCGIS",
             "color": "grey",
+            "width": 2,
+            "inner_edges_type": "none",
+            "title": "2 papers found"
+        },
+        {
+            "from": "3D Geometric Modelling",
+            "to": "Blender",
+            "color": "grey",
             "width": 1,
             "inner_edges_type": "none",
             "title": "1 paper found"
         },
         {
             "from": "3D Geometric Modelling",
-            "to": "Blender",
+            "to": "QGIS",
+            "color": "grey",
+            "width": 1,
+            "inner_edges_type": "none",
+            "title": "1 paper found"
+        },
+        {
+            "from": "3D Geometric Modelling",
+            "to": "SAGAGIS",
+            "color": "grey",
+            "width": 1,
+            "inner_edges_type": "none",
+            "title": "1 paper found"
+        },
+        {
+            "from": "3D Geometric Modelling",
+            "to": "GRASS GIS",
+            "color": "grey",
+            "width": 1,
+            "inner_edges_type": "none",
+            "title": "1 paper found"
+        },
+        {
+            "from": "3D Geometric Modelling",
+            "to": "RSAGA",
             "color": "grey",
             "width": 1,
             "inner_edges_type": "none",
@@ -1320,6 +1746,110 @@
         {
             "from": "Data Visualization",
             "to": "Creo",
+            "color": "grey",
+            "width": 1,
+            "inner_edges_type": "none",
+            "title": "1 paper found"
+        },
+        {
+            "from": "Data Visualization",
+            "to": "R",
+            "color": "grey",
+            "width": 1,
+            "inner_edges_type": "none",
+            "title": "1 paper found"
+        },
+        {
+            "from": "Data Visualization",
+            "to": "Python",
+            "color": "grey",
+            "width": 1,
+            "inner_edges_type": "none",
+            "title": "1 paper found"
+        },
+        {
+            "from": "Data Visualization",
+            "to": "QGIS",
+            "color": "grey",
+            "width": 1,
+            "inner_edges_type": "none",
+            "title": "1 paper found"
+        },
+        {
+            "from": "Data Visualization",
+            "to": "SAGAGIS",
+            "color": "grey",
+            "width": 1,
+            "inner_edges_type": "none",
+            "title": "1 paper found"
+        },
+        {
+            "from": "Data Visualization",
+            "to": "GRASS GIS",
+            "color": "grey",
+            "width": 1,
+            "inner_edges_type": "none",
+            "title": "1 paper found"
+        },
+        {
+            "from": "Data Visualization",
+            "to": "Sf",
+            "color": "grey",
+            "width": 1,
+            "inner_edges_type": "none",
+            "title": "1 paper found"
+        },
+        {
+            "from": "Data Visualization",
+            "to": "Raster",
+            "color": "grey",
+            "width": 1,
+            "inner_edges_type": "none",
+            "title": "1 paper found"
+        },
+        {
+            "from": "Data Visualization",
+            "to": "GeoPandas",
+            "color": "grey",
+            "width": 1,
+            "inner_edges_type": "none",
+            "title": "1 paper found"
+        },
+        {
+            "from": "Data Visualization",
+            "to": "Rasterio",
+            "color": "grey",
+            "width": 1,
+            "inner_edges_type": "none",
+            "title": "1 paper found"
+        },
+        {
+            "from": "Data Visualization",
+            "to": "Julia",
+            "color": "grey",
+            "width": 1,
+            "inner_edges_type": "none",
+            "title": "1 paper found"
+        },
+        {
+            "from": "Data Visualization",
+            "to": "RSAGA",
+            "color": "grey",
+            "width": 1,
+            "inner_edges_type": "none",
+            "title": "1 paper found"
+        },
+        {
+            "from": "Data Visualization",
+            "to": "Rgrass7",
+            "color": "grey",
+            "width": 1,
+            "inner_edges_type": "none",
+            "title": "1 paper found"
+        },
+        {
+            "from": "Data Visualization",
+            "to": "ARCGIS",
             "color": "grey",
             "width": 1,
             "inner_edges_type": "none",
@@ -1457,13 +1987,69 @@
             "from": "Dashboard Visualization",
             "to": "Python",
             "color": "grey",
+            "width": 2,
+            "inner_edges_type": "none",
+            "title": "2 papers found"
+        },
+        {
+            "from": "Dashboard Visualization",
+            "to": ".NET",
+            "color": "grey",
             "width": 1,
             "inner_edges_type": "none",
             "title": "1 paper found"
         },
         {
             "from": "Dashboard Visualization",
-            "to": ".NET",
+            "to": "R",
+            "color": "grey",
+            "width": 1,
+            "inner_edges_type": "none",
+            "title": "1 paper found"
+        },
+        {
+            "from": "Dashboard Visualization",
+            "to": "Sf",
+            "color": "grey",
+            "width": 1,
+            "inner_edges_type": "none",
+            "title": "1 paper found"
+        },
+        {
+            "from": "Dashboard Visualization",
+            "to": "Raster",
+            "color": "grey",
+            "width": 1,
+            "inner_edges_type": "none",
+            "title": "1 paper found"
+        },
+        {
+            "from": "Dashboard Visualization",
+            "to": "GeoPandas",
+            "color": "grey",
+            "width": 1,
+            "inner_edges_type": "none",
+            "title": "1 paper found"
+        },
+        {
+            "from": "Dashboard Visualization",
+            "to": "Rasterio",
+            "color": "grey",
+            "width": 1,
+            "inner_edges_type": "none",
+            "title": "1 paper found"
+        },
+        {
+            "from": "Dashboard Visualization",
+            "to": "Julia",
+            "color": "grey",
+            "width": 1,
+            "inner_edges_type": "none",
+            "title": "1 paper found"
+        },
+        {
+            "from": "Dashboard Visualization",
+            "to": "Rgrass7",
             "color": "grey",
             "width": 1,
             "inner_edges_type": "none",
@@ -1481,6 +2067,102 @@
             "from": "Contour Plot",
             "to": "ARCGIS",
             "color": "grey",
+            "width": 3,
+            "inner_edges_type": "none",
+            "title": "3 papers found"
+        },
+        {
+            "from": "Contour Plot",
+            "to": "R",
+            "color": "grey",
+            "width": 1,
+            "inner_edges_type": "none",
+            "title": "1 paper found"
+        },
+        {
+            "from": "Contour Plot",
+            "to": "Python",
+            "color": "grey",
+            "width": 1,
+            "inner_edges_type": "none",
+            "title": "1 paper found"
+        },
+        {
+            "from": "Contour Plot",
+            "to": "QGIS",
+            "color": "grey",
+            "width": 1,
+            "inner_edges_type": "none",
+            "title": "1 paper found"
+        },
+        {
+            "from": "Contour Plot",
+            "to": "SAGAGIS",
+            "color": "grey",
+            "width": 1,
+            "inner_edges_type": "none",
+            "title": "1 paper found"
+        },
+        {
+            "from": "Contour Plot",
+            "to": "GRASS GIS",
+            "color": "grey",
+            "width": 1,
+            "inner_edges_type": "none",
+            "title": "1 paper found"
+        },
+        {
+            "from": "Contour Plot",
+            "to": "Sf",
+            "color": "grey",
+            "width": 1,
+            "inner_edges_type": "none",
+            "title": "1 paper found"
+        },
+        {
+            "from": "Contour Plot",
+            "to": "Raster",
+            "color": "grey",
+            "width": 1,
+            "inner_edges_type": "none",
+            "title": "1 paper found"
+        },
+        {
+            "from": "Contour Plot",
+            "to": "GeoPandas",
+            "color": "grey",
+            "width": 1,
+            "inner_edges_type": "none",
+            "title": "1 paper found"
+        },
+        {
+            "from": "Contour Plot",
+            "to": "Rasterio",
+            "color": "grey",
+            "width": 1,
+            "inner_edges_type": "none",
+            "title": "1 paper found"
+        },
+        {
+            "from": "Contour Plot",
+            "to": "Julia",
+            "color": "grey",
+            "width": 1,
+            "inner_edges_type": "none",
+            "title": "1 paper found"
+        },
+        {
+            "from": "Contour Plot",
+            "to": "RSAGA",
+            "color": "grey",
+            "width": 1,
+            "inner_edges_type": "none",
+            "title": "1 paper found"
+        },
+        {
+            "from": "Contour Plot",
+            "to": "Rgrass7",
+            "color": "grey",
             "width": 1,
             "inner_edges_type": "none",
             "title": "1 paper found"
@@ -1489,9 +2171,9 @@
             "from": "Bar Plot",
             "to": "Python",
             "color": "grey",
-            "width": 2,
+            "width": 3,
             "inner_edges_type": "none",
-            "title": "2 papers found"
+            "title": "3 papers found"
         },
         {
             "from": "Bar Plot",
@@ -1502,12 +2184,68 @@
             "title": "2 papers found"
         },
         {
-            "from": "Heat Map",
-            "to": "Python",
+            "from": "Bar Plot",
+            "to": "R",
             "color": "grey",
             "width": 1,
             "inner_edges_type": "none",
             "title": "1 paper found"
+        },
+        {
+            "from": "Bar Plot",
+            "to": "Sf",
+            "color": "grey",
+            "width": 1,
+            "inner_edges_type": "none",
+            "title": "1 paper found"
+        },
+        {
+            "from": "Bar Plot",
+            "to": "Raster",
+            "color": "grey",
+            "width": 1,
+            "inner_edges_type": "none",
+            "title": "1 paper found"
+        },
+        {
+            "from": "Bar Plot",
+            "to": "GeoPandas",
+            "color": "grey",
+            "width": 1,
+            "inner_edges_type": "none",
+            "title": "1 paper found"
+        },
+        {
+            "from": "Bar Plot",
+            "to": "Rasterio",
+            "color": "grey",
+            "width": 1,
+            "inner_edges_type": "none",
+            "title": "1 paper found"
+        },
+        {
+            "from": "Bar Plot",
+            "to": "Julia",
+            "color": "grey",
+            "width": 1,
+            "inner_edges_type": "none",
+            "title": "1 paper found"
+        },
+        {
+            "from": "Bar Plot",
+            "to": "Rgrass7",
+            "color": "grey",
+            "width": 1,
+            "inner_edges_type": "none",
+            "title": "1 paper found"
+        },
+        {
+            "from": "Heat Map",
+            "to": "Python",
+            "color": "grey",
+            "width": 2,
+            "inner_edges_type": "none",
+            "title": "2 papers found"
         },
         {
             "from": "Heat Map",
@@ -1521,17 +2259,105 @@
             "from": "Heat Map",
             "to": "R",
             "color": "grey",
+            "width": 2,
+            "inner_edges_type": "none",
+            "title": "2 papers found"
+        },
+        {
+            "from": "Heat Map",
+            "to": "QGIS",
+            "color": "grey",
             "width": 1,
             "inner_edges_type": "none",
             "title": "1 paper found"
         },
         {
-            "from": "Network Graph",
-            "to": "Python",
+            "from": "Heat Map",
+            "to": "SAGAGIS",
+            "color": "grey",
+            "width": 1,
+            "inner_edges_type": "none",
+            "title": "1 paper found"
+        },
+        {
+            "from": "Heat Map",
+            "to": "GRASS GIS",
+            "color": "grey",
+            "width": 1,
+            "inner_edges_type": "none",
+            "title": "1 paper found"
+        },
+        {
+            "from": "Heat Map",
+            "to": "Sf",
+            "color": "grey",
+            "width": 1,
+            "inner_edges_type": "none",
+            "title": "1 paper found"
+        },
+        {
+            "from": "Heat Map",
+            "to": "Raster",
+            "color": "grey",
+            "width": 1,
+            "inner_edges_type": "none",
+            "title": "1 paper found"
+        },
+        {
+            "from": "Heat Map",
+            "to": "GeoPandas",
+            "color": "grey",
+            "width": 1,
+            "inner_edges_type": "none",
+            "title": "1 paper found"
+        },
+        {
+            "from": "Heat Map",
+            "to": "Rasterio",
+            "color": "grey",
+            "width": 1,
+            "inner_edges_type": "none",
+            "title": "1 paper found"
+        },
+        {
+            "from": "Heat Map",
+            "to": "Julia",
+            "color": "grey",
+            "width": 1,
+            "inner_edges_type": "none",
+            "title": "1 paper found"
+        },
+        {
+            "from": "Heat Map",
+            "to": "RSAGA",
+            "color": "grey",
+            "width": 1,
+            "inner_edges_type": "none",
+            "title": "1 paper found"
+        },
+        {
+            "from": "Heat Map",
+            "to": "Rgrass7",
+            "color": "grey",
+            "width": 1,
+            "inner_edges_type": "none",
+            "title": "1 paper found"
+        },
+        {
+            "from": "Heat Map",
+            "to": "ARCGIS",
             "color": "grey",
             "width": 2,
             "inner_edges_type": "none",
             "title": "2 papers found"
+        },
+        {
+            "from": "Network Graph",
+            "to": "Python",
+            "color": "grey",
+            "width": 3,
+            "inner_edges_type": "none",
+            "title": "3 papers found"
         },
         {
             "from": "Network Graph",
@@ -1543,6 +2369,62 @@
         },
         {
             "from": "Network Graph",
+            "to": "R",
+            "color": "grey",
+            "width": 3,
+            "inner_edges_type": "none",
+            "title": "3 papers found"
+        },
+        {
+            "from": "Network Graph",
+            "to": "Sf",
+            "color": "grey",
+            "width": 1,
+            "inner_edges_type": "none",
+            "title": "1 paper found"
+        },
+        {
+            "from": "Network Graph",
+            "to": "Raster",
+            "color": "grey",
+            "width": 1,
+            "inner_edges_type": "none",
+            "title": "1 paper found"
+        },
+        {
+            "from": "Network Graph",
+            "to": "GeoPandas",
+            "color": "grey",
+            "width": 1,
+            "inner_edges_type": "none",
+            "title": "1 paper found"
+        },
+        {
+            "from": "Network Graph",
+            "to": "Rasterio",
+            "color": "grey",
+            "width": 1,
+            "inner_edges_type": "none",
+            "title": "1 paper found"
+        },
+        {
+            "from": "Network Graph",
+            "to": "Julia",
+            "color": "grey",
+            "width": 1,
+            "inner_edges_type": "none",
+            "title": "1 paper found"
+        },
+        {
+            "from": "Network Graph",
+            "to": "Rgrass7",
+            "color": "grey",
+            "width": 1,
+            "inner_edges_type": "none",
+            "title": "1 paper found"
+        },
+        {
+            "from": "Diagram",
             "to": "R",
             "color": "grey",
             "width": 2,
@@ -1551,7 +2433,55 @@
         },
         {
             "from": "Diagram",
-            "to": "R",
+            "to": "Python",
+            "color": "grey",
+            "width": 1,
+            "inner_edges_type": "none",
+            "title": "1 paper found"
+        },
+        {
+            "from": "Diagram",
+            "to": "Sf",
+            "color": "grey",
+            "width": 1,
+            "inner_edges_type": "none",
+            "title": "1 paper found"
+        },
+        {
+            "from": "Diagram",
+            "to": "Raster",
+            "color": "grey",
+            "width": 1,
+            "inner_edges_type": "none",
+            "title": "1 paper found"
+        },
+        {
+            "from": "Diagram",
+            "to": "GeoPandas",
+            "color": "grey",
+            "width": 1,
+            "inner_edges_type": "none",
+            "title": "1 paper found"
+        },
+        {
+            "from": "Diagram",
+            "to": "Rasterio",
+            "color": "grey",
+            "width": 1,
+            "inner_edges_type": "none",
+            "title": "1 paper found"
+        },
+        {
+            "from": "Diagram",
+            "to": "Julia",
+            "color": "grey",
+            "width": 1,
+            "inner_edges_type": "none",
+            "title": "1 paper found"
+        },
+        {
+            "from": "Diagram",
+            "to": "Rgrass7",
             "color": "grey",
             "width": 1,
             "inner_edges_type": "none",
@@ -1561,13 +2491,125 @@
             "from": "Box Plot",
             "to": "R",
             "color": "grey",
+            "width": 3,
+            "inner_edges_type": "none",
+            "title": "3 papers found"
+        },
+        {
+            "from": "Box Plot",
+            "to": "Python",
+            "color": "grey",
+            "width": 1,
+            "inner_edges_type": "none",
+            "title": "1 paper found"
+        },
+        {
+            "from": "Box Plot",
+            "to": "Sf",
+            "color": "grey",
+            "width": 1,
+            "inner_edges_type": "none",
+            "title": "1 paper found"
+        },
+        {
+            "from": "Box Plot",
+            "to": "Raster",
+            "color": "grey",
+            "width": 1,
+            "inner_edges_type": "none",
+            "title": "1 paper found"
+        },
+        {
+            "from": "Box Plot",
+            "to": "GeoPandas",
+            "color": "grey",
+            "width": 1,
+            "inner_edges_type": "none",
+            "title": "1 paper found"
+        },
+        {
+            "from": "Box Plot",
+            "to": "Rasterio",
+            "color": "grey",
+            "width": 1,
+            "inner_edges_type": "none",
+            "title": "1 paper found"
+        },
+        {
+            "from": "Box Plot",
+            "to": "Julia",
+            "color": "grey",
+            "width": 1,
+            "inner_edges_type": "none",
+            "title": "1 paper found"
+        },
+        {
+            "from": "Box Plot",
+            "to": "Rgrass7",
+            "color": "grey",
+            "width": 1,
+            "inner_edges_type": "none",
+            "title": "1 paper found"
+        },
+        {
+            "from": "Diel Plot",
+            "to": "R",
+            "color": "grey",
             "width": 2,
             "inner_edges_type": "none",
             "title": "2 papers found"
         },
         {
             "from": "Diel Plot",
-            "to": "R",
+            "to": "Python",
+            "color": "grey",
+            "width": 1,
+            "inner_edges_type": "none",
+            "title": "1 paper found"
+        },
+        {
+            "from": "Diel Plot",
+            "to": "Sf",
+            "color": "grey",
+            "width": 1,
+            "inner_edges_type": "none",
+            "title": "1 paper found"
+        },
+        {
+            "from": "Diel Plot",
+            "to": "Raster",
+            "color": "grey",
+            "width": 1,
+            "inner_edges_type": "none",
+            "title": "1 paper found"
+        },
+        {
+            "from": "Diel Plot",
+            "to": "GeoPandas",
+            "color": "grey",
+            "width": 1,
+            "inner_edges_type": "none",
+            "title": "1 paper found"
+        },
+        {
+            "from": "Diel Plot",
+            "to": "Rasterio",
+            "color": "grey",
+            "width": 1,
+            "inner_edges_type": "none",
+            "title": "1 paper found"
+        },
+        {
+            "from": "Diel Plot",
+            "to": "Julia",
+            "color": "grey",
+            "width": 1,
+            "inner_edges_type": "none",
+            "title": "1 paper found"
+        },
+        {
+            "from": "Diel Plot",
+            "to": "Rgrass7",
             "color": "grey",
             "width": 1,
             "inner_edges_type": "none",
@@ -1577,6 +2619,62 @@
             "from": "Radar Plot",
             "to": "R",
             "color": "grey",
+            "width": 2,
+            "inner_edges_type": "none",
+            "title": "2 papers found"
+        },
+        {
+            "from": "Radar Plot",
+            "to": "Python",
+            "color": "grey",
+            "width": 1,
+            "inner_edges_type": "none",
+            "title": "1 paper found"
+        },
+        {
+            "from": "Radar Plot",
+            "to": "Sf",
+            "color": "grey",
+            "width": 1,
+            "inner_edges_type": "none",
+            "title": "1 paper found"
+        },
+        {
+            "from": "Radar Plot",
+            "to": "Raster",
+            "color": "grey",
+            "width": 1,
+            "inner_edges_type": "none",
+            "title": "1 paper found"
+        },
+        {
+            "from": "Radar Plot",
+            "to": "GeoPandas",
+            "color": "grey",
+            "width": 1,
+            "inner_edges_type": "none",
+            "title": "1 paper found"
+        },
+        {
+            "from": "Radar Plot",
+            "to": "Rasterio",
+            "color": "grey",
+            "width": 1,
+            "inner_edges_type": "none",
+            "title": "1 paper found"
+        },
+        {
+            "from": "Radar Plot",
+            "to": "Julia",
+            "color": "grey",
+            "width": 1,
+            "inner_edges_type": "none",
+            "title": "1 paper found"
+        },
+        {
+            "from": "Radar Plot",
+            "to": "Rgrass7",
+            "color": "grey",
             "width": 1,
             "inner_edges_type": "none",
             "title": "1 paper found"
@@ -1584,6 +2682,62 @@
         {
             "from": "Histogram",
             "to": "R",
+            "color": "grey",
+            "width": 2,
+            "inner_edges_type": "none",
+            "title": "2 papers found"
+        },
+        {
+            "from": "Histogram",
+            "to": "Python",
+            "color": "grey",
+            "width": 1,
+            "inner_edges_type": "none",
+            "title": "1 paper found"
+        },
+        {
+            "from": "Histogram",
+            "to": "Sf",
+            "color": "grey",
+            "width": 1,
+            "inner_edges_type": "none",
+            "title": "1 paper found"
+        },
+        {
+            "from": "Histogram",
+            "to": "Raster",
+            "color": "grey",
+            "width": 1,
+            "inner_edges_type": "none",
+            "title": "1 paper found"
+        },
+        {
+            "from": "Histogram",
+            "to": "GeoPandas",
+            "color": "grey",
+            "width": 1,
+            "inner_edges_type": "none",
+            "title": "1 paper found"
+        },
+        {
+            "from": "Histogram",
+            "to": "Rasterio",
+            "color": "grey",
+            "width": 1,
+            "inner_edges_type": "none",
+            "title": "1 paper found"
+        },
+        {
+            "from": "Histogram",
+            "to": "Julia",
+            "color": "grey",
+            "width": 1,
+            "inner_edges_type": "none",
+            "title": "1 paper found"
+        },
+        {
+            "from": "Histogram",
+            "to": "Rgrass7",
             "color": "grey",
             "width": 1,
             "inner_edges_type": "none",
@@ -1593,6 +2747,62 @@
             "from": "Rose Plot",
             "to": "R",
             "color": "grey",
+            "width": 2,
+            "inner_edges_type": "none",
+            "title": "2 papers found"
+        },
+        {
+            "from": "Rose Plot",
+            "to": "Python",
+            "color": "grey",
+            "width": 1,
+            "inner_edges_type": "none",
+            "title": "1 paper found"
+        },
+        {
+            "from": "Rose Plot",
+            "to": "Sf",
+            "color": "grey",
+            "width": 1,
+            "inner_edges_type": "none",
+            "title": "1 paper found"
+        },
+        {
+            "from": "Rose Plot",
+            "to": "Raster",
+            "color": "grey",
+            "width": 1,
+            "inner_edges_type": "none",
+            "title": "1 paper found"
+        },
+        {
+            "from": "Rose Plot",
+            "to": "GeoPandas",
+            "color": "grey",
+            "width": 1,
+            "inner_edges_type": "none",
+            "title": "1 paper found"
+        },
+        {
+            "from": "Rose Plot",
+            "to": "Rasterio",
+            "color": "grey",
+            "width": 1,
+            "inner_edges_type": "none",
+            "title": "1 paper found"
+        },
+        {
+            "from": "Rose Plot",
+            "to": "Julia",
+            "color": "grey",
+            "width": 1,
+            "inner_edges_type": "none",
+            "title": "1 paper found"
+        },
+        {
+            "from": "Rose Plot",
+            "to": "Rgrass7",
+            "color": "grey",
             "width": 1,
             "inner_edges_type": "none",
             "title": "1 paper found"
@@ -1601,6 +2811,62 @@
             "from": "Sammon Map",
             "to": "R",
             "color": "grey",
+            "width": 2,
+            "inner_edges_type": "none",
+            "title": "2 papers found"
+        },
+        {
+            "from": "Sammon Map",
+            "to": "Python",
+            "color": "grey",
+            "width": 1,
+            "inner_edges_type": "none",
+            "title": "1 paper found"
+        },
+        {
+            "from": "Sammon Map",
+            "to": "Sf",
+            "color": "grey",
+            "width": 1,
+            "inner_edges_type": "none",
+            "title": "1 paper found"
+        },
+        {
+            "from": "Sammon Map",
+            "to": "Raster",
+            "color": "grey",
+            "width": 1,
+            "inner_edges_type": "none",
+            "title": "1 paper found"
+        },
+        {
+            "from": "Sammon Map",
+            "to": "GeoPandas",
+            "color": "grey",
+            "width": 1,
+            "inner_edges_type": "none",
+            "title": "1 paper found"
+        },
+        {
+            "from": "Sammon Map",
+            "to": "Rasterio",
+            "color": "grey",
+            "width": 1,
+            "inner_edges_type": "none",
+            "title": "1 paper found"
+        },
+        {
+            "from": "Sammon Map",
+            "to": "Julia",
+            "color": "grey",
+            "width": 1,
+            "inner_edges_type": "none",
+            "title": "1 paper found"
+        },
+        {
+            "from": "Sammon Map",
+            "to": "Rgrass7",
+            "color": "grey",
             "width": 1,
             "inner_edges_type": "none",
             "title": "1 paper found"
@@ -1609,17 +2875,17 @@
             "from": "Line Graph",
             "to": "R",
             "color": "grey",
-            "width": 1,
+            "width": 2,
             "inner_edges_type": "none",
-            "title": "1 paper found"
+            "title": "2 papers found"
         },
         {
             "from": "Line Graph",
             "to": "Python",
             "color": "grey",
-            "width": 1,
+            "width": 2,
             "inner_edges_type": "none",
-            "title": "1 paper found"
+            "title": "2 papers found"
         },
         {
             "from": "Line Graph",
@@ -1630,8 +2896,112 @@
             "title": "1 paper found"
         },
         {
+            "from": "Line Graph",
+            "to": "Sf",
+            "color": "grey",
+            "width": 1,
+            "inner_edges_type": "none",
+            "title": "1 paper found"
+        },
+        {
+            "from": "Line Graph",
+            "to": "Raster",
+            "color": "grey",
+            "width": 1,
+            "inner_edges_type": "none",
+            "title": "1 paper found"
+        },
+        {
+            "from": "Line Graph",
+            "to": "GeoPandas",
+            "color": "grey",
+            "width": 1,
+            "inner_edges_type": "none",
+            "title": "1 paper found"
+        },
+        {
+            "from": "Line Graph",
+            "to": "Rasterio",
+            "color": "grey",
+            "width": 1,
+            "inner_edges_type": "none",
+            "title": "1 paper found"
+        },
+        {
+            "from": "Line Graph",
+            "to": "Julia",
+            "color": "grey",
+            "width": 1,
+            "inner_edges_type": "none",
+            "title": "1 paper found"
+        },
+        {
+            "from": "Line Graph",
+            "to": "Rgrass7",
+            "color": "grey",
+            "width": 1,
+            "inner_edges_type": "none",
+            "title": "1 paper found"
+        },
+        {
             "from": "Dendogram",
             "to": "R",
+            "color": "grey",
+            "width": 2,
+            "inner_edges_type": "none",
+            "title": "2 papers found"
+        },
+        {
+            "from": "Dendogram",
+            "to": "Python",
+            "color": "grey",
+            "width": 1,
+            "inner_edges_type": "none",
+            "title": "1 paper found"
+        },
+        {
+            "from": "Dendogram",
+            "to": "Sf",
+            "color": "grey",
+            "width": 1,
+            "inner_edges_type": "none",
+            "title": "1 paper found"
+        },
+        {
+            "from": "Dendogram",
+            "to": "Raster",
+            "color": "grey",
+            "width": 1,
+            "inner_edges_type": "none",
+            "title": "1 paper found"
+        },
+        {
+            "from": "Dendogram",
+            "to": "GeoPandas",
+            "color": "grey",
+            "width": 1,
+            "inner_edges_type": "none",
+            "title": "1 paper found"
+        },
+        {
+            "from": "Dendogram",
+            "to": "Rasterio",
+            "color": "grey",
+            "width": 1,
+            "inner_edges_type": "none",
+            "title": "1 paper found"
+        },
+        {
+            "from": "Dendogram",
+            "to": "Julia",
+            "color": "grey",
+            "width": 1,
+            "inner_edges_type": "none",
+            "title": "1 paper found"
+        },
+        {
+            "from": "Dendogram",
+            "to": "Rgrass7",
             "color": "grey",
             "width": 1,
             "inner_edges_type": "none",
@@ -1657,6 +3027,62 @@
             "from": "Pie Chart",
             "to": "R",
             "color": "grey",
+            "width": 2,
+            "inner_edges_type": "none",
+            "title": "2 papers found"
+        },
+        {
+            "from": "Pie Chart",
+            "to": "Python",
+            "color": "grey",
+            "width": 1,
+            "inner_edges_type": "none",
+            "title": "1 paper found"
+        },
+        {
+            "from": "Pie Chart",
+            "to": "Sf",
+            "color": "grey",
+            "width": 1,
+            "inner_edges_type": "none",
+            "title": "1 paper found"
+        },
+        {
+            "from": "Pie Chart",
+            "to": "Raster",
+            "color": "grey",
+            "width": 1,
+            "inner_edges_type": "none",
+            "title": "1 paper found"
+        },
+        {
+            "from": "Pie Chart",
+            "to": "GeoPandas",
+            "color": "grey",
+            "width": 1,
+            "inner_edges_type": "none",
+            "title": "1 paper found"
+        },
+        {
+            "from": "Pie Chart",
+            "to": "Rasterio",
+            "color": "grey",
+            "width": 1,
+            "inner_edges_type": "none",
+            "title": "1 paper found"
+        },
+        {
+            "from": "Pie Chart",
+            "to": "Julia",
+            "color": "grey",
+            "width": 1,
+            "inner_edges_type": "none",
+            "title": "1 paper found"
+        },
+        {
+            "from": "Pie Chart",
+            "to": "Rgrass7",
+            "color": "grey",
             "width": 1,
             "inner_edges_type": "none",
             "title": "1 paper found"
@@ -1670,24 +3096,64 @@
             "title": "1 paper found"
         },
         {
+            "from": "Vector Rendering",
+            "to": "QGIS",
+            "color": "grey",
+            "width": 1,
+            "inner_edges_type": "none",
+            "title": "1 paper found"
+        },
+        {
+            "from": "Vector Rendering",
+            "to": "SAGAGIS",
+            "color": "grey",
+            "width": 1,
+            "inner_edges_type": "none",
+            "title": "1 paper found"
+        },
+        {
+            "from": "Vector Rendering",
+            "to": "GRASS GIS",
+            "color": "grey",
+            "width": 1,
+            "inner_edges_type": "none",
+            "title": "1 paper found"
+        },
+        {
+            "from": "Vector Rendering",
+            "to": "RSAGA",
+            "color": "grey",
+            "width": 1,
+            "inner_edges_type": "none",
+            "title": "1 paper found"
+        },
+        {
+            "from": "Vector Rendering",
+            "to": "ARCGIS",
+            "color": "grey",
+            "width": 1,
+            "inner_edges_type": "none",
+            "title": "1 paper found"
+        },
+        {
             "from": "Geometric Data",
             "to": "Geospatial Data",
             "color": "grey",
-            "width": 12,
+            "width": 17,
             "dashes": "true",
             "inner_edges_type": "data_type",
             "hidden": "true",
-            "title": "12 papers found"
+            "title": "17 papers found"
         },
         {
             "from": "Geometric Data",
             "to": "Sensor Data",
             "color": "grey",
-            "width": 10,
+            "width": 15,
             "dashes": "true",
             "inner_edges_type": "data_type",
             "hidden": "true",
-            "title": "10 papers found"
+            "title": "15 papers found"
         },
         {
             "from": "Geometric Data",
@@ -1733,31 +3199,41 @@
             "from": "Geometric Data",
             "to": "Landscape Data",
             "color": "grey",
-            "width": 2,
+            "width": 7,
             "dashes": "true",
             "inner_edges_type": "data_type",
             "hidden": "true",
-            "title": "2 papers found"
+            "title": "7 papers found"
         },
         {
             "from": "Geometric Data",
             "to": "Biotic Data",
             "color": "grey",
-            "width": 2,
+            "width": 7,
             "dashes": "true",
             "inner_edges_type": "data_type",
             "hidden": "true",
-            "title": "2 papers found"
+            "title": "7 papers found"
+        },
+        {
+            "from": "Geometric Data",
+            "to": "Abiotic Data",
+            "color": "grey",
+            "width": 5,
+            "dashes": "true",
+            "inner_edges_type": "data_type",
+            "hidden": "true",
+            "title": "5 papers found"
         },
         {
             "from": "Geospatial Data",
             "to": "Sensor Data",
             "color": "grey",
-            "width": 15,
+            "width": 20,
             "dashes": "true",
             "inner_edges_type": "data_type",
             "hidden": "true",
-            "title": "15 papers found"
+            "title": "20 papers found"
         },
         {
             "from": "Geospatial Data",
@@ -1803,31 +3279,31 @@
             "from": "Geospatial Data",
             "to": "Landscape Data",
             "color": "grey",
-            "width": 5,
+            "width": 11,
             "dashes": "true",
             "inner_edges_type": "data_type",
             "hidden": "true",
-            "title": "5 papers found"
+            "title": "11 papers found"
         },
         {
             "from": "Geospatial Data",
             "to": "Biotic Data",
             "color": "grey",
-            "width": 4,
+            "width": 10,
             "dashes": "true",
             "inner_edges_type": "data_type",
             "hidden": "true",
-            "title": "4 papers found"
+            "title": "10 papers found"
         },
         {
             "from": "Geospatial Data",
             "to": "Abiotic Data",
             "color": "grey",
-            "width": 2,
+            "width": 8,
             "dashes": "true",
             "inner_edges_type": "data_type",
             "hidden": "true",
-            "title": "2 papers found"
+            "title": "8 papers found"
         },
         {
             "from": "Geospatial Data",
@@ -1883,21 +3359,31 @@
             "from": "Sensor Data",
             "to": "Landscape Data",
             "color": "grey",
-            "width": 2,
+            "width": 7,
             "dashes": "true",
             "inner_edges_type": "data_type",
             "hidden": "true",
-            "title": "2 papers found"
+            "title": "7 papers found"
         },
         {
             "from": "Sensor Data",
             "to": "Biotic Data",
             "color": "grey",
-            "width": 1,
+            "width": 14,
             "dashes": "true",
             "inner_edges_type": "data_type",
             "hidden": "true",
-            "title": "1 paper found"
+            "title": "14 papers found"
+        },
+        {
+            "from": "Sensor Data",
+            "to": "Abiotic Data",
+            "color": "grey",
+            "width": 13,
+            "dashes": "true",
+            "inner_edges_type": "data_type",
+            "hidden": "true",
+            "title": "13 papers found"
         },
         {
             "from": "Historical Data",
@@ -1963,11 +3449,21 @@
             "from": "Landscape Data",
             "to": "Biotic Data",
             "color": "grey",
-            "width": 1,
+            "width": 7,
             "dashes": "true",
             "inner_edges_type": "data_type",
             "hidden": "true",
-            "title": "1 paper found"
+            "title": "7 papers found"
+        },
+        {
+            "from": "Landscape Data",
+            "to": "Abiotic Data",
+            "color": "grey",
+            "width": 6,
+            "dashes": "true",
+            "inner_edges_type": "data_type",
+            "hidden": "true",
+            "title": "6 papers found"
         },
         {
             "from": "Landscape Data",
@@ -1978,6 +3474,16 @@
             "inner_edges_type": "data_type",
             "hidden": "true",
             "title": "1 paper found"
+        },
+        {
+            "from": "Biotic Data",
+            "to": "Abiotic Data",
+            "color": "grey",
+            "width": 14,
+            "dashes": "true",
+            "inner_edges_type": "data_type",
+            "hidden": "true",
+            "title": "14 papers found"
         },
         {
             "from": "Biotic Data",
@@ -2033,31 +3539,191 @@
             "from": "3D Geometric Modelling",
             "to": "Data Visualization",
             "color": "grey",
-            "width": 1,
+            "width": 6,
             "dashes": "true",
             "inner_edges_type": "visualization_technique",
             "hidden": "true",
-            "title": "1 paper found"
+            "title": "6 papers found"
+        },
+        {
+            "from": "3D Geometric Modelling",
+            "to": "Heat Map",
+            "color": "grey",
+            "width": 5,
+            "dashes": "true",
+            "inner_edges_type": "visualization_technique",
+            "hidden": "true",
+            "title": "5 papers found"
         },
         {
             "from": "3D Geometric Modelling",
             "to": "Contour Plot",
             "color": "grey",
-            "width": 2,
+            "width": 7,
             "dashes": "true",
             "inner_edges_type": "visualization_technique",
             "hidden": "true",
-            "title": "2 papers found"
+            "title": "7 papers found"
+        },
+        {
+            "from": "3D Geometric Modelling",
+            "to": "Vector Rendering",
+            "color": "grey",
+            "width": 5,
+            "dashes": "true",
+            "inner_edges_type": "visualization_technique",
+            "hidden": "true",
+            "title": "5 papers found"
         },
         {
             "from": "Dashboard Visualization",
             "to": "Data Visualization",
             "color": "grey",
-            "width": 3,
+            "width": 11,
             "dashes": "true",
             "inner_edges_type": "visualization_technique",
             "hidden": "true",
-            "title": "3 papers found"
+            "title": "11 papers found"
+        },
+        {
+            "from": "Dashboard Visualization",
+            "to": "Diel Plot",
+            "color": "grey",
+            "width": 8,
+            "dashes": "true",
+            "inner_edges_type": "visualization_technique",
+            "hidden": "true",
+            "title": "8 papers found"
+        },
+        {
+            "from": "Dashboard Visualization",
+            "to": "Radar Plot",
+            "color": "grey",
+            "width": 8,
+            "dashes": "true",
+            "inner_edges_type": "visualization_technique",
+            "hidden": "true",
+            "title": "8 papers found"
+        },
+        {
+            "from": "Dashboard Visualization",
+            "to": "Histogram",
+            "color": "grey",
+            "width": 8,
+            "dashes": "true",
+            "inner_edges_type": "visualization_technique",
+            "hidden": "true",
+            "title": "8 papers found"
+        },
+        {
+            "from": "Dashboard Visualization",
+            "to": "Rose Plot",
+            "color": "grey",
+            "width": 8,
+            "dashes": "true",
+            "inner_edges_type": "visualization_technique",
+            "hidden": "true",
+            "title": "8 papers found"
+        },
+        {
+            "from": "Dashboard Visualization",
+            "to": "Sammon Map",
+            "color": "grey",
+            "width": 8,
+            "dashes": "true",
+            "inner_edges_type": "visualization_technique",
+            "hidden": "true",
+            "title": "8 papers found"
+        },
+        {
+            "from": "Dashboard Visualization",
+            "to": "Bar Plot",
+            "color": "grey",
+            "width": 8,
+            "dashes": "true",
+            "inner_edges_type": "visualization_technique",
+            "hidden": "true",
+            "title": "8 papers found"
+        },
+        {
+            "from": "Dashboard Visualization",
+            "to": "Line Graph",
+            "color": "grey",
+            "width": 8,
+            "dashes": "true",
+            "inner_edges_type": "visualization_technique",
+            "hidden": "true",
+            "title": "8 papers found"
+        },
+        {
+            "from": "Dashboard Visualization",
+            "to": "Dendogram",
+            "color": "grey",
+            "width": 8,
+            "dashes": "true",
+            "inner_edges_type": "visualization_technique",
+            "hidden": "true",
+            "title": "8 papers found"
+        },
+        {
+            "from": "Dashboard Visualization",
+            "to": "Heat Map",
+            "color": "grey",
+            "width": 8,
+            "dashes": "true",
+            "inner_edges_type": "visualization_technique",
+            "hidden": "true",
+            "title": "8 papers found"
+        },
+        {
+            "from": "Dashboard Visualization",
+            "to": "Contour Plot",
+            "color": "grey",
+            "width": 8,
+            "dashes": "true",
+            "inner_edges_type": "visualization_technique",
+            "hidden": "true",
+            "title": "8 papers found"
+        },
+        {
+            "from": "Dashboard Visualization",
+            "to": "Pie Chart",
+            "color": "grey",
+            "width": 8,
+            "dashes": "true",
+            "inner_edges_type": "visualization_technique",
+            "hidden": "true",
+            "title": "8 papers found"
+        },
+        {
+            "from": "Dashboard Visualization",
+            "to": "Box Plot",
+            "color": "grey",
+            "width": 8,
+            "dashes": "true",
+            "inner_edges_type": "visualization_technique",
+            "hidden": "true",
+            "title": "8 papers found"
+        },
+        {
+            "from": "Dashboard Visualization",
+            "to": "Network Graph",
+            "color": "grey",
+            "width": 8,
+            "dashes": "true",
+            "inner_edges_type": "visualization_technique",
+            "hidden": "true",
+            "title": "8 papers found"
+        },
+        {
+            "from": "Dashboard Visualization",
+            "to": "Diagram",
+            "color": "grey",
+            "width": 8,
+            "dashes": "true",
+            "inner_edges_type": "visualization_technique",
+            "hidden": "true",
+            "title": "8 papers found"
         },
         {
             "from": "Virtual Reality",
@@ -2081,423 +3747,1083 @@
         },
         {
             "from": "Data Visualization",
-            "to": "Contour Plot",
+            "to": "Diel Plot",
             "color": "grey",
-            "width": 1,
+            "width": 8,
             "dashes": "true",
             "inner_edges_type": "visualization_technique",
             "hidden": "true",
-            "title": "1 paper found"
+            "title": "8 papers found"
+        },
+        {
+            "from": "Data Visualization",
+            "to": "Radar Plot",
+            "color": "grey",
+            "width": 8,
+            "dashes": "true",
+            "inner_edges_type": "visualization_technique",
+            "hidden": "true",
+            "title": "8 papers found"
+        },
+        {
+            "from": "Data Visualization",
+            "to": "Histogram",
+            "color": "grey",
+            "width": 8,
+            "dashes": "true",
+            "inner_edges_type": "visualization_technique",
+            "hidden": "true",
+            "title": "8 papers found"
+        },
+        {
+            "from": "Data Visualization",
+            "to": "Rose Plot",
+            "color": "grey",
+            "width": 8,
+            "dashes": "true",
+            "inner_edges_type": "visualization_technique",
+            "hidden": "true",
+            "title": "8 papers found"
+        },
+        {
+            "from": "Data Visualization",
+            "to": "Sammon Map",
+            "color": "grey",
+            "width": 8,
+            "dashes": "true",
+            "inner_edges_type": "visualization_technique",
+            "hidden": "true",
+            "title": "8 papers found"
+        },
+        {
+            "from": "Data Visualization",
+            "to": "Bar Plot",
+            "color": "grey",
+            "width": 8,
+            "dashes": "true",
+            "inner_edges_type": "visualization_technique",
+            "hidden": "true",
+            "title": "8 papers found"
+        },
+        {
+            "from": "Data Visualization",
+            "to": "Line Graph",
+            "color": "grey",
+            "width": 8,
+            "dashes": "true",
+            "inner_edges_type": "visualization_technique",
+            "hidden": "true",
+            "title": "8 papers found"
+        },
+        {
+            "from": "Data Visualization",
+            "to": "Dendogram",
+            "color": "grey",
+            "width": 8,
+            "dashes": "true",
+            "inner_edges_type": "visualization_technique",
+            "hidden": "true",
+            "title": "8 papers found"
+        },
+        {
+            "from": "Data Visualization",
+            "to": "Heat Map",
+            "color": "grey",
+            "width": 13,
+            "dashes": "true",
+            "inner_edges_type": "visualization_technique",
+            "hidden": "true",
+            "title": "13 papers found"
+        },
+        {
+            "from": "Data Visualization",
+            "to": "Contour Plot",
+            "color": "grey",
+            "width": 14,
+            "dashes": "true",
+            "inner_edges_type": "visualization_technique",
+            "hidden": "true",
+            "title": "14 papers found"
+        },
+        {
+            "from": "Data Visualization",
+            "to": "Vector Rendering",
+            "color": "grey",
+            "width": 5,
+            "dashes": "true",
+            "inner_edges_type": "visualization_technique",
+            "hidden": "true",
+            "title": "5 papers found"
+        },
+        {
+            "from": "Data Visualization",
+            "to": "Pie Chart",
+            "color": "grey",
+            "width": 8,
+            "dashes": "true",
+            "inner_edges_type": "visualization_technique",
+            "hidden": "true",
+            "title": "8 papers found"
+        },
+        {
+            "from": "Data Visualization",
+            "to": "Box Plot",
+            "color": "grey",
+            "width": 8,
+            "dashes": "true",
+            "inner_edges_type": "visualization_technique",
+            "hidden": "true",
+            "title": "8 papers found"
+        },
+        {
+            "from": "Data Visualization",
+            "to": "Network Graph",
+            "color": "grey",
+            "width": 8,
+            "dashes": "true",
+            "inner_edges_type": "visualization_technique",
+            "hidden": "true",
+            "title": "8 papers found"
+        },
+        {
+            "from": "Data Visualization",
+            "to": "Diagram",
+            "color": "grey",
+            "width": 8,
+            "dashes": "true",
+            "inner_edges_type": "visualization_technique",
+            "hidden": "true",
+            "title": "8 papers found"
         },
         {
             "from": "Diel Plot",
             "to": "Radar Plot",
             "color": "grey",
-            "width": 1,
+            "width": 9,
             "dashes": "true",
             "inner_edges_type": "visualization_technique",
             "hidden": "true",
-            "title": "1 paper found"
+            "title": "9 papers found"
         },
         {
             "from": "Diel Plot",
             "to": "Histogram",
             "color": "grey",
-            "width": 1,
+            "width": 9,
             "dashes": "true",
             "inner_edges_type": "visualization_technique",
             "hidden": "true",
-            "title": "1 paper found"
+            "title": "9 papers found"
         },
         {
             "from": "Diel Plot",
             "to": "Rose Plot",
             "color": "grey",
-            "width": 1,
+            "width": 9,
             "dashes": "true",
             "inner_edges_type": "visualization_technique",
             "hidden": "true",
-            "title": "1 paper found"
+            "title": "9 papers found"
         },
         {
             "from": "Diel Plot",
             "to": "Sammon Map",
             "color": "grey",
-            "width": 1,
+            "width": 9,
             "dashes": "true",
             "inner_edges_type": "visualization_technique",
             "hidden": "true",
-            "title": "1 paper found"
+            "title": "9 papers found"
+        },
+        {
+            "from": "Diel Plot",
+            "to": "Bar Plot",
+            "color": "grey",
+            "width": 8,
+            "dashes": "true",
+            "inner_edges_type": "visualization_technique",
+            "hidden": "true",
+            "title": "8 papers found"
         },
         {
             "from": "Diel Plot",
             "to": "Line Graph",
             "color": "grey",
-            "width": 1,
+            "width": 9,
             "dashes": "true",
             "inner_edges_type": "visualization_technique",
             "hidden": "true",
-            "title": "1 paper found"
+            "title": "9 papers found"
         },
         {
             "from": "Diel Plot",
             "to": "Dendogram",
             "color": "grey",
-            "width": 1,
+            "width": 9,
             "dashes": "true",
             "inner_edges_type": "visualization_technique",
             "hidden": "true",
-            "title": "1 paper found"
+            "title": "9 papers found"
+        },
+        {
+            "from": "Diel Plot",
+            "to": "Heat Map",
+            "color": "grey",
+            "width": 8,
+            "dashes": "true",
+            "inner_edges_type": "visualization_technique",
+            "hidden": "true",
+            "title": "8 papers found"
+        },
+        {
+            "from": "Diel Plot",
+            "to": "Contour Plot",
+            "color": "grey",
+            "width": 8,
+            "dashes": "true",
+            "inner_edges_type": "visualization_technique",
+            "hidden": "true",
+            "title": "8 papers found"
+        },
+        {
+            "from": "Diel Plot",
+            "to": "Pie Chart",
+            "color": "grey",
+            "width": 8,
+            "dashes": "true",
+            "inner_edges_type": "visualization_technique",
+            "hidden": "true",
+            "title": "8 papers found"
         },
         {
             "from": "Diel Plot",
             "to": "Box Plot",
             "color": "grey",
-            "width": 1,
+            "width": 9,
             "dashes": "true",
             "inner_edges_type": "visualization_technique",
             "hidden": "true",
-            "title": "1 paper found"
+            "title": "9 papers found"
         },
         {
             "from": "Diel Plot",
             "to": "Network Graph",
             "color": "grey",
-            "width": 1,
+            "width": 9,
             "dashes": "true",
             "inner_edges_type": "visualization_technique",
             "hidden": "true",
-            "title": "1 paper found"
+            "title": "9 papers found"
+        },
+        {
+            "from": "Diel Plot",
+            "to": "Diagram",
+            "color": "grey",
+            "width": 8,
+            "dashes": "true",
+            "inner_edges_type": "visualization_technique",
+            "hidden": "true",
+            "title": "8 papers found"
         },
         {
             "from": "Radar Plot",
             "to": "Histogram",
             "color": "grey",
-            "width": 1,
+            "width": 9,
             "dashes": "true",
             "inner_edges_type": "visualization_technique",
             "hidden": "true",
-            "title": "1 paper found"
+            "title": "9 papers found"
         },
         {
             "from": "Radar Plot",
             "to": "Rose Plot",
             "color": "grey",
-            "width": 1,
+            "width": 9,
             "dashes": "true",
             "inner_edges_type": "visualization_technique",
             "hidden": "true",
-            "title": "1 paper found"
+            "title": "9 papers found"
         },
         {
             "from": "Radar Plot",
             "to": "Sammon Map",
             "color": "grey",
-            "width": 1,
+            "width": 9,
             "dashes": "true",
             "inner_edges_type": "visualization_technique",
             "hidden": "true",
-            "title": "1 paper found"
+            "title": "9 papers found"
+        },
+        {
+            "from": "Radar Plot",
+            "to": "Bar Plot",
+            "color": "grey",
+            "width": 8,
+            "dashes": "true",
+            "inner_edges_type": "visualization_technique",
+            "hidden": "true",
+            "title": "8 papers found"
         },
         {
             "from": "Radar Plot",
             "to": "Line Graph",
             "color": "grey",
-            "width": 1,
+            "width": 9,
             "dashes": "true",
             "inner_edges_type": "visualization_technique",
             "hidden": "true",
-            "title": "1 paper found"
+            "title": "9 papers found"
         },
         {
             "from": "Radar Plot",
             "to": "Dendogram",
             "color": "grey",
-            "width": 1,
+            "width": 9,
             "dashes": "true",
             "inner_edges_type": "visualization_technique",
             "hidden": "true",
-            "title": "1 paper found"
+            "title": "9 papers found"
+        },
+        {
+            "from": "Radar Plot",
+            "to": "Heat Map",
+            "color": "grey",
+            "width": 8,
+            "dashes": "true",
+            "inner_edges_type": "visualization_technique",
+            "hidden": "true",
+            "title": "8 papers found"
+        },
+        {
+            "from": "Radar Plot",
+            "to": "Contour Plot",
+            "color": "grey",
+            "width": 8,
+            "dashes": "true",
+            "inner_edges_type": "visualization_technique",
+            "hidden": "true",
+            "title": "8 papers found"
+        },
+        {
+            "from": "Radar Plot",
+            "to": "Pie Chart",
+            "color": "grey",
+            "width": 8,
+            "dashes": "true",
+            "inner_edges_type": "visualization_technique",
+            "hidden": "true",
+            "title": "8 papers found"
         },
         {
             "from": "Radar Plot",
             "to": "Box Plot",
             "color": "grey",
-            "width": 1,
+            "width": 9,
             "dashes": "true",
             "inner_edges_type": "visualization_technique",
             "hidden": "true",
-            "title": "1 paper found"
+            "title": "9 papers found"
         },
         {
             "from": "Radar Plot",
             "to": "Network Graph",
             "color": "grey",
-            "width": 1,
+            "width": 9,
             "dashes": "true",
             "inner_edges_type": "visualization_technique",
             "hidden": "true",
-            "title": "1 paper found"
+            "title": "9 papers found"
+        },
+        {
+            "from": "Radar Plot",
+            "to": "Diagram",
+            "color": "grey",
+            "width": 8,
+            "dashes": "true",
+            "inner_edges_type": "visualization_technique",
+            "hidden": "true",
+            "title": "8 papers found"
         },
         {
             "from": "Histogram",
             "to": "Rose Plot",
             "color": "grey",
-            "width": 1,
+            "width": 9,
             "dashes": "true",
             "inner_edges_type": "visualization_technique",
             "hidden": "true",
-            "title": "1 paper found"
+            "title": "9 papers found"
         },
         {
             "from": "Histogram",
             "to": "Sammon Map",
             "color": "grey",
-            "width": 1,
+            "width": 9,
             "dashes": "true",
             "inner_edges_type": "visualization_technique",
             "hidden": "true",
-            "title": "1 paper found"
+            "title": "9 papers found"
+        },
+        {
+            "from": "Histogram",
+            "to": "Bar Plot",
+            "color": "grey",
+            "width": 8,
+            "dashes": "true",
+            "inner_edges_type": "visualization_technique",
+            "hidden": "true",
+            "title": "8 papers found"
         },
         {
             "from": "Histogram",
             "to": "Line Graph",
             "color": "grey",
-            "width": 1,
+            "width": 9,
             "dashes": "true",
             "inner_edges_type": "visualization_technique",
             "hidden": "true",
-            "title": "1 paper found"
+            "title": "9 papers found"
         },
         {
             "from": "Histogram",
             "to": "Dendogram",
             "color": "grey",
-            "width": 1,
+            "width": 9,
             "dashes": "true",
             "inner_edges_type": "visualization_technique",
             "hidden": "true",
-            "title": "1 paper found"
+            "title": "9 papers found"
+        },
+        {
+            "from": "Histogram",
+            "to": "Heat Map",
+            "color": "grey",
+            "width": 8,
+            "dashes": "true",
+            "inner_edges_type": "visualization_technique",
+            "hidden": "true",
+            "title": "8 papers found"
+        },
+        {
+            "from": "Histogram",
+            "to": "Contour Plot",
+            "color": "grey",
+            "width": 8,
+            "dashes": "true",
+            "inner_edges_type": "visualization_technique",
+            "hidden": "true",
+            "title": "8 papers found"
+        },
+        {
+            "from": "Histogram",
+            "to": "Pie Chart",
+            "color": "grey",
+            "width": 8,
+            "dashes": "true",
+            "inner_edges_type": "visualization_technique",
+            "hidden": "true",
+            "title": "8 papers found"
         },
         {
             "from": "Histogram",
             "to": "Box Plot",
             "color": "grey",
-            "width": 1,
+            "width": 9,
             "dashes": "true",
             "inner_edges_type": "visualization_technique",
             "hidden": "true",
-            "title": "1 paper found"
+            "title": "9 papers found"
         },
         {
             "from": "Histogram",
             "to": "Network Graph",
             "color": "grey",
-            "width": 1,
+            "width": 9,
             "dashes": "true",
             "inner_edges_type": "visualization_technique",
             "hidden": "true",
-            "title": "1 paper found"
+            "title": "9 papers found"
+        },
+        {
+            "from": "Histogram",
+            "to": "Diagram",
+            "color": "grey",
+            "width": 8,
+            "dashes": "true",
+            "inner_edges_type": "visualization_technique",
+            "hidden": "true",
+            "title": "8 papers found"
         },
         {
             "from": "Rose Plot",
             "to": "Sammon Map",
             "color": "grey",
-            "width": 1,
+            "width": 9,
             "dashes": "true",
             "inner_edges_type": "visualization_technique",
             "hidden": "true",
-            "title": "1 paper found"
+            "title": "9 papers found"
+        },
+        {
+            "from": "Rose Plot",
+            "to": "Bar Plot",
+            "color": "grey",
+            "width": 8,
+            "dashes": "true",
+            "inner_edges_type": "visualization_technique",
+            "hidden": "true",
+            "title": "8 papers found"
         },
         {
             "from": "Rose Plot",
             "to": "Line Graph",
             "color": "grey",
-            "width": 1,
+            "width": 9,
             "dashes": "true",
             "inner_edges_type": "visualization_technique",
             "hidden": "true",
-            "title": "1 paper found"
+            "title": "9 papers found"
         },
         {
             "from": "Rose Plot",
             "to": "Dendogram",
             "color": "grey",
-            "width": 1,
+            "width": 9,
             "dashes": "true",
             "inner_edges_type": "visualization_technique",
             "hidden": "true",
-            "title": "1 paper found"
+            "title": "9 papers found"
+        },
+        {
+            "from": "Rose Plot",
+            "to": "Heat Map",
+            "color": "grey",
+            "width": 8,
+            "dashes": "true",
+            "inner_edges_type": "visualization_technique",
+            "hidden": "true",
+            "title": "8 papers found"
+        },
+        {
+            "from": "Rose Plot",
+            "to": "Contour Plot",
+            "color": "grey",
+            "width": 8,
+            "dashes": "true",
+            "inner_edges_type": "visualization_technique",
+            "hidden": "true",
+            "title": "8 papers found"
+        },
+        {
+            "from": "Rose Plot",
+            "to": "Pie Chart",
+            "color": "grey",
+            "width": 8,
+            "dashes": "true",
+            "inner_edges_type": "visualization_technique",
+            "hidden": "true",
+            "title": "8 papers found"
         },
         {
             "from": "Rose Plot",
             "to": "Box Plot",
             "color": "grey",
-            "width": 1,
+            "width": 9,
             "dashes": "true",
             "inner_edges_type": "visualization_technique",
             "hidden": "true",
-            "title": "1 paper found"
+            "title": "9 papers found"
         },
         {
             "from": "Rose Plot",
             "to": "Network Graph",
             "color": "grey",
-            "width": 1,
+            "width": 9,
             "dashes": "true",
             "inner_edges_type": "visualization_technique",
             "hidden": "true",
-            "title": "1 paper found"
+            "title": "9 papers found"
+        },
+        {
+            "from": "Rose Plot",
+            "to": "Diagram",
+            "color": "grey",
+            "width": 8,
+            "dashes": "true",
+            "inner_edges_type": "visualization_technique",
+            "hidden": "true",
+            "title": "8 papers found"
+        },
+        {
+            "from": "Sammon Map",
+            "to": "Bar Plot",
+            "color": "grey",
+            "width": 8,
+            "dashes": "true",
+            "inner_edges_type": "visualization_technique",
+            "hidden": "true",
+            "title": "8 papers found"
         },
         {
             "from": "Sammon Map",
             "to": "Line Graph",
             "color": "grey",
-            "width": 1,
+            "width": 9,
             "dashes": "true",
             "inner_edges_type": "visualization_technique",
             "hidden": "true",
-            "title": "1 paper found"
+            "title": "9 papers found"
         },
         {
             "from": "Sammon Map",
             "to": "Dendogram",
             "color": "grey",
-            "width": 1,
+            "width": 9,
             "dashes": "true",
             "inner_edges_type": "visualization_technique",
             "hidden": "true",
-            "title": "1 paper found"
+            "title": "9 papers found"
+        },
+        {
+            "from": "Sammon Map",
+            "to": "Heat Map",
+            "color": "grey",
+            "width": 8,
+            "dashes": "true",
+            "inner_edges_type": "visualization_technique",
+            "hidden": "true",
+            "title": "8 papers found"
+        },
+        {
+            "from": "Sammon Map",
+            "to": "Contour Plot",
+            "color": "grey",
+            "width": 8,
+            "dashes": "true",
+            "inner_edges_type": "visualization_technique",
+            "hidden": "true",
+            "title": "8 papers found"
+        },
+        {
+            "from": "Sammon Map",
+            "to": "Pie Chart",
+            "color": "grey",
+            "width": 8,
+            "dashes": "true",
+            "inner_edges_type": "visualization_technique",
+            "hidden": "true",
+            "title": "8 papers found"
         },
         {
             "from": "Sammon Map",
             "to": "Box Plot",
             "color": "grey",
-            "width": 1,
+            "width": 9,
             "dashes": "true",
             "inner_edges_type": "visualization_technique",
             "hidden": "true",
-            "title": "1 paper found"
+            "title": "9 papers found"
         },
         {
             "from": "Sammon Map",
             "to": "Network Graph",
             "color": "grey",
-            "width": 1,
+            "width": 9,
             "dashes": "true",
             "inner_edges_type": "visualization_technique",
             "hidden": "true",
-            "title": "1 paper found"
+            "title": "9 papers found"
+        },
+        {
+            "from": "Sammon Map",
+            "to": "Diagram",
+            "color": "grey",
+            "width": 8,
+            "dashes": "true",
+            "inner_edges_type": "visualization_technique",
+            "hidden": "true",
+            "title": "8 papers found"
         },
         {
             "from": "Bar Plot",
             "to": "Line Graph",
             "color": "grey",
-            "width": 1,
+            "width": 9,
             "dashes": "true",
             "inner_edges_type": "visualization_technique",
             "hidden": "true",
-            "title": "1 paper found"
+            "title": "9 papers found"
+        },
+        {
+            "from": "Bar Plot",
+            "to": "Dendogram",
+            "color": "grey",
+            "width": 8,
+            "dashes": "true",
+            "inner_edges_type": "visualization_technique",
+            "hidden": "true",
+            "title": "8 papers found"
         },
         {
             "from": "Bar Plot",
             "to": "Heat Map",
             "color": "grey",
-            "width": 1,
+            "width": 9,
             "dashes": "true",
             "inner_edges_type": "visualization_technique",
             "hidden": "true",
-            "title": "1 paper found"
+            "title": "9 papers found"
+        },
+        {
+            "from": "Bar Plot",
+            "to": "Contour Plot",
+            "color": "grey",
+            "width": 8,
+            "dashes": "true",
+            "inner_edges_type": "visualization_technique",
+            "hidden": "true",
+            "title": "8 papers found"
+        },
+        {
+            "from": "Bar Plot",
+            "to": "Pie Chart",
+            "color": "grey",
+            "width": 8,
+            "dashes": "true",
+            "inner_edges_type": "visualization_technique",
+            "hidden": "true",
+            "title": "8 papers found"
+        },
+        {
+            "from": "Bar Plot",
+            "to": "Box Plot",
+            "color": "grey",
+            "width": 8,
+            "dashes": "true",
+            "inner_edges_type": "visualization_technique",
+            "hidden": "true",
+            "title": "8 papers found"
         },
         {
             "from": "Bar Plot",
             "to": "Network Graph",
             "color": "grey",
-            "width": 2,
+            "width": 10,
             "dashes": "true",
             "inner_edges_type": "visualization_technique",
             "hidden": "true",
-            "title": "2 papers found"
+            "title": "10 papers found"
+        },
+        {
+            "from": "Bar Plot",
+            "to": "Diagram",
+            "color": "grey",
+            "width": 8,
+            "dashes": "true",
+            "inner_edges_type": "visualization_technique",
+            "hidden": "true",
+            "title": "8 papers found"
         },
         {
             "from": "Line Graph",
             "to": "Dendogram",
             "color": "grey",
-            "width": 1,
+            "width": 9,
             "dashes": "true",
             "inner_edges_type": "visualization_technique",
             "hidden": "true",
-            "title": "1 paper found"
+            "title": "9 papers found"
+        },
+        {
+            "from": "Line Graph",
+            "to": "Heat Map",
+            "color": "grey",
+            "width": 8,
+            "dashes": "true",
+            "inner_edges_type": "visualization_technique",
+            "hidden": "true",
+            "title": "8 papers found"
+        },
+        {
+            "from": "Line Graph",
+            "to": "Contour Plot",
+            "color": "grey",
+            "width": 8,
+            "dashes": "true",
+            "inner_edges_type": "visualization_technique",
+            "hidden": "true",
+            "title": "8 papers found"
+        },
+        {
+            "from": "Line Graph",
+            "to": "Pie Chart",
+            "color": "grey",
+            "width": 8,
+            "dashes": "true",
+            "inner_edges_type": "visualization_technique",
+            "hidden": "true",
+            "title": "8 papers found"
         },
         {
             "from": "Line Graph",
             "to": "Box Plot",
             "color": "grey",
-            "width": 1,
+            "width": 9,
             "dashes": "true",
             "inner_edges_type": "visualization_technique",
             "hidden": "true",
-            "title": "1 paper found"
+            "title": "9 papers found"
         },
         {
             "from": "Line Graph",
             "to": "Network Graph",
             "color": "grey",
-            "width": 2,
+            "width": 10,
             "dashes": "true",
             "inner_edges_type": "visualization_technique",
             "hidden": "true",
-            "title": "2 papers found"
+            "title": "10 papers found"
+        },
+        {
+            "from": "Line Graph",
+            "to": "Diagram",
+            "color": "grey",
+            "width": 8,
+            "dashes": "true",
+            "inner_edges_type": "visualization_technique",
+            "hidden": "true",
+            "title": "8 papers found"
+        },
+        {
+            "from": "Dendogram",
+            "to": "Heat Map",
+            "color": "grey",
+            "width": 8,
+            "dashes": "true",
+            "inner_edges_type": "visualization_technique",
+            "hidden": "true",
+            "title": "8 papers found"
+        },
+        {
+            "from": "Dendogram",
+            "to": "Contour Plot",
+            "color": "grey",
+            "width": 8,
+            "dashes": "true",
+            "inner_edges_type": "visualization_technique",
+            "hidden": "true",
+            "title": "8 papers found"
+        },
+        {
+            "from": "Dendogram",
+            "to": "Pie Chart",
+            "color": "grey",
+            "width": 8,
+            "dashes": "true",
+            "inner_edges_type": "visualization_technique",
+            "hidden": "true",
+            "title": "8 papers found"
         },
         {
             "from": "Dendogram",
             "to": "Box Plot",
             "color": "grey",
-            "width": 1,
+            "width": 9,
             "dashes": "true",
             "inner_edges_type": "visualization_technique",
             "hidden": "true",
-            "title": "1 paper found"
+            "title": "9 papers found"
         },
         {
             "from": "Dendogram",
             "to": "Network Graph",
             "color": "grey",
-            "width": 1,
+            "width": 9,
             "dashes": "true",
             "inner_edges_type": "visualization_technique",
             "hidden": "true",
-            "title": "1 paper found"
+            "title": "9 papers found"
+        },
+        {
+            "from": "Dendogram",
+            "to": "Diagram",
+            "color": "grey",
+            "width": 8,
+            "dashes": "true",
+            "inner_edges_type": "visualization_technique",
+            "hidden": "true",
+            "title": "8 papers found"
+        },
+        {
+            "from": "Heat Map",
+            "to": "Contour Plot",
+            "color": "grey",
+            "width": 14,
+            "dashes": "true",
+            "inner_edges_type": "visualization_technique",
+            "hidden": "true",
+            "title": "14 papers found"
+        },
+        {
+            "from": "Heat Map",
+            "to": "Vector Rendering",
+            "color": "grey",
+            "width": 5,
+            "dashes": "true",
+            "inner_edges_type": "visualization_technique",
+            "hidden": "true",
+            "title": "5 papers found"
+        },
+        {
+            "from": "Heat Map",
+            "to": "Pie Chart",
+            "color": "grey",
+            "width": 8,
+            "dashes": "true",
+            "inner_edges_type": "visualization_technique",
+            "hidden": "true",
+            "title": "8 papers found"
         },
         {
             "from": "Heat Map",
             "to": "Box Plot",
             "color": "grey",
-            "width": 1,
+            "width": 9,
             "dashes": "true",
             "inner_edges_type": "visualization_technique",
             "hidden": "true",
-            "title": "1 paper found"
+            "title": "9 papers found"
         },
         {
             "from": "Heat Map",
             "to": "Network Graph",
             "color": "grey",
-            "width": 2,
+            "width": 10,
             "dashes": "true",
             "inner_edges_type": "visualization_technique",
             "hidden": "true",
-            "title": "2 papers found"
+            "title": "10 papers found"
+        },
+        {
+            "from": "Heat Map",
+            "to": "Diagram",
+            "color": "grey",
+            "width": 8,
+            "dashes": "true",
+            "inner_edges_type": "visualization_technique",
+            "hidden": "true",
+            "title": "8 papers found"
+        },
+        {
+            "from": "Contour Plot",
+            "to": "Vector Rendering",
+            "color": "grey",
+            "width": 5,
+            "dashes": "true",
+            "inner_edges_type": "visualization_technique",
+            "hidden": "true",
+            "title": "5 papers found"
+        },
+        {
+            "from": "Contour Plot",
+            "to": "Pie Chart",
+            "color": "grey",
+            "width": 8,
+            "dashes": "true",
+            "inner_edges_type": "visualization_technique",
+            "hidden": "true",
+            "title": "8 papers found"
+        },
+        {
+            "from": "Contour Plot",
+            "to": "Box Plot",
+            "color": "grey",
+            "width": 8,
+            "dashes": "true",
+            "inner_edges_type": "visualization_technique",
+            "hidden": "true",
+            "title": "8 papers found"
+        },
+        {
+            "from": "Contour Plot",
+            "to": "Network Graph",
+            "color": "grey",
+            "width": 8,
+            "dashes": "true",
+            "inner_edges_type": "visualization_technique",
+            "hidden": "true",
+            "title": "8 papers found"
+        },
+        {
+            "from": "Contour Plot",
+            "to": "Diagram",
+            "color": "grey",
+            "width": 8,
+            "dashes": "true",
+            "inner_edges_type": "visualization_technique",
+            "hidden": "true",
+            "title": "8 papers found"
+        },
+        {
+            "from": "Pie Chart",
+            "to": "Box Plot",
+            "color": "grey",
+            "width": 8,
+            "dashes": "true",
+            "inner_edges_type": "visualization_technique",
+            "hidden": "true",
+            "title": "8 papers found"
+        },
+        {
+            "from": "Pie Chart",
+            "to": "Network Graph",
+            "color": "grey",
+            "width": 8,
+            "dashes": "true",
+            "inner_edges_type": "visualization_technique",
+            "hidden": "true",
+            "title": "8 papers found"
+        },
+        {
+            "from": "Pie Chart",
+            "to": "Diagram",
+            "color": "grey",
+            "width": 8,
+            "dashes": "true",
+            "inner_edges_type": "visualization_technique",
+            "hidden": "true",
+            "title": "8 papers found"
         },
         {
             "from": "Box Plot",
             "to": "Network Graph",
             "color": "grey",
-            "width": 2,
+            "width": 10,
             "dashes": "true",
             "inner_edges_type": "visualization_technique",
             "hidden": "true",
-            "title": "2 papers found"
+            "title": "10 papers found"
+        },
+        {
+            "from": "Box Plot",
+            "to": "Diagram",
+            "color": "grey",
+            "width": 8,
+            "dashes": "true",
+            "inner_edges_type": "visualization_technique",
+            "hidden": "true",
+            "title": "8 papers found"
+        },
+        {
+            "from": "Network Graph",
+            "to": "Diagram",
+            "color": "grey",
+            "width": 8,
+            "dashes": "true",
+            "inner_edges_type": "visualization_technique",
+            "hidden": "true",
+            "title": "8 papers found"
         },
         {
             "from": "Unity3D",
@@ -2511,7 +4837,7 @@
         },
         {
             "from": "JQuery",
-            "to": "jsPanel",
+            "to": "JsPanel",
             "color": "grey",
             "width": 1,
             "dashes": "true",
@@ -2610,7 +4936,7 @@
             "title": "1 paper found"
         },
         {
-            "from": "jsPanel",
+            "from": "JsPanel",
             "to": "Javascript",
             "color": "grey",
             "width": 1,
@@ -2620,7 +4946,7 @@
             "title": "1 paper found"
         },
         {
-            "from": "jsPanel",
+            "from": "JsPanel",
             "to": "Backbone",
             "color": "grey",
             "width": 1,
@@ -3081,10 +5407,22 @@
         "Information Analysis": [
             "3D Geometric Modelling",
             "Bar Plot",
+            "Box Plot",
             "Contour Plot",
+            "Dashboard Visualization",
+            "Data Visualization",
+            "Dendogram",
+            "Diagram",
+            "Diel Plot",
             "Heat Map",
+            "Histogram",
             "Line Graph",
-            "Network Graph"
+            "Network Graph",
+            "Pie Chart",
+            "Radar Plot",
+            "Rose Plot",
+            "Sammon Map",
+            "Vector Rendering"
         ],
         "Freshwater Ecosystems": [
             "Diagram"
@@ -3106,7 +5444,23 @@
         ],
         "Geographic Information System": [
             "3D Geometric Modelling",
-            "Contour Plot"
+            "Bar Plot",
+            "Box Plot",
+            "Contour Plot",
+            "Dashboard Visualization",
+            "Data Visualization",
+            "Dendogram",
+            "Diagram",
+            "Diel Plot",
+            "Heat Map",
+            "Histogram",
+            "Line Graph",
+            "Network Graph",
+            "Pie Chart",
+            "Radar Plot",
+            "Rose Plot",
+            "Sammon Map",
+            "Vector Rendering"
         ],
         "Environmental Decision Support Systems": [
             "3D Geometric Modelling",
@@ -3209,6 +5563,27 @@
     ],
     "visualization_tool": [
         {
+            "label": "GIS (Geographic Information System) Software",
+            "options": [
+                {
+                    "label": "ARCGIS",
+                    "value": "ARCGIS"
+                },
+                {
+                    "label": "GRASS GIS",
+                    "value": "GRASS GIS"
+                },
+                {
+                    "label": "QGIS",
+                    "value": "QGIS"
+                },
+                {
+                    "label": "SAGAGIS",
+                    "value": "SAGAGIS"
+                }
+            ]
+        },
+        {
             "label": "Game Engines",
             "options": [
                 {
@@ -3222,31 +5597,75 @@
             ]
         },
         {
-            "label": "Javascript Libaries/Frameworks/Packages",
+            "label": "Libaries/Frameworks/Packages",
             "options": [
                 {
                     "label": "Backbone",
                     "value": "Backbone"
                 },
                 {
+                    "label": "Bootstrap",
+                    "value": "Bootstrap"
+                },
+                {
                     "label": "D3.js",
                     "value": "D3.js"
+                },
+                {
+                    "label": "GeoPandas",
+                    "value": "GeoPandas"
+                },
+                {
+                    "label": "Grafana",
+                    "value": "Grafana"
                 },
                 {
                     "label": "JQuery",
                     "value": "JQuery"
                 },
                 {
+                    "label": "JsPanel",
+                    "value": "JsPanel"
+                },
+                {
                     "label": "OpenLayers",
                     "value": "OpenLayers"
+                },
+                {
+                    "label": "RSAGA",
+                    "value": "RSAGA"
+                },
+                {
+                    "label": "Raster",
+                    "value": "Raster"
+                },
+                {
+                    "label": "Rasterio",
+                    "value": "Rasterio"
+                },
+                {
+                    "label": "Rgrass7",
+                    "value": "Rgrass7"
+                },
+                {
+                    "label": "Sf",
+                    "value": "Sf"
                 },
                 {
                     "label": "Three.js",
                     "value": "Three.js"
                 },
                 {
-                    "label": "jsPanel",
-                    "value": "jsPanel"
+                    "label": "Verge3D",
+                    "value": "Verge3D"
+                },
+                {
+                    "label": "WebGL",
+                    "value": "WebGL"
+                },
+                {
+                    "label": "WebXR",
+                    "value": "WebXR"
                 }
             ]
         },
@@ -3279,10 +5698,6 @@
                     "value": ".NET"
                 },
                 {
-                    "label": "ARCGIS",
-                    "value": "ARCGIS"
-                },
-                {
                     "label": "Autodesk Forge",
                     "value": "Autodesk Forge"
                 },
@@ -3293,6 +5708,10 @@
                 {
                     "label": "Javascript",
                     "value": "Javascript"
+                },
+                {
+                    "label": "Julia",
+                    "value": "Julia"
                 },
                 {
                     "label": "Jupyter Notebook",
@@ -3317,31 +5736,6 @@
                 {
                     "label": "Wikitude",
                     "value": "Wikitude"
-                }
-            ]
-        },
-        {
-            "label": "Web-based Libaries/Frameworks/Packages",
-            "options": [
-                {
-                    "label": "Bootstrap",
-                    "value": "Bootstrap"
-                },
-                {
-                    "label": "Grafana",
-                    "value": "Grafana"
-                },
-                {
-                    "label": "Verge3D",
-                    "value": "Verge3D"
-                },
-                {
-                    "label": "WebGL",
-                    "value": "WebGL"
-                },
-                {
-                    "label": "WebXR",
-                    "value": "WebXR"
                 }
             ]
         }
@@ -3382,8 +5776,8 @@
     "visualization_tool_group": [
         "Game Engines",
         "Modelling Software",
-        "Javascript Libaries/Frameworks/Packages",
-        "Web-based Libaries/Frameworks/Packages"
+        "Libaries/Frameworks/Packages",
+        "GIS (Geographic Information System) Software"
     ],
     "assessment_data": {
         "Unity3D": {
@@ -3632,7 +6026,7 @@
                 "URL": "https://unity.com/how-to/real-time-rendering-3d"
             }
         },
-        "jsPanel": {
+        "JsPanel": {
             "Real-Time": {
                 "Rating": "(+)",
                 "Description": "Supports real-time rendering and simulation.",
@@ -5680,6 +8074,826 @@
                 "Rating": "(+)",
                 "Description": "Supports real-time rendering and simulation.",
                 "URL": "https://unity.com/how-to/real-time-rendering-3d"
+            }
+        },
+        "QGIS": {
+            "Real-Time": {
+                "Rating": "(+/-)",
+                "Description": "Ability to display real-time data on maps, does not allow real-time processing.",
+                "URL": "-"
+            },
+            "Network Connectivity": {
+                "Rating": "(+/-)",
+                "Description": "Relies on network connectivity to fetch map data if not stored locally. ",
+                "URL": "-"
+            },
+            "Computing Power": {
+                "Rating": "(+/-)",
+                "Description": "Relies on user's device for processing power.",
+                "URL": "-"
+            },
+            "Data Capacity": {
+                "Rating": "(+)",
+                "Description": "Ability to handle large datasets by e.g. using tiled rendering.",
+                "URL": "-"
+            },
+            "Integration": {
+                "Rating": "(+)",
+                "Description": "APIs and tools are available for integration with other frameworks.",
+                "URL": "-"
+            },
+            "Security": {
+                "Rating": "(-)",
+                "Description": "No security features available.",
+                "URL": "-"
+            },
+            "Continuous Improvement": {
+                "Rating": "(-)",
+                "Description": "No built-in capabilities for data analysis or simulations, possible by integrating with other frameworks.",
+                "URL": "-"
+            },
+            "Reliability": {
+                "Rating": "(+/-)",
+                "Description": "Dependent on server availability and data sources.",
+                "URL": "-"
+            },
+            "Accuracy": {
+                "Rating": "(+/-)",
+                "Description": "Ability to display data with high degree of accuracy, dependent on the data itself.",
+                "URL": "-"
+            },
+            "Obtrusiveness": {
+                "Rating": "(+/-)",
+                "Description": "Provides flexibility for UI design.",
+                "URL": "-"
+            },
+            "Granularity": {
+                "Rating": "(+)",
+                "Description": "Provides various levels of map detail and zoom levels.",
+                "URL": "-"
+            },
+            "Standardization": {
+                "Rating": "(+)",
+                "Description": "Adheres to web standards, supports various map data formats and web services.",
+                "URL": "-"
+            },
+            "Economic Value": {
+                "Rating": "(+/-)",
+                "Description": "Framework is open-source. Monetary value of utilization requires in-depth analysis of the project itself.",
+                "URL": "-"
+            },
+            "Usability": {
+                "Rating": "(+)",
+                "Description": "Intuitive usage by using mouse controls to navigate the map. Other usability depends on additonally added UI design.",
+                "URL": "-"
+            },
+            "Safety": {
+                "Rating": "(_)",
+                "Description": "Not applicable.",
+                "URL": "-"
+            },
+            "Collaboration": {
+                "Rating": "(+/-)",
+                "Description": "Supports collaboration by sharing map views. Features beyond map sharing require additional implementation.",
+                "URL": "-"
+            }
+        },
+        "SAGAGIS": {
+            "Real-Time": {
+                "Rating": "(+/-)",
+                "Description": "Ability to display real-time data on maps, does not allow real-time processing.",
+                "URL": "-"
+            },
+            "Network Connectivity": {
+                "Rating": "(+/-)",
+                "Description": "Relies on network connectivity to fetch map data if not stored locally. ",
+                "URL": "-"
+            },
+            "Computing Power": {
+                "Rating": "(+/-)",
+                "Description": "Relies on user's device for processing power.",
+                "URL": "-"
+            },
+            "Data Capacity": {
+                "Rating": "(+)",
+                "Description": "Ability to handle large datasets by e.g. using tiled rendering.",
+                "URL": "-"
+            },
+            "Integration": {
+                "Rating": "(+)",
+                "Description": "APIs and tools are available for integration with other frameworks.",
+                "URL": "-"
+            },
+            "Security": {
+                "Rating": "(-)",
+                "Description": "No security features available.",
+                "URL": "-"
+            },
+            "Continuous Improvement": {
+                "Rating": "(-)",
+                "Description": "No built-in capabilities for data analysis or simulations, possible by integrating with other frameworks.",
+                "URL": "-"
+            },
+            "Reliability": {
+                "Rating": "(+/-)",
+                "Description": "Dependent on server availability and data sources.",
+                "URL": "-"
+            },
+            "Accuracy": {
+                "Rating": "(+/-)",
+                "Description": "Ability to display data with high degree of accuracy, dependent on the data itself.",
+                "URL": "-"
+            },
+            "Obtrusiveness": {
+                "Rating": "(+/-)",
+                "Description": "Provides flexibility for UI design.",
+                "URL": "-"
+            },
+            "Granularity": {
+                "Rating": "(+)",
+                "Description": "Provides various levels of map detail and zoom levels.",
+                "URL": "-"
+            },
+            "Standardization": {
+                "Rating": "(+)",
+                "Description": "Adheres to web standards, supports various map data formats and web services.",
+                "URL": "-"
+            },
+            "Economic Value": {
+                "Rating": "(+/-)",
+                "Description": "Framework is open-source. Monetary value of utilization requires in-depth analysis of the project itself.",
+                "URL": "-"
+            },
+            "Usability": {
+                "Rating": "(+)",
+                "Description": "Intuitive usage by using mouse controls to navigate the map. Other usability depends on additonally added UI design.",
+                "URL": "-"
+            },
+            "Safety": {
+                "Rating": "(_)",
+                "Description": "Not applicable.",
+                "URL": "-"
+            },
+            "Collaboration": {
+                "Rating": "(+/-)",
+                "Description": "Supports collaboration by sharing map views. Features beyond map sharing require additional implementation.",
+                "URL": "-"
+            }
+        },
+        "GRASS GIS": {
+            "Real-Time": {
+                "Rating": "(+/-)",
+                "Description": "Ability to display real-time data on maps, does not allow real-time processing.",
+                "URL": "-"
+            },
+            "Network Connectivity": {
+                "Rating": "(+/-)",
+                "Description": "Relies on network connectivity to fetch map data if not stored locally. ",
+                "URL": "-"
+            },
+            "Computing Power": {
+                "Rating": "(+/-)",
+                "Description": "Relies on user's device for processing power.",
+                "URL": "-"
+            },
+            "Data Capacity": {
+                "Rating": "(+)",
+                "Description": "Ability to handle large datasets by e.g. using tiled rendering.",
+                "URL": "-"
+            },
+            "Integration": {
+                "Rating": "(+)",
+                "Description": "APIs and tools are available for integration with other frameworks.",
+                "URL": "-"
+            },
+            "Security": {
+                "Rating": "(-)",
+                "Description": "No security features available.",
+                "URL": "-"
+            },
+            "Continuous Improvement": {
+                "Rating": "(-)",
+                "Description": "No built-in capabilities for data analysis or simulations, possible by integrating with other frameworks.",
+                "URL": "-"
+            },
+            "Reliability": {
+                "Rating": "(+/-)",
+                "Description": "Dependent on server availability and data sources.",
+                "URL": "-"
+            },
+            "Accuracy": {
+                "Rating": "(+/-)",
+                "Description": "Ability to display data with high degree of accuracy, dependent on the data itself.",
+                "URL": "-"
+            },
+            "Obtrusiveness": {
+                "Rating": "(+/-)",
+                "Description": "Provides flexibility for UI design.",
+                "URL": "-"
+            },
+            "Granularity": {
+                "Rating": "(+)",
+                "Description": "Provides various levels of map detail and zoom levels.",
+                "URL": "-"
+            },
+            "Standardization": {
+                "Rating": "(+)",
+                "Description": "Adheres to web standards, supports various map data formats and web services.",
+                "URL": "-"
+            },
+            "Economic Value": {
+                "Rating": "(+/-)",
+                "Description": "Framework is open-source. Monetary value of utilization requires in-depth analysis of the project itself.",
+                "URL": "-"
+            },
+            "Usability": {
+                "Rating": "(+)",
+                "Description": "Intuitive usage by using mouse controls to navigate the map. Other usability depends on additonally added UI design.",
+                "URL": "-"
+            },
+            "Safety": {
+                "Rating": "(_)",
+                "Description": "Not applicable.",
+                "URL": "-"
+            },
+            "Collaboration": {
+                "Rating": "(+/-)",
+                "Description": "Supports collaboration by sharing map views. Features beyond map sharing require additional implementation.",
+                "URL": "-"
+            }
+        },
+        "Sf": {
+            "Real-Time": {
+                "Rating": "(+/-)",
+                "Description": "Ability to display real-time data on maps, does not allow real-time processing.",
+                "URL": "-"
+            },
+            "Network Connectivity": {
+                "Rating": "(+/-)",
+                "Description": "Relies on network connectivity to fetch map data if not stored locally. ",
+                "URL": "-"
+            },
+            "Computing Power": {
+                "Rating": "(+/-)",
+                "Description": "Relies on user's device for processing power.",
+                "URL": "-"
+            },
+            "Data Capacity": {
+                "Rating": "(+)",
+                "Description": "Ability to handle large datasets by e.g. using tiled rendering.",
+                "URL": "-"
+            },
+            "Integration": {
+                "Rating": "(+)",
+                "Description": "APIs and tools are available for integration with other frameworks.",
+                "URL": "-"
+            },
+            "Security": {
+                "Rating": "(-)",
+                "Description": "No security features available.",
+                "URL": "-"
+            },
+            "Continuous Improvement": {
+                "Rating": "(-)",
+                "Description": "No built-in capabilities for data analysis or simulations, possible by integrating with other frameworks.",
+                "URL": "-"
+            },
+            "Reliability": {
+                "Rating": "(+/-)",
+                "Description": "Dependent on server availability and data sources.",
+                "URL": "-"
+            },
+            "Accuracy": {
+                "Rating": "(+/-)",
+                "Description": "Ability to display data with high degree of accuracy, dependent on the data itself.",
+                "URL": "-"
+            },
+            "Obtrusiveness": {
+                "Rating": "(+/-)",
+                "Description": "Provides flexibility for UI design.",
+                "URL": "-"
+            },
+            "Granularity": {
+                "Rating": "(+)",
+                "Description": "Provides various levels of map detail and zoom levels.",
+                "URL": "-"
+            },
+            "Standardization": {
+                "Rating": "(+)",
+                "Description": "Adheres to web standards, supports various map data formats and web services.",
+                "URL": "-"
+            },
+            "Economic Value": {
+                "Rating": "(+/-)",
+                "Description": "Framework is open-source. Monetary value of utilization requires in-depth analysis of the project itself.",
+                "URL": "-"
+            },
+            "Usability": {
+                "Rating": "(+)",
+                "Description": "Intuitive usage by using mouse controls to navigate the map. Other usability depends on additonally added UI design.",
+                "URL": "-"
+            },
+            "Safety": {
+                "Rating": "(_)",
+                "Description": "Not applicable.",
+                "URL": "-"
+            },
+            "Collaboration": {
+                "Rating": "(+/-)",
+                "Description": "Supports collaboration by sharing map views. Features beyond map sharing require additional implementation.",
+                "URL": "-"
+            }
+        },
+        "Raster": {
+            "Real-Time": {
+                "Rating": "(+/-)",
+                "Description": "Ability to display real-time data on maps, does not allow real-time processing.",
+                "URL": "-"
+            },
+            "Network Connectivity": {
+                "Rating": "(+/-)",
+                "Description": "Relies on network connectivity to fetch map data if not stored locally. ",
+                "URL": "-"
+            },
+            "Computing Power": {
+                "Rating": "(+/-)",
+                "Description": "Relies on user's device for processing power.",
+                "URL": "-"
+            },
+            "Data Capacity": {
+                "Rating": "(+)",
+                "Description": "Ability to handle large datasets by e.g. using tiled rendering.",
+                "URL": "-"
+            },
+            "Integration": {
+                "Rating": "(+)",
+                "Description": "APIs and tools are available for integration with other frameworks.",
+                "URL": "-"
+            },
+            "Security": {
+                "Rating": "(-)",
+                "Description": "No security features available.",
+                "URL": "-"
+            },
+            "Continuous Improvement": {
+                "Rating": "(-)",
+                "Description": "No built-in capabilities for data analysis or simulations, possible by integrating with other frameworks.",
+                "URL": "-"
+            },
+            "Reliability": {
+                "Rating": "(+/-)",
+                "Description": "Dependent on server availability and data sources.",
+                "URL": "-"
+            },
+            "Accuracy": {
+                "Rating": "(+/-)",
+                "Description": "Ability to display data with high degree of accuracy, dependent on the data itself.",
+                "URL": "-"
+            },
+            "Obtrusiveness": {
+                "Rating": "(+/-)",
+                "Description": "Provides flexibility for UI design.",
+                "URL": "-"
+            },
+            "Granularity": {
+                "Rating": "(+)",
+                "Description": "Provides various levels of map detail and zoom levels.",
+                "URL": "-"
+            },
+            "Standardization": {
+                "Rating": "(+)",
+                "Description": "Adheres to web standards, supports various map data formats and web services.",
+                "URL": "-"
+            },
+            "Economic Value": {
+                "Rating": "(+/-)",
+                "Description": "Framework is open-source. Monetary value of utilization requires in-depth analysis of the project itself.",
+                "URL": "-"
+            },
+            "Usability": {
+                "Rating": "(+)",
+                "Description": "Intuitive usage by using mouse controls to navigate the map. Other usability depends on additonally added UI design.",
+                "URL": "-"
+            },
+            "Safety": {
+                "Rating": "(_)",
+                "Description": "Not applicable.",
+                "URL": "-"
+            },
+            "Collaboration": {
+                "Rating": "(+/-)",
+                "Description": "Supports collaboration by sharing map views. Features beyond map sharing require additional implementation.",
+                "URL": "-"
+            }
+        },
+        "GeoPandas": {
+            "Real-Time": {
+                "Rating": "(+/-)",
+                "Description": "Ability to display real-time data on maps, does not allow real-time processing.",
+                "URL": "-"
+            },
+            "Network Connectivity": {
+                "Rating": "(+/-)",
+                "Description": "Relies on network connectivity to fetch map data if not stored locally. ",
+                "URL": "-"
+            },
+            "Computing Power": {
+                "Rating": "(+/-)",
+                "Description": "Relies on user's device for processing power.",
+                "URL": "-"
+            },
+            "Data Capacity": {
+                "Rating": "(+)",
+                "Description": "Ability to handle large datasets by e.g. using tiled rendering.",
+                "URL": "-"
+            },
+            "Integration": {
+                "Rating": "(+)",
+                "Description": "APIs and tools are available for integration with other frameworks.",
+                "URL": "-"
+            },
+            "Security": {
+                "Rating": "(-)",
+                "Description": "No security features available.",
+                "URL": "-"
+            },
+            "Continuous Improvement": {
+                "Rating": "(-)",
+                "Description": "No built-in capabilities for data analysis or simulations, possible by integrating with other frameworks.",
+                "URL": "-"
+            },
+            "Reliability": {
+                "Rating": "(+/-)",
+                "Description": "Dependent on server availability and data sources.",
+                "URL": "-"
+            },
+            "Accuracy": {
+                "Rating": "(+/-)",
+                "Description": "Ability to display data with high degree of accuracy, dependent on the data itself.",
+                "URL": "-"
+            },
+            "Obtrusiveness": {
+                "Rating": "(+/-)",
+                "Description": "Provides flexibility for UI design.",
+                "URL": "-"
+            },
+            "Granularity": {
+                "Rating": "(+)",
+                "Description": "Provides various levels of map detail and zoom levels.",
+                "URL": "-"
+            },
+            "Standardization": {
+                "Rating": "(+)",
+                "Description": "Adheres to web standards, supports various map data formats and web services.",
+                "URL": "-"
+            },
+            "Economic Value": {
+                "Rating": "(+/-)",
+                "Description": "Framework is open-source. Monetary value of utilization requires in-depth analysis of the project itself.",
+                "URL": "-"
+            },
+            "Usability": {
+                "Rating": "(+)",
+                "Description": "Intuitive usage by using mouse controls to navigate the map. Other usability depends on additonally added UI design.",
+                "URL": "-"
+            },
+            "Safety": {
+                "Rating": "(_)",
+                "Description": "Not applicable.",
+                "URL": "-"
+            },
+            "Collaboration": {
+                "Rating": "(+/-)",
+                "Description": "Supports collaboration by sharing map views. Features beyond map sharing require additional implementation.",
+                "URL": "-"
+            }
+        },
+        "Rasterio": {
+            "Real-Time": {
+                "Rating": "(+/-)",
+                "Description": "Ability to display real-time data on maps, does not allow real-time processing.",
+                "URL": "-"
+            },
+            "Network Connectivity": {
+                "Rating": "(+/-)",
+                "Description": "Relies on network connectivity to fetch map data if not stored locally. ",
+                "URL": "-"
+            },
+            "Computing Power": {
+                "Rating": "(+/-)",
+                "Description": "Relies on user's device for processing power.",
+                "URL": "-"
+            },
+            "Data Capacity": {
+                "Rating": "(+)",
+                "Description": "Ability to handle large datasets by e.g. using tiled rendering.",
+                "URL": "-"
+            },
+            "Integration": {
+                "Rating": "(+)",
+                "Description": "APIs and tools are available for integration with other frameworks.",
+                "URL": "-"
+            },
+            "Security": {
+                "Rating": "(-)",
+                "Description": "No security features available.",
+                "URL": "-"
+            },
+            "Continuous Improvement": {
+                "Rating": "(-)",
+                "Description": "No built-in capabilities for data analysis or simulations, possible by integrating with other frameworks.",
+                "URL": "-"
+            },
+            "Reliability": {
+                "Rating": "(+/-)",
+                "Description": "Dependent on server availability and data sources.",
+                "URL": "-"
+            },
+            "Accuracy": {
+                "Rating": "(+/-)",
+                "Description": "Ability to display data with high degree of accuracy, dependent on the data itself.",
+                "URL": "-"
+            },
+            "Obtrusiveness": {
+                "Rating": "(+/-)",
+                "Description": "Provides flexibility for UI design.",
+                "URL": "-"
+            },
+            "Granularity": {
+                "Rating": "(+)",
+                "Description": "Provides various levels of map detail and zoom levels.",
+                "URL": "-"
+            },
+            "Standardization": {
+                "Rating": "(+)",
+                "Description": "Adheres to web standards, supports various map data formats and web services.",
+                "URL": "-"
+            },
+            "Economic Value": {
+                "Rating": "(+/-)",
+                "Description": "Framework is open-source. Monetary value of utilization requires in-depth analysis of the project itself.",
+                "URL": "-"
+            },
+            "Usability": {
+                "Rating": "(+)",
+                "Description": "Intuitive usage by using mouse controls to navigate the map. Other usability depends on additonally added UI design.",
+                "URL": "-"
+            },
+            "Safety": {
+                "Rating": "(_)",
+                "Description": "Not applicable.",
+                "URL": "-"
+            },
+            "Collaboration": {
+                "Rating": "(+/-)",
+                "Description": "Supports collaboration by sharing map views. Features beyond map sharing require additional implementation.",
+                "URL": "-"
+            }
+        },
+        "Julia": {
+            "Real-Time": {
+                "Rating": "(+/-)",
+                "Description": "Ability to display real-time data on maps, does not allow real-time processing.",
+                "URL": "-"
+            },
+            "Network Connectivity": {
+                "Rating": "(+/-)",
+                "Description": "Relies on network connectivity to fetch map data if not stored locally. ",
+                "URL": "-"
+            },
+            "Computing Power": {
+                "Rating": "(+/-)",
+                "Description": "Relies on user's device for processing power.",
+                "URL": "-"
+            },
+            "Data Capacity": {
+                "Rating": "(+)",
+                "Description": "Ability to handle large datasets by e.g. using tiled rendering.",
+                "URL": "-"
+            },
+            "Integration": {
+                "Rating": "(+)",
+                "Description": "APIs and tools are available for integration with other frameworks.",
+                "URL": "-"
+            },
+            "Security": {
+                "Rating": "(-)",
+                "Description": "No security features available.",
+                "URL": "-"
+            },
+            "Continuous Improvement": {
+                "Rating": "(-)",
+                "Description": "No built-in capabilities for data analysis or simulations, possible by integrating with other frameworks.",
+                "URL": "-"
+            },
+            "Reliability": {
+                "Rating": "(+/-)",
+                "Description": "Dependent on server availability and data sources.",
+                "URL": "-"
+            },
+            "Accuracy": {
+                "Rating": "(+/-)",
+                "Description": "Ability to display data with high degree of accuracy, dependent on the data itself.",
+                "URL": "-"
+            },
+            "Obtrusiveness": {
+                "Rating": "(+/-)",
+                "Description": "Provides flexibility for UI design.",
+                "URL": "-"
+            },
+            "Granularity": {
+                "Rating": "(+)",
+                "Description": "Provides various levels of map detail and zoom levels.",
+                "URL": "-"
+            },
+            "Standardization": {
+                "Rating": "(+)",
+                "Description": "Adheres to web standards, supports various map data formats and web services.",
+                "URL": "-"
+            },
+            "Economic Value": {
+                "Rating": "(+/-)",
+                "Description": "Framework is open-source. Monetary value of utilization requires in-depth analysis of the project itself.",
+                "URL": "-"
+            },
+            "Usability": {
+                "Rating": "(+)",
+                "Description": "Intuitive usage by using mouse controls to navigate the map. Other usability depends on additonally added UI design.",
+                "URL": "-"
+            },
+            "Safety": {
+                "Rating": "(_)",
+                "Description": "Not applicable.",
+                "URL": "-"
+            },
+            "Collaboration": {
+                "Rating": "(+/-)",
+                "Description": "Supports collaboration by sharing map views. Features beyond map sharing require additional implementation.",
+                "URL": "-"
+            }
+        },
+        "RSAGA": {
+            "Real-Time": {
+                "Rating": "(+/-)",
+                "Description": "Ability to display real-time data on maps, does not allow real-time processing.",
+                "URL": "-"
+            },
+            "Network Connectivity": {
+                "Rating": "(+/-)",
+                "Description": "Relies on network connectivity to fetch map data if not stored locally. ",
+                "URL": "-"
+            },
+            "Computing Power": {
+                "Rating": "(+/-)",
+                "Description": "Relies on user's device for processing power.",
+                "URL": "-"
+            },
+            "Data Capacity": {
+                "Rating": "(+)",
+                "Description": "Ability to handle large datasets by e.g. using tiled rendering.",
+                "URL": "-"
+            },
+            "Integration": {
+                "Rating": "(+)",
+                "Description": "APIs and tools are available for integration with other frameworks.",
+                "URL": "-"
+            },
+            "Security": {
+                "Rating": "(-)",
+                "Description": "No security features available.",
+                "URL": "-"
+            },
+            "Continuous Improvement": {
+                "Rating": "(-)",
+                "Description": "No built-in capabilities for data analysis or simulations, possible by integrating with other frameworks.",
+                "URL": "-"
+            },
+            "Reliability": {
+                "Rating": "(+/-)",
+                "Description": "Dependent on server availability and data sources.",
+                "URL": "-"
+            },
+            "Accuracy": {
+                "Rating": "(+/-)",
+                "Description": "Ability to display data with high degree of accuracy, dependent on the data itself.",
+                "URL": "-"
+            },
+            "Obtrusiveness": {
+                "Rating": "(+/-)",
+                "Description": "Provides flexibility for UI design.",
+                "URL": "-"
+            },
+            "Granularity": {
+                "Rating": "(+)",
+                "Description": "Provides various levels of map detail and zoom levels.",
+                "URL": "-"
+            },
+            "Standardization": {
+                "Rating": "(+)",
+                "Description": "Adheres to web standards, supports various map data formats and web services.",
+                "URL": "-"
+            },
+            "Economic Value": {
+                "Rating": "(+/-)",
+                "Description": "Framework is open-source. Monetary value of utilization requires in-depth analysis of the project itself.",
+                "URL": "-"
+            },
+            "Usability": {
+                "Rating": "(+)",
+                "Description": "Intuitive usage by using mouse controls to navigate the map. Other usability depends on additonally added UI design.",
+                "URL": "-"
+            },
+            "Safety": {
+                "Rating": "(_)",
+                "Description": "Not applicable.",
+                "URL": "-"
+            },
+            "Collaboration": {
+                "Rating": "(+/-)",
+                "Description": "Supports collaboration by sharing map views. Features beyond map sharing require additional implementation.",
+                "URL": "-"
+            }
+        },
+        "Rgrass7": {
+            "Real-Time": {
+                "Rating": "(+/-)",
+                "Description": "Ability to display real-time data on maps, does not allow real-time processing.",
+                "URL": "-"
+            },
+            "Network Connectivity": {
+                "Rating": "(+/-)",
+                "Description": "Relies on network connectivity to fetch map data if not stored locally. ",
+                "URL": "-"
+            },
+            "Computing Power": {
+                "Rating": "(+/-)",
+                "Description": "Relies on user's device for processing power.",
+                "URL": "-"
+            },
+            "Data Capacity": {
+                "Rating": "(+)",
+                "Description": "Ability to handle large datasets by e.g. using tiled rendering.",
+                "URL": "-"
+            },
+            "Integration": {
+                "Rating": "(+)",
+                "Description": "APIs and tools are available for integration with other frameworks.",
+                "URL": "-"
+            },
+            "Security": {
+                "Rating": "(-)",
+                "Description": "No security features available.",
+                "URL": "-"
+            },
+            "Continuous Improvement": {
+                "Rating": "(-)",
+                "Description": "No built-in capabilities for data analysis or simulations, possible by integrating with other frameworks.",
+                "URL": "-"
+            },
+            "Reliability": {
+                "Rating": "(+/-)",
+                "Description": "Dependent on server availability and data sources.",
+                "URL": "-"
+            },
+            "Accuracy": {
+                "Rating": "(+/-)",
+                "Description": "Ability to display data with high degree of accuracy, dependent on the data itself.",
+                "URL": "-"
+            },
+            "Obtrusiveness": {
+                "Rating": "(+/-)",
+                "Description": "Provides flexibility for UI design.",
+                "URL": "-"
+            },
+            "Granularity": {
+                "Rating": "(+)",
+                "Description": "Provides various levels of map detail and zoom levels.",
+                "URL": "-"
+            },
+            "Standardization": {
+                "Rating": "(+)",
+                "Description": "Adheres to web standards, supports various map data formats and web services.",
+                "URL": "-"
+            },
+            "Economic Value": {
+                "Rating": "(+/-)",
+                "Description": "Framework is open-source. Monetary value of utilization requires in-depth analysis of the project itself.",
+                "URL": "-"
+            },
+            "Usability": {
+                "Rating": "(+)",
+                "Description": "Intuitive usage by using mouse controls to navigate the map. Other usability depends on additonally added UI design.",
+                "URL": "-"
+            },
+            "Safety": {
+                "Rating": "(_)",
+                "Description": "Not applicable.",
+                "URL": "-"
+            },
+            "Collaboration": {
+                "Rating": "(+/-)",
+                "Description": "Supports collaboration by sharing map views. Features beyond map sharing require additional implementation.",
+                "URL": "-"
             }
         }
     }
