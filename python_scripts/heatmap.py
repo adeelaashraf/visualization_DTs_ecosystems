@@ -37,7 +37,7 @@ for index, row in data.iterrows():
 heatmap_data = np.array([[heatmap_dict[name1][name2] for name2 in visualization_technique_names] for name1 in domain_names])
 
 cmap = colors.LinearSegmentedColormap.from_list('custom_gray', [(1, 1, 1), (0, 0, 0)])
-plt.rcParams.update({'font.size': 10})
+plt.rcParams.update({'font.size': 12})
 plt.rcParams["font.family"] = "Times New Roman"
 plt.figure(figsize=(9, 8))  # Set the width and height as needed
 plt.imshow(heatmap_data, cmap=cmap, interpolation='nearest')# Set tick labels for the x-axis and y-axis
